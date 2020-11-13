@@ -45,14 +45,23 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text(
-              'You have pushed the button this many times:',
-              style: GoogleFonts.oswald(textStyle: display1),
-            ),
-            Text(
-              '$_counter',
-              style: GoogleFonts.lato(fontStyle: FontStyle.italic),
-            ),
+            Text('TODO'),
+            // Text(
+            //   '❌ ýřččžýěíěš ❌\n',
+            //   style: GoogleFonts.kosugiMaru(textStyle: display1),
+            // ),
+            // Text(
+            //   '✅ Здравствуйте',
+            //   style: CyrillicFonts.robotoCondensed(textStyle: display1),
+            // ),
+            // Text(
+            //   '✅️  مرحبا',
+            //   style: ArabicFonts.mada(textStyle: display1),
+            // ),
+            // Text(
+            //   '✅ žluťoučký',
+            //   style: LatinExtFonts.playfairDisplay(textStyle: display1),
+            // ),
           ],
         ),
       ),
