@@ -24,8 +24,19 @@ Future<void> main() async {
   await _verifyUrls(fontDirectory);
   print(_success);
 
+  print('\nGetting the language subset to filter font names...');
+  // final subset = await todo;
+  // AFAIK there is no api to get it directly
+  const subset = <String>{
+    'Roboto',
+    'Lato',
+    'PT Mono',
+    'Noto Sans',
+  };
+  print(_success);
+
   print('\nGenerating $_generatedFilePath...');
-  await _writeDartFile(_generateDartCode(fontDirectory));
+  await _writeDartFile(_generateDartCode(fontDirectory, subset));
   print(_success);
 
   print('\nFormatting $_generatedFilePath...');
@@ -111,11 +122,32 @@ String _hashToString(List<int> bytes) {
   return fileName;
 }
 
-String _generateDartCode(Directory fontDirectory) {
+String _generateDartCode(Directory fontDirectory, Set<String> subsetFilter) {
+  final classes = <Map<String, String>>[];
   final methods = <Map<String, dynamic>>[];
 
-  for (final item in fontDirectory.family) {
+  final fonts = fontDirectory.family;
+
+  const languages = <String>{
+    'Arabic',
+    'Cyrillic',
+    'LatinExt',
+  };
+  if (fonts.isNotEmpty) {
+    for (final lang in languages) {
+      classes.add(<String, String>{
+        'langClassName': lang,
+      });
+    }
+  }
+
+  for (final item in fonts) {
+    // font name, e.g.: Lato, Droid Sans, ...
     final family = item.name;
+
+    // filter out fonts which are not latin extented
+    if (!subsetFilter.contains(family)) continue;
+
     final familyNoSpaces = family.replaceAll(' ', '');
     final familyWithPlusSigns = family.replaceAll(' ', '+');
     final methodName = _familyToMethodName(family);
@@ -161,7 +193,10 @@ String _generateDartCode(Directory fontDirectory) {
     File('generator/google_fonts.tmpl').readAsStringSync(),
     htmlEscapeValues: false,
   );
-  return template.renderString({'method': methods});
+  return template.renderString({
+    'class': classes,
+    'method': methods,
+  });
 }
 
 Future<void> _writeDartFile(String content) async {
