@@ -124,16 +124,16 @@ String _hashToString(List<int> bytes) {
 /// Creates a map where the **key** is a language name (Arabic, Latin, Chinese, Cyrillic, ...) and
 /// the **value** is a *List* of *String* which contains compatible font names with its language.
 Future<Map<String, List<String>>> _matchLanguagesWithFonts() async {
-  final List<String> languages = await _retrieveAllLanguageFontSubsetsNames();
+  final List<File> languages = await _retrieveAllLanguageFontSubsetsNames();
 
   final langValues = <String, List<String>>{
     for (final lang in languages)
-      lang: _retrieveLanguageFontsFromFile(lang)
+      _langNameWithoutExtension(lang): _retrieveLanguageFontsFromFile(lang)
   };
   return langValues;
 }
 
-Future<List<String>> _retrieveAllLanguageFontSubsetsNames() async {
+Future<List<File>> _retrieveAllLanguageFontSubsetsNames() async {
   final langSubsetFiles = <File>[];
 
   final dir = Directory(_langFontSubsetsPath);
@@ -143,15 +143,13 @@ Future<List<String>> _retrieveAllLanguageFontSubsetsNames() async {
     if (file is File && p.extension(file.path) == '.txt') langSubsetFiles.add(file);
   }
 
-  final List<String> languages = List<String>.of(langSubsetFiles.map((file) {
-    return p.basenameWithoutExtension(file.path);
-  }));
-  return languages;
+  return langSubsetFiles;
 }
 
-List<String> _retrieveLanguageFontsFromFile(String languageName) {
-  final listOfFonts = File('generator/lang_font_subsets/$languageName.txt').readAsLinesSync();
-  return listOfFonts;
+String _langNameWithoutExtension(File file) => p.basenameWithoutExtension(file.path);
+
+List<String> _retrieveLanguageFontsFromFile(File languageName) {
+  return languageName.readAsLinesSync();
 }
 
 Future<void> _writeDartFile(String content) async {
