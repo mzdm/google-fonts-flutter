@@ -183,7 +183,10 @@ Future<Map<String, List<String>>> _matchLangsWithFonts(List<String> availableFon
         langFontMap['errors'] = [''];
       }
       final currValueList = langFontMap['errors'];
-      langFontMap['errors'] = currValueList..add(fontName);
+      langFontMap['errors'] = currValueList
+        ..add(
+          '$fontName (${e is http.Response ? e.statusCode.toString() + ': ' + e.reasonPhrase : e.toString()})',
+        );
     }
   });
   client.close();
