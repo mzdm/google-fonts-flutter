@@ -12,38 +12,47 @@ import 'package:mustache/mustache.dart';
 
 import 'fonts.pb.dart' as pb;
 
-const _generatedFilePath = 'lib/google_fonts.dart';
-const _langFontSubsetsPath = 'generator/lang_font_subsets/';
+part 'generator_helper.dart';
 
-// Future<void> main() async {
-//   print(await _matchLanguagesWithFonts());
-// }
+Future<void> main() async {
+  // print(await _retrieveAllDirLangFiles());
+  // print(resp.body);
+}
 
 /// Generates the `GoogleFonts` class.
-Future<void> main() async {
+Future<void> main2() async {
   print('Getting latest font directory...');
   final protoUrl = await _getProtoUrl();
   print('Success! Using $protoUrl');
 
   final fontDirectory = await _readFontsProtoData(protoUrl);
   print('\nValidating font URLs and file contents...');
-  await _verifyUrls(fontDirectory);
+  //await _verifyUrls(fontDirectory);
   print(_success);
 
-  print('\nRetrieving the language subsets with font names...');
-  final subset = await _matchLanguagesWithFonts();
-  print(_success);
+  // TODO: add parameter to main method
+  // by default should be false - it creates unnecessary long API calls
+  if (true) {
+    print('\nMatching compatible fonts with languages...');
+    final List<String> availableFontNames = (fontDirectory.family).map((font) => font.name).toList();
+    final Map<String, List<String>> matchedLangsWithFonts = await _matchLangsWithFonts(availableFontNames);
+    print(_success);
 
-  print('\nGenerating $_generatedFilePath...');
-  await _writeDartFile(_generateDartCode(fontDirectory, subset));
-  print(_success);
+    print('\nWriting font names to language files...');
+    print(_success);
+  } else {
+    print('\nRetrieving font names to language files...');
+    print(_success);
+  }
 
-  print('\nFormatting $_generatedFilePath...');
-  await Process.run('flutter', ['format', _generatedFilePath]);
-  print(_success);
+  // print('\nGenerating $_generatedFilePath...');
+  // await _writeDartFile(_generateDartCode(fontDirectory));
+  // print(_success);
+  //
+  // print('\nFormatting $_generatedFilePath...');
+  // await Process.run('flutter', ['format', _generatedFilePath]);
+  // print(_success);
 }
-
-const _success = 'Success!';
 
 /// Gets the latest font directory.
 ///
@@ -86,6 +95,7 @@ Future<void> _verifyUrls(pb.Directory fontDirectory) async {
   final progressBar = ProgressBar(complete: totalFonts);
 
   final client = http.Client();
+
   for (final family in fontDirectory.family) {
     for (final font in family.fonts) {
       final urlString =
@@ -121,22 +131,70 @@ String _hashToString(List<int> bytes) {
   return fileName;
 }
 
-/// Creates a map where the **key** is a language name (Arabic, Latin, Chinese, Cyrillic, ...) and
-/// the **value** is a *List* of *String* which contains compatible font names with its language.
-Future<Map<String, List<String>>> _matchLanguagesWithFonts() async {
-  final List<File> languages = await _retrieveAllLanguageFontSubsetsNames();
-
-  final langValues = <String, List<String>>{
-    for (final lang in languages)
-      _langNameWithoutExtension(lang): _retrieveLanguageFontsFromFile(lang)
-  };
-  return langValues;
+Future<pb.Directory> _readFontsProtoData(String protoUrl) async {
+  final fontsProtoFile = await http.get(protoUrl);
+  return pb.Directory.fromBuffer(fontsProtoFile.bodyBytes);
 }
 
-Future<List<File>> _retrieveAllLanguageFontSubsetsNames() async {
+/// Creates a map where the **key** is a language name (Arabic, Latin, Cyrillic, ...) and
+/// the **value** is a *List* of *String* which contains its compatible font names.
+Future<Map<String, List<String>>> _matchLangsWithFonts(List<String> availableFontNames) async {
+  final client = http.Client();
+
+  final mapMatcher = _langSubsetMatcher;
+  final languages = _langSubsetMatcher.keys.toList();
+  final subsets = _langSubsetMatcher.values.toList();
+
+  final langFontMap = <String, List<String>>{
+    for (final langName in languages) langName: <String>[''],
+  };
+
+  await Future.forEach<String>(availableFontNames, (fontName) async {
+    final url = '$_baseUrl$fontName';
+
+    try {
+      final response = await client.get(
+        url,
+        headers: {
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+        },
+      );
+
+      if (response.statusCode != 200) {
+        throw ('Bad response from Google Fonts API.\n${response?.statusCode}:${response?.reasonPhrase}');
+      }
+
+      final content = response.body;
+      subsets.forEach((subset) {
+        if (content.contains(subset)) {
+          final keyByValue = mapMatcher.keys.firstWhere(
+            (key) => mapMatcher[key] == subset,
+            orElse: () => null,
+          );
+          final currValueList = langFontMap[keyByValue];
+          langFontMap[keyByValue] = currValueList..add(fontName);
+        }
+      });
+    } catch (e) {
+      print(e);
+
+      // Check failed API url calls and find out why. Consider adding these failed fonts manually if the error shouldn't have occurred.
+      if (langFontMap['errors'] == null) {
+        langFontMap['errors'] = [''];
+      }
+      final currValueList = langFontMap['errors'];
+      langFontMap['errors'] = currValueList..add(fontName);
+    }
+  });
+  client.close();
+
+  return langFontMap..removeWhere((key, value) => key == null || value == null || value.isEmpty);
+}
+
+Future<void> _writeAllLangsFontNamesToFiles() async {
   final langSubsetFiles = <File>[];
 
-  final dir = Directory(_langFontSubsetsPath);
+  final dir = Directory(_langFontsSubsetPath);
   final files = await dir.list().toList();
 
   for (final file in files) {
@@ -146,20 +204,44 @@ Future<List<File>> _retrieveAllLanguageFontSubsetsNames() async {
   return langSubsetFiles;
 }
 
-String _langNameWithoutExtension(File file) => p.basenameWithoutExtension(file.path);
+Future<Map<String, List<String>>> _retrieveAllLangsFontNamesFromFiles() async {
+  final List<File> langSubsetFiles = await _retrieveAllDirLangFiles();
 
-List<String> _retrieveLanguageFontsFromFile(File languageName) {
-  return languageName.readAsLinesSync();
+  final dir = Directory(_langFontsSubsetPath);
+  final files = await dir.list().toList();
+
+  for (final file in files) {
+    if (file is File && p.extension(file.path) == '.txt') {
+      langSubsetFiles.add(file);
+    }
+  }
+
+  return null;
+}
+
+Future<List<File>> _retrieveAllDirLangFiles() async {
+  final langFiles = <File>[];
+
+  final dir = Directory(_langFontsSubsetPath);
+  final allFiles = await dir.list().toList();
+
+  for (final file in allFiles) {
+    final path = file.path;
+    if (file is File &&
+        p.basenameWithoutExtension(path) != 'errors' &&
+        p.extension(path) == '.txt') {
+      langFiles.add(file);
+    }
+  }
+
+  return langFiles;
 }
 
 Future<void> _writeDartFile(String content) async {
   await File(_generatedFilePath).writeAsString(content);
 }
 
-String _generateDartCode(
-  pb.Directory fontDirectory,
-  Map<String, List<String>> subsetFilter,
-) {
+String _generateDartCode(pb.Directory fontDirectory) {
   final classes = <Map<String, String>>[];
   final methods = <Map<String, dynamic>>[];
 
@@ -184,8 +266,8 @@ String _generateDartCode(
     // font name, e.g.: Lato, Droid Sans, ...
     final family = item.name;
 
-    // filter out fonts which are not latin extented
-    if (!subsetFilter.entries.contains(family)) continue;
+    // filter out fonts which are not latin extended
+    // if (!langSubsets.entries.contains(family)) continue;
 
     final familyNoSpaces = family.replaceAll(' ', '');
     final familyWithPlusSigns = family.replaceAll(' ', '+');
@@ -248,9 +330,4 @@ String _familyToMethodName(String family) {
         (isUpperCase ? word.substring(1).toLowerCase() : word.substring(1));
   }
   return words.join();
-}
-
-Future<pb.Directory> _readFontsProtoData(String protoUrl) async {
-  final fontsProtoFile = await http.get(protoUrl);
-  return pb.Directory.fromBuffer(fontsProtoFile.bodyBytes);
 }
