@@ -19,8 +19,15 @@ Future<void> main2() async {
   // print(resp.body);
 }
 
-/// Generates the `GoogleFonts` class.
-Future<void> main() async {
+/// Generates the `GoogleFonts` private class and public `LanguageFont` classes.
+///
+/// If [args] contains `--fetch-langs` param then each font is checked via Google Fonts API
+/// and written to its language file.
+///
+/// Keep in mind that if the database with fonts in step 1 is updated then these fonts
+/// will not be mapped with languages and for that case is required to run the param above.
+/// These fonts will be available only in `GoogleFonts` private class though.
+Future<void> main(List<String> args) async {
   print('Getting latest font directory...');
   final protoUrl = await _getProtoUrl();
   print('Success! Using $protoUrl');
@@ -30,10 +37,9 @@ Future<void> main() async {
   //await _verifyUrls(fontDirectory);
   print(_success);
 
-  // TODO: add parameter to main method
-  // by default should be false - it creates unnecessary long API calls
   Map<String, List<String>> matchedLangsWithFonts;
-  if (true) {
+
+  if (args.contains('--fetch-langs')) {
     print('\nFetching fonts and matching them with the languages...');
     final List<String> availableFontNames = (fontDirectory.family).map((font) => font.name).toList();
     matchedLangsWithFonts = await _mapLangsWithFonts(availableFontNames);
