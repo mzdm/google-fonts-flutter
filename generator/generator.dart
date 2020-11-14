@@ -15,15 +15,6 @@ import 'fonts.pb.dart' as pb;
 part 'generator_helper.dart';
 
 Future<void> main2() async {
-  // Map<String, List<String>> langFontMap = {'yes':[]};
-  // print(langFontMap);
-  // langFontMap..removeWhere((key, value) => key == null || key != null && value.isEmpty);
-  // print(langFontMap);
-  // List<String> fin = ['Ara', 'Seda', 'Pso'];
-  // var formatted = fin.join('\n');
-  // formatted = ('\n'+formatted).trimLeft();
-  // File('${_langFontsSubsetPath}asd.txt').writeAsStringSync(formatted);
-
   // print(await _retrieveAllDirLangFiles());
   // print(resp.body);
 }
@@ -176,11 +167,21 @@ Future<Map<String, List<String>>> _mapLangsWithFonts(List<String> availableFontN
         throw ('${response?.statusCode}: ${response?.reasonPhrase}');
       }
 
+      final unrecognizedLangsTemplate = _unrecognizedSubsetTemplate();
       final content = response.body;
-      subsets.forEach((subset) {
-        // TODO where return _unrecognizedSubsets check
-        if (content.contains(subset)) {}
 
+      subsets.forEach((subset) {
+
+        // Check whether it is possible to recognize the languages of the font
+        // (see more in _unrecognizedSubsetTest method in generator_helper.dart).
+        final recognizeResult = unrecognizedLangsTemplate.firstWhere(
+          (element) => content.contains(element),
+          orElse: () => 'recognized',
+        );
+
+        // Unrecognized fonts in the response doesn't mean that all of the fonts are unrecognized,
+        // there might be some recognized so firstly add them. (?? needs confirmation, latest
+        // font batch does not have such case.
         if (content.contains(subset)) {
           final keyByValue = mapMatcher.keys.firstWhere(
             (key) => mapMatcher[key] == subset,
@@ -188,6 +189,12 @@ Future<Map<String, List<String>>> _mapLangsWithFonts(List<String> availableFontN
           );
           final currValueList = langFontMap[keyByValue];
           langFontMap[keyByValue] = currValueList..add(fontName);
+        }
+
+        // If there was unrecognized font, then throw an exception
+        // we can determine which fonts must be added manually.
+        if (recognizeResult != 'recognized') {
+          throw('font language was not recognized');
         }
       });
     } catch (e) {
