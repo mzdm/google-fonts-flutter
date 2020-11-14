@@ -8,7 +8,7 @@ const _langFontsSubsetPath = 'generator/lang_font_subsets/';
 
 const _baseUrl = 'https://fonts.googleapis.com/css2?family=';
 
-const _langSubsetMatcher = <String, String>{
+const _langSubsetMapper = <String, String>{
   'Arabic': '/* arabic */',
   'Bengali': '/* bengali */',
   'Cyrillic': '/* cyrillic */',
@@ -38,3 +38,28 @@ const _langSubsetMatcher = <String, String>{
   'Tibetan': '/* tibetan */',
   'Vietnamese': '/* vietnamese */',
 };
+
+/// Chinese & Japanese fonts display for some reason only numbers...
+///
+/// e.g. these fonts:
+///
+/// [Noto Serif SC](https://fonts.googleapis.com/css2?family=Noto+Serif+SC)
+///
+/// [Noto Sans JP](https://fonts.googleapis.com/css2?family=Noto+Sans+JP)
+const _unrecognizedSubsets = <String>[
+  '/* [0] */',
+  '/* [1] */',
+  '/* [2] */',
+  '/* [4] */',
+  '/* [5] */',
+  '/* [6] */',
+  '/* [21] */',
+  '/* [25] */',
+  '/* [31] */',
+  '/* [38] */',
+  '/* [40] */',
+  '/* [66] */',
+  '/* [71] */',
+  '/* [77] */',
+  '/* [117] */',
+];
