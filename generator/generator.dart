@@ -250,9 +250,8 @@ void _writeAllLangsFontNamesToFiles(Map<String, List<String>> mappedLangs) {
   }
 }
 
+// TODO
 Future<Map<String, List<String>>> _retrieveAllLangsFontNamesFromFiles() async {
-
-
   return null;
 }
 
@@ -260,6 +259,7 @@ Future<void> _writeDartFile(String content) async {
   await File(_generatedFilePath).writeAsString(content);
 }
 
+// TODO
 String _generateDartCode(pb.Directory fontDirectory, Map<String, List<String>> mappedLangs) {
   final classes = <Map<String, String>>[];
   final methods = <Map<String, dynamic>>[];
