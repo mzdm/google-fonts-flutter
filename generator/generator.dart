@@ -14,11 +14,6 @@ import 'fonts.pb.dart' as pb;
 
 part 'generator_helper.dart';
 
-Future<void> main2() async {
-  // print(await _retrieveAllDirLangFiles());
-  // print(resp.body);
-}
-
 /// Generates the `GoogleFonts` private class and public `LanguageFont` classes.
 ///
 /// If [args] contains `--fetch-langs` param then each font is checked via Google Fonts API
@@ -54,13 +49,13 @@ Future<void> main(List<String> args) async {
     print(_success);
   }
 
-  // print('\nGenerating $_generatedFilePath...');
-  // await _writeDartFile(_generateDartCode(fontDirectory, matchedLangsWithFonts));
-  // print(_success);
-  //
-  // print('\nFormatting $_generatedFilePath...');
-  // await Process.run('flutter', ['format', _generatedFilePath]);
-  // print(_success);
+  print('\nGenerating $_generatedFilePath...');
+  await _writeDartFile(_generateDartCode(fontDirectory, matchedLangsWithFonts));
+  print(_success);
+
+  print('\nFormatting $_generatedFilePath...');
+  await Process.run('flutter', ['format', _generatedFilePath]);
+  print(_success);
 }
 
 /// Gets the latest font directory.
@@ -200,14 +195,14 @@ Future<Map<String, List<String>>> _mapLangsWithFonts(List<String> availableFontN
         // If there was unrecognized font, then throw an exception
         // we can determine which fonts must be added manually.
         if (recognizeResult != 'recognized') {
-          throw('font language was not recognized');
+          throw('font language(s) was/were not recognized');
         }
       });
     } catch (e) {
       final errorMsg = e is http.Response
           ? e.statusCode.toString() + ': ' + e.reasonPhrase
           : e.toString();
-      print('font: $fontName was not fetched ($errorMsg) - see errors.txt');
+      print('font: \'$fontName\' was not fetched ($errorMsg) - see errors.txt');
 
       // Check failed API url calls and find out why, these errors will be stored in errors.txt.
       if (langFontMap['errors'] == null) {
@@ -220,7 +215,7 @@ Future<Map<String, List<String>>> _mapLangsWithFonts(List<String> availableFontN
   });
   client.close();
 
-  return langFontMap..removeWhere((key, value) => key == null || key != null && value.isEmpty);
+  return langFontMap;
 }
 
 Future<List<File>> _listAllDirLangFiles() async {
@@ -250,9 +245,21 @@ void _writeAllLangsFontNamesToFiles(Map<String, List<String>> mappedLangs) {
   }
 }
 
-// TODO
 Future<Map<String, List<String>>> _retrieveAllLangsFontNamesFromFiles() async {
-  return null;
+  final List<File> langFiles = await _listAllDirLangFiles();
+
+  final retrievedMap = <String, List<String>>{};
+  for (final file in langFiles) {
+    try {
+      final langName = p.basenameWithoutExtension(file.path);
+      final List<String> fontList = file.readAsLinesSync();
+      retrievedMap[langName] = fontList;
+    } catch (e) {
+      print('threw an error while reading from the file: ${p.basename(file.path)}');
+    }
+  }
+
+  return retrievedMap;
 }
 
 Future<void> _writeDartFile(String content) async {
@@ -261,10 +268,16 @@ Future<void> _writeDartFile(String content) async {
 
 // TODO
 String _generateDartCode(pb.Directory fontDirectory, Map<String, List<String>> mappedLangs) {
-  final classes = <Map<String, String>>[];
-  final methods = <Map<String, dynamic>>[];
+  final mainMethods = <Map<String, dynamic>>[];
+  final langClasses = <Map<String, String>>[];
+  final langClassMethods = <Map<String, dynamic>>[];
 
   final fonts = fontDirectory.family;
+
+  final langs = <String, List<String>>{
+    'Khmer': mappedLangs['Khmer'],
+    'Kannada': mappedLangs['Kannada'],
+  };
 
   // final subsetFilter = <String>{
   //   'Roboto',
@@ -273,16 +286,14 @@ String _generateDartCode(pb.Directory fontDirectory, Map<String, List<String>> m
   //   'Noto Sans',
   // };
 
-  // if (fonts.isNotEmpty) {
-  //   for (final lang in languages) {
-  //     classes.add(<String, String>{
-  //       'langClassName': lang,
-  //     });
-  //   }
-  // }
+  for (final lang in langs.keys) {
+    if (lang != null) {
+      langClasses.add(<String, String>{'langClassName': lang});
+    }
+  }
 
   for (final item in fonts) {
-    // font name, e.g.: Lato, Droid Sans, ...
+    // this is a font name, e.g.: Lato, Droid Sans, ...
     final family = item.name;
 
     // filter out fonts which are not latin extended
@@ -292,23 +303,7 @@ String _generateDartCode(pb.Directory fontDirectory, Map<String, List<String>> m
     final familyWithPlusSigns = family.replaceAll(' ', '+');
     final methodName = _familyToMethodName(family);
 
-    const themeParams = [
-      'headline1',
-      'headline2',
-      'headline3',
-      'headline4',
-      'headline5',
-      'headline6',
-      'subtitle1',
-      'subtitle2',
-      'bodyText1',
-      'bodyText2',
-      'caption',
-      'button',
-      'overline',
-    ];
-
-    methods.add(<String, dynamic>{
+    mainMethods.add(<String, dynamic>{
       'methodName': methodName,
       'fontFamily': familyNoSpaces,
       'fontFamilyDisplay': family,
@@ -324,7 +319,7 @@ String _generateDartCode(pb.Directory fontDirectory, Map<String, List<String>> m
           },
       ],
       'themeParams': [
-        for (final themeParam in themeParams) {'value': themeParam},
+        for (final themeParam in _fontThemeParams) {'value': themeParam},
       ],
     });
   }
@@ -334,8 +329,8 @@ String _generateDartCode(pb.Directory fontDirectory, Map<String, List<String>> m
     htmlEscapeValues: false,
   );
   return template.renderString({
-    'class': classes,
-    'method': methods,
+    'class': langClasses,
+    'method': mainMethods,
   });
 }
 

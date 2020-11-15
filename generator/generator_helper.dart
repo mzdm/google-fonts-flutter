@@ -1,12 +1,27 @@
 part of 'generator.dart';
 
 const _success = 'Success!';
-const _urlSpaceChar = '%20';
 
 const _generatedFilePath = 'lib/google_fonts.dart';
 const _langFontsSubsetPath = 'generator/lang_font_subsets/';
 
 const _baseUrl = 'https://fonts.googleapis.com/css2?family=';
+
+const _fontThemeParams = [
+  'headline1',
+  'headline2',
+  'headline3',
+  'headline4',
+  'headline5',
+  'headline6',
+  'subtitle1',
+  'subtitle2',
+  'bodyText1',
+  'bodyText2',
+  'caption',
+  'button',
+  'overline',
+];
 
 const _langSubsetMapper = <String, String>{
   'Arabic': '/* arabic */',
