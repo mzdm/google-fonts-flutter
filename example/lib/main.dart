@@ -46,10 +46,10 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text('TODO'),
-            // Text(
-            //   '❌ ýřččžýěíěš ❌\n',
-            //   style: KannadaFonts.balooTamma(),
-            // ),
+            Text(
+              '❌ ýřččžýěíěš ❌\n',
+              style: KhmerFonts.odorMeanChey(),
+            ),
             // Text(
             //   '❌ ýřččžýěíěš ❌\n',
             //   style: GoogleFonts.kosugiMaru(textStyle: display1),
