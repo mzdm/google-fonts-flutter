@@ -67,6 +67,7 @@ List<String> _unrecognizedSubsetTemplate() {
   return list;
 }
 
+// this is a temporary for testing purposes and has no use, will be moved to the test dir later
 const _recognizedSubsetTest = '''
 /* latin-ext */
 @font-face {
@@ -86,6 +87,7 @@ const _recognizedSubsetTest = '''
 }
 ''';
 
+// this is a temporary for testing purposes and has no use, will be moved to the test dir later
 const _unrecognizedSubsetTest = '''
 @font-face {
   font-family: 'Noto Sans JP';

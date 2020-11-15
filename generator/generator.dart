@@ -266,29 +266,29 @@ Future<void> _writeDartFile(String content) async {
   await File(_generatedFilePath).writeAsString(content);
 }
 
-// TODO
 String _generateDartCode(pb.Directory fontDirectory, Map<String, List<String>> mappedLangs) {
   final mainMethods = <Map<String, dynamic>>[];
-  final langClasses = <Map<String, String>>[];
-  final langClassMethods = <Map<String, dynamic>>[];
+  final langClasses = <Map<String, dynamic>>[];
 
   final fonts = fontDirectory.family;
 
+  // final Map<String, List<String>> langs = mappedLangs;
   final langs = <String, List<String>>{
     'Khmer': mappedLangs['Khmer'],
     'Kannada': mappedLangs['Kannada'],
   };
 
-  // final subsetFilter = <String>{
-  //   'Roboto',
-  //   'Lato',
-  //   'PT Mono',
-  //   'Noto Sans',
-  // };
+  final availableLangs = <String>[];
 
-  for (final lang in langs.keys) {
-    if (lang != null) {
-      langClasses.add(<String, String>{'langClassName': lang});
+  const langClassNameKey = 'langClassName';
+  const langMethodKey = 'langMethod';
+  for (final langNameKey in langs.keys) {
+    if (langNameKey != null) {
+      availableLangs.add(langNameKey);
+      langClasses.add(<String, dynamic>{
+        langClassNameKey: langNameKey,
+        langMethodKey: <Map<String, dynamic>>[],
+      });
     }
   }
 
@@ -296,14 +296,14 @@ String _generateDartCode(pb.Directory fontDirectory, Map<String, List<String>> m
     // this is a font name, e.g.: Lato, Droid Sans, ...
     final family = item.name;
 
-    // filter out fonts which are not latin extended
-    // if (!langSubsets.entries.contains(family)) continue;
+    // do not create methods for fonts were not found in any language category
+    if (!mappedLangs.values.join(',').toString().contains(family)) continue;
 
     final familyNoSpaces = family.replaceAll(' ', '');
     final familyWithPlusSigns = family.replaceAll(' ', '+');
     final methodName = _familyToMethodName(family);
 
-    mainMethods.add(<String, dynamic>{
+    final method = <String, dynamic>{
       'methodName': methodName,
       'fontFamily': familyNoSpaces,
       'fontFamilyDisplay': family,
@@ -312,8 +312,7 @@ String _generateDartCode(pb.Directory fontDirectory, Map<String, List<String>> m
         for (final variant in item.fonts)
           {
             'variantWeight': variant.weight.start,
-            'variantStyle':
-                variant.italic.start.round() == 1 ? 'italic' : 'normal',
+            'variantStyle': variant.italic.start.round() == 1 ? 'italic' : 'normal',
             'hash': _hashToString(variant.file.hash),
             'length': variant.file.fileSize,
           },
@@ -321,6 +320,24 @@ String _generateDartCode(pb.Directory fontDirectory, Map<String, List<String>> m
       'themeParams': [
         for (final themeParam in _fontThemeParams) {'value': themeParam},
       ],
+    };
+
+    mainMethods.add(method);
+
+    availableLangs.forEach((lang) {
+      for (final langClass in langClasses) {
+        try {
+          final langKey = langClass[langClassNameKey] as String;
+          if (langKey == lang) {
+            if (mappedLangs[langKey].contains(family)) {
+              final currValueList = langClass[langMethodKey] as List<Map<String, dynamic>>;
+              langClass[langMethodKey] = currValueList..add(method);
+            }
+          }
+        } catch (e) {
+          print(e);
+        }
+      }
     });
   }
 
@@ -329,7 +346,7 @@ String _generateDartCode(pb.Directory fontDirectory, Map<String, List<String>> m
     htmlEscapeValues: false,
   );
   return template.renderString({
-    'class': langClasses,
+    'langClass': langClasses,
     'method': mainMethods,
   });
 }

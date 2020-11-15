@@ -48,6 +48,10 @@ class _MyHomePageState extends State<MyHomePage> {
             Text('TODO'),
             // Text(
             //   '❌ ýřččžýěíěš ❌\n',
+            //   style: KannadaFonts.balooTamma(),
+            // ),
+            // Text(
+            //   '❌ ýřččžýěíěš ❌\n',
             //   style: GoogleFonts.kosugiMaru(textStyle: display1),
             // ),
             // Text(

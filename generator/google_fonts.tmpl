@@ -221,9 +221,9 @@ class GoogleFonts {
   {{/method}}
 }
 
-{{#class}}
+{{#langClass}}
 class {{langClassName}}Fonts {
-  {{#method}}
+  {{#langMethod}}
   /// Applies the {{fontFamilyDisplay}} font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -281,7 +281,7 @@ class {{langClassName}}Fonts {
   static TextTheme {{methodName}}TextTheme([TextTheme textTheme]) {
     return GoogleFonts.{{methodName}}TextTheme(textTheme);
   }
-  {{/method}}
+  {{/langMethod}}
 }
 
-{{/class}}
+{{/langClass}}
