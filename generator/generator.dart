@@ -32,25 +32,37 @@ Future<void> main(List<String> args) async {
   //await _verifyUrls(fontDirectory);
   print(_success);
 
-  Map<String, List<String>> matchedLangsWithFonts;
+  Map<String, List<String>> mappedLangFonts;
+  Map<String, List<String>> mappedErrorHandledFonts;
+
+  print('\nReading and mapping error handled fonts...');
+  mappedErrorHandledFonts = await _retrieveAllLangsFontNamesFromFiles(_langMappedErrorFontsSubsetPath);
+  print(_success);
 
   if (args.contains('--fetch-langs')) {
     print('\nFetching fonts and matching them with the languages...');
     final List<String> availableFontNames = (fontDirectory.family).map((font) => font.name).toList();
-    matchedLangsWithFonts = await _mapLangsWithFonts(availableFontNames);
+    mappedLangFonts = await _mapLangsWithFonts(
+      _concatenateListStringMap(mappedErrorHandledFonts),
+      availableFontNames,
+    );
     print(_success);
 
     print('\nWriting font names to language files...');
-    _writeAllLangsFontNamesToFiles(matchedLangsWithFonts);
+    _writeAllLangsFontNamesToFiles(mappedLangFonts);
     print(_success);
   } else {
     print('\nRetrieving and mapping font names from the language files...');
-    matchedLangsWithFonts = await _retrieveAllLangsFontNamesFromFiles();
+    mappedLangFonts = await _retrieveAllLangsFontNamesFromFiles(_langFontsSubsetPath);
     print(_success);
   }
 
+  print('\nConcatenating language fonts and error handled fonts...');
+  mappedLangFonts = _concatenateFontsWithErrorHandled(mappedLangFonts, mappedErrorHandledFonts);
+  print(_success);
+
   print('\nGenerating $_generatedFilePath...');
-  await _writeDartFile(_generateDartCode(fontDirectory, matchedLangsWithFonts));
+  await _writeDartFile(_generateDartCode(fontDirectory, mappedLangFonts));
   print(_success);
 
   print('\nFormatting $_generatedFilePath...');
@@ -140,9 +152,14 @@ Future<pb.Directory> _readFontsProtoData(String protoUrl) async {
   return pb.Directory.fromBuffer(fontsProtoFile.bodyBytes);
 }
 
+/// TODO: Refactor
+///
 /// Creates a map where the **key** is a language name (Arabic, Latin, Cyrillic, ...) and
-/// the **value** is a *List* of *String* which contains its compatible font names.
-Future<Map<String, List<String>>> _mapLangsWithFonts(List<String> availableFontNames) async {
+/// the **value** is a List of Strings which contains its compatible font names.
+Future<Map<String, List<String>>> _mapLangsWithFonts(
+  List<String> allMappedErrorFonts,
+  List<String> availableFontNames,
+) async {
   final client = http.Client();
 
   final mapMatcher = _langSubsetMapper;
@@ -199,18 +216,22 @@ Future<Map<String, List<String>>> _mapLangsWithFonts(List<String> availableFontN
         }
       });
     } catch (e) {
-      final errorMsg = e is http.Response
-          ? e.statusCode.toString() + ': ' + e.reasonPhrase
-          : e.toString();
-      print('font: \'$fontName\' was not fetched ($errorMsg) - see errors.txt');
-
       // Check failed API url calls and find out why, these errors will be stored in errors.txt.
-      if (langFontMap['errors'] == null) {
-        langFontMap['errors'] = <String>[];
+      // If this font is already error handled (font manually added in error_handled_fonts dir) then
+      // do not put it to errors.txt.
+      if (!allMappedErrorFonts.contains(fontName)) {
+        final errorMsg =
+            e is http.Response ? e.statusCode.toString() + ': ' + e.reasonPhrase : e.toString();
+
+        if (langFontMap[_errorFileKey] == null) {
+          langFontMap[_errorFileKey] = <String>[];
+        }
+
+        final currValueList = langFontMap[_errorFileKey];
+        langFontMap[_errorFileKey] = currValueList..add('$fontName ($errorMsg)');
+
+        print('font: \'$fontName\' was not fetched ($errorMsg) - see errors.txt');
       }
-      final currValueList = langFontMap['errors'];
-      langFontMap['errors'] = currValueList
-        ..add('$fontName ($errorMsg)');
     }
   });
   client.close();
@@ -218,10 +239,10 @@ Future<Map<String, List<String>>> _mapLangsWithFonts(List<String> availableFontN
   return langFontMap;
 }
 
-Future<List<File>> _listAllDirLangFiles() async {
+Future<List<File>> _listAllDirLangFiles(String path) async {
   final langFiles = <File>[];
 
-  final dir = Directory(_langFontsSubsetPath);
+  final dir = Directory(path);
   final allFiles = await dir.list().toList();
 
   for (final file in allFiles) {
@@ -245,8 +266,8 @@ void _writeAllLangsFontNamesToFiles(Map<String, List<String>> mappedLangs) {
   }
 }
 
-Future<Map<String, List<String>>> _retrieveAllLangsFontNamesFromFiles() async {
-  final List<File> langFiles = await _listAllDirLangFiles();
+Future<Map<String, List<String>>> _retrieveAllLangsFontNamesFromFiles(String path) async {
+  final List<File> langFiles = await _listAllDirLangFiles(path);
 
   final retrievedMap = <String, List<String>>{};
   for (final file in langFiles) {
@@ -260,6 +281,21 @@ Future<Map<String, List<String>>> _retrieveAllLangsFontNamesFromFiles() async {
   }
 
   return retrievedMap;
+}
+
+Map<String, List<String>> _concatenateFontsWithErrorHandled(
+  Map<String, List<String>> mappedLangFonts,
+  Map<String, List<String>> mappedErrorHandledFonts,
+) {
+  for (final key in mappedErrorHandledFonts.keys) {
+    if (key != null && mappedLangFonts[key] != null) {
+      mappedLangFonts.update(key, (fontList) {
+        final List<String> concatenatedList = fontList + mappedErrorHandledFonts[key];
+        return concatenatedList.toSet().toList()..sort();
+      });
+    }
+  }
+  return mappedLangFonts;
 }
 
 Future<void> _writeDartFile(String content) async {
@@ -296,7 +332,7 @@ String _generateDartCode(pb.Directory fontDirectory, Map<String, List<String>> m
     // this is a font name, e.g.: Lato, Droid Sans, ...
     final family = item.name;
 
-    // do not create methods for fonts were not found in any language category
+    // do not create methods for the fonts that were not found in any language category
     if (!mappedLangs.values.join(',').toString().contains(family)) continue;
 
     final familyNoSpaces = family.replaceAll(' ', '');

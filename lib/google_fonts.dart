@@ -188,6 +188,8 @@ class GoogleFonts {
     'BioRhyme Expanded': GoogleFonts._bioRhymeExpanded,
     'Biryani': GoogleFonts._biryani,
     'Bitter': GoogleFonts._bitter,
+    'Black And White Picture': GoogleFonts._blackAndWhitePicture,
+    'Black Han Sans': GoogleFonts._blackHanSans,
     'Black Ops One': GoogleFonts._blackOpsOne,
     'Blinker': GoogleFonts._blinker,
     'Bonbon': GoogleFonts._bonbon,
@@ -198,6 +200,7 @@ class GoogleFonts {
     'Bree Serif': GoogleFonts._breeSerif,
     'Bubblegum Sans': GoogleFonts._bubblegumSans,
     'Bubbler One': GoogleFonts._bubblerOne,
+    'Buda': GoogleFonts._buda,
     'Buenard': GoogleFonts._buenard,
     'Bungee': GoogleFonts._bungee,
     'Bungee Hairline': GoogleFonts._bungeeHairline,
@@ -254,6 +257,7 @@ class GoogleFonts {
     'Cinzel Decorative': GoogleFonts._cinzelDecorative,
     'Clicker Script': GoogleFonts._clickerScript,
     'Coda': GoogleFonts._coda,
+    'Coda Caption': GoogleFonts._codaCaption,
     'Codystar': GoogleFonts._codystar,
     'Coiny': GoogleFonts._coiny,
     'Combo': GoogleFonts._combo,
@@ -286,6 +290,7 @@ class GoogleFonts {
     'Croissant One': GoogleFonts._croissantOne,
     'Crushed': GoogleFonts._crushed,
     'Cuprum': GoogleFonts._cuprum,
+    'Cute Font': GoogleFonts._cuteFont,
     'Cutive': GoogleFonts._cutive,
     'Cutive Mono': GoogleFonts._cutiveMono,
     'DM Sans': GoogleFonts._dmSans,
@@ -308,6 +313,8 @@ class GoogleFonts {
     'Didact Gothic': GoogleFonts._didactGothic,
     'Diplomata': GoogleFonts._diplomata,
     'Diplomata SC': GoogleFonts._diplomataSc,
+    'Do Hyeon': GoogleFonts._doHyeon,
+    'Dokdo': GoogleFonts._dokdo,
     'Domine': GoogleFonts._domine,
     'Donegal One': GoogleFonts._donegalOne,
     'Doppio One': GoogleFonts._doppioOne,
@@ -321,6 +328,7 @@ class GoogleFonts {
     'Dynalight': GoogleFonts._dynalight,
     'EB Garamond': GoogleFonts._ebGaramond,
     'Eagle Lake': GoogleFonts._eagleLake,
+    'East Sea Dokdo': GoogleFonts._eastSeaDokdo,
     'Eater': GoogleFonts._eater,
     'Economica': GoogleFonts._economica,
     'Eczar': GoogleFonts._eczar,
@@ -383,10 +391,12 @@ class GoogleFonts {
     'GFS Didot': GoogleFonts._gfsDidot,
     'GFS Neohellenic': GoogleFonts._gfsNeohellenic,
     'Gabriela': GoogleFonts._gabriela,
+    'Gaegu': GoogleFonts._gaegu,
     'Gafata': GoogleFonts._gafata,
     'Galada': GoogleFonts._galada,
     'Galdeano': GoogleFonts._galdeano,
     'Galindo': GoogleFonts._galindo,
+    'Gamja Flower': GoogleFonts._gamjaFlower,
     'Gayathri': GoogleFonts._gayathri,
     'Gelasio': GoogleFonts._gelasio,
     'Gentium Basic': GoogleFonts._gentiumBasic,
@@ -405,6 +415,7 @@ class GoogleFonts {
     'Goblin One': GoogleFonts._goblinOne,
     'Gochi Hand': GoogleFonts._gochiHand,
     'Gorditas': GoogleFonts._gorditas,
+    'Gothic A1': GoogleFonts._gothicA1,
     'Gotu': GoogleFonts._gotu,
     'Goudy Bookletter 1911': GoogleFonts._goudyBookletter1911,
     'Graduate': GoogleFonts._graduate,
@@ -415,6 +426,7 @@ class GoogleFonts {
     'Griffy': GoogleFonts._griffy,
     'Gruppo': GoogleFonts._gruppo,
     'Gudea': GoogleFonts._gudea,
+    'Gugi': GoogleFonts._gugi,
     'Gupter': GoogleFonts._gupter,
     'Gurajada': GoogleFonts._gurajada,
     'Habibi': GoogleFonts._habibi,
@@ -430,6 +442,7 @@ class GoogleFonts {
     'Henny Penny': GoogleFonts._hennyPenny,
     'Hepta Slab': GoogleFonts._heptaSlab,
     'Herr Von Muellerhoff': GoogleFonts._herrVonMuellerhoff,
+    'Hi Melody': GoogleFonts._hiMelody,
     'Hind': GoogleFonts._hind,
     'Hind Guntur': GoogleFonts._hindGuntur,
     'Hind Madurai': GoogleFonts._hindMadurai,
@@ -480,6 +493,7 @@ class GoogleFonts {
     'Josefin Sans': GoogleFonts._josefinSans,
     'Josefin Slab': GoogleFonts._josefinSlab,
     'Joti One': GoogleFonts._jotiOne,
+    'Jua': GoogleFonts._jua,
     'Judson': GoogleFonts._judson,
     'Julee': GoogleFonts._julee,
     'Julius Sans One': GoogleFonts._juliusSansOne,
@@ -505,10 +519,13 @@ class GoogleFonts {
     'Kenia': GoogleFonts._kenia,
     'Khand': GoogleFonts._khand,
     'Khula': GoogleFonts._khula,
+    'Kirang Haerang': GoogleFonts._kirangHaerang,
     'Kite One': GoogleFonts._kiteOne,
     'Knewave': GoogleFonts._knewave,
     'KoHo': GoogleFonts._koHo,
     'Kodchasan': GoogleFonts._kodchasan,
+    'Kosugi': GoogleFonts._kosugi,
+    'Kosugi Maru': GoogleFonts._kosugiMaru,
     'Kotta One': GoogleFonts._kottaOne,
     'Kranky': GoogleFonts._kranky,
     'Kreon': GoogleFonts._kreon,
@@ -556,6 +573,7 @@ class GoogleFonts {
     'Limelight': GoogleFonts._limelight,
     'Linden Hill': GoogleFonts._lindenHill,
     'Literata': GoogleFonts._literata,
+    'Liu Jian Mao Cao': GoogleFonts._liuJianMaoCao,
     'Livvic': GoogleFonts._livvic,
     'Lobster': GoogleFonts._lobster,
     'Lobster Two': GoogleFonts._lobsterTwo,
@@ -563,6 +581,7 @@ class GoogleFonts {
     'Londrina Shadow': GoogleFonts._londrinaShadow,
     'Londrina Sketch': GoogleFonts._londrinaSketch,
     'Londrina Solid': GoogleFonts._londrinaSolid,
+    'Long Cang': GoogleFonts._longCang,
     'Lora': GoogleFonts._lora,
     'Love Ya Like A Sister': GoogleFonts._loveYaLikeASister,
     'Loved by the King': GoogleFonts._lovedByTheKing,
@@ -570,6 +589,9 @@ class GoogleFonts {
     'Luckiest Guy': GoogleFonts._luckiestGuy,
     'Lusitana': GoogleFonts._lusitana,
     'Lustria': GoogleFonts._lustria,
+    'M PLUS 1p': GoogleFonts._mPlus1p,
+    'M PLUS Rounded 1c': GoogleFonts._mPlusRounded1c,
+    'Ma Shan Zheng': GoogleFonts._maShanZheng,
     'Macondo': GoogleFonts._macondo,
     'Macondo Swash Caps': GoogleFonts._macondoSwashCaps,
     'Mada': GoogleFonts._mada,
@@ -626,6 +648,7 @@ class GoogleFonts {
     'Modern Antiqua': GoogleFonts._modernAntiqua,
     'Mogra': GoogleFonts._mogra,
     'Molengo': GoogleFonts._molengo,
+    'Molle': GoogleFonts._molle,
     'Monda': GoogleFonts._monda,
     'Monofett': GoogleFonts._monofett,
     'Monoton': GoogleFonts._monoton,
@@ -649,6 +672,11 @@ class GoogleFonts {
     'Muli': GoogleFonts._muli,
     'Mystery Quest': GoogleFonts._mysteryQuest,
     'NTR': GoogleFonts._ntr,
+    'Nanum Brush Script': GoogleFonts._nanumBrushScript,
+    'Nanum Gothic': GoogleFonts._nanumGothic,
+    'Nanum Gothic Coding': GoogleFonts._nanumGothicCoding,
+    'Nanum Myeongjo': GoogleFonts._nanumMyeongjo,
+    'Nanum Pen Script': GoogleFonts._nanumPenScript,
     'Neucha': GoogleFonts._neucha,
     'Neuton': GoogleFonts._neuton,
     'New Rocker': GoogleFonts._newRocker,
@@ -683,6 +711,7 @@ class GoogleFonts {
     'Oleo Script': GoogleFonts._oleoScript,
     'Oleo Script Swash Caps': GoogleFonts._oleoScriptSwashCaps,
     'Open Sans': GoogleFonts._openSans,
+    'Open Sans Condensed': GoogleFonts._openSansCondensed,
     'Oranienbaum': GoogleFonts._oranienbaum,
     'Orbitron': GoogleFonts._orbitron,
     'Oregano': GoogleFonts._oregano,
@@ -740,6 +769,7 @@ class GoogleFonts {
     'Poly': GoogleFonts._poly,
     'Pompiere': GoogleFonts._pompiere,
     'Pontano Sans': GoogleFonts._pontanoSans,
+    'Poor Story': GoogleFonts._poorStory,
     'Poppins': GoogleFonts._poppins,
     'Port Lligat Sans': GoogleFonts._portLligatSans,
     'Port Lligat Slab': GoogleFonts._portLligatSlab,
@@ -831,6 +861,8 @@ class GoogleFonts {
     'Sarina': GoogleFonts._sarina,
     'Sarpanch': GoogleFonts._sarpanch,
     'Satisfy': GoogleFonts._satisfy,
+    'Sawarabi Gothic': GoogleFonts._sawarabiGothic,
+    'Sawarabi Mincho': GoogleFonts._sawarabiMincho,
     'Scada': GoogleFonts._scada,
     'Scheherazade': GoogleFonts._scheherazade,
     'Schoolbell': GoogleFonts._schoolbell,
@@ -871,6 +903,7 @@ class GoogleFonts {
     'Sofadi One': GoogleFonts._sofadiOne,
     'Sofia': GoogleFonts._sofia,
     'Solway': GoogleFonts._solway,
+    'Song Myung': GoogleFonts._songMyung,
     'Sonsie One': GoogleFonts._sonsieOne,
     'Sorts Mill Goudy': GoogleFonts._sortsMillGoudy,
     'Source Code Pro': GoogleFonts._sourceCodePro,
@@ -896,10 +929,12 @@ class GoogleFonts {
     'Stint Ultra Expanded': GoogleFonts._stintUltraExpanded,
     'Stoke': GoogleFonts._stoke,
     'Strait': GoogleFonts._strait,
+    'Stylish': GoogleFonts._stylish,
     'Sue Ellen Francisco': GoogleFonts._sueEllenFrancisco,
     'Suez One': GoogleFonts._suezOne,
     'Sulphur Point': GoogleFonts._sulphurPoint,
     'Sumana': GoogleFonts._sumana,
+    'Sunflower': GoogleFonts._sunflower,
     'Sunshiney': GoogleFonts._sunshiney,
     'Supermercado One': GoogleFonts._supermercadoOne,
     'Sura': GoogleFonts._sura,
@@ -939,6 +974,7 @@ class GoogleFonts {
     'Uncial Antiqua': GoogleFonts._uncialAntiqua,
     'Underdog': GoogleFonts._underdog,
     'Unica One': GoogleFonts._unicaOne,
+    'UnifrakturCook': GoogleFonts._unifrakturCook,
     'UnifrakturMaguntia': GoogleFonts._unifrakturMaguntia,
     'Unkempt': GoogleFonts._unkempt,
     'Unlock': GoogleFonts._unlock,
@@ -971,10 +1007,15 @@ class GoogleFonts {
     'Yantramanav': GoogleFonts._yantramanav,
     'Yatra One': GoogleFonts._yatraOne,
     'Yellowtail': GoogleFonts._yellowtail,
+    'Yeon Sung': GoogleFonts._yeonSung,
     'Yeseva One': GoogleFonts._yesevaOne,
     'Yesteryear': GoogleFonts._yesteryear,
     'Yrsa': GoogleFonts._yrsa,
+    'ZCOOL KuaiLe': GoogleFonts._zcoolKuaiLe,
+    'ZCOOL QingKe HuangYou': GoogleFonts._zcoolQingKeHuangYou,
+    'ZCOOL XiaoWei': GoogleFonts._zcoolXiaoWei,
     'Zeyada': GoogleFonts._zeyada,
+    'Zhi Mang Xing': GoogleFonts._zhiMangXing,
     'Zilla Slab': GoogleFonts._zillaSlab,
     'Zilla Slab Highlight': GoogleFonts._zillaSlabHighlight,
   };
@@ -1117,6 +1158,8 @@ class GoogleFonts {
     'BioRhyme Expanded': GoogleFonts._bioRhymeExpandedTextTheme,
     'Biryani': GoogleFonts._biryaniTextTheme,
     'Bitter': GoogleFonts._bitterTextTheme,
+    'Black And White Picture': GoogleFonts._blackAndWhitePictureTextTheme,
+    'Black Han Sans': GoogleFonts._blackHanSansTextTheme,
     'Black Ops One': GoogleFonts._blackOpsOneTextTheme,
     'Blinker': GoogleFonts._blinkerTextTheme,
     'Bonbon': GoogleFonts._bonbonTextTheme,
@@ -1127,6 +1170,7 @@ class GoogleFonts {
     'Bree Serif': GoogleFonts._breeSerifTextTheme,
     'Bubblegum Sans': GoogleFonts._bubblegumSansTextTheme,
     'Bubbler One': GoogleFonts._bubblerOneTextTheme,
+    'Buda': GoogleFonts._budaTextTheme,
     'Buenard': GoogleFonts._buenardTextTheme,
     'Bungee': GoogleFonts._bungeeTextTheme,
     'Bungee Hairline': GoogleFonts._bungeeHairlineTextTheme,
@@ -1183,6 +1227,7 @@ class GoogleFonts {
     'Cinzel Decorative': GoogleFonts._cinzelDecorativeTextTheme,
     'Clicker Script': GoogleFonts._clickerScriptTextTheme,
     'Coda': GoogleFonts._codaTextTheme,
+    'Coda Caption': GoogleFonts._codaCaptionTextTheme,
     'Codystar': GoogleFonts._codystarTextTheme,
     'Coiny': GoogleFonts._coinyTextTheme,
     'Combo': GoogleFonts._comboTextTheme,
@@ -1215,6 +1260,7 @@ class GoogleFonts {
     'Croissant One': GoogleFonts._croissantOneTextTheme,
     'Crushed': GoogleFonts._crushedTextTheme,
     'Cuprum': GoogleFonts._cuprumTextTheme,
+    'Cute Font': GoogleFonts._cuteFontTextTheme,
     'Cutive': GoogleFonts._cutiveTextTheme,
     'Cutive Mono': GoogleFonts._cutiveMonoTextTheme,
     'DM Sans': GoogleFonts._dmSansTextTheme,
@@ -1237,6 +1283,8 @@ class GoogleFonts {
     'Didact Gothic': GoogleFonts._didactGothicTextTheme,
     'Diplomata': GoogleFonts._diplomataTextTheme,
     'Diplomata SC': GoogleFonts._diplomataScTextTheme,
+    'Do Hyeon': GoogleFonts._doHyeonTextTheme,
+    'Dokdo': GoogleFonts._dokdoTextTheme,
     'Domine': GoogleFonts._domineTextTheme,
     'Donegal One': GoogleFonts._donegalOneTextTheme,
     'Doppio One': GoogleFonts._doppioOneTextTheme,
@@ -1250,6 +1298,7 @@ class GoogleFonts {
     'Dynalight': GoogleFonts._dynalightTextTheme,
     'EB Garamond': GoogleFonts._ebGaramondTextTheme,
     'Eagle Lake': GoogleFonts._eagleLakeTextTheme,
+    'East Sea Dokdo': GoogleFonts._eastSeaDokdoTextTheme,
     'Eater': GoogleFonts._eaterTextTheme,
     'Economica': GoogleFonts._economicaTextTheme,
     'Eczar': GoogleFonts._eczarTextTheme,
@@ -1312,10 +1361,12 @@ class GoogleFonts {
     'GFS Didot': GoogleFonts._gfsDidotTextTheme,
     'GFS Neohellenic': GoogleFonts._gfsNeohellenicTextTheme,
     'Gabriela': GoogleFonts._gabrielaTextTheme,
+    'Gaegu': GoogleFonts._gaeguTextTheme,
     'Gafata': GoogleFonts._gafataTextTheme,
     'Galada': GoogleFonts._galadaTextTheme,
     'Galdeano': GoogleFonts._galdeanoTextTheme,
     'Galindo': GoogleFonts._galindoTextTheme,
+    'Gamja Flower': GoogleFonts._gamjaFlowerTextTheme,
     'Gayathri': GoogleFonts._gayathriTextTheme,
     'Gelasio': GoogleFonts._gelasioTextTheme,
     'Gentium Basic': GoogleFonts._gentiumBasicTextTheme,
@@ -1334,6 +1385,7 @@ class GoogleFonts {
     'Goblin One': GoogleFonts._goblinOneTextTheme,
     'Gochi Hand': GoogleFonts._gochiHandTextTheme,
     'Gorditas': GoogleFonts._gorditasTextTheme,
+    'Gothic A1': GoogleFonts._gothicA1TextTheme,
     'Gotu': GoogleFonts._gotuTextTheme,
     'Goudy Bookletter 1911': GoogleFonts._goudyBookletter1911TextTheme,
     'Graduate': GoogleFonts._graduateTextTheme,
@@ -1344,6 +1396,7 @@ class GoogleFonts {
     'Griffy': GoogleFonts._griffyTextTheme,
     'Gruppo': GoogleFonts._gruppoTextTheme,
     'Gudea': GoogleFonts._gudeaTextTheme,
+    'Gugi': GoogleFonts._gugiTextTheme,
     'Gupter': GoogleFonts._gupterTextTheme,
     'Gurajada': GoogleFonts._gurajadaTextTheme,
     'Habibi': GoogleFonts._habibiTextTheme,
@@ -1359,6 +1412,7 @@ class GoogleFonts {
     'Henny Penny': GoogleFonts._hennyPennyTextTheme,
     'Hepta Slab': GoogleFonts._heptaSlabTextTheme,
     'Herr Von Muellerhoff': GoogleFonts._herrVonMuellerhoffTextTheme,
+    'Hi Melody': GoogleFonts._hiMelodyTextTheme,
     'Hind': GoogleFonts._hindTextTheme,
     'Hind Guntur': GoogleFonts._hindGunturTextTheme,
     'Hind Madurai': GoogleFonts._hindMaduraiTextTheme,
@@ -1409,6 +1463,7 @@ class GoogleFonts {
     'Josefin Sans': GoogleFonts._josefinSansTextTheme,
     'Josefin Slab': GoogleFonts._josefinSlabTextTheme,
     'Joti One': GoogleFonts._jotiOneTextTheme,
+    'Jua': GoogleFonts._juaTextTheme,
     'Judson': GoogleFonts._judsonTextTheme,
     'Julee': GoogleFonts._juleeTextTheme,
     'Julius Sans One': GoogleFonts._juliusSansOneTextTheme,
@@ -1434,10 +1489,13 @@ class GoogleFonts {
     'Kenia': GoogleFonts._keniaTextTheme,
     'Khand': GoogleFonts._khandTextTheme,
     'Khula': GoogleFonts._khulaTextTheme,
+    'Kirang Haerang': GoogleFonts._kirangHaerangTextTheme,
     'Kite One': GoogleFonts._kiteOneTextTheme,
     'Knewave': GoogleFonts._knewaveTextTheme,
     'KoHo': GoogleFonts._koHoTextTheme,
     'Kodchasan': GoogleFonts._kodchasanTextTheme,
+    'Kosugi': GoogleFonts._kosugiTextTheme,
+    'Kosugi Maru': GoogleFonts._kosugiMaruTextTheme,
     'Kotta One': GoogleFonts._kottaOneTextTheme,
     'Kranky': GoogleFonts._krankyTextTheme,
     'Kreon': GoogleFonts._kreonTextTheme,
@@ -1485,6 +1543,7 @@ class GoogleFonts {
     'Limelight': GoogleFonts._limelightTextTheme,
     'Linden Hill': GoogleFonts._lindenHillTextTheme,
     'Literata': GoogleFonts._literataTextTheme,
+    'Liu Jian Mao Cao': GoogleFonts._liuJianMaoCaoTextTheme,
     'Livvic': GoogleFonts._livvicTextTheme,
     'Lobster': GoogleFonts._lobsterTextTheme,
     'Lobster Two': GoogleFonts._lobsterTwoTextTheme,
@@ -1492,6 +1551,7 @@ class GoogleFonts {
     'Londrina Shadow': GoogleFonts._londrinaShadowTextTheme,
     'Londrina Sketch': GoogleFonts._londrinaSketchTextTheme,
     'Londrina Solid': GoogleFonts._londrinaSolidTextTheme,
+    'Long Cang': GoogleFonts._longCangTextTheme,
     'Lora': GoogleFonts._loraTextTheme,
     'Love Ya Like A Sister': GoogleFonts._loveYaLikeASisterTextTheme,
     'Loved by the King': GoogleFonts._lovedByTheKingTextTheme,
@@ -1499,6 +1559,9 @@ class GoogleFonts {
     'Luckiest Guy': GoogleFonts._luckiestGuyTextTheme,
     'Lusitana': GoogleFonts._lusitanaTextTheme,
     'Lustria': GoogleFonts._lustriaTextTheme,
+    'M PLUS 1p': GoogleFonts._mPlus1pTextTheme,
+    'M PLUS Rounded 1c': GoogleFonts._mPlusRounded1cTextTheme,
+    'Ma Shan Zheng': GoogleFonts._maShanZhengTextTheme,
     'Macondo': GoogleFonts._macondoTextTheme,
     'Macondo Swash Caps': GoogleFonts._macondoSwashCapsTextTheme,
     'Mada': GoogleFonts._madaTextTheme,
@@ -1555,6 +1618,7 @@ class GoogleFonts {
     'Modern Antiqua': GoogleFonts._modernAntiquaTextTheme,
     'Mogra': GoogleFonts._mograTextTheme,
     'Molengo': GoogleFonts._molengoTextTheme,
+    'Molle': GoogleFonts._molleTextTheme,
     'Monda': GoogleFonts._mondaTextTheme,
     'Monofett': GoogleFonts._monofettTextTheme,
     'Monoton': GoogleFonts._monotonTextTheme,
@@ -1578,6 +1642,11 @@ class GoogleFonts {
     'Muli': GoogleFonts._muliTextTheme,
     'Mystery Quest': GoogleFonts._mysteryQuestTextTheme,
     'NTR': GoogleFonts._ntrTextTheme,
+    'Nanum Brush Script': GoogleFonts._nanumBrushScriptTextTheme,
+    'Nanum Gothic': GoogleFonts._nanumGothicTextTheme,
+    'Nanum Gothic Coding': GoogleFonts._nanumGothicCodingTextTheme,
+    'Nanum Myeongjo': GoogleFonts._nanumMyeongjoTextTheme,
+    'Nanum Pen Script': GoogleFonts._nanumPenScriptTextTheme,
     'Neucha': GoogleFonts._neuchaTextTheme,
     'Neuton': GoogleFonts._neutonTextTheme,
     'New Rocker': GoogleFonts._newRockerTextTheme,
@@ -1612,6 +1681,7 @@ class GoogleFonts {
     'Oleo Script': GoogleFonts._oleoScriptTextTheme,
     'Oleo Script Swash Caps': GoogleFonts._oleoScriptSwashCapsTextTheme,
     'Open Sans': GoogleFonts._openSansTextTheme,
+    'Open Sans Condensed': GoogleFonts._openSansCondensedTextTheme,
     'Oranienbaum': GoogleFonts._oranienbaumTextTheme,
     'Orbitron': GoogleFonts._orbitronTextTheme,
     'Oregano': GoogleFonts._oreganoTextTheme,
@@ -1669,6 +1739,7 @@ class GoogleFonts {
     'Poly': GoogleFonts._polyTextTheme,
     'Pompiere': GoogleFonts._pompiereTextTheme,
     'Pontano Sans': GoogleFonts._pontanoSansTextTheme,
+    'Poor Story': GoogleFonts._poorStoryTextTheme,
     'Poppins': GoogleFonts._poppinsTextTheme,
     'Port Lligat Sans': GoogleFonts._portLligatSansTextTheme,
     'Port Lligat Slab': GoogleFonts._portLligatSlabTextTheme,
@@ -1760,6 +1831,8 @@ class GoogleFonts {
     'Sarina': GoogleFonts._sarinaTextTheme,
     'Sarpanch': GoogleFonts._sarpanchTextTheme,
     'Satisfy': GoogleFonts._satisfyTextTheme,
+    'Sawarabi Gothic': GoogleFonts._sawarabiGothicTextTheme,
+    'Sawarabi Mincho': GoogleFonts._sawarabiMinchoTextTheme,
     'Scada': GoogleFonts._scadaTextTheme,
     'Scheherazade': GoogleFonts._scheherazadeTextTheme,
     'Schoolbell': GoogleFonts._schoolbellTextTheme,
@@ -1800,6 +1873,7 @@ class GoogleFonts {
     'Sofadi One': GoogleFonts._sofadiOneTextTheme,
     'Sofia': GoogleFonts._sofiaTextTheme,
     'Solway': GoogleFonts._solwayTextTheme,
+    'Song Myung': GoogleFonts._songMyungTextTheme,
     'Sonsie One': GoogleFonts._sonsieOneTextTheme,
     'Sorts Mill Goudy': GoogleFonts._sortsMillGoudyTextTheme,
     'Source Code Pro': GoogleFonts._sourceCodeProTextTheme,
@@ -1825,10 +1899,12 @@ class GoogleFonts {
     'Stint Ultra Expanded': GoogleFonts._stintUltraExpandedTextTheme,
     'Stoke': GoogleFonts._stokeTextTheme,
     'Strait': GoogleFonts._straitTextTheme,
+    'Stylish': GoogleFonts._stylishTextTheme,
     'Sue Ellen Francisco': GoogleFonts._sueEllenFranciscoTextTheme,
     'Suez One': GoogleFonts._suezOneTextTheme,
     'Sulphur Point': GoogleFonts._sulphurPointTextTheme,
     'Sumana': GoogleFonts._sumanaTextTheme,
+    'Sunflower': GoogleFonts._sunflowerTextTheme,
     'Sunshiney': GoogleFonts._sunshineyTextTheme,
     'Supermercado One': GoogleFonts._supermercadoOneTextTheme,
     'Sura': GoogleFonts._suraTextTheme,
@@ -1868,6 +1944,7 @@ class GoogleFonts {
     'Uncial Antiqua': GoogleFonts._uncialAntiquaTextTheme,
     'Underdog': GoogleFonts._underdogTextTheme,
     'Unica One': GoogleFonts._unicaOneTextTheme,
+    'UnifrakturCook': GoogleFonts._unifrakturCookTextTheme,
     'UnifrakturMaguntia': GoogleFonts._unifrakturMaguntiaTextTheme,
     'Unkempt': GoogleFonts._unkemptTextTheme,
     'Unlock': GoogleFonts._unlockTextTheme,
@@ -1900,10 +1977,15 @@ class GoogleFonts {
     'Yantramanav': GoogleFonts._yantramanavTextTheme,
     'Yatra One': GoogleFonts._yatraOneTextTheme,
     'Yellowtail': GoogleFonts._yellowtailTextTheme,
+    'Yeon Sung': GoogleFonts._yeonSungTextTheme,
     'Yeseva One': GoogleFonts._yesevaOneTextTheme,
     'Yesteryear': GoogleFonts._yesteryearTextTheme,
     'Yrsa': GoogleFonts._yrsaTextTheme,
+    'ZCOOL KuaiLe': GoogleFonts._zcoolKuaiLeTextTheme,
+    'ZCOOL QingKe HuangYou': GoogleFonts._zcoolQingKeHuangYouTextTheme,
+    'ZCOOL XiaoWei': GoogleFonts._zcoolXiaoWeiTextTheme,
     'Zeyada': GoogleFonts._zeyadaTextTheme,
+    'Zhi Mang Xing': GoogleFonts._zhiMangXingTextTheme,
     'Zilla Slab': GoogleFonts._zillaSlabTextTheme,
     'Zilla Slab Highlight': GoogleFonts._zillaSlabHighlightTextTheme,
   };
@@ -11424,6 +11506,144 @@ class GoogleFonts {
     );
   }
 
+  static TextStyle _blackAndWhitePicture({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('0c951e047e8f1e152232363c35791b975f78ae96c97bfa6f14634c7a2551970c', 9586680,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'BlackAndWhitePicture',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _blackAndWhitePictureTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._blackAndWhitePicture(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._blackAndWhitePicture(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._blackAndWhitePicture(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._blackAndWhitePicture(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._blackAndWhitePicture(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._blackAndWhitePicture(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._blackAndWhitePicture(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._blackAndWhitePicture(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._blackAndWhitePicture(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._blackAndWhitePicture(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._blackAndWhitePicture(textStyle: textTheme?.caption),
+      button: GoogleFonts._blackAndWhitePicture(textStyle: textTheme?.button),
+      overline: GoogleFonts._blackAndWhitePicture(textStyle: textTheme?.overline),
+    );
+  }
+
+  static TextStyle _blackHanSans({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('ea3e07623642e89ce9ae84a698b9557dd6361db9bc40b993b7715531404db088', 382952,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'BlackHanSans',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _blackHanSansTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._blackHanSans(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._blackHanSans(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._blackHanSans(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._blackHanSans(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._blackHanSans(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._blackHanSans(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._blackHanSans(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._blackHanSans(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._blackHanSans(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._blackHanSans(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._blackHanSans(textStyle: textTheme?.caption),
+      button: GoogleFonts._blackHanSans(textStyle: textTheme?.button),
+      overline: GoogleFonts._blackHanSans(textStyle: textTheme?.overline),
+    );
+  }
+
   static TextStyle _blackOpsOne({
     TextStyle textStyle,
     Color color,
@@ -12118,6 +12338,75 @@ class GoogleFonts {
       caption: GoogleFonts._bubblerOne(textStyle: textTheme?.caption),
       button: GoogleFonts._bubblerOne(textStyle: textTheme?.button),
       overline: GoogleFonts._bubblerOne(textStyle: textTheme?.overline),
+    );
+  }
+
+  static TextStyle _buda({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w300, fontStyle: FontStyle.normal,): GoogleFontsFile('385d4247a0218281950ea513488d597434ce1d22bafe1b9e0b0853fce9304338', 90392,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'Buda',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _budaTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._buda(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._buda(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._buda(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._buda(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._buda(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._buda(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._buda(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._buda(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._buda(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._buda(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._buda(textStyle: textTheme?.caption),
+      button: GoogleFonts._buda(textStyle: textTheme?.button),
+      overline: GoogleFonts._buda(textStyle: textTheme?.overline),
     );
   }
 
@@ -16061,6 +16350,75 @@ class GoogleFonts {
     );
   }
 
+  static TextStyle _codaCaption({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w800, fontStyle: FontStyle.normal,): GoogleFontsFile('28b801f8b4a3bbeae1f47a3081d64a60cba59d844b8d9719165a993bbfd5424b', 59700,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'CodaCaption',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _codaCaptionTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._codaCaption(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._codaCaption(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._codaCaption(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._codaCaption(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._codaCaption(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._codaCaption(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._codaCaption(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._codaCaption(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._codaCaption(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._codaCaption(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._codaCaption(textStyle: textTheme?.caption),
+      button: GoogleFonts._codaCaption(textStyle: textTheme?.button),
+      overline: GoogleFonts._codaCaption(textStyle: textTheme?.overline),
+    );
+  }
+
   static TextStyle _codystar({
     TextStyle textStyle,
     Color color,
@@ -18348,6 +18706,75 @@ class GoogleFonts {
     );
   }
 
+  static TextStyle _cuteFont({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('264e6741d6541397294f9de009ed33b609adf005445eaf7a346c99b03ae75feb', 598524,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'CuteFont',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _cuteFontTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._cuteFont(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._cuteFont(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._cuteFont(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._cuteFont(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._cuteFont(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._cuteFont(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._cuteFont(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._cuteFont(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._cuteFont(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._cuteFont(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._cuteFont(textStyle: textTheme?.caption),
+      button: GoogleFonts._cuteFont(textStyle: textTheme?.button),
+      overline: GoogleFonts._cuteFont(textStyle: textTheme?.overline),
+    );
+  }
+
   static TextStyle _cutive({
     TextStyle textStyle,
     Color color,
@@ -19883,6 +20310,144 @@ class GoogleFonts {
     );
   }
 
+  static TextStyle _doHyeon({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('f24aa5cecd71141bf907f712b4e1a8d1ae20bfc48e6f4c397af431431965c7c3', 408356,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'DoHyeon',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _doHyeonTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._doHyeon(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._doHyeon(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._doHyeon(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._doHyeon(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._doHyeon(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._doHyeon(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._doHyeon(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._doHyeon(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._doHyeon(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._doHyeon(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._doHyeon(textStyle: textTheme?.caption),
+      button: GoogleFonts._doHyeon(textStyle: textTheme?.button),
+      overline: GoogleFonts._doHyeon(textStyle: textTheme?.overline),
+    );
+  }
+
+  static TextStyle _dokdo({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('b88083d5e2a376a3766403b0ff323016dd93814b3d540b48859e517dbcc28d08', 1385696,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'Dokdo',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _dokdoTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._dokdo(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._dokdo(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._dokdo(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._dokdo(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._dokdo(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._dokdo(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._dokdo(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._dokdo(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._dokdo(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._dokdo(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._dokdo(textStyle: textTheme?.caption),
+      button: GoogleFonts._dokdo(textStyle: textTheme?.button),
+      overline: GoogleFonts._dokdo(textStyle: textTheme?.overline),
+    );
+  }
+
   static TextStyle _domine({
     TextStyle textStyle,
     Color color,
@@ -20788,6 +21353,75 @@ class GoogleFonts {
       caption: GoogleFonts._eagleLake(textStyle: textTheme?.caption),
       button: GoogleFonts._eagleLake(textStyle: textTheme?.button),
       overline: GoogleFonts._eagleLake(textStyle: textTheme?.overline),
+    );
+  }
+
+  static TextStyle _eastSeaDokdo({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('28e44e5875cc0c761d9fa6492d1a738977cb5a555b57aa3016e44e2a138df2f7', 3175644,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'EastSeaDokdo',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _eastSeaDokdoTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._eastSeaDokdo(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._eastSeaDokdo(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._eastSeaDokdo(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._eastSeaDokdo(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._eastSeaDokdo(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._eastSeaDokdo(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._eastSeaDokdo(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._eastSeaDokdo(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._eastSeaDokdo(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._eastSeaDokdo(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._eastSeaDokdo(textStyle: textTheme?.caption),
+      button: GoogleFonts._eastSeaDokdo(textStyle: textTheme?.button),
+      overline: GoogleFonts._eastSeaDokdo(textStyle: textTheme?.overline),
     );
   }
 
@@ -25251,6 +25885,77 @@ class GoogleFonts {
     );
   }
 
+  static TextStyle _gaegu({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w300, fontStyle: FontStyle.normal,): GoogleFontsFile('4b15c05b09479751067fd7c35435678b929504ea6e4a7e996ab5d09a77df6a9c', 1665520,),
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('aee336135ec347654a2f36421c05f5d68a6017eec18e264e58e7aeda0f702951', 1687664,),
+      GoogleFontsVariant(fontWeight: FontWeight.w700, fontStyle: FontStyle.normal,): GoogleFontsFile('047c721d06b371ebfb6f94beb758b1de181d8afc8c8e6eca6829405bd8a1cb91', 1588560,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'Gaegu',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _gaeguTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._gaegu(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._gaegu(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._gaegu(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._gaegu(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._gaegu(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._gaegu(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._gaegu(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._gaegu(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._gaegu(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._gaegu(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._gaegu(textStyle: textTheme?.caption),
+      button: GoogleFonts._gaegu(textStyle: textTheme?.button),
+      overline: GoogleFonts._gaegu(textStyle: textTheme?.overline),
+    );
+  }
+
   static TextStyle _gafata({
     TextStyle textStyle,
     Color color,
@@ -25524,6 +26229,75 @@ class GoogleFonts {
       caption: GoogleFonts._galindo(textStyle: textTheme?.caption),
       button: GoogleFonts._galindo(textStyle: textTheme?.button),
       overline: GoogleFonts._galindo(textStyle: textTheme?.overline),
+    );
+  }
+
+  static TextStyle _gamjaFlower({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('e1315b2ce49da4d60b566f31827736a5b33670f46d95c26c4df7a7608f8634ea', 6240108,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'GamjaFlower',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _gamjaFlowerTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._gamjaFlower(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._gamjaFlower(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._gamjaFlower(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._gamjaFlower(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._gamjaFlower(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._gamjaFlower(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._gamjaFlower(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._gamjaFlower(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._gamjaFlower(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._gamjaFlower(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._gamjaFlower(textStyle: textTheme?.caption),
+      button: GoogleFonts._gamjaFlower(textStyle: textTheme?.button),
+      overline: GoogleFonts._gamjaFlower(textStyle: textTheme?.overline),
     );
   }
 
@@ -26787,6 +27561,83 @@ class GoogleFonts {
     );
   }
 
+  static TextStyle _gothicA1({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w100, fontStyle: FontStyle.normal,): GoogleFontsFile('1ae3fbdff726cb716a361659f8efd51296b280ce94f4582c7eea6a69905050e0', 1315216,),
+      GoogleFontsVariant(fontWeight: FontWeight.w200, fontStyle: FontStyle.normal,): GoogleFontsFile('c2132aa2e6fae5ce3ac066aa23fc45e7a83571666c0b4cc9c4dd7bf734363f05', 1313548,),
+      GoogleFontsVariant(fontWeight: FontWeight.w300, fontStyle: FontStyle.normal,): GoogleFontsFile('91a462996301381a669ea6f51dc5030f155c0a85e896a575a5d80dfbd8471779', 1314204,),
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('a9676e8d54fdeef2976f9c8fde17f39fec21956933f3ee203655c2655f350e08', 1311208,),
+      GoogleFontsVariant(fontWeight: FontWeight.w500, fontStyle: FontStyle.normal,): GoogleFontsFile('4d0781b8cc09648594a3bba783b1d463592a004fea48584b181b631e2bfc9956', 1311800,),
+      GoogleFontsVariant(fontWeight: FontWeight.w600, fontStyle: FontStyle.normal,): GoogleFontsFile('94fbbaaaa3c999db13176f3b5a8cc657f1e471472f8efc8fd47d298191d6ea56', 1311192,),
+      GoogleFontsVariant(fontWeight: FontWeight.w700, fontStyle: FontStyle.normal,): GoogleFontsFile('e689bf118e2ff1a2884e3170b3d1829ccfdd0147baf98523e7fe0494299969f1', 1310932,),
+      GoogleFontsVariant(fontWeight: FontWeight.w800, fontStyle: FontStyle.normal,): GoogleFontsFile('db82d9a4e6dabe467f8879d6c23074f7bb1b8ea95857527aec64201e53126f6d', 1310760,),
+      GoogleFontsVariant(fontWeight: FontWeight.w900, fontStyle: FontStyle.normal,): GoogleFontsFile('ad367f71a0970215c6e16efbe180999b11228c398745e8021187b0aa608fdd2d', 1312032,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'GothicA1',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _gothicA1TextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._gothicA1(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._gothicA1(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._gothicA1(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._gothicA1(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._gothicA1(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._gothicA1(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._gothicA1(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._gothicA1(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._gothicA1(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._gothicA1(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._gothicA1(textStyle: textTheme?.caption),
+      button: GoogleFonts._gothicA1(textStyle: textTheme?.button),
+      overline: GoogleFonts._gothicA1(textStyle: textTheme?.overline),
+    );
+  }
+
   static TextStyle _gotu({
     TextStyle textStyle,
     Color color,
@@ -27493,6 +28344,75 @@ class GoogleFonts {
       caption: GoogleFonts._gudea(textStyle: textTheme?.caption),
       button: GoogleFonts._gudea(textStyle: textTheme?.button),
       overline: GoogleFonts._gudea(textStyle: textTheme?.overline),
+    );
+  }
+
+  static TextStyle _gugi({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('4fbf616bf21ec330d026a7115b7224fe9baf30418cdbb19b26eed6ebcd6ce2cc', 552880,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'Gugi',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _gugiTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._gugi(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._gugi(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._gugi(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._gugi(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._gugi(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._gugi(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._gugi(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._gugi(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._gugi(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._gugi(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._gugi(textStyle: textTheme?.caption),
+      button: GoogleFonts._gugi(textStyle: textTheme?.button),
+      overline: GoogleFonts._gugi(textStyle: textTheme?.overline),
     );
   }
 
@@ -28548,6 +29468,75 @@ class GoogleFonts {
       caption: GoogleFonts._herrVonMuellerhoff(textStyle: textTheme?.caption),
       button: GoogleFonts._herrVonMuellerhoff(textStyle: textTheme?.button),
       overline: GoogleFonts._herrVonMuellerhoff(textStyle: textTheme?.overline),
+    );
+  }
+
+  static TextStyle _hiMelody({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('306d4c79415f43cc2f655c997e9edc971ad12227c39d46aef4fae766ba572d12', 6090832,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'HiMelody',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _hiMelodyTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._hiMelody(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._hiMelody(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._hiMelody(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._hiMelody(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._hiMelody(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._hiMelody(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._hiMelody(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._hiMelody(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._hiMelody(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._hiMelody(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._hiMelody(textStyle: textTheme?.caption),
+      button: GoogleFonts._hiMelody(textStyle: textTheme?.button),
+      overline: GoogleFonts._hiMelody(textStyle: textTheme?.overline),
     );
   }
 
@@ -32131,6 +33120,75 @@ class GoogleFonts {
     );
   }
 
+  static TextStyle _jua({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('6e140114334d538cd7aba3f5c53621623e62b941efa1a0fd2aa8d5dbea4c61e1', 1366212,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'Jua',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _juaTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._jua(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._jua(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._jua(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._jua(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._jua(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._jua(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._jua(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._jua(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._jua(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._jua(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._jua(textStyle: textTheme?.caption),
+      button: GoogleFonts._jua(textStyle: textTheme?.button),
+      overline: GoogleFonts._jua(textStyle: textTheme?.overline),
+    );
+  }
+
   static TextStyle _judson({
     TextStyle textStyle,
     Color color,
@@ -33915,6 +34973,75 @@ class GoogleFonts {
     );
   }
 
+  static TextStyle _kirangHaerang({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('419ae98f0574b7c2a5b81ce99a859d0db9335d7be00145712bad1d7d8881abb1', 3554608,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'KirangHaerang',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _kirangHaerangTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._kirangHaerang(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._kirangHaerang(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._kirangHaerang(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._kirangHaerang(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._kirangHaerang(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._kirangHaerang(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._kirangHaerang(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._kirangHaerang(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._kirangHaerang(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._kirangHaerang(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._kirangHaerang(textStyle: textTheme?.caption),
+      button: GoogleFonts._kirangHaerang(textStyle: textTheme?.button),
+      overline: GoogleFonts._kirangHaerang(textStyle: textTheme?.overline),
+    );
+  }
+
   static TextStyle _kiteOne({
     TextStyle textStyle,
     Color color,
@@ -34210,6 +35337,144 @@ class GoogleFonts {
       caption: GoogleFonts._kodchasan(textStyle: textTheme?.caption),
       button: GoogleFonts._kodchasan(textStyle: textTheme?.button),
       overline: GoogleFonts._kodchasan(textStyle: textTheme?.overline),
+    );
+  }
+
+  static TextStyle _kosugi({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('100d52cf4a5ea4cf706199b6573e20b6963747dbf39a6fa2bd5eace488da7cfa', 1918404,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'Kosugi',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _kosugiTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._kosugi(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._kosugi(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._kosugi(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._kosugi(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._kosugi(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._kosugi(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._kosugi(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._kosugi(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._kosugi(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._kosugi(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._kosugi(textStyle: textTheme?.caption),
+      button: GoogleFonts._kosugi(textStyle: textTheme?.button),
+      overline: GoogleFonts._kosugi(textStyle: textTheme?.overline),
+    );
+  }
+
+  static TextStyle _kosugiMaru({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('9fbe25d62fc496dd41c965a6a410bcb248978277da1dedd4682e2b1d72c4ade9', 2558132,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'KosugiMaru',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _kosugiMaruTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._kosugiMaru(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._kosugiMaru(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._kosugiMaru(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._kosugiMaru(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._kosugiMaru(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._kosugiMaru(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._kosugiMaru(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._kosugiMaru(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._kosugiMaru(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._kosugiMaru(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._kosugiMaru(textStyle: textTheme?.caption),
+      button: GoogleFonts._kosugiMaru(textStyle: textTheme?.button),
+      overline: GoogleFonts._kosugiMaru(textStyle: textTheme?.overline),
     );
   }
 
@@ -37526,6 +38791,75 @@ class GoogleFonts {
     );
   }
 
+  static TextStyle _liuJianMaoCao({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('b88821c3a72f98bbab2428a3b3f4a51c2f0eba1644fd8877d195afdf32143cdd', 4937244,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'LiuJianMaoCao',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _liuJianMaoCaoTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._liuJianMaoCao(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._liuJianMaoCao(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._liuJianMaoCao(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._liuJianMaoCao(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._liuJianMaoCao(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._liuJianMaoCao(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._liuJianMaoCao(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._liuJianMaoCao(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._liuJianMaoCao(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._liuJianMaoCao(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._liuJianMaoCao(textStyle: textTheme?.caption),
+      button: GoogleFonts._liuJianMaoCao(textStyle: textTheme?.button),
+      overline: GoogleFonts._liuJianMaoCao(textStyle: textTheme?.overline),
+    );
+  }
+
   static TextStyle _livvic({
     TextStyle textStyle,
     Color color,
@@ -38027,6 +39361,75 @@ class GoogleFonts {
     );
   }
 
+  static TextStyle _longCang({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('abadf560e9284e557329d5cac93ab26b805d175ed1d48da30b843ac4c21623a2', 5150448,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'LongCang',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _longCangTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._longCang(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._longCang(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._longCang(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._longCang(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._longCang(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._longCang(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._longCang(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._longCang(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._longCang(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._longCang(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._longCang(textStyle: textTheme?.caption),
+      button: GoogleFonts._longCang(textStyle: textTheme?.button),
+      overline: GoogleFonts._longCang(textStyle: textTheme?.overline),
+    );
+  }
+
   static TextStyle _lora({
     TextStyle textStyle,
     Color color,
@@ -38511,6 +39914,225 @@ class GoogleFonts {
       caption: GoogleFonts._lustria(textStyle: textTheme?.caption),
       button: GoogleFonts._lustria(textStyle: textTheme?.button),
       overline: GoogleFonts._lustria(textStyle: textTheme?.overline),
+    );
+  }
+
+  static TextStyle _mPlus1p({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w100, fontStyle: FontStyle.normal,): GoogleFontsFile('0654233f2cc095bd1af48724031070c0b16e3dd46fc5c29bd87070d485b7a366', 1766584,),
+      GoogleFontsVariant(fontWeight: FontWeight.w300, fontStyle: FontStyle.normal,): GoogleFontsFile('328d60a811d0715a23a96805dda2004f69c4b0a888dc1711c77a2d589650c97f', 1762104,),
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('6d33f3ea856c224db5e2d573ab252d85cc66e3d2ec9981d4dded4cb5df17a345', 1753640,),
+      GoogleFontsVariant(fontWeight: FontWeight.w500, fontStyle: FontStyle.normal,): GoogleFontsFile('45129fd4450f7465b6ad68ee3a7f2579df75712cdedec1690b2f2b8e2a008400', 1753792,),
+      GoogleFontsVariant(fontWeight: FontWeight.w700, fontStyle: FontStyle.normal,): GoogleFontsFile('42106dfc33cc933616115e3c69191bc75d0675df68106571eedbe23c14b5ad1f', 1761472,),
+      GoogleFontsVariant(fontWeight: FontWeight.w800, fontStyle: FontStyle.normal,): GoogleFontsFile('27bd65580cfc4564b1dc3ee85e12bdc336861dc586fd838a943bdef4a3bd8730', 1768720,),
+      GoogleFontsVariant(fontWeight: FontWeight.w900, fontStyle: FontStyle.normal,): GoogleFontsFile('21baffc573a6103dcd6c23b9ad751e3686f142c921212717fa3b4356e01a38bc', 1769116,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'MPLUS1p',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _mPlus1pTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._mPlus1p(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._mPlus1p(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._mPlus1p(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._mPlus1p(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._mPlus1p(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._mPlus1p(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._mPlus1p(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._mPlus1p(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._mPlus1p(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._mPlus1p(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._mPlus1p(textStyle: textTheme?.caption),
+      button: GoogleFonts._mPlus1p(textStyle: textTheme?.button),
+      overline: GoogleFonts._mPlus1p(textStyle: textTheme?.overline),
+    );
+  }
+
+  static TextStyle _mPlusRounded1c({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w100, fontStyle: FontStyle.normal,): GoogleFontsFile('6d028025ec621f30d69f25f3b121f0eb6e4678e96d47f16d760f1fcf59248d2c', 2899200,),
+      GoogleFontsVariant(fontWeight: FontWeight.w300, fontStyle: FontStyle.normal,): GoogleFontsFile('8e6655c0fc1e40abbfe6631bef1b71cf55ed1f706c0d130fa9fc82cfb1a644c7', 3284736,),
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('ff70cb1f3f4fe4691c6ec7c7725c4a0aa37e2d1fa2704d659c9efcd304a6bb24', 3379736,),
+      GoogleFontsVariant(fontWeight: FontWeight.w500, fontStyle: FontStyle.normal,): GoogleFontsFile('a6066483cf3c5b68c17d69a4a957e9a50dbe366ac10cbf88a9f3776744ec5048', 3422384,),
+      GoogleFontsVariant(fontWeight: FontWeight.w700, fontStyle: FontStyle.normal,): GoogleFontsFile('c9070409f93c9e7a46a302d0205de1c15bdde3b59f65c32ff73315592afaf17e', 3532232,),
+      GoogleFontsVariant(fontWeight: FontWeight.w800, fontStyle: FontStyle.normal,): GoogleFontsFile('a7b92c0902d7c3f543a4ecc04c44c8cf62f26c4bcc92ecb26e40ef9849277e61', 3617848,),
+      GoogleFontsVariant(fontWeight: FontWeight.w900, fontStyle: FontStyle.normal,): GoogleFontsFile('cadad2376795cd1bcdaae984a16f1fef7e2f18ca27fd2493f32f620867a1ef05', 3624724,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'MPLUSRounded1c',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _mPlusRounded1cTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._mPlusRounded1c(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._mPlusRounded1c(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._mPlusRounded1c(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._mPlusRounded1c(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._mPlusRounded1c(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._mPlusRounded1c(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._mPlusRounded1c(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._mPlusRounded1c(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._mPlusRounded1c(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._mPlusRounded1c(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._mPlusRounded1c(textStyle: textTheme?.caption),
+      button: GoogleFonts._mPlusRounded1c(textStyle: textTheme?.button),
+      overline: GoogleFonts._mPlusRounded1c(textStyle: textTheme?.overline),
+    );
+  }
+
+  static TextStyle _maShanZheng({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('b09c8b63681f2770158618c3110f15aa53948e2ef43d7bcbee34cfe43cdfa646', 5855516,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'MaShanZheng',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _maShanZhengTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._maShanZheng(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._maShanZheng(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._maShanZheng(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._maShanZheng(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._maShanZheng(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._maShanZheng(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._maShanZheng(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._maShanZheng(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._maShanZheng(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._maShanZheng(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._maShanZheng(textStyle: textTheme?.caption),
+      button: GoogleFonts._maShanZheng(textStyle: textTheme?.button),
+      overline: GoogleFonts._maShanZheng(textStyle: textTheme?.overline),
     );
   }
 
@@ -42463,6 +44085,75 @@ class GoogleFonts {
     );
   }
 
+  static TextStyle _molle({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.italic,): GoogleFontsFile('d081c5d8d7d19361eaa68e5c05b211b519fa2d27ca94a3ec76da0a39f880acb9', 35904,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'Molle',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _molleTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._molle(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._molle(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._molle(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._molle(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._molle(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._molle(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._molle(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._molle(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._molle(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._molle(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._molle(textStyle: textTheme?.caption),
+      button: GoogleFonts._molle(textStyle: textTheme?.button),
+      overline: GoogleFonts._molle(textStyle: textTheme?.overline),
+    );
+  }
+
   static TextStyle _monda({
     TextStyle textStyle,
     Color color,
@@ -44121,6 +45812,356 @@ class GoogleFonts {
       caption: GoogleFonts._ntr(textStyle: textTheme?.caption),
       button: GoogleFonts._ntr(textStyle: textTheme?.button),
       overline: GoogleFonts._ntr(textStyle: textTheme?.overline),
+    );
+  }
+
+  static TextStyle _nanumBrushScript({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('e99eadfe916b8afa1065e368b0c06a725089504ffa9cd2bb1832cbe59ecb4822', 2740080,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'NanumBrushScript',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _nanumBrushScriptTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._nanumBrushScript(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._nanumBrushScript(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._nanumBrushScript(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._nanumBrushScript(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._nanumBrushScript(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._nanumBrushScript(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._nanumBrushScript(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._nanumBrushScript(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._nanumBrushScript(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._nanumBrushScript(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._nanumBrushScript(textStyle: textTheme?.caption),
+      button: GoogleFonts._nanumBrushScript(textStyle: textTheme?.button),
+      overline: GoogleFonts._nanumBrushScript(textStyle: textTheme?.overline),
+    );
+  }
+
+  static TextStyle _nanumGothic({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('384554f92bd4d754bd8750f8885c456c5264d6814731376178dd0727fcf2d98c', 2879864,),
+      GoogleFontsVariant(fontWeight: FontWeight.w700, fontStyle: FontStyle.normal,): GoogleFontsFile('66257cb7dbb7d38dd5d9b0c7a1f9df7ae828f4a2a79a37070603405220e9f32b', 2891140,),
+      GoogleFontsVariant(fontWeight: FontWeight.w800, fontStyle: FontStyle.normal,): GoogleFontsFile('560717e4c667f1bdf58f6426ef133e74637eb3c1868feff814bb8a5b707e6880', 2951544,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'NanumGothic',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _nanumGothicTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._nanumGothic(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._nanumGothic(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._nanumGothic(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._nanumGothic(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._nanumGothic(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._nanumGothic(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._nanumGothic(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._nanumGothic(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._nanumGothic(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._nanumGothic(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._nanumGothic(textStyle: textTheme?.caption),
+      button: GoogleFonts._nanumGothic(textStyle: textTheme?.button),
+      overline: GoogleFonts._nanumGothic(textStyle: textTheme?.overline),
+    );
+  }
+
+  static TextStyle _nanumGothicCoding({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('87aa4e424fb41b2eb66974966afbb9b9d113444c73ddfec8d9960d1c9f15ca2a', 1432612,),
+      GoogleFontsVariant(fontWeight: FontWeight.w700, fontStyle: FontStyle.normal,): GoogleFontsFile('bfd061e7ac41bb2ac41c1b32e194b64a92ea19253afc0008d1a5e58e330434f9', 1458744,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'NanumGothicCoding',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _nanumGothicCodingTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._nanumGothicCoding(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._nanumGothicCoding(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._nanumGothicCoding(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._nanumGothicCoding(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._nanumGothicCoding(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._nanumGothicCoding(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._nanumGothicCoding(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._nanumGothicCoding(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._nanumGothicCoding(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._nanumGothicCoding(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._nanumGothicCoding(textStyle: textTheme?.caption),
+      button: GoogleFonts._nanumGothicCoding(textStyle: textTheme?.button),
+      overline: GoogleFonts._nanumGothicCoding(textStyle: textTheme?.overline),
+    );
+  }
+
+  static TextStyle _nanumMyeongjo({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('3df71af0cacc55f9ee8f8e5e35a48672e379aefb187f3ae133a8fd5100c3810f', 2167668,),
+      GoogleFontsVariant(fontWeight: FontWeight.w700, fontStyle: FontStyle.normal,): GoogleFontsFile('c78488cd4af94bf04459b776f90fbe7942e11af15dda46bd856a1abc0523ae11', 2241272,),
+      GoogleFontsVariant(fontWeight: FontWeight.w800, fontStyle: FontStyle.normal,): GoogleFontsFile('2da8166e69673863a98b44792cb5b54e1a13b597c11dca437783e5a9336cfa9c', 2293712,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'NanumMyeongjo',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _nanumMyeongjoTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._nanumMyeongjo(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._nanumMyeongjo(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._nanumMyeongjo(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._nanumMyeongjo(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._nanumMyeongjo(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._nanumMyeongjo(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._nanumMyeongjo(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._nanumMyeongjo(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._nanumMyeongjo(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._nanumMyeongjo(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._nanumMyeongjo(textStyle: textTheme?.caption),
+      button: GoogleFonts._nanumMyeongjo(textStyle: textTheme?.button),
+      overline: GoogleFonts._nanumMyeongjo(textStyle: textTheme?.overline),
+    );
+  }
+
+  static TextStyle _nanumPenScript({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('2e0017c2efd9b7de2cf1b9d90c99ebfd4be478763a4f265915ce2302d928a6f4', 2533592,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'NanumPenScript',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _nanumPenScriptTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._nanumPenScript(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._nanumPenScript(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._nanumPenScript(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._nanumPenScript(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._nanumPenScript(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._nanumPenScript(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._nanumPenScript(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._nanumPenScript(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._nanumPenScript(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._nanumPenScript(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._nanumPenScript(textStyle: textTheme?.caption),
+      button: GoogleFonts._nanumPenScript(textStyle: textTheme?.button),
+      overline: GoogleFonts._nanumPenScript(textStyle: textTheme?.overline),
     );
   }
 
@@ -46535,6 +48576,77 @@ class GoogleFonts {
       caption: GoogleFonts._openSans(textStyle: textTheme?.caption),
       button: GoogleFonts._openSans(textStyle: textTheme?.button),
       overline: GoogleFonts._openSans(textStyle: textTheme?.overline),
+    );
+  }
+
+  static TextStyle _openSansCondensed({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w300, fontStyle: FontStyle.normal,): GoogleFontsFile('04a7cf776cec6c53387f15bd8878b365d22ea65c97dfd605c269b3774e4e7ed2', 186164,),
+      GoogleFontsVariant(fontWeight: FontWeight.w300, fontStyle: FontStyle.italic,): GoogleFontsFile('c5330d8a82169e940228bf53acb980b56a23fb1f640d6bf8b7e18a8681d67eda', 189912,),
+      GoogleFontsVariant(fontWeight: FontWeight.w700, fontStyle: FontStyle.normal,): GoogleFontsFile('9b8228ed1f9d087708d275dcc32be58269ffaf9cd7f8028db765305347303f88', 229856,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'OpenSansCondensed',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _openSansCondensedTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._openSansCondensed(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._openSansCondensed(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._openSansCondensed(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._openSansCondensed(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._openSansCondensed(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._openSansCondensed(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._openSansCondensed(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._openSansCondensed(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._openSansCondensed(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._openSansCondensed(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._openSansCondensed(textStyle: textTheme?.caption),
+      button: GoogleFonts._openSansCondensed(textStyle: textTheme?.button),
+      overline: GoogleFonts._openSansCondensed(textStyle: textTheme?.overline),
     );
   }
 
@@ -50548,6 +52660,75 @@ class GoogleFonts {
       caption: GoogleFonts._pontanoSans(textStyle: textTheme?.caption),
       button: GoogleFonts._pontanoSans(textStyle: textTheme?.button),
       overline: GoogleFonts._pontanoSans(textStyle: textTheme?.overline),
+    );
+  }
+
+  static TextStyle _poorStory({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('a915416edf6eea5c6eb16e098a45ee910564e4d15dfba8a3136e293e2f2d8a67', 1802972,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'PoorStory',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _poorStoryTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._poorStory(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._poorStory(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._poorStory(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._poorStory(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._poorStory(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._poorStory(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._poorStory(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._poorStory(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._poorStory(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._poorStory(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._poorStory(textStyle: textTheme?.caption),
+      button: GoogleFonts._poorStory(textStyle: textTheme?.button),
+      overline: GoogleFonts._poorStory(textStyle: textTheme?.overline),
     );
   }
 
@@ -57066,6 +59247,144 @@ class GoogleFonts {
     );
   }
 
+  static TextStyle _sawarabiGothic({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('da6058a80d658ffc7eaa1acdae31b56f86f9f59fcae94417efa5205b8c2a9c3e', 1895880,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'SawarabiGothic',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _sawarabiGothicTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._sawarabiGothic(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._sawarabiGothic(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._sawarabiGothic(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._sawarabiGothic(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._sawarabiGothic(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._sawarabiGothic(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._sawarabiGothic(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._sawarabiGothic(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._sawarabiGothic(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._sawarabiGothic(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._sawarabiGothic(textStyle: textTheme?.caption),
+      button: GoogleFonts._sawarabiGothic(textStyle: textTheme?.button),
+      overline: GoogleFonts._sawarabiGothic(textStyle: textTheme?.overline),
+    );
+  }
+
+  static TextStyle _sawarabiMincho({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('f3beec4e12191867fb2f0f6f9b79f2367eab607cb6a1f28f445a8ae4b13f6c15', 1081468,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'SawarabiMincho',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _sawarabiMinchoTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._sawarabiMincho(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._sawarabiMincho(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._sawarabiMincho(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._sawarabiMincho(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._sawarabiMincho(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._sawarabiMincho(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._sawarabiMincho(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._sawarabiMincho(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._sawarabiMincho(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._sawarabiMincho(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._sawarabiMincho(textStyle: textTheme?.caption),
+      button: GoogleFonts._sawarabiMincho(textStyle: textTheme?.button),
+      overline: GoogleFonts._sawarabiMincho(textStyle: textTheme?.overline),
+    );
+  }
+
   static TextStyle _scada({
     TextStyle textStyle,
     Color color,
@@ -59851,6 +62170,75 @@ class GoogleFonts {
     );
   }
 
+  static TextStyle _songMyung({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('45407348eb54e83212eddfa7ad22cd18d0f75783316406f08beb532a835bc3f4', 1202620,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'SongMyung',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _songMyungTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._songMyung(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._songMyung(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._songMyung(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._songMyung(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._songMyung(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._songMyung(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._songMyung(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._songMyung(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._songMyung(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._songMyung(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._songMyung(textStyle: textTheme?.caption),
+      button: GoogleFonts._songMyung(textStyle: textTheme?.button),
+      overline: GoogleFonts._songMyung(textStyle: textTheme?.overline),
+    );
+  }
+
   static TextStyle _sonsieOne({
     TextStyle textStyle,
     Color color,
@@ -61636,6 +64024,75 @@ class GoogleFonts {
     );
   }
 
+  static TextStyle _stylish({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('489ff10987ec4798768e532c108dbfb20bf68e1e122df1f77b9f35568d34a103', 6162676,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'Stylish',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _stylishTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._stylish(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._stylish(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._stylish(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._stylish(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._stylish(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._stylish(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._stylish(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._stylish(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._stylish(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._stylish(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._stylish(textStyle: textTheme?.caption),
+      button: GoogleFonts._stylish(textStyle: textTheme?.button),
+      overline: GoogleFonts._stylish(textStyle: textTheme?.overline),
+    );
+  }
+
   static TextStyle _sueEllenFrancisco({
     TextStyle textStyle,
     Color color,
@@ -61912,6 +64369,77 @@ class GoogleFonts {
       caption: GoogleFonts._sumana(textStyle: textTheme?.caption),
       button: GoogleFonts._sumana(textStyle: textTheme?.button),
       overline: GoogleFonts._sumana(textStyle: textTheme?.overline),
+    );
+  }
+
+  static TextStyle _sunflower({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w300, fontStyle: FontStyle.normal,): GoogleFontsFile('e60ce84d8ac799e771211c4fa34de99812b730e86342f32f94fbccfa79461bd0', 352904,),
+      GoogleFontsVariant(fontWeight: FontWeight.w500, fontStyle: FontStyle.normal,): GoogleFontsFile('cf53d978b098c900279393bfdf56611a8003d688b2b16b7bd767182e1b0c58e8', 341128,),
+      GoogleFontsVariant(fontWeight: FontWeight.w700, fontStyle: FontStyle.normal,): GoogleFontsFile('f3b680ac8a8f4a8a9ede88bf72084ae45ddd8dd7a8a87e826b9ce8946a7b0536', 347780,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'Sunflower',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _sunflowerTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._sunflower(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._sunflower(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._sunflower(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._sunflower(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._sunflower(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._sunflower(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._sunflower(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._sunflower(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._sunflower(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._sunflower(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._sunflower(textStyle: textTheme?.caption),
+      button: GoogleFonts._sunflower(textStyle: textTheme?.button),
+      overline: GoogleFonts._sunflower(textStyle: textTheme?.overline),
     );
   }
 
@@ -64709,6 +67237,75 @@ class GoogleFonts {
     );
   }
 
+  static TextStyle _unifrakturCook({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w700, fontStyle: FontStyle.normal,): GoogleFontsFile('36511c1da21b02a70a6926e12d439ba9c9dba3d5ff0a282c31fa85c4ca96a121', 41860,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'UnifrakturCook',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _unifrakturCookTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._unifrakturCook(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._unifrakturCook(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._unifrakturCook(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._unifrakturCook(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._unifrakturCook(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._unifrakturCook(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._unifrakturCook(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._unifrakturCook(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._unifrakturCook(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._unifrakturCook(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._unifrakturCook(textStyle: textTheme?.caption),
+      button: GoogleFonts._unifrakturCook(textStyle: textTheme?.button),
+      overline: GoogleFonts._unifrakturCook(textStyle: textTheme?.overline),
+    );
+  }
+
   static TextStyle _unifrakturMaguntia({
     TextStyle textStyle,
     Color color,
@@ -66953,6 +69550,75 @@ class GoogleFonts {
     );
   }
 
+  static TextStyle _yeonSung({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('cc6d366c352d7d897155bde07516cd01c0fcd308ff28d0d6545d6634046cecec', 1698768,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'YeonSung',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _yeonSungTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._yeonSung(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._yeonSung(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._yeonSung(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._yeonSung(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._yeonSung(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._yeonSung(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._yeonSung(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._yeonSung(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._yeonSung(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._yeonSung(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._yeonSung(textStyle: textTheme?.caption),
+      button: GoogleFonts._yeonSung(textStyle: textTheme?.button),
+      overline: GoogleFonts._yeonSung(textStyle: textTheme?.overline),
+    );
+  }
+
   static TextStyle _yesevaOne({
     TextStyle textStyle,
     Color color,
@@ -67164,6 +69830,213 @@ class GoogleFonts {
     );
   }
 
+  static TextStyle _zcoolKuaiLe({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('0809b4605f58fdd321743ae7e5b76d4ac6c2153fe0b5b7185dd12c1974659c00', 1509564,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'ZCOOLKuaiLe',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _zcoolKuaiLeTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._zcoolKuaiLe(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._zcoolKuaiLe(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._zcoolKuaiLe(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._zcoolKuaiLe(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._zcoolKuaiLe(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._zcoolKuaiLe(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._zcoolKuaiLe(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._zcoolKuaiLe(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._zcoolKuaiLe(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._zcoolKuaiLe(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._zcoolKuaiLe(textStyle: textTheme?.caption),
+      button: GoogleFonts._zcoolKuaiLe(textStyle: textTheme?.button),
+      overline: GoogleFonts._zcoolKuaiLe(textStyle: textTheme?.overline),
+    );
+  }
+
+  static TextStyle _zcoolQingKeHuangYou({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('dca9156773f9e058aafeaded91d3d5e64e41a67187907e37a66210e708d3dc73', 5827424,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'ZCOOLQingKeHuangYou',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _zcoolQingKeHuangYouTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._zcoolQingKeHuangYou(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._zcoolQingKeHuangYou(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._zcoolQingKeHuangYou(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._zcoolQingKeHuangYou(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._zcoolQingKeHuangYou(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._zcoolQingKeHuangYou(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._zcoolQingKeHuangYou(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._zcoolQingKeHuangYou(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._zcoolQingKeHuangYou(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._zcoolQingKeHuangYou(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._zcoolQingKeHuangYou(textStyle: textTheme?.caption),
+      button: GoogleFonts._zcoolQingKeHuangYou(textStyle: textTheme?.button),
+      overline: GoogleFonts._zcoolQingKeHuangYou(textStyle: textTheme?.overline),
+    );
+  }
+
+  static TextStyle _zcoolXiaoWei({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('e00b956bf9846285496c54d15ad3e2d6302a4c7d6f7a09c4afd4827744d626e9', 3917592,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'ZCOOLXiaoWei',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _zcoolXiaoWeiTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._zcoolXiaoWei(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._zcoolXiaoWei(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._zcoolXiaoWei(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._zcoolXiaoWei(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._zcoolXiaoWei(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._zcoolXiaoWei(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._zcoolXiaoWei(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._zcoolXiaoWei(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._zcoolXiaoWei(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._zcoolXiaoWei(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._zcoolXiaoWei(textStyle: textTheme?.caption),
+      button: GoogleFonts._zcoolXiaoWei(textStyle: textTheme?.button),
+      overline: GoogleFonts._zcoolXiaoWei(textStyle: textTheme?.overline),
+    );
+  }
+
   static TextStyle _zeyada({
     TextStyle textStyle,
     Color color,
@@ -67230,6 +70103,75 @@ class GoogleFonts {
       caption: GoogleFonts._zeyada(textStyle: textTheme?.caption),
       button: GoogleFonts._zeyada(textStyle: textTheme?.button),
       overline: GoogleFonts._zeyada(textStyle: textTheme?.overline),
+    );
+  }
+
+  static TextStyle _zhiMangXing({
+    TextStyle textStyle,
+    Color color,
+    Color backgroundColor,
+    double fontSize,
+    FontWeight fontWeight,
+    FontStyle fontStyle,
+    double letterSpacing,
+    double wordSpacing,
+    TextBaseline textBaseline,
+    double height,
+    Locale locale,
+    Paint foreground,
+    Paint background,
+    List<ui.Shadow> shadows,
+    List<ui.FontFeature> fontFeatures,
+    TextDecoration decoration,
+    Color decorationColor,
+    TextDecorationStyle decorationStyle,
+    double decorationThickness,
+  }) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
+      GoogleFontsVariant(fontWeight: FontWeight.w400, fontStyle: FontStyle.normal,): GoogleFontsFile('f1191a3228f8532e0c3269311dad5b9b1fcdc6dbcfe7f9e3cc506a30fda24d1b', 4051716,),
+    };
+
+    return googleFontsTextStyle(
+      textStyle: textStyle,
+      fontFamily: 'ZhiMangXing',
+      color: color,
+      backgroundColor: backgroundColor,
+      fontSize: fontSize,
+      fontWeight: fontWeight,
+      fontStyle: fontStyle,
+      letterSpacing: letterSpacing,
+      wordSpacing: wordSpacing,
+      textBaseline: textBaseline,
+      height: height,
+      locale: locale,
+      foreground: foreground,
+      background: background,
+      shadows: shadows,
+      fontFeatures: fontFeatures,
+      decoration: decoration,
+      decorationColor: decorationColor,
+      decorationStyle: decorationStyle,
+      decorationThickness: decorationThickness,
+      fonts: fonts,
+    );
+  }
+
+  static TextTheme _zhiMangXingTextTheme([TextTheme textTheme]) {
+    textTheme ??= ThemeData.light().textTheme;
+    return TextTheme(
+      headline1: GoogleFonts._zhiMangXing(textStyle: textTheme?.headline1),
+      headline2: GoogleFonts._zhiMangXing(textStyle: textTheme?.headline2),
+      headline3: GoogleFonts._zhiMangXing(textStyle: textTheme?.headline3),
+      headline4: GoogleFonts._zhiMangXing(textStyle: textTheme?.headline4),
+      headline5: GoogleFonts._zhiMangXing(textStyle: textTheme?.headline5),
+      headline6: GoogleFonts._zhiMangXing(textStyle: textTheme?.headline6),
+      subtitle1: GoogleFonts._zhiMangXing(textStyle: textTheme?.subtitle1),
+      subtitle2: GoogleFonts._zhiMangXing(textStyle: textTheme?.subtitle2),
+      bodyText1: GoogleFonts._zhiMangXing(textStyle: textTheme?.bodyText1),
+      bodyText2: GoogleFonts._zhiMangXing(textStyle: textTheme?.bodyText2),
+      caption: GoogleFonts._zhiMangXing(textStyle: textTheme?.caption),
+      button: GoogleFonts._zhiMangXing(textStyle: textTheme?.button),
+      overline: GoogleFonts._zhiMangXing(textStyle: textTheme?.overline),
     );
   }
 
