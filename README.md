@@ -1,28 +1,60 @@
-# google_fonts
+# google_language_fonts
 
-The `google_fonts` package for Flutter allows you to easily use any of the 977 fonts
-(and their variants) from [fonts.google.com](https://fonts.google.com/) in your Flutter app.
+This unofficial [`google_language_fonts` package](https://pub.dev/packages/google_language_fonts) is an extension of the [`google_fonts` package](https://pub.dev/packages/google_fonts) and it allows you to easily use more than 950 fonts
+(and their variants) from [fonts.google.com](https://fonts.google.com/) in your Flutter app. These fonts are matched with the **26 languages** listed below so you can use them right away from your IDE.
+
+To use it as a language simply add `Fonts` suffix to any of these currently supported languages:
+ - **Arabic**
+ - Bengali
+ - **Cyrillic**
+ - CyrillicExt
+ - **Devanagari**
+ - **Greek**
+ - GreekExt
+ - Gujarati
+ - Gurmukhi
+ - **Hebrew**
+ - **ChineseSimpl** (*ChineseSimplified*)
+ - **Japanese**
+ - Kannada
+ - Khmer
+ - **Korean**
+ - **Latin**
+ - LatinExt
+ - Malayalam
+ - Myanmar
+ - Oriya
+ - Sinhala
+ - Tamil
+ - Telugu
+ - **Thai**
+ - Tibetan
+ - **Vietnamese**
+
+This package is compatible with the official `google_fonts` package.
+
+**NOTE**: The initial version is 0.1.0. Bugs might be present or breaking changes might be introduced.
 
 ## Getting Started
 
 ![](https://raw.githubusercontent.com/material-foundation/google-fonts-flutter/master/readme_images/main.gif)
 
-With the `google_fonts` package, `.ttf` or `.otf` files do not need to be stored in your assets folder and mapped in
+With the `google_language_fonts` package, `.ttf` or `.otf` files do not need to be stored in your assets folder and mapped in
 the pubspec. Instead, they can be fetched once via http at runtime, and cached in the app's file system. This is ideal for development, and can be the preferred behavior for production apps that
 are looking to reduce the app bundle size. Still, you may at any time choose to include the font file in the assets, and the Google Fonts package will prioritize pre-bundled files over http fetching.
 Because of this, the Google Fonts package allows developers to choose between pre-bundling the fonts and loading them over http, while using the same API.
 
-For example, say you want to use the [Lato](https://fonts.google.com/specimen/Lato) font from Google Fonts in your Flutter app.
+For example, say you want to use any of the [Cyrillic](https://fonts.google.com/?sort=popularity&subset=cyrillic) fonts from Google Fonts in your Flutter app. You would need to open the website and then copy one by one until you find what satisfy your needs. With this package, you can try your fonts right away thanks to the IDE auto-suggestions.
 
-First, add the `google_fonts` package to your [pubspec dependencies](https://pub.dev/packages/google_fonts#-installing-tab-).
+First, add the `google_language_fonts` package to your [pubspec dependencies](https://pub.dev/packages/google_language_fonts#-installing-tab-).
 
-To import `GoogleFonts`:
+To import any `LanguageFonts`, for example `LatinFonts`:
 
 ```dart
-import 'package:google_fonts/google_fonts.dart';
+import 'package:google_language_fonts/google_fonts.dart';
 ```
 
-To use `GoogleFonts` with the default TextStyle:
+To use `LatinFonts` with the default TextStyle:
 
 ```dart
 Text(
@@ -102,7 +134,7 @@ MaterialApp(
 
 ### Bundling font files in your application's assets
 
-The `google_fonts` package will automatically use matching font files in your `pubspec.yaml`'s
+The `google_language_fonts` package will automatically use matching font files in your `pubspec.yaml`'s
 `assets` (rather than fetching them at runtime via HTTP). Once you've settled on the fonts
 you want to use:
 
