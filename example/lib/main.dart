@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:google_language_fonts/google_fonts.dart';
 
 void main() => runApp(MyApp());
 
@@ -53,7 +53,6 @@ class _MyHomePageState extends State<MyHomePage> {
             // Text(
             //   '❌ ýřččžýěíěš ❌\n',
             //   style: GoogleFonts.kosugiMaru(textStyle: display1),
-            // ),
             // Text(
             //   '✅ Здравствуйте',
             //   style: CyrillicFonts.robotoCondensed(textStyle: display1),
@@ -65,6 +64,14 @@ class _MyHomePageState extends State<MyHomePage> {
             // Text(
             //   '✅ žluťoučký',
             //   style: LatinExtFonts.playfairDisplay(textStyle: display1),
+            // ),
+            // Text(
+            //   'You have pushed the button this many times:',
+            //   style: GoogleFonts.oswald(textStyle: display1),
+            // ),
+            // Text(
+            //   '$_counter',
+            //   style: GoogleFonts.lato(fontStyle: FontStyle.italic),
             // ),
           ],
         ),

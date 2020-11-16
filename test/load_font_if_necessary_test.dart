@@ -4,12 +4,12 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:google_fonts/src/asset_manifest.dart';
-import 'package:google_fonts/src/google_fonts_base.dart';
-import 'package:google_fonts/src/google_fonts_descriptor.dart';
-import 'package:google_fonts/src/google_fonts_family_with_variant.dart';
-import 'package:google_fonts/src/google_fonts_variant.dart';
+import 'package:google_language_fonts/google_fonts.dart';
+import 'package:google_language_fonts/src/asset_manifest.dart';
+import 'package:google_language_fonts/src/google_fonts_base.dart';
+import 'package:google_language_fonts/src/google_fonts_descriptor.dart';
+import 'package:google_language_fonts/src/google_fonts_family_with_variant.dart';
+import 'package:google_language_fonts/src/google_fonts_variant.dart';
 import 'package:http/http.dart' as http;
 import 'package:mockito/mockito.dart';
 import 'package:path_provider/path_provider.dart';
@@ -105,7 +105,7 @@ void main() {
       expect(printLog.length, 1);
       expect(
         printLog[0],
-        startsWith('google_fonts was unable to load font Foo-BlackItalic'),
+        startsWith('google_language_fonts was unable to load font Foo-BlackItalic'),
       );
     });
   });
@@ -130,7 +130,7 @@ void main() {
       expect(printLog.length, 1);
       expect(
         printLog[0],
-        startsWith("google_fonts was unable to load font Foo-Regular"),
+        startsWith("google_language_fonts was unable to load font Foo-Regular"),
       );
       expect(
         printLog[0],
