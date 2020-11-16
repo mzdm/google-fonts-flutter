@@ -36,12 +36,14 @@ Future<void> main(List<String> args) async {
   Map<String, List<String>> mappedErrorHandledFonts;
 
   print('\nReading and mapping error handled fonts...');
-  mappedErrorHandledFonts = await _retrieveAllLangsFontNamesFromFiles(_langMappedErrorFontsSubsetPath);
+  mappedErrorHandledFonts = await _retrieveAllLangsFontNamesFromFiles(
+      _langMappedErrorFontsSubsetPath);
   print(_success);
 
   if (args.contains('--fetch-langs')) {
     print('\nFetching fonts and matching them with the languages...');
-    final List<String> availableFontNames = (fontDirectory.family).map((font) => font.name).toList();
+    final List<String> availableFontNames =
+        (fontDirectory.family).map((font) => font.name).toList();
     mappedLangFonts = await _mapLangsWithFonts(
       _concatenateListStringMap(mappedErrorHandledFonts),
       availableFontNames,
@@ -53,12 +55,14 @@ Future<void> main(List<String> args) async {
     print(_success);
   } else {
     print('\nRetrieving and mapping font names from the language files...');
-    mappedLangFonts = await _retrieveAllLangsFontNamesFromFiles(_langFontsSubsetPath);
+    mappedLangFonts =
+        await _retrieveAllLangsFontNamesFromFiles(_langFontsSubsetPath);
     print(_success);
   }
 
   print('\nConcatenating language fonts and error handled fonts...');
-  mappedLangFonts = _concatenateFontsWithErrorHandled(mappedLangFonts, mappedErrorHandledFonts);
+  mappedLangFonts = _concatenateFontsWithErrorHandled(
+      mappedLangFonts, mappedErrorHandledFonts);
   print(_success);
 
   print('\nGenerating $_generatedFilePath...');
@@ -177,7 +181,8 @@ Future<Map<String, List<String>>> _mapLangsWithFonts(
       final response = await client.get(
         url,
         headers: {
-          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+          'user-agent':
+              'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
         },
       );
 
@@ -189,7 +194,6 @@ Future<Map<String, List<String>>> _mapLangsWithFonts(
       final content = response.body;
 
       subsets.forEach((subset) {
-
         // Check whether it is possible to recognize the languages of the font
         // (see more in _unrecognizedSubsetTest method in generator_helper.dart).
         final recognizeResult = unrecognizedLangsTemplate.firstWhere(
@@ -212,7 +216,7 @@ Future<Map<String, List<String>>> _mapLangsWithFonts(
         // If there was unrecognized font, then throw an exception
         // we can determine which fonts must be added manually.
         if (recognizeResult != 'recognized') {
-          throw('font language(s) was/were not recognized');
+          throw ('font language(s) was/were not recognized');
         }
       });
     } catch (e) {
@@ -220,17 +224,20 @@ Future<Map<String, List<String>>> _mapLangsWithFonts(
       // If this font is already error handled (font manually added in error_handled_fonts dir) then
       // it is not written into errors.txt.
       if (!allMappedErrorFonts.contains(fontName)) {
-        final errorMsg =
-            e is http.Response ? e.statusCode.toString() + ': ' + e.reasonPhrase : e.toString();
+        final errorMsg = e is http.Response
+            ? e.statusCode.toString() + ': ' + e.reasonPhrase
+            : e.toString();
 
         if (langFontMap[_errorFileKey] == null) {
           langFontMap[_errorFileKey] = <String>[];
         }
 
         final currValueList = langFontMap[_errorFileKey];
-        langFontMap[_errorFileKey] = currValueList..add('$fontName ($errorMsg)');
+        langFontMap[_errorFileKey] = currValueList
+          ..add('$fontName ($errorMsg)');
 
-        print('font: \'$fontName\' was not fetched ($errorMsg) - see errors.txt');
+        print(
+            'font: \'$fontName\' was not fetched ($errorMsg) - see errors.txt');
       }
     }
   });
@@ -266,7 +273,8 @@ void _writeAllLangsFontNamesToFiles(Map<String, List<String>> mappedLangs) {
   }
 }
 
-Future<Map<String, List<String>>> _retrieveAllLangsFontNamesFromFiles(String path) async {
+Future<Map<String, List<String>>> _retrieveAllLangsFontNamesFromFiles(
+    String path) async {
   final List<File> langFiles = await _listAllDirLangFiles(path);
 
   final retrievedMap = <String, List<String>>{};
@@ -276,7 +284,8 @@ Future<Map<String, List<String>>> _retrieveAllLangsFontNamesFromFiles(String pat
       final List<String> fontList = file.readAsLinesSync();
       retrievedMap[langName] = fontList;
     } catch (e) {
-      print('threw an error while reading from the file: ${p.basename(file.path)}');
+      print(
+          'threw an error while reading from the file: ${p.basename(file.path)}');
     }
   }
 
@@ -290,7 +299,8 @@ Map<String, List<String>> _concatenateFontsWithErrorHandled(
   for (final key in mappedErrorHandledFonts.keys) {
     if (key != null && mappedLangFonts[key] != null) {
       mappedLangFonts.update(key, (fontList) {
-        final List<String> concatenatedList = fontList + mappedErrorHandledFonts[key];
+        final List<String> concatenatedList =
+            fontList + mappedErrorHandledFonts[key];
         return concatenatedList.toSet().toList()..sort();
       });
     }
@@ -302,7 +312,10 @@ Future<void> _writeDartFile(String content) async {
   await File(_generatedFilePath).writeAsString(content);
 }
 
-String _generateDartCode(pb.Directory fontDirectory, Map<String, List<String>> mappedLangs) {
+String _generateDartCode(
+  pb.Directory fontDirectory,
+  Map<String, List<String>> mappedLangs,
+) {
   final mainMethods = <Map<String, dynamic>>[];
   final langClasses = <Map<String, dynamic>>[];
 
@@ -342,7 +355,8 @@ String _generateDartCode(pb.Directory fontDirectory, Map<String, List<String>> m
         for (final variant in item.fonts)
           {
             'variantWeight': variant.weight.start,
-            'variantStyle': variant.italic.start.round() == 1 ? 'italic' : 'normal',
+            'variantStyle':
+                variant.italic.start.round() == 1 ? 'italic' : 'normal',
             'hash': _hashToString(variant.file.hash),
             'length': variant.file.fileSize,
           },
@@ -360,7 +374,8 @@ String _generateDartCode(pb.Directory fontDirectory, Map<String, List<String>> m
           final langKey = langClass[langClassNameKey] as String;
           if (langKey == lang) {
             if (mappedLangs[langKey].contains(family)) {
-              final currValueList = langClass[langMethodKey] as List<Map<String, dynamic>>;
+              final currValueList =
+                  langClass[langMethodKey] as List<Map<String, dynamic>>;
               langClass[langMethodKey] = currValueList..add(method);
             }
           }

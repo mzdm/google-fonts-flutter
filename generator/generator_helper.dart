@@ -4,7 +4,8 @@ const _success = 'Success!';
 
 const _generatedFilePath = 'lib/google_fonts.dart';
 const _langFontsSubsetPath = 'generator/lang_font_subsets/';
-const _langMappedErrorFontsSubsetPath = 'generator/lang_font_subsets/error_handled_fonts/';
+const _langMappedErrorFontsSubsetPath =
+    'generator/lang_font_subsets/error_handled_fonts/';
 
 const _errorFileKey = 'errors';
 
@@ -57,7 +58,8 @@ const _langSubsetMapper = <String, String>{
   'Vietnamese': '/* vietnamese */',
 };
 
-List<String> _concatenateListStringMap(Map<String, List<String>> map) => map.values.reduce(
+List<String> _concatenateListStringMap(Map<String, List<String>> map) =>
+    map.values.reduce(
       (value, element) => value + element,
     );
 
