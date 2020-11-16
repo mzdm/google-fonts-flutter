@@ -39,6 +39,11 @@ To use it as a language simply add `Fonts` suffix to any of these currently supp
 globally accessible due to faster IDE auto-suggestion fetching and to not clash with official package. However you can
 still call it dynamically: `GoogleFonts.getFont('Lato')`.**
 
+```
+import 'package:google_language_fonts/google_fonts.dart';
+import 'package:google_fonts/google_fonts.dart' as basic;
+```
+
 **NOTE**: The initial version is 0.1.0. Bugs might be present or breaking changes might be introduced.
 
 ## Getting Started
