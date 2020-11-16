@@ -31,7 +31,9 @@ To use it as a language simply add `Fonts` suffix to any of these currently supp
  - Tibetan
  - **Vietnamese**
 
-This package is compatible with the official `google_fonts` package.
+This package is compatible with the official `google_fonts` package. GoogleFonts all global fonts are not
+accessible due to faster IDE auto-suggestion fetching and to not clash with official package. However you can
+call it dynamically: `GoogleFonts.getFont('Lato')`.
 
 **NOTE**: The initial version is 0.1.0. Bugs might be present or breaking changes might be introduced.
 
