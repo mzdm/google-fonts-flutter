@@ -1,5 +1,9 @@
 # google_language_fonts
 
+**Say no more to:**
+
+<img height="50" width="auto" src="readme_images/introduction.png" />
+
 This unofficial [`google_language_fonts` package](https://pub.dev/packages/google_language_fonts) is an extension of the [`google_fonts` package](https://pub.dev/packages/google_fonts) and it allows you to easily use more than 950 fonts
 (and their variants) from [fonts.google.com](https://fonts.google.com/) in your Flutter app. These fonts are matched with the **26 languages** listed below so you can use them right away from your IDE.
 
@@ -31,15 +35,15 @@ To use it as a language simply add `Fonts` suffix to any of these currently supp
  - Tibetan
  - **Vietnamese**
 
-This package is compatible with the official `google_fonts` package. GoogleFonts all global fonts are not
-accessible due to faster IDE auto-suggestion fetching and to not clash with official package. However you can
-call it dynamically: `GoogleFonts.getFont('Lato')`.
+**This package is compatible with the official [`google_fonts`](https://pub.dev/packages/google_fonts) package. All fonts of GoogleFonts class are not
+globally accessible due to faster IDE auto-suggestion fetching and to not clash with official package. However you can
+still call it dynamically: `GoogleFonts.getFont('Lato')`.**
 
 **NOTE**: The initial version is 0.1.0. Bugs might be present or breaking changes might be introduced.
 
 ## Getting Started
 
-![](https://raw.githubusercontent.com/material-foundation/google-fonts-flutter/master/readme_images/main.gif)
+<img height="500" width="auto" src="readme_images/comparation.png" />
 
 With the `google_language_fonts` package, `.ttf` or `.otf` files do not need to be stored in your assets folder and mapped in
 the pubspec. Instead, they can be fetched once via http at runtime, and cached in the app's file system. This is ideal for development, and can be the preferred behavior for production apps that
@@ -50,18 +54,18 @@ For example, say you want to use any of the [Cyrillic](https://fonts.google.com/
 
 First, add the `google_language_fonts` package to your [pubspec dependencies](https://pub.dev/packages/google_language_fonts#-installing-tab-).
 
-To import any `LanguageFonts`, for example `LatinFonts`:
+To import any of the `LanguageFonts`, for example `LatinFonts`:
 
 ```dart
 import 'package:google_language_fonts/google_fonts.dart';
 ```
 
-To use `LatinFonts` with the default TextStyle:
+To use for example `LatinFonts` with the default TextStyle:
 
 ```dart
 Text(
   'This is Google Fonts',
-  style: GoogleFonts.lato(),
+  style: LatinFonts.playfairDisplay(),
 ),
 ```
 
@@ -79,7 +83,7 @@ To use `GoogleFonts` with an existing `TextStyle`:
 ```dart
 Text(
   'This is Google Fonts',
-  style: GoogleFonts.lato(
+  style: CyrillicFonts.robotoCondensed(
     textStyle: TextStyle(color: Colors.blue, letterSpacing: .5),
   ),
 ),
@@ -90,7 +94,7 @@ or
 ```dart
 Text(
   'This is Google Fonts',
-  style: GoogleFonts.lato(textStyle: Theme.of(context).textTheme.display1),
+  style: CyrillicFonts.robotoCondensed(textStyle: Theme.of(context).textTheme.display1),
 ),
 ```
 
@@ -99,7 +103,7 @@ To override the `fontSize`, `fontWeight`, or `fontStyle`:
 ```dart
 Text(
   'This is Google Fonts',
-  style: GoogleFonts.lato(
+  style: LatinFonts.playfairDisplay(
     textStyle: Theme.of(context).textTheme.display1,
     fontSize: 48,
     fontWeight: FontWeight.w700,
@@ -108,12 +112,12 @@ Text(
 ),
 ```
 
-You can also use `GoogleFonts.latoTextTheme()` to make or modify an entire text theme to use the "Lato" font.
+You can also use for example `CyrillicFonts.robotoCondensedTextTheme()` to make or modify an entire text theme to use the "robotoCondensedTextTheme" font.
 
 ```dart
 MaterialApp(
   theme: ThemeData(
-    textTheme: GoogleFonts.latoTextTheme(
+    textTheme: CyrillicFonts.robotoCondensedTextTheme(
       Theme.of(context).textTheme,
     ),
   ),
@@ -127,8 +131,8 @@ final textTheme = Theme.of(context).textTheme;
 
 MaterialApp(
   theme: ThemeData(
-    textTheme: GoogleFonts.latoTextTheme(textTheme).copyWith(
-      body1: GoogleFonts.oswald(textStyle: textTheme.body1),
+    textTheme: CyrillicFonts.robotoCondensedTextTheme(textTheme).copyWith(
+      body1: ArabicFonts.mada(textStyle: textTheme.body1),
     ),
   ),
 );
@@ -174,7 +178,7 @@ of the `pubspec.yaml`. This can be done because the files are consistently named
 The fonts on [fonts.google.com](https://fonts.google.com/) include license files for each font. For
 example, the [Lato](https://fonts.google.com/specimen/Lato) font comes with an `OFL.txt` file.
 
-Once you've decided on the fonts you want in your published app, you should add the appropriate
+Once you've decided on the fonts you want in your published app, you should download and add the appropriate
 licenses to your flutter app's [LicenseRegistry](https://api.flutter.dev/flutter/foundation/LicenseRegistry-class.html).
 
 For example:
