@@ -29,7 +29,7 @@ Future<void> main(List<String> args) async {
 
   final fontDirectory = await _readFontsProtoData(protoUrl);
   print('\nValidating font URLs and file contents...');
-  //await _verifyUrls(fontDirectory);
+  await _verifyUrls(fontDirectory);
   print(_success);
 
   Map<String, List<String>> mappedLangFonts;
@@ -218,7 +218,7 @@ Future<Map<String, List<String>>> _mapLangsWithFonts(
     } catch (e) {
       // Check failed API url calls and find out why, these errors will be stored in errors.txt.
       // If this font is already error handled (font manually added in error_handled_fonts dir) then
-      // do not put it to errors.txt.
+      // it is not written into errors.txt.
       if (!allMappedErrorFonts.contains(fontName)) {
         final errorMsg =
             e is http.Response ? e.statusCode.toString() + ': ' + e.reasonPhrase : e.toString();
@@ -308,17 +308,11 @@ String _generateDartCode(pb.Directory fontDirectory, Map<String, List<String>> m
 
   final fonts = fontDirectory.family;
 
-  // final Map<String, List<String>> langs = mappedLangs;
-  final langs = <String, List<String>>{
-    'Khmer': mappedLangs['Khmer'],
-    'Kannada': mappedLangs['Kannada'],
-  };
-
   final availableLangs = <String>[];
 
   const langClassNameKey = 'langClassName';
   const langMethodKey = 'langMethod';
-  for (final langNameKey in langs.keys) {
+  for (final langNameKey in mappedLangs.keys) {
     if (langNameKey != null) {
       availableLangs.add(langNameKey);
       langClasses.add(<String, dynamic>{
