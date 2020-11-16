@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:google_language_fonts/google_fonts.dart';
 
 void main() => runApp(MyApp());
 
@@ -37,6 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     final TextStyle display1 = Theme.of(context).textTheme.headline4;
+
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
@@ -46,12 +47,28 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'You have pushed the button this many times:',
-              style: GoogleFonts.oswald(textStyle: display1),
+              'Say no more to:\n',
+              style: CyrillicFonts.robotoCondensed(textStyle: display1),
             ),
             Text(
-              '$_counter',
-              style: GoogleFonts.lato(fontStyle: FontStyle.italic),
+              '❌ řčažťt ❌\n\n',
+              style: GoogleFonts.getFont('Kosugi Maru', textStyle: display1),
+            ),
+            Text(
+              '✅ नमस्कार',
+              style: DevanagariFonts.hind(textStyle: display1),
+            ),
+            Text(
+              '✅ Здравствуйте',
+              style: CyrillicFonts.robotoCondensed(textStyle: display1),
+            ),
+            Text(
+              '✅️  مرحبا',
+              style: ArabicFonts.mada(textStyle: display1),
+            ),
+            Text(
+              '✅ žluťoučký',
+              style: LatinExtFonts.playfairDisplay(textStyle: display1),
             ),
           ],
         ),

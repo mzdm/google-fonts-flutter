@@ -175,7 +175,7 @@ Future<void> loadFontIfNecessary(GoogleFontsDescriptor descriptor) async {
     }
   } catch (e) {
     _loadedFonts.remove(familyWithVariantString);
-    print('Error: google_fonts was unable to load font $fontName because the '
+    print('Error: google_language_fonts was unable to load font $fontName because the '
         'following exception occured:\n$e');
   }
 }
