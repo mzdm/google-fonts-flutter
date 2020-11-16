@@ -17,7 +17,7 @@ AssetManifest assetManifest;
 void main() {
   setUpAll(() async {
     ServicesBinding.instance.defaultBinaryMessenger
-        .setMockMessageHandler('flutter/assets', (message) {
+        .setMockMessageHandler('flutter/assets', (dynamic message) {
       _assetManifestLoadCount++;
       final Uint8List encoded = utf8.encoder.convert(_fakeAssetManifestText);
       return Future.value(encoded.buffer.asByteData());
