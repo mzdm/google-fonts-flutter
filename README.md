@@ -2,7 +2,7 @@
 
 **Say no more to:**
 
-<img height="50" width="auto" src="readme_images/introduction.png" />
+<img height="50" width="auto" src="https://raw.githubusercontent.com/mzdm/google-language-fonts-flutter/master/readme_images/introduction.png" />
 
 This unofficial [`google_language_fonts` package](https://pub.dev/packages/google_language_fonts) is an extension of the [`google_fonts` package](https://pub.dev/packages/google_fonts) and it allows you to easily use more than 950 fonts
 (and their variants) from [fonts.google.com](https://fonts.google.com/) in your Flutter app. These fonts are matched with the **26 languages** listed below so you can use them right away from your IDE.
@@ -40,15 +40,18 @@ globally accessible due to faster IDE auto-suggestion fetching and to not clash 
 still call it dynamically: `GoogleFonts.getFont('Lato')`.**
 
 ```
+// you can not access e.g.: GoogleFonts.lato(), only via GoogleFonts.getFont()
 import 'package:google_language_fonts/google_fonts.dart';
-import 'package:google_fonts/google_fonts.dart' as basic;
+
+// only if you add google_fonts package then you can access it with 'as' keyword like:
+import 'package:google_fonts/google_fonts.dart' as basic; // basic.GoogleFonts
 ```
 
 **NOTE**: The initial version is 0.1.0. Bugs might be present or breaking changes might be introduced.
 
 ## Getting Started
 
-<img height="500" width="auto" src="readme_images/comparation.png" />
+<img height="500" width="auto" src="https://raw.githubusercontent.com/mzdm/google-language-fonts-flutter/master/readme_images/comparation.png" />
 
 With the `google_language_fonts` package, `.ttf` or `.otf` files do not need to be stored in your assets folder and mapped in
 the pubspec. Instead, they can be fetched once via http at runtime, and cached in the app's file system. This is ideal for development, and can be the preferred behavior for production apps that
