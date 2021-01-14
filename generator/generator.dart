@@ -4,14 +4,20 @@
 
 import 'dart:io';
 
+import 'package:path/path.dart' as p;
 import 'package:console/console.dart';
 import 'package:crypto/crypto.dart';
 import 'package:http/http.dart' as http;
 import 'package:mustache/mustache.dart';
 
-import 'fonts.pb.dart';
+import 'fonts.pb.dart' as pb;
 
 const _generatedFilePath = 'lib/google_fonts.dart';
+const _langFontSubsetsPath = 'generator/lang_font_subsets/';
+
+// Future<void> main() async {
+//   print(await _matchLanguagesWithFonts());
+// }
 
 /// Generates the `GoogleFonts` class.
 Future<void> main() async {
@@ -24,15 +30,8 @@ Future<void> main() async {
   await _verifyUrls(fontDirectory);
   print(_success);
 
-  print('\nGetting the language subset to filter font names...');
-  // final subset = await todo;
-  // AFAIK there is no api to get it directly
-  const subset = <String>{
-    'Roboto',
-    'Lato',
-    'PT Mono',
-    'Noto Sans',
-  };
+  print('\nRetrieving the language subsets with font names...');
+  final subset = await _matchLanguagesWithFonts();
   print(_success);
 
   print('\nGenerating $_generatedFilePath...');
@@ -81,7 +80,7 @@ Future<String> _getProtoUrl({int initialVersion = 1}) async {
   return url(directoryVersion);
 }
 
-Future<void> _verifyUrls(Directory fontDirectory) async {
+Future<void> _verifyUrls(pb.Directory fontDirectory) async {
   final totalFonts =
       fontDirectory.family.map((f) => f.fonts.length).reduce((a, b) => a + b);
   final progressBar = ProgressBar(complete: totalFonts);
@@ -98,7 +97,7 @@ Future<void> _verifyUrls(Directory fontDirectory) async {
   client.close();
 }
 
-Future<void> _tryUrl(http.Client client, String url, Font font) async {
+Future<void> _tryUrl(http.Client client, String url, pb.Font font) async {
   try {
     final fileContents = await client.get(url);
     final actualFileLength = fileContents.bodyBytes.length;
@@ -122,31 +121,71 @@ String _hashToString(List<int> bytes) {
   return fileName;
 }
 
-String _generateDartCode(Directory fontDirectory, Set<String> subsetFilter) {
+/// Creates a map where the **key** is a language name (Arabic, Latin, Chinese, Cyrillic, ...) and
+/// the **value** is a *List* of *String* which contains compatible font names with its language.
+Future<Map<String, List<String>>> _matchLanguagesWithFonts() async {
+  final List<File> languages = await _retrieveAllLanguageFontSubsetsNames();
+
+  final langValues = <String, List<String>>{
+    for (final lang in languages)
+      _langNameWithoutExtension(lang): _retrieveLanguageFontsFromFile(lang)
+  };
+  return langValues;
+}
+
+Future<List<File>> _retrieveAllLanguageFontSubsetsNames() async {
+  final langSubsetFiles = <File>[];
+
+  final dir = Directory(_langFontSubsetsPath);
+  final files = await dir.list().toList();
+
+  for (final file in files) {
+    if (file is File && p.extension(file.path) == '.txt') langSubsetFiles.add(file);
+  }
+
+  return langSubsetFiles;
+}
+
+String _langNameWithoutExtension(File file) => p.basenameWithoutExtension(file.path);
+
+List<String> _retrieveLanguageFontsFromFile(File languageName) {
+  return languageName.readAsLinesSync();
+}
+
+Future<void> _writeDartFile(String content) async {
+  await File(_generatedFilePath).writeAsString(content);
+}
+
+String _generateDartCode(
+  pb.Directory fontDirectory,
+  Map<String, List<String>> subsetFilter,
+) {
   final classes = <Map<String, String>>[];
   final methods = <Map<String, dynamic>>[];
 
   final fonts = fontDirectory.family;
 
-  const languages = <String>{
-    'Arabic',
-    'Cyrillic',
-    'LatinExt',
-  };
-  if (fonts.isNotEmpty) {
-    for (final lang in languages) {
-      classes.add(<String, String>{
-        'langClassName': lang,
-      });
-    }
-  }
+  // final subsetFilter = <String>{
+  //   'Roboto',
+  //   'Lato',
+  //   'PT Mono',
+  //   'Noto Sans',
+  // };
+
+  // if (fonts.isNotEmpty) {
+  //   for (final lang in languages) {
+  //     classes.add(<String, String>{
+  //       'langClassName': lang,
+  //     });
+  //   }
+  // }
 
   for (final item in fonts) {
     // font name, e.g.: Lato, Droid Sans, ...
     final family = item.name;
 
     // filter out fonts which are not latin extented
-    if (!subsetFilter.contains(family)) continue;
+    if (!subsetFilter.entries.contains(family)) continue;
 
     final familyNoSpaces = family.replaceAll(' ', '');
     final familyWithPlusSigns = family.replaceAll(' ', '+');
@@ -199,10 +238,6 @@ String _generateDartCode(Directory fontDirectory, Set<String> subsetFilter) {
   });
 }
 
-Future<void> _writeDartFile(String content) async {
-  await File(_generatedFilePath).writeAsString(content);
-}
-
 String _familyToMethodName(String family) {
   final words = family.split(' ');
   for (var i = 0; i < words.length; i++) {
@@ -215,7 +250,7 @@ String _familyToMethodName(String family) {
   return words.join();
 }
 
-Future<Directory> _readFontsProtoData(String protoUrl) async {
+Future<pb.Directory> _readFontsProtoData(String protoUrl) async {
   final fontsProtoFile = await http.get(protoUrl);
-  return Directory.fromBuffer(fontsProtoFile.bodyBytes);
+  return pb.Directory.fromBuffer(fontsProtoFile.bodyBytes);
 }
