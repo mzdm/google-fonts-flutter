@@ -7,7 +7,7 @@ import 'dart:typed_data';
 
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:google_fonts/src/asset_manifest.dart';
+import 'package:google_language_fonts/src/asset_manifest.dart';
 
 const _fakeAssetManifestText = '{"value": ["fake"]}';
 var _assetManifestLoadCount = 0;
@@ -17,7 +17,7 @@ AssetManifest assetManifest;
 void main() {
   setUpAll(() async {
     ServicesBinding.instance.defaultBinaryMessenger
-        .setMockMessageHandler('flutter/assets', (message) {
+        .setMockMessageHandler('flutter/assets', (dynamic message) {
       _assetManifestLoadCount++;
       final Uint8List encoded = utf8.encoder.convert(_fakeAssetManifestText);
       return Future.value(encoded.buffer.asByteData());

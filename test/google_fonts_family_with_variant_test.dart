@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:google_fonts/src/google_fonts_family_with_variant.dart';
-import 'package:google_fonts/src/google_fonts_variant.dart';
+import 'package:google_language_fonts/src/google_fonts_family_with_variant.dart';
+import 'package:google_language_fonts/src/google_fonts_variant.dart';
 
 void main() {
   testWidgets('toString() works for normal w400', (tester) async {
