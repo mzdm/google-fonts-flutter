@@ -4,7 +4,7 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:google_language_fonts/google_fonts.dart';
+import 'package:google_language_fonts/google_language_fonts.dart';
 import 'package:google_language_fonts/src/asset_manifest.dart';
 import 'package:google_language_fonts/src/google_fonts_base.dart';
 import 'package:google_language_fonts/src/google_fonts_descriptor.dart';
@@ -39,6 +39,7 @@ void overridePrint(Future<Null> testFn()) => () {
       return Zone.current.fork(specification: spec).run(testFn);
     };
 
+// NOTE: Some tests in this file can only run on macOS for now!
 void main() {
   setUp(() async {
     httpClient = MockHttpClient();

@@ -1,15 +1,45 @@
 part of 'generator.dart';
 
-const _success = 'Success!';
+/// Message displayed in console when doing any generator command.
+const _successMessage = 'Success!';
 
-const _generatedFilePath = 'lib/google_fonts.dart';
-const _langFontsSubsetPath = 'generator/lang_font_subsets/';
-const _langMappedErrorFontsSubsetPath =
-    'generator/lang_font_subsets/error_handled_fonts/';
+/// File path of the template to generate the content of the base [GoogleFonts] class.
+const _templatePath = 'generator/google_fonts.tmpl';
 
-const _errorFileKey = 'errors';
+/// File path of the template to generate the content of the split [LanguageFonts] class.
+const _langTemplatePath = 'generator/google_fonts_language.tmpl';
 
+/// File path of the base [GoogleFonts] class.
+const _generatedFilePath = 'lib/src/fonts/google_fonts.dart';
+
+/// Used for generating split lang classes of [GoogleFonts].
+String _getGeneratedLangFilePath(String langName) =>
+    'lib/src/fonts/google_fonts_${_dashReplacement(_langSubsetNameMapper[langName])}.dart';
+
+/// Will replace all dashes with underscore, used for generating lang classes of GoogleFonts.
+String _dashReplacement(String str) => str.replaceAll('-', '_');
+
+/// File path of Czech fonts.
+const _langFontsSubsetFolderPath = 'generator/lang_font_subsets/';
+
+/// File path of fonts which were recognized during checking Google Fonts API.
+const _langFontsFilePath = '${_langFontsSubsetFolderPath}fonts.json';
+const _czechFontsFilePath = '${_langFontsSubsetFolderPath}czech_fonts.json';
+
+/// File path of error fonts which were successfully recognized during checking
+/// from alternative fonts API.
+const _errorHandledLangFontsFilePath =
+    '${_langFontsSubsetFolderPath}error_handled_fonts.json';
+
+/// File path of fonts which were not recognized during checking Google Fonts API ([_baseUrl]).
+const _errorFontsFilePath = '${_langFontsSubsetFolderPath}errors.json';
+
+/// Base official Google Fonts API.
 const _baseUrl = 'https://fonts.googleapis.com/css2?family=';
+
+/// Alternative API which is used for checking fonts from errors.json.
+const _baseUrlAlternative =
+    'https://google-webfonts-helper.herokuapp.com/api/fonts';
 
 const _fontThemeParams = [
   'headline1',
@@ -27,91 +57,95 @@ const _fontThemeParams = [
   'overline',
 ];
 
-const _langSubsetMapper = <String, String>{
-  'Arabic': '/* arabic */',
-  'Bengali': '/* bengali */',
-  'Cyrillic': '/* cyrillic */',
-  'CyrillicExt': '/* cyrillic-ext */',
-  'Devanagari': '/* devanagari */',
-  'Greek': '/* greek */',
-  'GreekExt': '/* greek-ext */',
-  'Gujarati': '/* gujarati */',
-  'Gurmukhi': '/* gurmukhi */',
-  'Hebrew': '/* hebrew */',
-  'ChineseHK': '/* chinese-hongkong */',
-  'ChineseSimpl': '/* chinese-simplified */',
-  'ChineseTrad': '/* chinese-traditional */',
-  'Japanese': '/* japanese */',
-  'Kannada': '/* kannada */',
-  'Khmer': '/* khmer */',
-  'Korean': '/* korean */',
-  'Latin': '/* latin */',
-  'LatinExt': '/* latin-ext */',
-  'Malayalam': '/* malayalam */',
-  'Myanmar': '/* myanmar */',
-  'Oriya': '/* oriya */',
-  'Sinhala': '/* sinhala */',
-  'Tamil': '/* tamil */',
-  'Telugu': '/* telugu */',
-  'Thai': '/* thai */',
-  'Tibetan': '/* tibetan */',
-  'Vietnamese': '/* vietnamese */',
+/// A key-value map where key is a language name and by value for checking Google Fonts API
+/// response whether the font supports this language subset. Also value is used for file name
+/// of GoogleFonts class (unformatted), formatting is done by [_dashReplacement] method.
+const _langSubsetNameMapper = <String, String>{
+  'Arabic': 'arabic',
+  'Bengali': 'bengali',
+  'ChineseHK': 'chinese-hongkong',
+  'ChineseSimpl': 'chinese-simplified',
+  'ChineseTrad': 'chinese-traditional',
+  'Cyrillic': 'cyrillic',
+  'CyrillicExt': 'cyrillic-ext',
+  'Czech': 'czech',
+  'Devanagari': 'devanagari',
+  'Greek': 'greek',
+  'GreekExt': 'greek-ext',
+  'Gujarati': 'gujarati',
+  'Gurmukhi': 'gurmukhi',
+  'Hebrew': 'hebrew',
+  'Japanese': 'japanese',
+  'Kannada': 'kannada',
+  'Khmer': 'khmer',
+  'Korean': 'korean',
+  'Latin': 'latin',
+  'LatinExt': 'latin-ext',
+  'Malayalam': 'malayalam',
+  'Myanmar': 'myanmar',
+  'Oriya': 'oriya',
+  'Sinhala': 'sinhala',
+  'Tamil': 'tamil',
+  'Telugu': 'telugu',
+  'Thai': 'thai',
+  'Tibetan': 'tibetan',
+  'Vietnamese': 'vietnamese',
 };
 
-List<String> _concatenateListStringMap(Map<String, List<String>> map) =>
-    map.values.reduce(
-      (value, element) => value + element,
+/// This adds `/*` and `*/` symbols to [str] String value.
+///
+/// Used in fetching from Google Fonts API where language subsets are listed
+/// with these symbols.
+String _addSymbols(String str) => '/* $str */';
+
+/// Gets a key (lang name) from [_langSubsetNameMapper] by [value].
+String _getLangNameByValue(String value) =>
+    _langSubsetNameMapper.keys.firstWhere(
+      (k) => _langSubsetNameMapper[k] == value,
+      orElse: () => null,
     );
 
-/// Chinese & Japanese fonts display for some reason only numbers in API response ...
+/// Chinese & Japanese fonts in the API response are displayed for some reason
+/// only with numbers ...
 ///
-/// <br>
+/// This method returns of numbers to check API response whether it contains
+/// such fonts.
+///
 /// e.g. these fonts:
 ///
 /// [Noto Serif SC](https://fonts.googleapis.com/css2?family=Noto+Serif+SC)
-///
 /// [Noto Sans JP](https://fonts.googleapis.com/css2?family=Noto+Sans+JP)
-List<String> _unrecognizedSubsetTemplate() {
+List<String> _unrecognizedLangSubsetTmpl() {
   final list = List<String>.generate(201, (index) => '/* [$index] */');
   return list;
 }
 
-// this is a temporary for testing purposes and has no use, will be moved to the test dir later
-const _recognizedSubsetTest = '''
-/* latin-ext */
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-''';
+/// This method concatenates all lists of [LanguageFonts] to one list and sorted
+/// alphabetically ASC.
+List<LanguageFonts> _concatenateLanguageFonts(List<List<LanguageFonts>> args) {
+  final concatenatedList = <LanguageFonts>[];
 
-// this is a temporary for testing purposes and has no use, will be moved to the test dir later
-const _unrecognizedSubsetTest = '''
-@font-face {
-  font-family: 'Noto Sans JP';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Noto Sans Japanese Regular'), local('NotoSansJapanese-Regular'), url(https://fonts.gstatic.com/s/notosansjp/v28/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.61.woff2) format('woff2');
-  unicode-range: U+a8, U+2032, U+2261, U+2282, U+3090, U+30f1, U+339c, U+535c, U+53d9, U+56a2, U+56c1, U+5806, U+589f, U+59d0, U+5a7f, U+60e0, U+639f, U+65af, U+68fa, U+69ae, U+6d1b, U+6ef2, U+71fb, U+725d, U+7262, U+75bc, U+7768, U+7940, U+79bf, U+7bed, U+7d68, U+7dfb, U+814b, U+8207, U+83e9, U+8494, U+8526, U+8568, U+85ea, U+86d9, U+87ba, U+8861, U+887f, U+8fe6, U+9059, U+9061, U+916a, U+976d, U+97ad, U+9ece;
+  for (final langName in _langSubsetNameMapper.keys) {
+    concatenatedList.add(
+      LanguageFonts(langName: langName, fontNames: <String>[]),
+    );
+  }
+
+  args.forEach((list) {
+    for (final element in list) {
+      final langName = element.langName;
+      final fontNames = element.fontNames;
+
+      final index = concatenatedList.indexWhere((e) => e.langName == langName);
+      if (index != -1) {
+        concatenatedList[index].fontNames.addAll(fontNames);
+
+        final unique = concatenatedList[index].fontNames.map((e) => e).toSet();
+        concatenatedList[index].fontNames
+          ..retainWhere((element) => unique.remove(element))
+          ..sort();
+      }
+    }
+  });
+  return concatenatedList;
 }
-/* [62] */
-@font-face {
-  font-family: 'Noto Sans JP';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Noto Sans Japanese Regular'), local('NotoSansJapanese-Regular'), url(https://fonts.gstatic.com/s/notosansjp/v28/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.62.woff2) format('woff2');
-  unicode-range: U+2d9, U+21d4, U+301d, U+515c, U+52fe, U+5420, U+5750, U+5766, U+5954, U+5b95, U+5f8a, U+5f98, U+620c, U+621f, U+641c, U+66d9, U+676d, U+6775, U+67f5, U+694a, U+6a02, U+6a3a, U+6a80, U+6c23, U+6c72, U+6dcb, U+6faa, U+707c, U+71c8, U+7422, U+74e2, U+7791, U+7825, U+7a14, U+7a1c, U+7c95, U+7fc1, U+82a5, U+82db, U+8304, U+853d, U+8cd3, U+8de8, U+8f0c, U+8f3f, U+9091, U+91c7, U+929a, U+98af, U+9913;
-}
-/* [63] */
-''';

@@ -1,64 +1,44 @@
 # google_language_fonts
 
-**Say no more to:**
+A simple way to use supported fonts for your languages, without worry about unrecognized characters.
 
-<img height="50" width="auto" src="https://raw.githubusercontent.com/mzdm/google-language-fonts-flutter/master/readme_images/introduction.png" />
+<p align="center">
+<img style="zoom: 0.8" src="https://raw.githubusercontent.com/mzdm/google-language-fonts-flutter/master/readme_images/comparation.png" />
+</p>
 
-This unofficial [`google_language_fonts` package](https://pub.dev/packages/google_language_fonts) is an extension of the [`google_fonts` package](https://pub.dev/packages/google_fonts) and it allows you to easily use more than 950 fonts
-(and their variants) from [fonts.google.com](https://fonts.google.com/) in your Flutter app. These fonts are matched with the **26 languages** listed below so you can use them right away from your IDE.
+This unofficial [google_language_fonts](https://pub.dev/packages/google_language_fonts) package is an extension of the [google_fonts](https://pub.dev/packages/google_fonts) package and it allows you to easily use more than 950 fonts
+(and their variants) from [fonts.google.com](https://fonts.google.com/) in your Flutter app.
 
-To use it as a language simply add `Fonts` suffix to any of these currently supported languages:
- - **Arabic**
- - Bengali
- - **Cyrillic**
- - CyrillicExt
- - **Devanagari**
- - **Greek**
- - GreekExt
- - Gujarati
- - Gurmukhi
- - **Hebrew**
- - **ChineseSimpl** (*ChineseSimplified*)
- - **Japanese**
- - Kannada
- - Khmer
- - **Korean**
- - **Latin**
- - LatinExt
- - Malayalam
- - Myanmar
- - Oriya
- - Sinhala
- - Tamil
- - Telugu
- - **Thai**
- - Tibetan
- - **Vietnamese**
+These fonts are matched with the **27 languages** listed below so you can use them right away from your IDE.
 
-**This package is compatible with the official [`google_fonts`](https://pub.dev/packages/google_fonts) package. All fonts of GoogleFonts class are not
-globally accessible due to faster IDE auto-suggestion fetching and to not clash with official package. However you can
-still call it dynamically: `GoogleFonts.getFont('Lato')`.**
+To use it as a language font simply add `Fonts` suffix to any of these currently supported languages below
 
-```
-// you can not access e.g.: GoogleFonts.lato(), only via GoogleFonts.getFont()
-import 'package:google_language_fonts/google_fonts.dart';
+- e.g.: `LatinFonts`, `CyrillicFonts`, ...
 
-// only if you add google_fonts package then you can access it with 'as' keyword like:
-import 'package:google_fonts/google_fonts.dart' as basic; // basic.GoogleFonts
-```
+| Prefix | | |
+|-|-|-|
+| [**Arabic**](https://en.wikipedia.org/wiki/Arabic_script_in_Unicode#Compact_table) | [Gurmukhi](https://en.wikipedia.org/wiki/Gurmukhi_(Unicode_block)) | [Malayalam](https://en.wikipedia.org/wiki/Malayalam_(Unicode_block)) |
+| [Bengali](https://en.wikipedia.org/wiki/Bengali_(Unicode_block)) | [**Hebrew**](https://en.wikipedia.org/wiki/Hebrew_(Unicode_block)) | [Myanmar](https://en.wikipedia.org/wiki/Myanmar_(Unicode_block)) |
+| [**Cyrillic**](https://en.wikipedia.org/wiki/Cyrillic_(Unicode_block)) | [**ChineseSimpl**](https://en.wikipedia.org/wiki/Simplified_Chinese_characters) * | [Oriya](https://en.wikipedia.org/wiki/Oriya_(Unicode_block)) |
+| [CyrillicExt](https://en.wikipedia.org/wiki/Cyrillic_script#Unicode) | [**Japanese**](https://en.wikipedia.org/wiki/Japanese_writing_system) | [Sinhala](https://en.wikipedia.org/wiki/Sinhala_(Unicode_block)) |
+| [Czech](https://unicode-table.com/en/alphabets/czech/) | [Kannada](https://en.wikipedia.org/wiki/Kannada_(Unicode_block)) | [Tamil](https://en.wikipedia.org/wiki/Tamil_(Unicode_block)) |
+| [**Devanagari**](https://en.wikipedia.org/wiki/Devanagari_(Unicode_block)) | [Khmer](https://en.wikipedia.org/wiki/Khmer_(Unicode_block)) | [Telugu](https://en.wikipedia.org/wiki/Telugu_(Unicode_block)) |
+| [**Greek**](https://en.wikipedia.org/wiki/Greek_and_Coptic) | [**Korean**](https://en.wikipedia.org/wiki/Korean_language#Writing_system) | [**Thai**](https://en.wikipedia.org/wiki/Thai_(Unicode_block)) |
+| [GreekExt](https://en.wikipedia.org/wiki/Greek_Extended) | [**Latin**](https://en.wikipedia.org/wiki/Basic_Latin_(Unicode_block)) \** | [Tibetan](https://en.wikipedia.org/wiki/Tibetan_(Unicode_block)) |
+| [Gujarati](https://en.wikipedia.org/wiki/Gujarati_(Unicode_block)) | [LatinExt](https://en.wikipedia.org/wiki/Latin_Extended-A#Compact_table) | [**Vietnamese**](https://en.wikipedia.org/wiki/Vietnamese_language_and_computers#Fonts_and_character_encodings) |
 
-**NOTE**: The initial version is 0.1.0. Bugs might be present or breaking changes might be introduced.
+\* Chinese Simplified
+
+\** This language subset contains almost all fonts (same as base GoogleFonts)
 
 ## Getting Started
-
-<img height="500" width="auto" src="https://raw.githubusercontent.com/mzdm/google-language-fonts-flutter/master/readme_images/comparation.png" />
 
 With the `google_language_fonts` package, `.ttf` or `.otf` files do not need to be stored in your assets folder and mapped in
 the pubspec. Instead, they can be fetched once via http at runtime, and cached in the app's file system. This is ideal for development, and can be the preferred behavior for production apps that
 are looking to reduce the app bundle size. Still, you may at any time choose to include the font file in the assets, and the Google Fonts package will prioritize pre-bundled files over http fetching.
 Because of this, the Google Fonts package allows developers to choose between pre-bundling the fonts and loading them over http, while using the same API.
 
-For example, say you want to use any of the [Cyrillic](https://fonts.google.com/?sort=popularity&subset=cyrillic) fonts from Google Fonts in your Flutter app. You would need to open the website and then copy one by one until you find what satisfy your needs. With this package, you can try your fonts right away thanks to the IDE auto-suggestions.
+For example, say you want to use any of the [Cyrillic](https://fonts.google.com/?sort=popularity&subset=cyrillic) fonts from Google Fonts in your Flutter app. You would need to try one by one until you find what satisfies your needs. With this package, you can try your fonts right away from IDE thanks to auto-suggestions.
 
 First, add the `google_language_fonts` package to your [pubspec dependencies](https://pub.dev/packages/google_language_fonts#-installing-tab-).
 
@@ -181,6 +161,20 @@ Italic styles will include `Italic` in the filename. Font weights map to file na
 Note: Since these files are listed as assets, there is no need to list them in the `fonts` section
 of the `pubspec.yaml`. This can be done because the files are consistently named from the Google Fonts API
 (so be sure not to rename them!)
+
+### Compatibility
+In this package calling fonts from the GoogleFonts class is not possible due to having faster IDE auto-suggestions and to not clash with the official package. However, this package is compatible with the official [google_fonts](https://pub.dev/packages/google_fonts) package. If you want to access **any font** without having to be limited to a language then you can either:
+- just use` LatinFonts` prefix, which contains almost all fonts from the base `GoogleFonts`, e.g.: `LatinFonts.lato()`
+- or call a font dynamically: `GoogleFonts.getFont('Lato')`.
+	```
+	// you can not access e.g.: GoogleFonts.lato(), only dynamically via GoogleFonts.getFont('Lato')
+	import 'package:google_language_fonts/google_fonts.dart';
+    ```
+- or add official [google_fonts](https://pub.dev/packages/google_fonts) package and use GoogleFonts in this way:
+	```
+	// only if you add google_fonts package then you can access it with 'as' keyword like:
+	import 'package:google_fonts/google_fonts.dart' as basic; // basic.GoogleFonts.lato()
+	```
 
 ### Licensing Fonts
 The fonts on [fonts.google.com](https://fonts.google.com/) include license files for each font. For

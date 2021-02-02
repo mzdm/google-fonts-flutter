@@ -2,76 +2,141 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
+import 'dart:convert';
 import 'dart:io';
 
-import 'package:path/path.dart' as p;
 import 'package:console/console.dart';
 import 'package:crypto/crypto.dart';
 import 'package:http/http.dart' as http;
 import 'package:mustache/mustache.dart';
 
 import 'fonts.pb.dart' as pb;
+import 'models/czech_font.dart';
+import 'models/font.dart';
+import 'models/language_fonts.dart';
+
+part 'file_utils.dart';
 
 part 'generator_helper.dart';
 
-/// Generates the `GoogleFonts` private class and public `LanguageFont` classes.
+/// If [args] contains:
+/// - either --fetch-langs argument then each font is checked via Google Fonts API
+/// and written to fonts.json file, if any a language of the font was not possible
+/// to recognize then that font is written to `errors.json`,
+/// - or --try-handle-errors argument then each font from errors.json is
+/// tried to be fetched from a different API.
 ///
-/// If [args] contains `--fetch-langs` param then each font is checked via Google Fonts API
-/// and written to its language file.
-///
-/// Keep in mind that if the database with fonts in step 1 is updated then these fonts
-/// will not be mapped with languages and for that case is required to run the param above.
-/// These fonts will be available only in `GoogleFonts` private class though.
+/// To just generate the [GoogleFonts] private class and public classes for language fonts
+/// then run it without any arguments (running it with arguments
+/// will not generate the final base & language .dart files).
 Future<void> main(List<String> args) async {
-  print('Getting latest font directory...');
+  final fonts = <LanguageFonts>[];
+  final errorHandledFonts = <LanguageFonts>[];
+
+  print('\nGetting latest font directory...');
   final protoUrl = await _getProtoUrl();
   print('Success! Using $protoUrl');
 
-  final fontDirectory = await _readFontsProtoData(protoUrl);
-  print('\nValidating font URLs and file contents...');
-  await _verifyUrls(fontDirectory);
-  print(_success);
+  final fontDir = await _readFontsProtoData(protoUrl);
 
-  Map<String, List<String>> mappedLangFonts;
-  Map<String, List<String>> mappedErrorHandledFonts;
+  // print('\nValidating font URLs and file contents...');
+  // await _verifyUrls(fontDir);
+  // print(_successMessage);
 
-  print('\nReading and mapping error handled fonts...');
-  mappedErrorHandledFonts = await _retrieveAllLangsFontNamesFromFiles(
-      _langMappedErrorFontsSubsetPath);
-  print(_success);
+  print('\nRetrieving handled fonts from error_handled_fonts.json file...');
+  errorHandledFonts.addAll(_retrieveLangFonts(_errorHandledLangFontsFilePath));
+  print(_successMessage);
 
   if (args.contains('--fetch-langs')) {
-    print('\nFetching fonts and matching them with the languages...');
-    final List<String> availableFontNames =
-        (fontDirectory.family).map((font) => font.name).toList();
-    mappedLangFonts = await _mapLangsWithFonts(
-      _concatenateListStringMap(mappedErrorHandledFonts),
-      availableFontNames,
-    );
-    print(_success);
-
-    print('\nWriting font names to language files...');
-    _writeAllLangsFontNamesToFiles(mappedLangFonts);
-    print(_success);
-  } else {
-    print('\nRetrieving and mapping font names from the language files...');
-    mappedLangFonts =
-        await _retrieveAllLangsFontNamesFromFiles(_langFontsSubsetPath);
-    print(_success);
+    await _runFetchLangs(fontDir, errorHandledFonts, fonts);
+    return;
+  } else if (args.contains('--try-handle-errors')) {
+    await _runTryHandleErrors(errorHandledFonts);
+    return;
   }
 
-  print('\nConcatenating language fonts and error handled fonts...');
-  mappedLangFonts = _concatenateFontsWithErrorHandled(
-      mappedLangFonts, mappedErrorHandledFonts);
-  print(_success);
+  print('\nRetrieving fonts from fonts.json file...');
+  fonts.addAll(_retrieveLangFonts(_langFontsFilePath));
+  print(_successMessage);
 
-  print('\nGenerating $_generatedFilePath...');
-  await _writeDartFile(_generateDartCode(fontDirectory, mappedLangFonts));
-  print(_success);
+  print('\nRetrieving Czech fonts from czech_fonts.json file...');
+  fonts.addAll(_retrieveCzechFonts());
+  print(_successMessage);
 
-  print('\nFormatting $_generatedFilePath...');
-  await Process.run('flutter', ['format', _generatedFilePath]);
-  print(_success);
+  print('\nConcatenating fonts from these files...');
+  final concatenated = _concatenateLanguageFonts([errorHandledFonts, fonts]);
+  print(_successMessage);
+
+  // splits google_fonts.dart (https://github.com/mzdm/google-language-fonts-flutter/issues/7)
+  print('\nSplitting to individual language files...');
+  final concatenatedTempList = List<LanguageFonts>.from(concatenated);
+  await _splitLangFiles(concatenated, fontDir, concatenatedTempList);
+  print(_successMessage);
+
+  print('\nGenerating main lib file $_generatedFilePath...');
+  await _writeFile(_generateDartCode(fontDir, concatenatedTempList));
+  print(_successMessage);
+}
+
+Future<void> _runFetchLangs(
+  pb.Directory fontDir,
+  List<LanguageFonts> errorHandledFonts,
+  List<LanguageFonts> fonts,
+) async {
+  print('\nFetching fonts with language subsets (~1-2 minutes)...');
+  final allFontNames = (fontDir.family).map((font) => font.name).toList();
+  final fetchedFonts = await _fetchLanguages(errorHandledFonts, allFontNames);
+  fonts.addAll(fetchedFonts);
+  print(_successMessage);
+
+  print('\nWriting fetched fonts to fonts.json...');
+  _writeToJson(_langFontsFilePath, fonts);
+  print(_successMessage);
+}
+
+Future<void> _runTryHandleErrors(List<LanguageFonts> errorHandledFonts) async {
+  print('\nReading unrecognized fonts from errors.json...');
+  final unrecognizedFonts = _retrieveUnrecognizedFonts();
+  print(_successMessage);
+
+  print('\nTrying to fetch unrecognized fonts with an API alternative...');
+  final fetchedFonts = await _tryFetchUnrecognizedFontsLangs(unrecognizedFonts);
+  print(_successMessage);
+
+  print('\nConcatenating already handled fonts & newly recognized fonts...');
+  final concatenated =
+      _concatenateLanguageFonts([errorHandledFonts, fetchedFonts]);
+  print(_successMessage);
+
+  print('\nWriting fetched fonts to error_handled_fonts.json file...');
+  _writeToJson(_errorHandledLangFontsFilePath, concatenated);
+  print(_successMessage);
+}
+
+/// Splits [GoogleFonts] class to individual [LanguageFonts] classes.
+///
+/// If [concatenated] parameter contains an object where property **fontNames** of [LanguageFonts]
+/// is empty, then that [LanguageFonts] object is removed from the list to not occur
+/// in imports in [GoogleFonts] class and as empty language class.
+Future _splitLangFiles(
+  List<LanguageFonts> concatenated,
+  pb.Directory fontDir,
+  List<LanguageFonts> concatenatedTempList,
+) async {
+  for (var i = 0; i < concatenated.length; i++) {
+    final languageFonts = concatenated[i];
+    if (languageFonts.fontNames.isNotEmpty) {
+      final langName = languageFonts.langName;
+      final path = _getGeneratedLangFilePath(langName);
+      print('Generating $path...');
+      await _writeFile(
+        _generateDartCode(fontDir, concatenated, currLangName: langName),
+        customPath: path,
+      );
+    } else {
+      concatenatedTempList.remove(languageFonts);
+    }
+  }
 }
 
 /// Gets the latest font directory.
@@ -156,25 +221,26 @@ Future<pb.Directory> _readFontsProtoData(String protoUrl) async {
   return pb.Directory.fromBuffer(fontsProtoFile.bodyBytes);
 }
 
-/// TODO: Refactor
-///
-/// Creates a map where the **key** is a language name (Arabic, Latin, Cyrillic, ...) and
-/// the **value** is a List of Strings which contains its compatible font names.
-Future<Map<String, List<String>>> _mapLangsWithFonts(
-  List<String> allMappedErrorFonts,
-  List<String> availableFontNames,
+/// Fetches Google Fonts API data and creates from it a list with
+/// [LanguageFonts] objects where:
+/// - langName property is language name (Arabic, Latin, Cyrillic, ...),
+/// - fontNames property is a list of [String]s which contains its supported font names.
+Future<List<LanguageFonts>> _fetchLanguages(
+  List<LanguageFonts> errorHandledFonts,
+  List<String> allFontNames,
 ) async {
   final client = http.Client();
 
-  final mapMatcher = _langSubsetMapper;
-  final languages = _langSubsetMapper.keys.toList();
-  final subsets = _langSubsetMapper.values.toList();
+  final langFontsList = <LanguageFonts>[];
+  final unrecognizedFontsList = <UnrecognizedFont>[];
 
-  final langFontMap = <String, List<String>>{
-    for (final langName in languages) langName: <String>[],
-  };
+  final langSubsetsMap = _langSubsetNameMapper;
 
-  await Future.forEach<String>(availableFontNames, (fontName) async {
+  for (final langName in langSubsetsMap.keys) {
+    langFontsList.add(LanguageFonts(langName: langName, fontNames: <String>[]));
+  }
+
+  await Future.forEach<String>(allFontNames, (fontName) async {
     final url = '$_baseUrl$fontName';
 
     try {
@@ -190,157 +256,177 @@ Future<Map<String, List<String>>> _mapLangsWithFonts(
         throw ('${response?.statusCode}: ${response?.reasonPhrase}');
       }
 
-      final unrecognizedLangsTemplate = _unrecognizedSubsetTemplate();
-      final content = response.body;
+      final responseContent = response.body;
 
-      subsets.forEach((subset) {
-        // Check whether it is possible to recognize the languages of the font
+      // Checks if the languages of the font are recognizable.
+      langSubsetsMap.values.forEach((langSubset) {
+        // Check whether it is possible to recognize the language(s) of the font
         // (see more in _unrecognizedSubsetTest method in generator_helper.dart).
-        final recognizeResult = unrecognizedLangsTemplate.firstWhere(
-          (element) => content.contains(element),
-          orElse: () => 'recognized',
+        _unrecognizedLangSubsetTmpl().firstWhere(
+          (unrecognizedLangSubset) {
+            if (responseContent.contains(unrecognizedLangSubset)) {
+              // If it is an unrecognized font, then throw an exception,
+              // we can then determine which fonts must be error handled
+              // from the errors.json file.
+              throw ('font language(s) was/were not recognized');
+            }
+            return false;
+          },
+          orElse: () => null,
         );
 
-        // Unrecognized fonts in the response doesn't mean that all of the fonts are unrecognized,
-        // there might be some recognized so firstly add them. (?? needs confirmation, latest
-        // font batch does not have such case.
-        if (content.contains(subset)) {
-          final keyByValue = mapMatcher.keys.firstWhere(
-            (key) => mapMatcher[key] == subset,
-            orElse: () => null,
-          );
-          final currValueList = langFontMap[keyByValue];
-          langFontMap[keyByValue] = currValueList..add(fontName);
-        }
+        final langName = _getLangNameByValue(langSubset);
 
-        // If there was unrecognized font, then throw an exception
-        // we can determine which fonts must be added manually.
-        if (recognizeResult != 'recognized') {
-          throw ('font language(s) was/were not recognized');
+        if (responseContent.contains(_addSymbols(langSubset)) &&
+            langName != null) {
+          final index = langFontsList.indexWhere((e) => e.langName == langName);
+          if (index != -1) langFontsList[index].fontNames.add(fontName);
         }
       });
     } catch (e) {
-      // Check failed API url calls and find out why, these errors will be stored in errors.txt.
-      // If this font is already error handled (font manually added in error_handled_fonts dir) then
-      // it is not written into errors.txt.
-      if (!allMappedErrorFonts.contains(fontName)) {
+      // Checks failed API url calls and find out why, these errors will be saved in errors.txt.
+      // If this font is already error handled then it is not written into errors.txt.
+      final isAlreadyErrorHandled = errorHandledFonts.map((e) {
+        if (e.fontNames.contains(fontName)) return true;
+        return false;
+      }).contains(true);
+
+      if (!isAlreadyErrorHandled) {
         final errorMsg = e is http.Response
             ? e.statusCode.toString() + ': ' + e.reasonPhrase
             : e.toString();
 
-        if (langFontMap[_errorFileKey] == null) {
-          langFontMap[_errorFileKey] = <String>[];
-        }
-
-        final currValueList = langFontMap[_errorFileKey];
-        langFontMap[_errorFileKey] = currValueList
-          ..add('$fontName ($errorMsg)');
-
+        unrecognizedFontsList.add(UnrecognizedFont(
+          fontName: fontName,
+          errorPhrase: errorMsg,
+        ));
         print(
-            'font: \'$fontName\' was not fetched ($errorMsg) - see errors.txt');
+          'font: \'$fontName\' was not successfully fetched ($errorMsg) - see errors.txt',
+        );
       }
     }
   });
   client.close();
 
-  return langFontMap;
+  // Write unrecognized fonts to errors.json.
+  _writeToJson(_errorFontsFilePath, unrecognizedFontsList);
+
+  return langFontsList;
 }
 
-Future<List<File>> _listAllDirLangFiles(String path) async {
-  final langFiles = <File>[];
+/// Tries to fetch [UnrecognizedFont] and match newly successful recognized to a list of [LanguageFonts].
+Future<List<LanguageFonts>> _tryFetchUnrecognizedFontsLangs(
+  List<UnrecognizedFont> unrecognizedFontsList,
+) async {
+  final client = http.Client();
 
-  final dir = Directory(path);
-  final allFiles = await dir.list().toList();
+  final langFontsList = <LanguageFonts>[];
+  final recognizedFontsList = <Font>[];
 
-  for (final file in allFiles) {
-    final path = file.path;
-    if (file is File &&
-        p.basenameWithoutExtension(path) != 'errors' &&
-        p.extension(path) == '.txt') {
-      langFiles.add(file);
+  final langSubsetsMap = _langSubsetNameMapper;
+  for (final langName in langSubsetsMap.keys) {
+    langFontsList.add(LanguageFonts(langName: langName, fontNames: <String>[]));
+  }
+
+  try {
+    final response = await client.get(_baseUrlAlternative);
+
+    if (response.statusCode != 200) {
+      throw ('${response?.statusCode}: ${response?.reasonPhrase}');
     }
-  }
 
-  return langFiles;
-}
+    final responseContent = response.body;
+    final data = jsonDecode(responseContent);
+    (data as List).forEach((element) {
+      try {
+        final recognizedFont = Font.fromJson(element);
+        recognizedFontsList.add(recognizedFont);
+      } catch (e) {
+        print(e);
+      }
+    });
 
-void _writeAllLangsFontNamesToFiles(Map<String, List<String>> mappedLangs) {
-  for (final lang in mappedLangs.keys) {
-    final List<String> fonts = mappedLangs[lang];
-    final formatted = fonts.join('\n');
+    // Matches newly recognized fetched fonts to its language subsets.
+    langSubsetsMap.values.forEach((langSubset) {
+      recognizedFontsList.forEach((recognizedFont) {
+        final langName = _getLangNameByValue(langSubset);
 
-    File('$_langFontsSubsetPath$lang.txt').writeAsStringSync(formatted);
-  }
-}
+        final recognizedFontName = recognizedFont.family;
+        final recognizedFontSubsets = recognizedFont.langSubsets;
 
-Future<Map<String, List<String>>> _retrieveAllLangsFontNamesFromFiles(
-    String path) async {
-  final List<File> langFiles = await _listAllDirLangFiles(path);
+        final unrecognizedFontNamesList =
+            unrecognizedFontsList.map((e) => e.fontName).toList();
 
-  final retrievedMap = <String, List<String>>{};
-  for (final file in langFiles) {
-    try {
-      final langName = p.basenameWithoutExtension(file.path);
-      final List<String> fontList = file.readAsLinesSync();
-      retrievedMap[langName] = fontList;
-    } catch (e) {
-      print(
-          'threw an error while reading from the file: ${p.basename(file.path)}');
-    }
-  }
-
-  return retrievedMap;
-}
-
-Map<String, List<String>> _concatenateFontsWithErrorHandled(
-  Map<String, List<String>> mappedLangFonts,
-  Map<String, List<String>> mappedErrorHandledFonts,
-) {
-  for (final key in mappedErrorHandledFonts.keys) {
-    if (key != null && mappedLangFonts[key] != null) {
-      mappedLangFonts.update(key, (fontList) {
-        final List<String> concatenatedList =
-            fontList + mappedErrorHandledFonts[key];
-        return concatenatedList.toSet().toList()..sort();
+        if (langName != null &&
+            unrecognizedFontNamesList.isNotEmpty &&
+            recognizedFontSubsets.isNotEmpty &&
+            recognizedFontSubsets.contains(langSubset) &&
+            unrecognizedFontNamesList.contains(recognizedFontName)) {
+          final index = langFontsList.indexWhere((e) => e.langName == langName);
+          if (index != -1) {
+            langFontsList[index].fontNames.add(recognizedFontName);
+          }
+        }
       });
-    }
+    });
+  } catch (e) {
+    final errorMsg = e is http.Response
+        ? e.statusCode.toString() + ': ' + e.reasonPhrase
+        : e.toString();
+    print(errorMsg);
   }
-  return mappedLangFonts;
+  client.close();
+
+  return langFontsList;
 }
 
-Future<void> _writeDartFile(String content) async {
-  await File(_generatedFilePath).writeAsString(content);
-}
-
+/// If [currLangName] is not null, then it will generate split file of base google_fonts.dart
+/// of the [currLangName] language name.
+///
+/// Otherwise it generates the base google_fonts.dart file, which
+/// is always generated after the splitting operation.
 String _generateDartCode(
-  pb.Directory fontDirectory,
-  Map<String, List<String>> mappedLangs,
-) {
+  pb.Directory fontDir,
+  List<LanguageFonts> languageFontsList, {
+  String currLangName,
+}) {
+  // google_fonts.tmpl related
+  final importNames = <Map<String, dynamic>>[];
   final mainMethods = <Map<String, dynamic>>[];
+
+  // google_fonts_language.tmpl related
   final langClasses = <Map<String, dynamic>>[];
-
-  final fonts = fontDirectory.family;
-
-  final availableLangs = <String>[];
-
   const langClassNameKey = 'langClassName';
-  const langMethodKey = 'langMethod';
-  for (final langNameKey in mappedLangs.keys) {
-    if (langNameKey != null) {
-      availableLangs.add(langNameKey);
+  const langMethodNameKey = 'langMethod';
+
+  final fontsFamilyList = fontDir.family;
+
+  for (final languageFonts in languageFontsList) {
+    final langName = languageFonts.langName;
+
+    importNames.add(<String, dynamic>{
+      'fileName': _dashReplacement(_langSubsetNameMapper[langName]),
+    });
+
+    if (langName == currLangName) {
       langClasses.add(<String, dynamic>{
-        langClassNameKey: langNameKey,
-        langMethodKey: <Map<String, dynamic>>[],
+        langClassNameKey: currLangName,
+        langMethodNameKey: <Map<String, dynamic>>[],
       });
     }
   }
 
-  for (final item in fonts) {
+  for (final item in fontsFamilyList) {
     // this is a font name, e.g.: Lato, Droid Sans, ...
     final family = item.name;
 
     // do not create methods for the fonts that were not found in any language category
-    if (!mappedLangs.values.join(',').toString().contains(family)) continue;
+    final availableFontList = languageFontsList
+        .map((e) => e.fontNames)
+        .expand((element) => element)
+        .toSet()
+        .toList();
+    if (!availableFontList.contains(family)) continue;
 
     final familyNoSpaces = family.replaceAll(' ', '');
     final familyWithPlusSigns = family.replaceAll(' ', '+');
@@ -368,15 +454,16 @@ String _generateDartCode(
 
     mainMethods.add(method);
 
-    availableLangs.forEach((lang) {
+    languageFontsList.forEach((element) {
       for (final langClass in langClasses) {
         try {
           final langKey = langClass[langClassNameKey] as String;
-          if (langKey == lang) {
-            if (mappedLangs[langKey].contains(family)) {
+
+          if (langKey == element.langName && langKey == currLangName) {
+            if (element.fontNames.contains(family)) {
               final currValueList =
-                  langClass[langMethodKey] as List<Map<String, dynamic>>;
-              langClass[langMethodKey] = currValueList..add(method);
+                  langClass[langMethodNameKey] as List<Map<String, dynamic>>;
+              langClass[langMethodNameKey] = currValueList..add(method);
             }
           }
         } catch (e) {
@@ -387,10 +474,12 @@ String _generateDartCode(
   }
 
   final template = Template(
-    File('generator/google_fonts.tmpl').readAsStringSync(),
+    File(currLangName != null ? _langTemplatePath : _templatePath)
+        .readAsStringSync(),
     htmlEscapeValues: false,
   );
   return template.renderString({
+    'imports': importNames,
     'langClass': langClasses,
     'method': mainMethods,
   });

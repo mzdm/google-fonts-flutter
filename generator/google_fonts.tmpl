@@ -6,9 +6,13 @@
 
 import 'dart:ui' as ui;
 import 'package:flutter/material.dart';
-import 'src/google_fonts_base.dart';
-import 'src/google_fonts_descriptor.dart';
-import 'src/google_fonts_variant.dart';
+import 'package:google_language_fonts/src/google_fonts_base.dart';
+import 'package:google_language_fonts/src/google_fonts_descriptor.dart';
+import 'package:google_language_fonts/src/google_fonts_variant.dart';
+
+{{#imports}}
+part 'google_fonts_{{fileName}}.dart';
+{{/imports}}
 
 /// A collection of properties used to specify custom behavior of the
 /// GoogleFonts library.
@@ -55,9 +59,7 @@ class GoogleFonts {
     TextDecorationStyle decorationStyle,
     double decorationThickness,
   })> asMap() => const {
-    {{#method}}
-    '{{fontFamilyDisplay}}': GoogleFonts._{{methodName}},
-    {{/method}}
+    {{#method}} '{{fontFamilyDisplay}}': GoogleFonts._{{methodName}},{{/method}}
   };
 
   /// Get a map of all available fonts and their associated text themes.
@@ -65,9 +67,7 @@ class GoogleFonts {
   /// Returns a map where the key is the name of the font family and the value
   /// is the corresponding [GoogleFonts] `TextTheme` method.
   static Map<String, TextTheme Function([TextTheme])> _asMapOfTextThemes() => const {
-    {{#method}}
-    '{{fontFamilyDisplay}}': GoogleFonts._{{methodName}}TextTheme,
-    {{/method}}
+    {{#method}} '{{fontFamilyDisplay}}': GoogleFonts._{{methodName}}TextTheme,{{/method}}
   };
 
   /// Retrieve a font by family name.
@@ -128,6 +128,8 @@ class GoogleFonts {
     );
   }
 
+  static TextTheme _t(TextTheme tTheme) => tTheme ??= ThemeData.light().textTheme;
+
   /// Retrieve a text theme by its font family name.
   ///
   /// Applies the given font family from Google Fonts to the given [textTheme]
@@ -147,131 +149,11 @@ class GoogleFonts {
   }
 
   {{#method}}
-  static TextStyle _{{methodName}}({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
-  }) {
-    final fonts = <GoogleFontsVariant, GoogleFontsFile>{
-      {{#fontUrls}}
-      GoogleFontsVariant(fontWeight: FontWeight.w{{variantWeight}}, fontStyle: FontStyle.{{variantStyle}},): GoogleFontsFile('{{hash}}', {{length}},),
-      {{/fontUrls}}
-    };
-
-    return googleFontsTextStyle(
-      textStyle: textStyle,
-      fontFamily: '{{fontFamily}}',
-      color: color,
-      backgroundColor: backgroundColor,
-      fontSize: fontSize,
-      fontWeight: fontWeight,
-      fontStyle: fontStyle,
-      letterSpacing: letterSpacing,
-      wordSpacing: wordSpacing,
-      textBaseline: textBaseline,
-      height: height,
-      locale: locale,
-      foreground: foreground,
-      background: background,
-      shadows: shadows,
-      fontFeatures: fontFeatures,
-      decoration: decoration,
-      decorationColor: decorationColor,
-      decorationStyle: decorationStyle,
-      decorationThickness: decorationThickness,
-      fonts: fonts,
-    );
+  static TextStyle _{{methodName}}({TextStyle textStyle, Color color, Color backgroundColor, double fontSize, FontWeight fontWeight, FontStyle fontStyle, double letterSpacing, double wordSpacing, TextBaseline textBaseline, double height, Locale locale, Paint foreground, Paint background, List<ui.Shadow> shadows, List<ui.FontFeature> fontFeatures, TextDecoration decoration, Color decorationColor, TextDecorationStyle decorationStyle, double decorationThickness,}) {
+    final fonts = <GoogleFontsVariant, GoogleFontsFile>{ {{#fontUrls}}GoogleFontsVariant(fontWeight: FontWeight.w{{variantWeight}}, fontStyle: FontStyle.{{variantStyle}},): GoogleFontsFile('{{hash}}', {{length}},),{{/fontUrls}}};
+    return googleFontsTextStyle(textStyle: textStyle, fontFamily: '{{fontFamily}}', color: color, backgroundColor: backgroundColor, fontSize: fontSize, fontWeight: fontWeight, fontStyle: fontStyle, letterSpacing: letterSpacing, wordSpacing: wordSpacing, textBaseline: textBaseline, height: height, locale: locale, foreground: foreground, background: background, shadows: shadows, fontFeatures: fontFeatures, decoration: decoration, decorationColor: decorationColor, decorationStyle: decorationStyle, decorationThickness: decorationThickness, fonts: fonts,);
   }
-
-  static TextTheme _{{methodName}}TextTheme([TextTheme textTheme]) {
-    textTheme ??= ThemeData.light().textTheme;
-    return TextTheme(
-      {{#themeParams}}
-      {{value}}: GoogleFonts._{{methodName}}(textStyle: textTheme?.{{value}}),
-      {{/themeParams}}
-    );
-  }
+  static TextTheme _{{methodName}}TextTheme([TextTheme tTheme]) => TextTheme({{#themeParams}}{{value}}: GoogleFonts._{{methodName}}(textStyle: _t(tTheme)?.{{value}}),{{/themeParams}});
 
   {{/method}}
 }
-
-{{#langClass}}
-class {{langClassName}}Fonts {
-  {{#langMethod}}
-  /// Applies the {{fontFamilyDisplay}} font family from Google Fonts to the
-  /// given [textStyle].
-  ///
-  /// See:
-  ///  * {{docsUrl}}
-  static TextStyle {{methodName}}({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
-  }) {
-    return GoogleFonts._{{methodName}}(
-      textStyle: textStyle,
-      color: color,
-      backgroundColor: backgroundColor,
-      fontSize: fontSize,
-      fontWeight: fontWeight,
-      fontStyle: fontStyle,
-      letterSpacing: letterSpacing,
-      wordSpacing: wordSpacing,
-      textBaseline: textBaseline,
-      height: height,
-      locale: locale,
-      foreground: foreground,
-      background: background,
-      shadows: shadows,
-      fontFeatures: fontFeatures,
-      decoration: decoration,
-      decorationColor: decorationColor,
-      decorationStyle: decorationStyle,
-      decorationThickness: decorationThickness,
-    );
-  }
-
-  /// Applies the {{fontFamilyDisplay}} font family from Google Fonts to every
-  /// [TextStyle] in the given [textTheme].
-  ///
-  /// See:
-  ///  * {{docsUrl}}
-  static TextTheme {{methodName}}TextTheme([TextTheme textTheme]) {
-    return GoogleFonts._{{methodName}}TextTheme(textTheme);
-  }
-  {{/langMethod}}
-}
-
-{{/langClass}}

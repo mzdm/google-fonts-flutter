@@ -10,12 +10,11 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
-import 'package:pedantic/pedantic.dart';
 
-import '../google_fonts.dart';
+import '../google_language_fonts.dart';
 import 'asset_manifest.dart';
 import 'file_io.dart' // Stubbed implementation by default.
-    // Concrete implementation if File IO is available.
+// Concrete implementation if File IO is available.
     if (dart.library.io) 'file_io_desktop_and_mobile.dart' as file_io;
 import 'google_fonts_descriptor.dart';
 import 'google_fonts_family_with_variant.dart';
@@ -175,7 +174,8 @@ Future<void> loadFontIfNecessary(GoogleFontsDescriptor descriptor) async {
     }
   } catch (e) {
     _loadedFonts.remove(familyWithVariantString);
-    print('Error: google_language_fonts was unable to load font $fontName because the '
+    print(
+        'Error: google_language_fonts was unable to load font $fontName because the '
         'following exception occured:\n$e');
   }
 }
@@ -241,7 +241,8 @@ Future<ByteData> _httpFetchFontAndSaveToDevice(
       );
     }
 
-    unawaited(file_io.saveFontToDeviceFileSystem(fontName, response.bodyBytes));
+    _unawaited(
+        file_io.saveFontToDeviceFileSystem(fontName, response.bodyBytes));
 
     return ByteData.view(response.bodyBytes.buffer);
   } else {
@@ -249,6 +250,8 @@ Future<ByteData> _httpFetchFontAndSaveToDevice(
     throw Exception('Failed to load font with url: ${file.url}');
   }
 }
+
+void _unawaited(Future<void> future) {}
 
 // This logic is taken from the following section of the minikin library, which
 // is ultimately how flutter handles matching fonts.

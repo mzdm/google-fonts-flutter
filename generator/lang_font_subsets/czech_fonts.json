@@ -1,0 +1,2394 @@
+[
+  {
+    "fontName": "Abhaya Libre",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Abril Fatface",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Advent Pro",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Aguafina Script",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Akronim",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Aladin",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Alata",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Alatsi",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Alegreya",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Alegreya SC",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Alegreya Sans",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Alegreya Sans SC",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Aleo",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Alex Brush",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Alfa Slab One",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Allan",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Allura",
+    "confidence": "MEDIUM"
+  },
+  {
+    "fontName": "Almendra",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Almendra Display",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Amarante",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Amatic SC",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Amatica SC",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Amiko",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Amiri",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Amita",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Anaheim",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Andada",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Andika",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Anonymous Pro",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Anton",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Arbutus",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Arbutus Slab",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Archivo",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Archivo Black",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Archivo Narrow",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Aref Ruqaa",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Arima Madurai",
+    "confidence": "MEDIUM"
+  },
+  {
+    "fontName": "Arizonia",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Armata",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Arsenal",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Arya",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Asap",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Asar",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Assistant",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Athiti",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Atma",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Audiowide",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Autour One",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Average",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Average Sans",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Averia Gruesa Libre",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Bahiana",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Bahianita",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Bai Jamjuree",
+    "confidence": "MEDIUM"
+  },
+  {
+    "fontName": "Baloo",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Baloo Bhai",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Baloo Bhaijaan",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Baloo Bhaina",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Baloo Chettan",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Baloo Da",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Baloo Paaji",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Baloo Tamma",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Baloo Tammudu",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Baloo Thambi",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Bangers",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Barlow",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Barlow Condensed",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Barlow Semi Condensed",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Barriecito",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Barrio",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Basic",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Baskervville",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Be Vietnam",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Bebas Neue",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Bellefair",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Belleza",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Bellota",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Bellota Text",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "BenchNine",
+    "confidence": "MEDIUM"
+  },
+  {
+    "fontName": "Berkshire Swash",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Bevan",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Big Shoulders Display",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Big Shoulders Text",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Bigelow Rules",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Bilbo",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Bilbo Swash Caps",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "BioRhyme",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "BioRhyme Expanded",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Biryani",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Bitter",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Black Ops One",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Blinker",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Bowlby One SC",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Bree Serif",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Bubblegum Sans",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Bubbler One",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Buenard",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Bungee",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Bungee Hairline",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Bungee Inline",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Bungee Outline",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Bungee Shade",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Butcherman",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Butterfly Kids",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Cabin",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Cabin Condensed",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Cairo",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Caladea",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Calistoga",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Cambay",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Cantata One",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Cantora One",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Capriola",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Cardo",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Catamaran",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Caudex",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Caveat",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Caveat Brush",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Ceviche One",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Chakra Petch",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Changa",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Chango",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Charm",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Charmonman",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Chau Philomene One",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Chela One",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Chelsea Market",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Cherry Swash",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Chicle",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Chivo",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Chonburi",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Cinzel",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Clicker Script",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Coda",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Codystar",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Coiny",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Combo",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Comfortaa",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Concert One",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Condiment",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Corben",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Cormorant",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Cormorant Garamond",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Cormorant Infant",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Cormorant SC",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Cormorant Unicase",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Cormorant Upright",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Courgette",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Courier Prime",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Cousine",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Crete Round",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Crimson Pro",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Croissant One",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Cuprum",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Cutive",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Cutive Mono",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "DM Sans",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "DM Serif Display",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "DM Serif Text",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Dancing Script",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Darker Grotesque",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "David Libre",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Dekko",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Denk One",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Devonshire",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Didact Gothic",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Diplomata",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Diplomata SC",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Domine",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Donegal One",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Doppio One",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Dosis",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Dr Sugiyama",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Duru Sans",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Dynalight",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "EB Garamond",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Eagle Lake",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Eater",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Economica",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Eczar",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Elsie",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Elsie Swash Caps",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Emblema One",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Emilys Candy",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Encode Sans",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Encode Sans Condensed",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Encode Sans Expanded",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Encode Sans Semi Condensed",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Encode Sans Semi Expanded",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Englebert",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Enriqueta",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Erica One",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Esteban",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Euphoria Script",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Ewert",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Exo",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Exo 2",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Fahkwang",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Farro",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Farsan",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Fauna One",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Faustina",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Felipa",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Fenix",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Fira Code",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Fira Mono",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Fira Sans",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Fira Sans Condensed",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Fira Sans Extra Condensed",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Fjalla One",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Flavors",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Fondamento",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Forum",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Francois One",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Frank Ruhl Libre",
+    "confidence": "MEDIUM"
+  },
+  {
+    "fontName": "Freckle Face",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Fredericka the Great",
+    "confidence": "MEDIUM"
+  },
+  {
+    "fontName": "Fresca",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Fruktur",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Gafata",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Galindo",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Gelasio",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Gentium Basic",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Gentium Book Basic",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Gilda Display",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Girassol",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Glass Antiqua",
+    "confidence": "MEDIUM"
+  },
+  {
+    "fontName": "Glegoo",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Gotu",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Grand Hotel",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Great Vibes",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Grenze",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Griffy",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Gruppo",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Gudea",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Habibi",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Halant",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Hammersmith One",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Hanalei",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Hanalei Fill",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Happy Monkey",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Harmattan",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Headland One",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Hepta Slab",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Herr Von Muellerhoff",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Hind",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Hind Guntur",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Hind Madurai",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Hind Siliguri",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Hind Vadodara",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "IBM Plex Mono",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "IBM Plex Sans",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "IBM Plex Sans Condensed",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "IBM Plex Serif",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Ibarra Real Nova",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Imprima",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Inconsolata",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Inder",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Inika",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Inknut Antiqua",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Inria Sans",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Inria Serif",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Inter",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Istok Web",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Italianno",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Itim",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Jaldi",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Jim Nightshade",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Jockey One",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Jolly Lodger",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Jomhuria",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Josefin Sans",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Joti One",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Judson",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Julius Sans One",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Jura",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Just Me Again Down Here",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "K2D",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Kalam",
+    "confidence": "MEDIUM"
+  },
+  {
+    "fontName": "Kanit",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Karla",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Karma",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Katibeh",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Kaushan Script",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Kavivanar",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Kavoon",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Keania One",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Kelly Slab",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Khand",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Khula",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Knewave",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "KoHo",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Kodchasan",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Kotta One",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Kreon",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Krona One",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Krub",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Kulim Park",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Kumar One",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Kumar One Outline",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Kurale",
+    "confidence": "MEDIUM"
+  },
+  {
+    "fontName": "Laila",
+    "confidence": "MEDIUM"
+  },
+  {
+    "fontName": "Lalezar",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Lancelot",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Lato",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Ledger",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Lekton",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Lemonada",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Lexend Deca",
+    "confidence": "MEDIUM"
+  },
+  {
+    "fontName": "Lexend Exa",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Lexend Giga",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Lexend Mega",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Lexend Peta",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Lexend Tera",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Lexend Zetta",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Libre Baskerville",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Libre Caslon Display",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Libre Caslon Text",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Libre Franklin",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Life Savers",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Lilita One",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Lily Script One",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Limelight",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Literata",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Livvic",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Lobster",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Lora",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Lovers Quarrel",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Magra",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Maitree",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Major Mono Display",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Mali",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Manrope",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Manuale",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Marcellus",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Marcellus SC",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Marck Script",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Margarine",
+    "confidence": "MEDIUM"
+  },
+  {
+    "fontName": "Markazi Text",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Marmelad",
+    "confidence": "MEDIUM"
+  },
+  {
+    "fontName": "Martel",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Martel Sans",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Maven Pro",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "McLaren",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "MedievalSharp",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Meie Script",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Merienda",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Merriweather",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Merriweather Sans",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Metal Mania",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Metamorphous",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Metrophobic",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Milonga",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Mina",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Miriam Libre",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Mirza",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Miss Fajardose",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Mitr",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Modak",
+    "confidence": "MEDIUM"
+  },
+  {
+    "fontName": "Modern Antiqua",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Mogra",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Molengo",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Monda",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Monsieur La Doulaise",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Montserrat",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Montserrat Alternates",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Mouse Memoirs",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Mr Bedfort",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Mr Dafoe",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Mr De Haviland",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Mrs Saint Delafield",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Mrs Sheppards",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Mukta",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Mukta Mahee",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Mukta Malar",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Mukta Vaani",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Muli",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Mystery Quest",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Neuton",
+    "confidence": "MEDIUM"
+  },
+  {
+    "fontName": "New Rocker",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "News Cycle",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Niconne",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Niramit",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Nobile",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Norican",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Nosifer",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Noticia Text",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Noto Sans",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Noto Serif",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Nunito",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Nunito Sans",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Old Standard TT",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Oldenburg",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Oleo Script",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Oleo Script Swash Caps",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Open Sans",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Oranienbaum",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Oregano",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Orienta",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Oswald",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Overlock",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Overlock SC",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Overpass",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Overpass Mono",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Oxanium",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Oxygen",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Oxygen Mono",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "PT Mono",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "PT Sans",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "PT Sans Caption",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "PT Sans Narrow",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "PT Serif",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "PT Serif Caption",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Pacifico",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Palanquin",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Palanquin Dark",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Pangolin",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Parisienne",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Passero One",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Passion One",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Pathway Gothic One",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Patrick Hand",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Patrick Hand SC",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Pattaya",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Pavanam",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Paytone One",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Peralta",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Petit Formal Script",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Petrona",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Piedra",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Pirata One",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Plaster",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Play",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Playball",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Playfair Display",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Playfair Display SC",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Podkova",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Poiret One",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Pontano Sans",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Poppins",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Pragati Narrow",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Press Start 2P",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Pridi",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Princess Sofia",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Prompt",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Prosto One",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Proza Libre",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Public Sans",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Purple Purse",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Quando",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Quattrocento",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Quattrocento Sans",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Questrial",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Quicksand",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Quintessential",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Qwigley",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Racing Sans One",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Radley",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Rajdhani",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Rakkas",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Raleway",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Raleway Dots",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Rambla",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Rammetto One",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Ranchers",
+    "confidence": "MEDIUM"
+  },
+  {
+    "fontName": "Ranga",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Rasa",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Red Hat Display",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Red Hat Text",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Revalia",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Rhodium Libre",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Ribeye",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Ribeye Marrow",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Righteous",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Risque",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Roboto",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Roboto Condensed",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Roboto Mono",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Roboto Slab",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Rokkitt",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Romanesco",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Ropa Sans",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Rosario",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Rosarivo",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Rozha One",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Rubik",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Rubik Mono One",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Ruda",
+    "confidence": "MEDIUM"
+  },
+  {
+    "fontName": "Rufina",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Ruge Boogie",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Ruluko",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Rum Raisin",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Ruslan Display",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Russo One",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Ruthie",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Rye",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Sacramento",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Sail",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Saira",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Saira Condensed",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Saira Extra Condensed",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Saira Semi Condensed",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Saira Stencil One",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Sanchez",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Sancreek",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Sansita",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Sarabun",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Sarala",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Sarina",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Sarpanch",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Scada",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Scope One",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Seaweed Script",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Secular One",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Sedgwick Ave",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Sedgwick Ave Display",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Sen",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Sevillana",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Seymour One",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Shadows Into Light Two",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Share",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Shojumaru",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Shrikhand",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Sigmar One",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Signika",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Signika Negative",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Simonetta",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Sintony",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Skranji",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Slabo 13px",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Slabo 27px",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Sniglet",
+    "confidence": "MEDIUM"
+  },
+  {
+    "fontName": "Snowburst One",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Sonsie One",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Sorts Mill Goudy",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Source Code Pro",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Source Sans Pro",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Source Serif Pro",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Space Mono",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Spartan",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Spectral",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Spectral SC",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Spinnaker",
+    "confidence": "MEDIUM"
+  },
+  {
+    "fontName": "Sriracha",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Srisakdi",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Staatliches",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Stalemate",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Stalinist One",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Stint Ultra Condensed",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Stint Ultra Expanded",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Stoke",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Suez One",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Sulphur Point",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Sumana",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Sura",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Tauri",
+    "confidence": "MEDIUM"
+  },
+  {
+    "fontName": "Taviraj",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Teko",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Telex",
+    "confidence": "MEDIUM"
+  },
+  {
+    "fontName": "Tenor Sans",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Text Me One",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Thasadith",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Tillana",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Tinos",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Titan One",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Titillium Web",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Tomorrow",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Trirong",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Trocchi",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Trykker",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Turret Road",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Ubuntu",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Ubuntu Condensed",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Ubuntu Mono",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Underdog",
+    "confidence": "MEDIUM"
+  },
+  {
+    "fontName": "Unica One",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Unna",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "VT323",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Vampiro One",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Varela",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Varela Round",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Vesper Libre",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Viaoda Libre",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Viga",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Voces",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Vollkorn",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Vollkorn SC",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Warnes",
+    "confidence": "LOWEST"
+  },
+  {
+    "fontName": "Wellfleet",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Wendy One",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Work Sans",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Yanone Kaffeesatz",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Yantramanav",
+    "confidence": "LOW"
+  },
+  {
+    "fontName": "Yatra One",
+    "confidence": "HIGH"
+  },
+  {
+    "fontName": "Yeseva One",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Yrsa",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Zilla Slab",
+    "confidence": "HIGHEST"
+  },
+  {
+    "fontName": "Zilla Slab Highlight",
+    "confidence": "HIGHEST"
+  }
+]

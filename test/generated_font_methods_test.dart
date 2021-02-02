@@ -7,8 +7,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_test/flutter_test.dart';
-import 'package:google_language_fonts/google_fonts.dart';
+import 'package:google_language_fonts/google_language_fonts.dart';
 import 'package:google_language_fonts/src/asset_manifest.dart';
 import 'package:google_language_fonts/src/google_fonts_base.dart';
 import 'package:mockito/mockito.dart';

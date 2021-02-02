@@ -5,7 +5,7 @@ import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:google_language_fonts/google_fonts.dart';
+import 'package:google_language_fonts/google_language_fonts.dart';
 import 'package:google_language_fonts/src/google_fonts_base.dart';
 import 'package:google_language_fonts/src/google_fonts_descriptor.dart';
 import 'package:google_language_fonts/src/google_fonts_family_with_variant.dart';
@@ -30,6 +30,8 @@ final _fakeResponseFile = GoogleFontsFile(
 // Do not add tests to this test file. Because the set up mocks a system message
 // handler (flutter/assets), that can not be undone, no other tests should be
 // written in this file.
+//
+// NOTE: Test in this file can only run on macOS for now!
 void main() {
   setUp(() async {
     httpClient = MockHttpClient();

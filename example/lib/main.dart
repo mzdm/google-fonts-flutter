@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_language_fonts/google_fonts.dart';
+import 'package:google_language_fonts/google_language_fonts.dart';
 
 void main() => runApp(MyApp());
 
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: 'Google Language Fonts Example'),
     );
   }
 }
@@ -26,17 +26,11 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
-
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
-    final TextStyle display1 = Theme.of(context).textTheme.headline4;
+    final TextStyle display1 = Theme.of(context).textTheme.headline5.copyWith(
+          fontSize: 30.0,
+        );
 
     return Scaffold(
       appBar: AppBar(
@@ -47,12 +41,8 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'Say no more to:\n',
-              style: CyrillicFonts.robotoCondensed(textStyle: display1),
-            ),
-            Text(
-              '❌ řčažťt ❌\n\n',
-              style: GoogleFonts.getFont('Kosugi Maru', textStyle: display1),
+              '\n❌ ďčažťtt ❌\n',
+              style: GoogleFonts.getFont('Mada', textStyle: display1),
             ),
             Text(
               '✅ नमस्कार',
@@ -67,16 +57,19 @@ class _MyHomePageState extends State<MyHomePage> {
               style: ArabicFonts.mada(textStyle: display1),
             ),
             Text(
+              '✅ 你好',
+                style: ChineseSimplFonts.zcoolXiaoWei(textStyle: display1),
+            ),
+            Text(
+              '✅ こんにちは',
+              style: JapaneseFonts.mPlusRounded1c(textStyle: display1),
+            ),
+            Text(
               '✅ žluťoučký',
-              style: LatinExtFonts.playfairDisplay(textStyle: display1),
+              style: CzechFonts.playfairDisplay(textStyle: display1),
             ),
           ],
         ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: Icon(Icons.add),
       ),
     );
   }
