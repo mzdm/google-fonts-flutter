@@ -45,7 +45,7 @@ First, add the `google_language_fonts` package to your [pubspec dependencies](ht
 To import any of the `LanguageFonts`, for example `LatinFonts`:
 
 ```dart
-import 'package:google_language_fonts/google_fonts.dart';
+import 'package:google_language_fonts/google_language_fonts.dart';
 ```
 
 To use for example `LatinFonts` with the default TextStyle:
@@ -164,11 +164,11 @@ of the `pubspec.yaml`. This can be done because the files are consistently named
 
 ### Compatibility
 In this package calling fonts from the GoogleFonts class is not possible due to having faster IDE auto-suggestions and to not clash with the official package. However, this package is compatible with the official [google_fonts](https://pub.dev/packages/google_fonts) package. If you want to access **any font** without having to be limited to a language then you can either:
-- just use` LatinFonts` prefix, which contains almost all fonts from the base `GoogleFonts`, e.g.: `LatinFonts.lato()`
-- or call a font dynamically: `GoogleFonts.getFont('Lato')`.
+- just use` LatinFonts` prefix, which contains almost all fonts from the base `GoogleFonts`, e.g.: `LatinFonts.lato()`,
+- or call a font dynamically: `GoogleFonts.getFont('Lato')`,
 	```
 	// you can not access e.g.: GoogleFonts.lato(), only dynamically via GoogleFonts.getFont('Lato')
-	import 'package:google_language_fonts/google_fonts.dart';
+	import 'package:google_language_fonts/google_language_fonts.dart';
     ```
 - or add official [google_fonts](https://pub.dev/packages/google_fonts) package and use GoogleFonts in this way:
 	```

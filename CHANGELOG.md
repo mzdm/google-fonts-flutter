@@ -1,4 +1,4 @@
-## [1.0.0] - 2020-02-02
+## [1.0.0] - 2021-02-02
 
 - **BREAKING CHANGES:**
     - Import `'google_language_fonts/google_fonts.dart';` was changed to `'google_language_fonts/google_language_fonts.dart';`.
