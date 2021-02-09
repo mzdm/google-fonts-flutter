@@ -76,7 +76,7 @@ void _writeToJson<E>(String path, List<E> list) {
 /// If [customPath] is not passed then the path defaults to src/fonts/google_fonts.dart.
 Future<void> _writeFile(
   String content, {
-  String customPath,
+  String? customPath,
 }) async {
   await File(customPath ?? _generatedFilePath).writeAsString(content);
 }

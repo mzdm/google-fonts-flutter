@@ -8,13 +8,13 @@ Future<void> saveFontToDeviceFileSystem(String name, List<int> bytes) async {
   await file.writeAsBytes(bytes);
 }
 
-Future<ByteData> loadFontFromDeviceFileSystem(String name) async {
+Future<ByteData?> loadFontFromDeviceFileSystem(String name) async {
   try {
     final file = await _localFile(name);
     final fileExists = file.existsSync();
     if (fileExists) {
       List<int> contents = await file.readAsBytes();
-      if (contents != null && contents.isNotEmpty) {
+      if (contents.isNotEmpty) {
         return ByteData.view(Uint8List.fromList(contents).buffer);
       }
     }
@@ -24,9 +24,9 @@ Future<ByteData> loadFontFromDeviceFileSystem(String name) async {
   return null;
 }
 
-Future<String> get _localPath async {
+Future<String?> get _localPath async {
   final directory = await path_provider.getApplicationSupportDirectory();
-  return directory.path;
+  return directory == null ? null : directory.path;
 }
 
 Future<File> _localFile(String name) async {

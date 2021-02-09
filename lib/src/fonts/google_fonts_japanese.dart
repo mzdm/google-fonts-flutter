@@ -14,25 +14,25 @@ class JapaneseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Kosugi
   static TextStyle kosugi({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._kosugi(
       textStyle: textStyle,
@@ -62,7 +62,7 @@ class JapaneseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Kosugi
-  static TextTheme kosugiTextTheme([TextTheme textTheme]) {
+  static TextTheme kosugiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._kosugiTextTheme(textTheme);
   }
 
@@ -72,25 +72,25 @@ class JapaneseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Kosugi+Maru
   static TextStyle kosugiMaru({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._kosugiMaru(
       textStyle: textStyle,
@@ -120,7 +120,7 @@ class JapaneseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Kosugi+Maru
-  static TextTheme kosugiMaruTextTheme([TextTheme textTheme]) {
+  static TextTheme kosugiMaruTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._kosugiMaruTextTheme(textTheme);
   }
 
@@ -130,25 +130,25 @@ class JapaneseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/M+PLUS+1p
   static TextStyle mPlus1p({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._mPlus1p(
       textStyle: textStyle,
@@ -178,7 +178,7 @@ class JapaneseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/M+PLUS+1p
-  static TextTheme mPlus1pTextTheme([TextTheme textTheme]) {
+  static TextTheme mPlus1pTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._mPlus1pTextTheme(textTheme);
   }
 
@@ -188,25 +188,25 @@ class JapaneseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/M+PLUS+Rounded+1c
   static TextStyle mPlusRounded1c({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._mPlusRounded1c(
       textStyle: textStyle,
@@ -236,7 +236,7 @@ class JapaneseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/M+PLUS+Rounded+1c
-  static TextTheme mPlusRounded1cTextTheme([TextTheme textTheme]) {
+  static TextTheme mPlusRounded1cTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._mPlusRounded1cTextTheme(textTheme);
   }
 
@@ -246,25 +246,25 @@ class JapaneseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Sawarabi+Gothic
   static TextStyle sawarabiGothic({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sawarabiGothic(
       textStyle: textStyle,
@@ -294,7 +294,7 @@ class JapaneseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Sawarabi+Gothic
-  static TextTheme sawarabiGothicTextTheme([TextTheme textTheme]) {
+  static TextTheme sawarabiGothicTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sawarabiGothicTextTheme(textTheme);
   }
 
@@ -304,25 +304,25 @@ class JapaneseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Sawarabi+Mincho
   static TextStyle sawarabiMincho({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sawarabiMincho(
       textStyle: textStyle,
@@ -352,7 +352,7 @@ class JapaneseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Sawarabi+Mincho
-  static TextTheme sawarabiMinchoTextTheme([TextTheme textTheme]) {
+  static TextTheme sawarabiMinchoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sawarabiMinchoTextTheme(textTheme);
   }
 

@@ -14,7 +14,7 @@ const _generatedFilePath = 'lib/src/fonts/google_fonts.dart';
 
 /// Used for generating split lang classes of [GoogleFonts].
 String _getGeneratedLangFilePath(String langName) =>
-    'lib/src/fonts/google_fonts_${_dashReplacement(_langSubsetNameMapper[langName])}.dart';
+    'lib/src/fonts/google_fonts_${_dashReplacement(_langSubsetNameMapper[langName]!)}.dart';
 
 /// Will replace all dashes with underscore, used for generating lang classes of GoogleFonts.
 String _dashReplacement(String str) => str.replaceAll('-', '_');
@@ -99,10 +99,9 @@ const _langSubsetNameMapper = <String, String>{
 String _addSymbols(String str) => '/* $str */';
 
 /// Gets a key (lang name) from [_langSubsetNameMapper] by [value].
-String _getLangNameByValue(String value) =>
-    _langSubsetNameMapper.keys.firstWhere(
+String? _getLangNameByValue(String value) =>
+    _langSubsetNameMapper.keys.firstWhereOrNull(
       (k) => _langSubsetNameMapper[k] == value,
-      orElse: () => null,
     );
 
 /// Chinese & Japanese fonts in the API response are displayed for some reason

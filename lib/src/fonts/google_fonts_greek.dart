@@ -14,25 +14,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Advent+Pro
   static TextStyle adventPro({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._adventPro(
       textStyle: textStyle,
@@ -62,7 +62,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Advent+Pro
-  static TextTheme adventProTextTheme([TextTheme textTheme]) {
+  static TextTheme adventProTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._adventProTextTheme(textTheme);
   }
 
@@ -72,25 +72,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Alegreya
   static TextStyle alegreya({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._alegreya(
       textStyle: textStyle,
@@ -120,7 +120,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Alegreya
-  static TextTheme alegreyaTextTheme([TextTheme textTheme]) {
+  static TextTheme alegreyaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._alegreyaTextTheme(textTheme);
   }
 
@@ -130,25 +130,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Alegreya+SC
   static TextStyle alegreyaSc({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._alegreyaSc(
       textStyle: textStyle,
@@ -178,7 +178,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Alegreya+SC
-  static TextTheme alegreyaScTextTheme([TextTheme textTheme]) {
+  static TextTheme alegreyaScTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._alegreyaScTextTheme(textTheme);
   }
 
@@ -188,25 +188,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Alegreya+Sans
   static TextStyle alegreyaSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._alegreyaSans(
       textStyle: textStyle,
@@ -236,7 +236,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Alegreya+Sans
-  static TextTheme alegreyaSansTextTheme([TextTheme textTheme]) {
+  static TextTheme alegreyaSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._alegreyaSansTextTheme(textTheme);
   }
 
@@ -246,25 +246,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Alegreya+Sans+SC
   static TextStyle alegreyaSansSc({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._alegreyaSansSc(
       textStyle: textStyle,
@@ -294,7 +294,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Alegreya+Sans+SC
-  static TextTheme alegreyaSansScTextTheme([TextTheme textTheme]) {
+  static TextTheme alegreyaSansScTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._alegreyaSansScTextTheme(textTheme);
   }
 
@@ -304,25 +304,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Anonymous+Pro
   static TextStyle anonymousPro({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._anonymousPro(
       textStyle: textStyle,
@@ -352,7 +352,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Anonymous+Pro
-  static TextTheme anonymousProTextTheme([TextTheme textTheme]) {
+  static TextTheme anonymousProTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._anonymousProTextTheme(textTheme);
   }
 
@@ -362,25 +362,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Arimo
   static TextStyle arimo({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._arimo(
       textStyle: textStyle,
@@ -410,7 +410,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Arimo
-  static TextTheme arimoTextTheme([TextTheme textTheme]) {
+  static TextTheme arimoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._arimoTextTheme(textTheme);
   }
 
@@ -420,25 +420,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Cardo
   static TextStyle cardo({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._cardo(
       textStyle: textStyle,
@@ -468,7 +468,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Cardo
-  static TextTheme cardoTextTheme([TextTheme textTheme]) {
+  static TextTheme cardoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._cardoTextTheme(textTheme);
   }
 
@@ -478,25 +478,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Caudex
   static TextStyle caudex({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._caudex(
       textStyle: textStyle,
@@ -526,7 +526,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Caudex
-  static TextTheme caudexTextTheme([TextTheme textTheme]) {
+  static TextTheme caudexTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._caudexTextTheme(textTheme);
   }
 
@@ -536,25 +536,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Comfortaa
   static TextStyle comfortaa({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._comfortaa(
       textStyle: textStyle,
@@ -584,7 +584,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Comfortaa
-  static TextTheme comfortaaTextTheme([TextTheme textTheme]) {
+  static TextTheme comfortaaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._comfortaaTextTheme(textTheme);
   }
 
@@ -594,25 +594,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Cousine
   static TextStyle cousine({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._cousine(
       textStyle: textStyle,
@@ -642,7 +642,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Cousine
-  static TextTheme cousineTextTheme([TextTheme textTheme]) {
+  static TextTheme cousineTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._cousineTextTheme(textTheme);
   }
 
@@ -652,25 +652,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Didact+Gothic
   static TextStyle didactGothic({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._didactGothic(
       textStyle: textStyle,
@@ -700,7 +700,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Didact+Gothic
-  static TextTheme didactGothicTextTheme([TextTheme textTheme]) {
+  static TextTheme didactGothicTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._didactGothicTextTheme(textTheme);
   }
 
@@ -710,25 +710,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/EB+Garamond
   static TextStyle ebGaramond({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ebGaramond(
       textStyle: textStyle,
@@ -758,7 +758,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/EB+Garamond
-  static TextTheme ebGaramondTextTheme([TextTheme textTheme]) {
+  static TextTheme ebGaramondTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ebGaramondTextTheme(textTheme);
   }
 
@@ -768,25 +768,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Fira+Code
   static TextStyle firaCode({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._firaCode(
       textStyle: textStyle,
@@ -816,7 +816,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Fira+Code
-  static TextTheme firaCodeTextTheme([TextTheme textTheme]) {
+  static TextTheme firaCodeTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._firaCodeTextTheme(textTheme);
   }
 
@@ -826,25 +826,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Fira+Mono
   static TextStyle firaMono({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._firaMono(
       textStyle: textStyle,
@@ -874,7 +874,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Fira+Mono
-  static TextTheme firaMonoTextTheme([TextTheme textTheme]) {
+  static TextTheme firaMonoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._firaMonoTextTheme(textTheme);
   }
 
@@ -884,25 +884,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Fira+Sans
   static TextStyle firaSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._firaSans(
       textStyle: textStyle,
@@ -932,7 +932,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Fira+Sans
-  static TextTheme firaSansTextTheme([TextTheme textTheme]) {
+  static TextTheme firaSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._firaSansTextTheme(textTheme);
   }
 
@@ -942,25 +942,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Fira+Sans+Condensed
   static TextStyle firaSansCondensed({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._firaSansCondensed(
       textStyle: textStyle,
@@ -990,7 +990,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Fira+Sans+Condensed
-  static TextTheme firaSansCondensedTextTheme([TextTheme textTheme]) {
+  static TextTheme firaSansCondensedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._firaSansCondensedTextTheme(textTheme);
   }
 
@@ -1000,25 +1000,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Fira+Sans+Extra+Condensed
   static TextStyle firaSansExtraCondensed({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._firaSansExtraCondensed(
       textStyle: textStyle,
@@ -1048,7 +1048,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Fira+Sans+Extra+Condensed
-  static TextTheme firaSansExtraCondensedTextTheme([TextTheme textTheme]) {
+  static TextTheme firaSansExtraCondensedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._firaSansExtraCondensedTextTheme(textTheme);
   }
 
@@ -1058,25 +1058,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/GFS+Didot
   static TextStyle gfsDidot({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._gfsDidot(
       textStyle: textStyle,
@@ -1106,7 +1106,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/GFS+Didot
-  static TextTheme gfsDidotTextTheme([TextTheme textTheme]) {
+  static TextTheme gfsDidotTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._gfsDidotTextTheme(textTheme);
   }
 
@@ -1116,25 +1116,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/GFS+Neohellenic
   static TextStyle gfsNeohellenic({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._gfsNeohellenic(
       textStyle: textStyle,
@@ -1164,7 +1164,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/GFS+Neohellenic
-  static TextTheme gfsNeohellenicTextTheme([TextTheme textTheme]) {
+  static TextTheme gfsNeohellenicTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._gfsNeohellenicTextTheme(textTheme);
   }
 
@@ -1174,25 +1174,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/IBM+Plex+Sans
   static TextStyle ibmPlexSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ibmPlexSans(
       textStyle: textStyle,
@@ -1222,7 +1222,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/IBM+Plex+Sans
-  static TextTheme ibmPlexSansTextTheme([TextTheme textTheme]) {
+  static TextTheme ibmPlexSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ibmPlexSansTextTheme(textTheme);
   }
 
@@ -1232,25 +1232,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Inter
   static TextStyle inter({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._inter(
       textStyle: textStyle,
@@ -1280,7 +1280,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Inter
-  static TextTheme interTextTheme([TextTheme textTheme]) {
+  static TextTheme interTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._interTextTheme(textTheme);
   }
 
@@ -1290,25 +1290,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Jura
   static TextStyle jura({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._jura(
       textStyle: textStyle,
@@ -1338,7 +1338,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Jura
-  static TextTheme juraTextTheme([TextTheme textTheme]) {
+  static TextTheme juraTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._juraTextTheme(textTheme);
   }
 
@@ -1348,25 +1348,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Literata
   static TextStyle literata({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._literata(
       textStyle: textStyle,
@@ -1396,7 +1396,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Literata
-  static TextTheme literataTextTheme([TextTheme textTheme]) {
+  static TextTheme literataTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._literataTextTheme(textTheme);
   }
 
@@ -1406,25 +1406,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/M+PLUS+1p
   static TextStyle mPlus1p({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._mPlus1p(
       textStyle: textStyle,
@@ -1454,7 +1454,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/M+PLUS+1p
-  static TextTheme mPlus1pTextTheme([TextTheme textTheme]) {
+  static TextTheme mPlus1pTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._mPlus1pTextTheme(textTheme);
   }
 
@@ -1464,25 +1464,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/M+PLUS+Rounded+1c
   static TextStyle mPlusRounded1c({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._mPlusRounded1c(
       textStyle: textStyle,
@@ -1512,7 +1512,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/M+PLUS+Rounded+1c
-  static TextTheme mPlusRounded1cTextTheme([TextTheme textTheme]) {
+  static TextTheme mPlusRounded1cTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._mPlusRounded1cTextTheme(textTheme);
   }
 
@@ -1522,25 +1522,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Manrope
   static TextStyle manrope({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._manrope(
       textStyle: textStyle,
@@ -1570,7 +1570,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Manrope
-  static TextTheme manropeTextTheme([TextTheme textTheme]) {
+  static TextTheme manropeTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._manropeTextTheme(textTheme);
   }
 
@@ -1580,25 +1580,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Noto+Sans
   static TextStyle notoSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._notoSans(
       textStyle: textStyle,
@@ -1628,7 +1628,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Noto+Sans
-  static TextTheme notoSansTextTheme([TextTheme textTheme]) {
+  static TextTheme notoSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._notoSansTextTheme(textTheme);
   }
 
@@ -1638,25 +1638,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Noto+Serif
   static TextStyle notoSerif({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._notoSerif(
       textStyle: textStyle,
@@ -1686,7 +1686,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Noto+Serif
-  static TextTheme notoSerifTextTheme([TextTheme textTheme]) {
+  static TextTheme notoSerifTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._notoSerifTextTheme(textTheme);
   }
 
@@ -1696,25 +1696,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Nova+Mono
   static TextStyle novaMono({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._novaMono(
       textStyle: textStyle,
@@ -1744,7 +1744,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Nova+Mono
-  static TextTheme novaMonoTextTheme([TextTheme textTheme]) {
+  static TextTheme novaMonoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._novaMonoTextTheme(textTheme);
   }
 
@@ -1754,25 +1754,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Open+Sans
   static TextStyle openSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._openSans(
       textStyle: textStyle,
@@ -1802,7 +1802,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Open+Sans
-  static TextTheme openSansTextTheme([TextTheme textTheme]) {
+  static TextTheme openSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._openSansTextTheme(textTheme);
   }
 
@@ -1812,25 +1812,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Open+Sans+Condensed
   static TextStyle openSansCondensed({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._openSansCondensed(
       textStyle: textStyle,
@@ -1860,7 +1860,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Open+Sans+Condensed
-  static TextTheme openSansCondensedTextTheme([TextTheme textTheme]) {
+  static TextTheme openSansCondensedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._openSansCondensedTextTheme(textTheme);
   }
 
@@ -1870,25 +1870,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Play
   static TextStyle play({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._play(
       textStyle: textStyle,
@@ -1918,7 +1918,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Play
-  static TextTheme playTextTheme([TextTheme textTheme]) {
+  static TextTheme playTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._playTextTheme(textTheme);
   }
 
@@ -1928,25 +1928,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Press+Start+2P
   static TextStyle pressStart2p({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._pressStart2p(
       textStyle: textStyle,
@@ -1976,7 +1976,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Press+Start+2P
-  static TextTheme pressStart2pTextTheme([TextTheme textTheme]) {
+  static TextTheme pressStart2pTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._pressStart2pTextTheme(textTheme);
   }
 
@@ -1986,25 +1986,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Roboto
   static TextStyle roboto({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._roboto(
       textStyle: textStyle,
@@ -2034,7 +2034,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Roboto
-  static TextTheme robotoTextTheme([TextTheme textTheme]) {
+  static TextTheme robotoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._robotoTextTheme(textTheme);
   }
 
@@ -2044,25 +2044,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Roboto+Condensed
   static TextStyle robotoCondensed({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._robotoCondensed(
       textStyle: textStyle,
@@ -2092,7 +2092,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Roboto+Condensed
-  static TextTheme robotoCondensedTextTheme([TextTheme textTheme]) {
+  static TextTheme robotoCondensedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._robotoCondensedTextTheme(textTheme);
   }
 
@@ -2102,25 +2102,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Roboto+Mono
   static TextStyle robotoMono({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._robotoMono(
       textStyle: textStyle,
@@ -2150,7 +2150,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Roboto+Mono
-  static TextTheme robotoMonoTextTheme([TextTheme textTheme]) {
+  static TextTheme robotoMonoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._robotoMonoTextTheme(textTheme);
   }
 
@@ -2160,25 +2160,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Roboto+Slab
   static TextStyle robotoSlab({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._robotoSlab(
       textStyle: textStyle,
@@ -2208,7 +2208,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Roboto+Slab
-  static TextTheme robotoSlabTextTheme([TextTheme textTheme]) {
+  static TextTheme robotoSlabTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._robotoSlabTextTheme(textTheme);
   }
 
@@ -2218,25 +2218,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Source+Code+Pro
   static TextStyle sourceCodePro({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sourceCodePro(
       textStyle: textStyle,
@@ -2266,7 +2266,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Source+Code+Pro
-  static TextTheme sourceCodeProTextTheme([TextTheme textTheme]) {
+  static TextTheme sourceCodeProTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sourceCodeProTextTheme(textTheme);
   }
 
@@ -2276,25 +2276,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Source+Sans+Pro
   static TextStyle sourceSansPro({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sourceSansPro(
       textStyle: textStyle,
@@ -2324,7 +2324,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Source+Sans+Pro
-  static TextTheme sourceSansProTextTheme([TextTheme textTheme]) {
+  static TextTheme sourceSansProTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sourceSansProTextTheme(textTheme);
   }
 
@@ -2334,25 +2334,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Source+Serif+Pro
   static TextStyle sourceSerifPro({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sourceSerifPro(
       textStyle: textStyle,
@@ -2382,7 +2382,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Source+Serif+Pro
-  static TextTheme sourceSerifProTextTheme([TextTheme textTheme]) {
+  static TextTheme sourceSerifProTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sourceSerifProTextTheme(textTheme);
   }
 
@@ -2392,25 +2392,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Tinos
   static TextStyle tinos({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._tinos(
       textStyle: textStyle,
@@ -2440,7 +2440,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Tinos
-  static TextTheme tinosTextTheme([TextTheme textTheme]) {
+  static TextTheme tinosTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._tinosTextTheme(textTheme);
   }
 
@@ -2450,25 +2450,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Ubuntu
   static TextStyle ubuntu({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ubuntu(
       textStyle: textStyle,
@@ -2498,7 +2498,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Ubuntu
-  static TextTheme ubuntuTextTheme([TextTheme textTheme]) {
+  static TextTheme ubuntuTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ubuntuTextTheme(textTheme);
   }
 
@@ -2508,25 +2508,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Ubuntu+Condensed
   static TextStyle ubuntuCondensed({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ubuntuCondensed(
       textStyle: textStyle,
@@ -2556,7 +2556,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Ubuntu+Condensed
-  static TextTheme ubuntuCondensedTextTheme([TextTheme textTheme]) {
+  static TextTheme ubuntuCondensedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ubuntuCondensedTextTheme(textTheme);
   }
 
@@ -2566,25 +2566,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Ubuntu+Mono
   static TextStyle ubuntuMono({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ubuntuMono(
       textStyle: textStyle,
@@ -2614,7 +2614,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Ubuntu+Mono
-  static TextTheme ubuntuMonoTextTheme([TextTheme textTheme]) {
+  static TextTheme ubuntuMonoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ubuntuMonoTextTheme(textTheme);
   }
 
@@ -2624,25 +2624,25 @@ class GreekFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Vollkorn
   static TextStyle vollkorn({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._vollkorn(
       textStyle: textStyle,
@@ -2672,7 +2672,7 @@ class GreekFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Vollkorn
-  static TextTheme vollkornTextTheme([TextTheme textTheme]) {
+  static TextTheme vollkornTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._vollkornTextTheme(textTheme);
   }
 

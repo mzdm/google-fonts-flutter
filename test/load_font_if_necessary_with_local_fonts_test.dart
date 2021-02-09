@@ -1,3 +1,5 @@
+// @dart=2.9
+
 import 'dart:convert';
 import 'dart:io';
 import 'dart:typed_data';
@@ -78,7 +80,7 @@ void main() {
     // Call loadFontIfNecessary and verify no http request happens because
     // Foo-BlackItalic is in the asset bundle.
     await loadFontIfNecessary(descriptorInAssets);
-    verifyNever(httpClient.get(anything));
+    verifyNever(httpClient.get(any));
 
     final descriptorNotInAssets = GoogleFontsDescriptor(
       familyWithVariant: GoogleFontsFamilyWithVariant(
@@ -94,6 +96,6 @@ void main() {
     // Call loadFontIfNecessary and verify that an http request happens because
     // Bar-BoldItalic is not in the asset bundle.
     await loadFontIfNecessary(descriptorNotInAssets);
-    verify(httpClient.get(anything)).called(1);
+    verify(httpClient.get(any)).called(1);
   });
 }

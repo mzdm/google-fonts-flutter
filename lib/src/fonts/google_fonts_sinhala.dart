@@ -14,25 +14,25 @@ class SinhalaFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Abhaya+Libre
   static TextStyle abhayaLibre({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._abhayaLibre(
       textStyle: textStyle,
@@ -62,7 +62,7 @@ class SinhalaFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Abhaya+Libre
-  static TextTheme abhayaLibreTextTheme([TextTheme textTheme]) {
+  static TextTheme abhayaLibreTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._abhayaLibreTextTheme(textTheme);
   }
 

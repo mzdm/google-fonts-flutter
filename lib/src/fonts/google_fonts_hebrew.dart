@@ -14,25 +14,25 @@ class HebrewFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Alef
   static TextStyle alef({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._alef(
       textStyle: textStyle,
@@ -62,7 +62,7 @@ class HebrewFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Alef
-  static TextTheme alefTextTheme([TextTheme textTheme]) {
+  static TextTheme alefTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._alefTextTheme(textTheme);
   }
 
@@ -72,25 +72,25 @@ class HebrewFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Amatic+SC
   static TextStyle amaticSc({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._amaticSc(
       textStyle: textStyle,
@@ -120,7 +120,7 @@ class HebrewFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Amatic+SC
-  static TextTheme amaticScTextTheme([TextTheme textTheme]) {
+  static TextTheme amaticScTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._amaticScTextTheme(textTheme);
   }
 
@@ -130,25 +130,25 @@ class HebrewFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Amatica+SC
   static TextStyle amaticaSc({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._amaticaSc(
       textStyle: textStyle,
@@ -178,7 +178,7 @@ class HebrewFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Amatica+SC
-  static TextTheme amaticaScTextTheme([TextTheme textTheme]) {
+  static TextTheme amaticaScTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._amaticaScTextTheme(textTheme);
   }
 
@@ -188,25 +188,25 @@ class HebrewFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Arimo
   static TextStyle arimo({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._arimo(
       textStyle: textStyle,
@@ -236,7 +236,7 @@ class HebrewFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Arimo
-  static TextTheme arimoTextTheme([TextTheme textTheme]) {
+  static TextTheme arimoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._arimoTextTheme(textTheme);
   }
 
@@ -246,25 +246,25 @@ class HebrewFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Assistant
   static TextStyle assistant({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._assistant(
       textStyle: textStyle,
@@ -294,7 +294,7 @@ class HebrewFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Assistant
-  static TextTheme assistantTextTheme([TextTheme textTheme]) {
+  static TextTheme assistantTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._assistantTextTheme(textTheme);
   }
 
@@ -304,25 +304,25 @@ class HebrewFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Bellefair
   static TextStyle bellefair({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._bellefair(
       textStyle: textStyle,
@@ -352,7 +352,7 @@ class HebrewFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Bellefair
-  static TextTheme bellefairTextTheme([TextTheme textTheme]) {
+  static TextTheme bellefairTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._bellefairTextTheme(textTheme);
   }
 
@@ -362,25 +362,25 @@ class HebrewFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Cousine
   static TextStyle cousine({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._cousine(
       textStyle: textStyle,
@@ -410,7 +410,7 @@ class HebrewFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Cousine
-  static TextTheme cousineTextTheme([TextTheme textTheme]) {
+  static TextTheme cousineTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._cousineTextTheme(textTheme);
   }
 
@@ -420,25 +420,25 @@ class HebrewFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/David+Libre
   static TextStyle davidLibre({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._davidLibre(
       textStyle: textStyle,
@@ -468,7 +468,7 @@ class HebrewFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/David+Libre
-  static TextTheme davidLibreTextTheme([TextTheme textTheme]) {
+  static TextTheme davidLibreTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._davidLibreTextTheme(textTheme);
   }
 
@@ -478,25 +478,25 @@ class HebrewFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Frank+Ruhl+Libre
   static TextStyle frankRuhlLibre({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._frankRuhlLibre(
       textStyle: textStyle,
@@ -526,7 +526,7 @@ class HebrewFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Frank+Ruhl+Libre
-  static TextTheme frankRuhlLibreTextTheme([TextTheme textTheme]) {
+  static TextTheme frankRuhlLibreTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._frankRuhlLibreTextTheme(textTheme);
   }
 
@@ -536,25 +536,25 @@ class HebrewFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Heebo
   static TextStyle heebo({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._heebo(
       textStyle: textStyle,
@@ -584,7 +584,7 @@ class HebrewFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Heebo
-  static TextTheme heeboTextTheme([TextTheme textTheme]) {
+  static TextTheme heeboTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._heeboTextTheme(textTheme);
   }
 
@@ -594,25 +594,25 @@ class HebrewFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/M+PLUS+1p
   static TextStyle mPlus1p({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._mPlus1p(
       textStyle: textStyle,
@@ -642,7 +642,7 @@ class HebrewFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/M+PLUS+1p
-  static TextTheme mPlus1pTextTheme([TextTheme textTheme]) {
+  static TextTheme mPlus1pTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._mPlus1pTextTheme(textTheme);
   }
 
@@ -652,25 +652,25 @@ class HebrewFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/M+PLUS+Rounded+1c
   static TextStyle mPlusRounded1c({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._mPlusRounded1c(
       textStyle: textStyle,
@@ -700,7 +700,7 @@ class HebrewFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/M+PLUS+Rounded+1c
-  static TextTheme mPlusRounded1cTextTheme([TextTheme textTheme]) {
+  static TextTheme mPlusRounded1cTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._mPlusRounded1cTextTheme(textTheme);
   }
 
@@ -710,25 +710,25 @@ class HebrewFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Miriam+Libre
   static TextStyle miriamLibre({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._miriamLibre(
       textStyle: textStyle,
@@ -758,7 +758,7 @@ class HebrewFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Miriam+Libre
-  static TextTheme miriamLibreTextTheme([TextTheme textTheme]) {
+  static TextTheme miriamLibreTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._miriamLibreTextTheme(textTheme);
   }
 
@@ -768,25 +768,25 @@ class HebrewFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Rubik
   static TextStyle rubik({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._rubik(
       textStyle: textStyle,
@@ -816,7 +816,7 @@ class HebrewFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Rubik
-  static TextTheme rubikTextTheme([TextTheme textTheme]) {
+  static TextTheme rubikTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._rubikTextTheme(textTheme);
   }
 
@@ -826,25 +826,25 @@ class HebrewFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Secular+One
   static TextStyle secularOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._secularOne(
       textStyle: textStyle,
@@ -874,7 +874,7 @@ class HebrewFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Secular+One
-  static TextTheme secularOneTextTheme([TextTheme textTheme]) {
+  static TextTheme secularOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._secularOneTextTheme(textTheme);
   }
 
@@ -884,25 +884,25 @@ class HebrewFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Suez+One
   static TextStyle suezOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._suezOne(
       textStyle: textStyle,
@@ -932,7 +932,7 @@ class HebrewFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Suez+One
-  static TextTheme suezOneTextTheme([TextTheme textTheme]) {
+  static TextTheme suezOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._suezOneTextTheme(textTheme);
   }
 
@@ -942,25 +942,25 @@ class HebrewFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Tinos
   static TextStyle tinos({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._tinos(
       textStyle: textStyle,
@@ -990,7 +990,7 @@ class HebrewFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Tinos
-  static TextTheme tinosTextTheme([TextTheme textTheme]) {
+  static TextTheme tinosTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._tinosTextTheme(textTheme);
   }
 
@@ -1000,25 +1000,25 @@ class HebrewFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Varela+Round
   static TextStyle varelaRound({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._varelaRound(
       textStyle: textStyle,
@@ -1048,7 +1048,7 @@ class HebrewFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Varela+Round
-  static TextTheme varelaRoundTextTheme([TextTheme textTheme]) {
+  static TextTheme varelaRoundTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._varelaRoundTextTheme(textTheme);
   }
 

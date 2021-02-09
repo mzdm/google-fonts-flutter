@@ -14,25 +14,25 @@ class MalayalamFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Chettan
   static TextStyle balooChettan({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._balooChettan(
       textStyle: textStyle,
@@ -62,7 +62,7 @@ class MalayalamFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Chettan
-  static TextTheme balooChettanTextTheme([TextTheme textTheme]) {
+  static TextTheme balooChettanTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._balooChettanTextTheme(textTheme);
   }
 
@@ -72,25 +72,25 @@ class MalayalamFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Chilanka
   static TextStyle chilanka({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._chilanka(
       textStyle: textStyle,
@@ -120,7 +120,7 @@ class MalayalamFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Chilanka
-  static TextTheme chilankaTextTheme([TextTheme textTheme]) {
+  static TextTheme chilankaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._chilankaTextTheme(textTheme);
   }
 
@@ -130,25 +130,25 @@ class MalayalamFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Gayathri
   static TextStyle gayathri({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._gayathri(
       textStyle: textStyle,
@@ -178,7 +178,7 @@ class MalayalamFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Gayathri
-  static TextTheme gayathriTextTheme([TextTheme textTheme]) {
+  static TextTheme gayathriTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._gayathriTextTheme(textTheme);
   }
 
@@ -188,25 +188,25 @@ class MalayalamFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Manjari
   static TextStyle manjari({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._manjari(
       textStyle: textStyle,
@@ -236,7 +236,7 @@ class MalayalamFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Manjari
-  static TextTheme manjariTextTheme([TextTheme textTheme]) {
+  static TextTheme manjariTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._manjariTextTheme(textTheme);
   }
 

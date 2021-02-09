@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+  MyHomePage({Key? key, required this.title}) : super(key: key);
 
   final String title;
 
@@ -28,7 +28,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    final TextStyle display1 = Theme.of(context).textTheme.headline5.copyWith(
+    final display1 = Theme.of(context).textTheme.headline5!.copyWith(
           fontSize: 30.0,
         );
 
@@ -58,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Text(
               '✅ 你好',
-                style: ChineseSimplFonts.zcoolXiaoWei(textStyle: display1),
+              style: ChineseSimplFonts.zcoolXiaoWei(textStyle: display1),
             ),
             Text(
               '✅ こんにちは',

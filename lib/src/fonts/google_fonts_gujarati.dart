@@ -14,25 +14,25 @@ class GujaratiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Bhai
   static TextStyle balooBhai({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._balooBhai(
       textStyle: textStyle,
@@ -62,7 +62,7 @@ class GujaratiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Bhai
-  static TextTheme balooBhaiTextTheme([TextTheme textTheme]) {
+  static TextTheme balooBhaiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._balooBhaiTextTheme(textTheme);
   }
 
@@ -72,25 +72,25 @@ class GujaratiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Farsan
   static TextStyle farsan({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._farsan(
       textStyle: textStyle,
@@ -120,7 +120,7 @@ class GujaratiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Farsan
-  static TextTheme farsanTextTheme([TextTheme textTheme]) {
+  static TextTheme farsanTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._farsanTextTheme(textTheme);
   }
 
@@ -130,25 +130,25 @@ class GujaratiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Hind+Vadodara
   static TextStyle hindVadodara({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._hindVadodara(
       textStyle: textStyle,
@@ -178,7 +178,7 @@ class GujaratiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Hind+Vadodara
-  static TextTheme hindVadodaraTextTheme([TextTheme textTheme]) {
+  static TextTheme hindVadodaraTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._hindVadodaraTextTheme(textTheme);
   }
 
@@ -188,25 +188,25 @@ class GujaratiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Kumar+One
   static TextStyle kumarOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._kumarOne(
       textStyle: textStyle,
@@ -236,7 +236,7 @@ class GujaratiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Kumar+One
-  static TextTheme kumarOneTextTheme([TextTheme textTheme]) {
+  static TextTheme kumarOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._kumarOneTextTheme(textTheme);
   }
 
@@ -246,25 +246,25 @@ class GujaratiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Kumar+One+Outline
   static TextStyle kumarOneOutline({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._kumarOneOutline(
       textStyle: textStyle,
@@ -294,7 +294,7 @@ class GujaratiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Kumar+One+Outline
-  static TextTheme kumarOneOutlineTextTheme([TextTheme textTheme]) {
+  static TextTheme kumarOneOutlineTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._kumarOneOutlineTextTheme(textTheme);
   }
 
@@ -304,25 +304,25 @@ class GujaratiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Mogra
   static TextStyle mogra({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._mogra(
       textStyle: textStyle,
@@ -352,7 +352,7 @@ class GujaratiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Mogra
-  static TextTheme mograTextTheme([TextTheme textTheme]) {
+  static TextTheme mograTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._mograTextTheme(textTheme);
   }
 
@@ -362,25 +362,25 @@ class GujaratiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Mukta+Vaani
   static TextStyle muktaVaani({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._muktaVaani(
       textStyle: textStyle,
@@ -410,7 +410,7 @@ class GujaratiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Mukta+Vaani
-  static TextTheme muktaVaaniTextTheme([TextTheme textTheme]) {
+  static TextTheme muktaVaaniTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._muktaVaaniTextTheme(textTheme);
   }
 
@@ -420,25 +420,25 @@ class GujaratiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Rasa
   static TextStyle rasa({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._rasa(
       textStyle: textStyle,
@@ -468,7 +468,7 @@ class GujaratiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Rasa
-  static TextTheme rasaTextTheme([TextTheme textTheme]) {
+  static TextTheme rasaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._rasaTextTheme(textTheme);
   }
 
@@ -478,25 +478,25 @@ class GujaratiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Shrikhand
   static TextStyle shrikhand({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._shrikhand(
       textStyle: textStyle,
@@ -526,7 +526,7 @@ class GujaratiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Shrikhand
-  static TextTheme shrikhandTextTheme([TextTheme textTheme]) {
+  static TextTheme shrikhandTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._shrikhandTextTheme(textTheme);
   }
 

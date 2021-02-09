@@ -14,25 +14,25 @@ class MyanmarFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Padauk
   static TextStyle padauk({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._padauk(
       textStyle: textStyle,
@@ -62,7 +62,7 @@ class MyanmarFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Padauk
-  static TextTheme padaukTextTheme([TextTheme textTheme]) {
+  static TextTheme padaukTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._padaukTextTheme(textTheme);
   }
 

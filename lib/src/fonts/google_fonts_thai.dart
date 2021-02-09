@@ -14,25 +14,25 @@ class ThaiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Athiti
   static TextStyle athiti({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._athiti(
       textStyle: textStyle,
@@ -62,7 +62,7 @@ class ThaiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Athiti
-  static TextTheme athitiTextTheme([TextTheme textTheme]) {
+  static TextTheme athitiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._athitiTextTheme(textTheme);
   }
 
@@ -72,25 +72,25 @@ class ThaiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Bai+Jamjuree
   static TextStyle baiJamjuree({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._baiJamjuree(
       textStyle: textStyle,
@@ -120,7 +120,7 @@ class ThaiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Bai+Jamjuree
-  static TextTheme baiJamjureeTextTheme([TextTheme textTheme]) {
+  static TextTheme baiJamjureeTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._baiJamjureeTextTheme(textTheme);
   }
 
@@ -130,25 +130,25 @@ class ThaiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Chakra+Petch
   static TextStyle chakraPetch({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._chakraPetch(
       textStyle: textStyle,
@@ -178,7 +178,7 @@ class ThaiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Chakra+Petch
-  static TextTheme chakraPetchTextTheme([TextTheme textTheme]) {
+  static TextTheme chakraPetchTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._chakraPetchTextTheme(textTheme);
   }
 
@@ -188,25 +188,25 @@ class ThaiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Charm
   static TextStyle charm({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._charm(
       textStyle: textStyle,
@@ -236,7 +236,7 @@ class ThaiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Charm
-  static TextTheme charmTextTheme([TextTheme textTheme]) {
+  static TextTheme charmTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._charmTextTheme(textTheme);
   }
 
@@ -246,25 +246,25 @@ class ThaiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Charmonman
   static TextStyle charmonman({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._charmonman(
       textStyle: textStyle,
@@ -294,7 +294,7 @@ class ThaiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Charmonman
-  static TextTheme charmonmanTextTheme([TextTheme textTheme]) {
+  static TextTheme charmonmanTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._charmonmanTextTheme(textTheme);
   }
 
@@ -304,25 +304,25 @@ class ThaiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Chonburi
   static TextStyle chonburi({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._chonburi(
       textStyle: textStyle,
@@ -352,7 +352,7 @@ class ThaiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Chonburi
-  static TextTheme chonburiTextTheme([TextTheme textTheme]) {
+  static TextTheme chonburiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._chonburiTextTheme(textTheme);
   }
 
@@ -362,25 +362,25 @@ class ThaiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Fahkwang
   static TextStyle fahkwang({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._fahkwang(
       textStyle: textStyle,
@@ -410,7 +410,7 @@ class ThaiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Fahkwang
-  static TextTheme fahkwangTextTheme([TextTheme textTheme]) {
+  static TextTheme fahkwangTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._fahkwangTextTheme(textTheme);
   }
 
@@ -420,25 +420,25 @@ class ThaiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Itim
   static TextStyle itim({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._itim(
       textStyle: textStyle,
@@ -468,7 +468,7 @@ class ThaiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Itim
-  static TextTheme itimTextTheme([TextTheme textTheme]) {
+  static TextTheme itimTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._itimTextTheme(textTheme);
   }
 
@@ -478,25 +478,25 @@ class ThaiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/K2D
   static TextStyle k2d({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._k2d(
       textStyle: textStyle,
@@ -526,7 +526,7 @@ class ThaiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/K2D
-  static TextTheme k2dTextTheme([TextTheme textTheme]) {
+  static TextTheme k2dTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._k2dTextTheme(textTheme);
   }
 
@@ -536,25 +536,25 @@ class ThaiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Kanit
   static TextStyle kanit({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._kanit(
       textStyle: textStyle,
@@ -584,7 +584,7 @@ class ThaiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Kanit
-  static TextTheme kanitTextTheme([TextTheme textTheme]) {
+  static TextTheme kanitTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._kanitTextTheme(textTheme);
   }
 
@@ -594,25 +594,25 @@ class ThaiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/KoHo
   static TextStyle koHo({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._koHo(
       textStyle: textStyle,
@@ -642,7 +642,7 @@ class ThaiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/KoHo
-  static TextTheme koHoTextTheme([TextTheme textTheme]) {
+  static TextTheme koHoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._koHoTextTheme(textTheme);
   }
 
@@ -652,25 +652,25 @@ class ThaiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Kodchasan
   static TextStyle kodchasan({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._kodchasan(
       textStyle: textStyle,
@@ -700,7 +700,7 @@ class ThaiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Kodchasan
-  static TextTheme kodchasanTextTheme([TextTheme textTheme]) {
+  static TextTheme kodchasanTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._kodchasanTextTheme(textTheme);
   }
 
@@ -710,25 +710,25 @@ class ThaiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Krub
   static TextStyle krub({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._krub(
       textStyle: textStyle,
@@ -758,7 +758,7 @@ class ThaiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Krub
-  static TextTheme krubTextTheme([TextTheme textTheme]) {
+  static TextTheme krubTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._krubTextTheme(textTheme);
   }
 
@@ -768,25 +768,25 @@ class ThaiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Maitree
   static TextStyle maitree({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._maitree(
       textStyle: textStyle,
@@ -816,7 +816,7 @@ class ThaiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Maitree
-  static TextTheme maitreeTextTheme([TextTheme textTheme]) {
+  static TextTheme maitreeTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._maitreeTextTheme(textTheme);
   }
 
@@ -826,25 +826,25 @@ class ThaiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Mali
   static TextStyle mali({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._mali(
       textStyle: textStyle,
@@ -874,7 +874,7 @@ class ThaiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Mali
-  static TextTheme maliTextTheme([TextTheme textTheme]) {
+  static TextTheme maliTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._maliTextTheme(textTheme);
   }
 
@@ -884,25 +884,25 @@ class ThaiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Mitr
   static TextStyle mitr({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._mitr(
       textStyle: textStyle,
@@ -932,7 +932,7 @@ class ThaiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Mitr
-  static TextTheme mitrTextTheme([TextTheme textTheme]) {
+  static TextTheme mitrTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._mitrTextTheme(textTheme);
   }
 
@@ -942,25 +942,25 @@ class ThaiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Niramit
   static TextStyle niramit({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._niramit(
       textStyle: textStyle,
@@ -990,7 +990,7 @@ class ThaiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Niramit
-  static TextTheme niramitTextTheme([TextTheme textTheme]) {
+  static TextTheme niramitTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._niramitTextTheme(textTheme);
   }
 
@@ -1000,25 +1000,25 @@ class ThaiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Pattaya
   static TextStyle pattaya({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._pattaya(
       textStyle: textStyle,
@@ -1048,7 +1048,7 @@ class ThaiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Pattaya
-  static TextTheme pattayaTextTheme([TextTheme textTheme]) {
+  static TextTheme pattayaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._pattayaTextTheme(textTheme);
   }
 
@@ -1058,25 +1058,25 @@ class ThaiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Pridi
   static TextStyle pridi({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._pridi(
       textStyle: textStyle,
@@ -1106,7 +1106,7 @@ class ThaiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Pridi
-  static TextTheme pridiTextTheme([TextTheme textTheme]) {
+  static TextTheme pridiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._pridiTextTheme(textTheme);
   }
 
@@ -1116,25 +1116,25 @@ class ThaiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Prompt
   static TextStyle prompt({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._prompt(
       textStyle: textStyle,
@@ -1164,7 +1164,7 @@ class ThaiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Prompt
-  static TextTheme promptTextTheme([TextTheme textTheme]) {
+  static TextTheme promptTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._promptTextTheme(textTheme);
   }
 
@@ -1174,25 +1174,25 @@ class ThaiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Sarabun
   static TextStyle sarabun({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sarabun(
       textStyle: textStyle,
@@ -1222,7 +1222,7 @@ class ThaiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Sarabun
-  static TextTheme sarabunTextTheme([TextTheme textTheme]) {
+  static TextTheme sarabunTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sarabunTextTheme(textTheme);
   }
 
@@ -1232,25 +1232,25 @@ class ThaiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Sriracha
   static TextStyle sriracha({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sriracha(
       textStyle: textStyle,
@@ -1280,7 +1280,7 @@ class ThaiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Sriracha
-  static TextTheme srirachaTextTheme([TextTheme textTheme]) {
+  static TextTheme srirachaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._srirachaTextTheme(textTheme);
   }
 
@@ -1290,25 +1290,25 @@ class ThaiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Srisakdi
   static TextStyle srisakdi({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._srisakdi(
       textStyle: textStyle,
@@ -1338,7 +1338,7 @@ class ThaiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Srisakdi
-  static TextTheme srisakdiTextTheme([TextTheme textTheme]) {
+  static TextTheme srisakdiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._srisakdiTextTheme(textTheme);
   }
 
@@ -1348,25 +1348,25 @@ class ThaiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Taviraj
   static TextStyle taviraj({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._taviraj(
       textStyle: textStyle,
@@ -1396,7 +1396,7 @@ class ThaiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Taviraj
-  static TextTheme tavirajTextTheme([TextTheme textTheme]) {
+  static TextTheme tavirajTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._tavirajTextTheme(textTheme);
   }
 
@@ -1406,25 +1406,25 @@ class ThaiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Thasadith
   static TextStyle thasadith({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._thasadith(
       textStyle: textStyle,
@@ -1454,7 +1454,7 @@ class ThaiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Thasadith
-  static TextTheme thasadithTextTheme([TextTheme textTheme]) {
+  static TextTheme thasadithTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._thasadithTextTheme(textTheme);
   }
 
@@ -1464,25 +1464,25 @@ class ThaiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Trirong
   static TextStyle trirong({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._trirong(
       textStyle: textStyle,
@@ -1512,7 +1512,7 @@ class ThaiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Trirong
-  static TextTheme trirongTextTheme([TextTheme textTheme]) {
+  static TextTheme trirongTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._trirongTextTheme(textTheme);
   }
 

@@ -1,3 +1,7 @@
+## [2.0.0-nullsafety.0] - 2021-02-09
+
+- Migrated library, generator and app example to null safety.
+
 ## [1.0.1] - 2021-02-02
 
 - Update README.

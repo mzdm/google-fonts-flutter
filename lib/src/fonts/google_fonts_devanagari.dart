@@ -14,25 +14,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Amiko
   static TextStyle amiko({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._amiko(
       textStyle: textStyle,
@@ -62,7 +62,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Amiko
-  static TextTheme amikoTextTheme([TextTheme textTheme]) {
+  static TextTheme amikoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._amikoTextTheme(textTheme);
   }
 
@@ -72,25 +72,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Amita
   static TextStyle amita({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._amita(
       textStyle: textStyle,
@@ -120,7 +120,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Amita
-  static TextTheme amitaTextTheme([TextTheme textTheme]) {
+  static TextTheme amitaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._amitaTextTheme(textTheme);
   }
 
@@ -130,25 +130,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Arya
   static TextStyle arya({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._arya(
       textStyle: textStyle,
@@ -178,7 +178,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Arya
-  static TextTheme aryaTextTheme([TextTheme textTheme]) {
+  static TextTheme aryaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._aryaTextTheme(textTheme);
   }
 
@@ -188,25 +188,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Asar
   static TextStyle asar({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._asar(
       textStyle: textStyle,
@@ -236,7 +236,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Asar
-  static TextTheme asarTextTheme([TextTheme textTheme]) {
+  static TextTheme asarTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._asarTextTheme(textTheme);
   }
 
@@ -246,25 +246,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo
   static TextStyle baloo({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._baloo(
       textStyle: textStyle,
@@ -294,7 +294,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo
-  static TextTheme balooTextTheme([TextTheme textTheme]) {
+  static TextTheme balooTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._balooTextTheme(textTheme);
   }
 
@@ -304,25 +304,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Biryani
   static TextStyle biryani({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._biryani(
       textStyle: textStyle,
@@ -352,7 +352,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Biryani
-  static TextTheme biryaniTextTheme([TextTheme textTheme]) {
+  static TextTheme biryaniTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._biryaniTextTheme(textTheme);
   }
 
@@ -362,25 +362,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Cambay
   static TextStyle cambay({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._cambay(
       textStyle: textStyle,
@@ -410,7 +410,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Cambay
-  static TextTheme cambayTextTheme([TextTheme textTheme]) {
+  static TextTheme cambayTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._cambayTextTheme(textTheme);
   }
 
@@ -420,25 +420,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Dekko
   static TextStyle dekko({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._dekko(
       textStyle: textStyle,
@@ -468,7 +468,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Dekko
-  static TextTheme dekkoTextTheme([TextTheme textTheme]) {
+  static TextTheme dekkoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._dekkoTextTheme(textTheme);
   }
 
@@ -478,25 +478,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Eczar
   static TextStyle eczar({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._eczar(
       textStyle: textStyle,
@@ -526,7 +526,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Eczar
-  static TextTheme eczarTextTheme([TextTheme textTheme]) {
+  static TextTheme eczarTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._eczarTextTheme(textTheme);
   }
 
@@ -536,25 +536,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Glegoo
   static TextStyle glegoo({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._glegoo(
       textStyle: textStyle,
@@ -584,7 +584,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Glegoo
-  static TextTheme glegooTextTheme([TextTheme textTheme]) {
+  static TextTheme glegooTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._glegooTextTheme(textTheme);
   }
 
@@ -594,25 +594,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Gotu
   static TextStyle gotu({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._gotu(
       textStyle: textStyle,
@@ -642,7 +642,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Gotu
-  static TextTheme gotuTextTheme([TextTheme textTheme]) {
+  static TextTheme gotuTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._gotuTextTheme(textTheme);
   }
 
@@ -652,25 +652,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Halant
   static TextStyle halant({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._halant(
       textStyle: textStyle,
@@ -700,7 +700,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Halant
-  static TextTheme halantTextTheme([TextTheme textTheme]) {
+  static TextTheme halantTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._halantTextTheme(textTheme);
   }
 
@@ -710,25 +710,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Hind
   static TextStyle hind({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._hind(
       textStyle: textStyle,
@@ -758,7 +758,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Hind
-  static TextTheme hindTextTheme([TextTheme textTheme]) {
+  static TextTheme hindTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._hindTextTheme(textTheme);
   }
 
@@ -768,25 +768,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Inknut+Antiqua
   static TextStyle inknutAntiqua({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._inknutAntiqua(
       textStyle: textStyle,
@@ -816,7 +816,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Inknut+Antiqua
-  static TextTheme inknutAntiquaTextTheme([TextTheme textTheme]) {
+  static TextTheme inknutAntiquaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._inknutAntiquaTextTheme(textTheme);
   }
 
@@ -826,25 +826,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Jaldi
   static TextStyle jaldi({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._jaldi(
       textStyle: textStyle,
@@ -874,7 +874,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Jaldi
-  static TextTheme jaldiTextTheme([TextTheme textTheme]) {
+  static TextTheme jaldiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._jaldiTextTheme(textTheme);
   }
 
@@ -884,25 +884,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Kadwa
   static TextStyle kadwa({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._kadwa(
       textStyle: textStyle,
@@ -932,7 +932,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Kadwa
-  static TextTheme kadwaTextTheme([TextTheme textTheme]) {
+  static TextTheme kadwaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._kadwaTextTheme(textTheme);
   }
 
@@ -942,25 +942,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Kalam
   static TextStyle kalam({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._kalam(
       textStyle: textStyle,
@@ -990,7 +990,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Kalam
-  static TextTheme kalamTextTheme([TextTheme textTheme]) {
+  static TextTheme kalamTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._kalamTextTheme(textTheme);
   }
 
@@ -1000,25 +1000,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Karma
   static TextStyle karma({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._karma(
       textStyle: textStyle,
@@ -1048,7 +1048,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Karma
-  static TextTheme karmaTextTheme([TextTheme textTheme]) {
+  static TextTheme karmaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._karmaTextTheme(textTheme);
   }
 
@@ -1058,25 +1058,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Khand
   static TextStyle khand({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._khand(
       textStyle: textStyle,
@@ -1106,7 +1106,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Khand
-  static TextTheme khandTextTheme([TextTheme textTheme]) {
+  static TextTheme khandTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._khandTextTheme(textTheme);
   }
 
@@ -1116,25 +1116,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Khula
   static TextStyle khula({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._khula(
       textStyle: textStyle,
@@ -1164,7 +1164,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Khula
-  static TextTheme khulaTextTheme([TextTheme textTheme]) {
+  static TextTheme khulaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._khulaTextTheme(textTheme);
   }
 
@@ -1174,25 +1174,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Kurale
   static TextStyle kurale({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._kurale(
       textStyle: textStyle,
@@ -1222,7 +1222,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Kurale
-  static TextTheme kuraleTextTheme([TextTheme textTheme]) {
+  static TextTheme kuraleTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._kuraleTextTheme(textTheme);
   }
 
@@ -1232,25 +1232,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Laila
   static TextStyle laila({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._laila(
       textStyle: textStyle,
@@ -1280,7 +1280,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Laila
-  static TextTheme lailaTextTheme([TextTheme textTheme]) {
+  static TextTheme lailaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._lailaTextTheme(textTheme);
   }
 
@@ -1290,25 +1290,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Martel
   static TextStyle martel({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._martel(
       textStyle: textStyle,
@@ -1338,7 +1338,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Martel
-  static TextTheme martelTextTheme([TextTheme textTheme]) {
+  static TextTheme martelTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._martelTextTheme(textTheme);
   }
 
@@ -1348,25 +1348,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Martel+Sans
   static TextStyle martelSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._martelSans(
       textStyle: textStyle,
@@ -1396,7 +1396,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Martel+Sans
-  static TextTheme martelSansTextTheme([TextTheme textTheme]) {
+  static TextTheme martelSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._martelSansTextTheme(textTheme);
   }
 
@@ -1406,25 +1406,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Modak
   static TextStyle modak({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._modak(
       textStyle: textStyle,
@@ -1454,7 +1454,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Modak
-  static TextTheme modakTextTheme([TextTheme textTheme]) {
+  static TextTheme modakTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._modakTextTheme(textTheme);
   }
 
@@ -1464,25 +1464,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Mukta
   static TextStyle mukta({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._mukta(
       textStyle: textStyle,
@@ -1512,7 +1512,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Mukta
-  static TextTheme muktaTextTheme([TextTheme textTheme]) {
+  static TextTheme muktaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._muktaTextTheme(textTheme);
   }
 
@@ -1522,25 +1522,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Noto+Sans
   static TextStyle notoSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._notoSans(
       textStyle: textStyle,
@@ -1570,7 +1570,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Noto+Sans
-  static TextTheme notoSansTextTheme([TextTheme textTheme]) {
+  static TextTheme notoSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._notoSansTextTheme(textTheme);
   }
 
@@ -1580,25 +1580,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Palanquin
   static TextStyle palanquin({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._palanquin(
       textStyle: textStyle,
@@ -1628,7 +1628,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Palanquin
-  static TextTheme palanquinTextTheme([TextTheme textTheme]) {
+  static TextTheme palanquinTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._palanquinTextTheme(textTheme);
   }
 
@@ -1638,25 +1638,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Palanquin+Dark
   static TextStyle palanquinDark({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._palanquinDark(
       textStyle: textStyle,
@@ -1686,7 +1686,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Palanquin+Dark
-  static TextTheme palanquinDarkTextTheme([TextTheme textTheme]) {
+  static TextTheme palanquinDarkTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._palanquinDarkTextTheme(textTheme);
   }
 
@@ -1696,25 +1696,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Poppins
   static TextStyle poppins({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._poppins(
       textStyle: textStyle,
@@ -1744,7 +1744,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Poppins
-  static TextTheme poppinsTextTheme([TextTheme textTheme]) {
+  static TextTheme poppinsTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._poppinsTextTheme(textTheme);
   }
 
@@ -1754,25 +1754,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Pragati+Narrow
   static TextStyle pragatiNarrow({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._pragatiNarrow(
       textStyle: textStyle,
@@ -1802,7 +1802,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Pragati+Narrow
-  static TextTheme pragatiNarrowTextTheme([TextTheme textTheme]) {
+  static TextTheme pragatiNarrowTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._pragatiNarrowTextTheme(textTheme);
   }
 
@@ -1812,25 +1812,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Rajdhani
   static TextStyle rajdhani({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._rajdhani(
       textStyle: textStyle,
@@ -1860,7 +1860,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Rajdhani
-  static TextTheme rajdhaniTextTheme([TextTheme textTheme]) {
+  static TextTheme rajdhaniTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._rajdhaniTextTheme(textTheme);
   }
 
@@ -1870,25 +1870,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Ranga
   static TextStyle ranga({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ranga(
       textStyle: textStyle,
@@ -1918,7 +1918,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Ranga
-  static TextTheme rangaTextTheme([TextTheme textTheme]) {
+  static TextTheme rangaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._rangaTextTheme(textTheme);
   }
 
@@ -1928,25 +1928,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Rhodium+Libre
   static TextStyle rhodiumLibre({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._rhodiumLibre(
       textStyle: textStyle,
@@ -1976,7 +1976,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Rhodium+Libre
-  static TextTheme rhodiumLibreTextTheme([TextTheme textTheme]) {
+  static TextTheme rhodiumLibreTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._rhodiumLibreTextTheme(textTheme);
   }
 
@@ -1986,25 +1986,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Rozha+One
   static TextStyle rozhaOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._rozhaOne(
       textStyle: textStyle,
@@ -2034,7 +2034,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Rozha+One
-  static TextTheme rozhaOneTextTheme([TextTheme textTheme]) {
+  static TextTheme rozhaOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._rozhaOneTextTheme(textTheme);
   }
 
@@ -2044,25 +2044,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Sahitya
   static TextStyle sahitya({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sahitya(
       textStyle: textStyle,
@@ -2092,7 +2092,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Sahitya
-  static TextTheme sahityaTextTheme([TextTheme textTheme]) {
+  static TextTheme sahityaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sahityaTextTheme(textTheme);
   }
 
@@ -2102,25 +2102,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Sarala
   static TextStyle sarala({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sarala(
       textStyle: textStyle,
@@ -2150,7 +2150,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Sarala
-  static TextTheme saralaTextTheme([TextTheme textTheme]) {
+  static TextTheme saralaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._saralaTextTheme(textTheme);
   }
 
@@ -2160,25 +2160,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Sarpanch
   static TextStyle sarpanch({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sarpanch(
       textStyle: textStyle,
@@ -2208,7 +2208,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Sarpanch
-  static TextTheme sarpanchTextTheme([TextTheme textTheme]) {
+  static TextTheme sarpanchTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sarpanchTextTheme(textTheme);
   }
 
@@ -2218,25 +2218,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Sumana
   static TextStyle sumana({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sumana(
       textStyle: textStyle,
@@ -2266,7 +2266,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Sumana
-  static TextTheme sumanaTextTheme([TextTheme textTheme]) {
+  static TextTheme sumanaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sumanaTextTheme(textTheme);
   }
 
@@ -2276,25 +2276,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Sura
   static TextStyle sura({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sura(
       textStyle: textStyle,
@@ -2324,7 +2324,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Sura
-  static TextTheme suraTextTheme([TextTheme textTheme]) {
+  static TextTheme suraTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._suraTextTheme(textTheme);
   }
 
@@ -2334,25 +2334,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Teko
   static TextStyle teko({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._teko(
       textStyle: textStyle,
@@ -2382,7 +2382,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Teko
-  static TextTheme tekoTextTheme([TextTheme textTheme]) {
+  static TextTheme tekoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._tekoTextTheme(textTheme);
   }
 
@@ -2392,25 +2392,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Tillana
   static TextStyle tillana({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._tillana(
       textStyle: textStyle,
@@ -2440,7 +2440,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Tillana
-  static TextTheme tillanaTextTheme([TextTheme textTheme]) {
+  static TextTheme tillanaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._tillanaTextTheme(textTheme);
   }
 
@@ -2450,25 +2450,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Vesper+Libre
   static TextStyle vesperLibre({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._vesperLibre(
       textStyle: textStyle,
@@ -2498,7 +2498,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Vesper+Libre
-  static TextTheme vesperLibreTextTheme([TextTheme textTheme]) {
+  static TextTheme vesperLibreTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._vesperLibreTextTheme(textTheme);
   }
 
@@ -2508,25 +2508,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Yantramanav
   static TextStyle yantramanav({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._yantramanav(
       textStyle: textStyle,
@@ -2556,7 +2556,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Yantramanav
-  static TextTheme yantramanavTextTheme([TextTheme textTheme]) {
+  static TextTheme yantramanavTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._yantramanavTextTheme(textTheme);
   }
 
@@ -2566,25 +2566,25 @@ class DevanagariFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Yatra+One
   static TextStyle yatraOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._yatraOne(
       textStyle: textStyle,
@@ -2614,7 +2614,7 @@ class DevanagariFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Yatra+One
-  static TextTheme yatraOneTextTheme([TextTheme textTheme]) {
+  static TextTheme yatraOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._yatraOneTextTheme(textTheme);
   }
 

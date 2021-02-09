@@ -14,25 +14,25 @@ class KhmerFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Kantumruy
   static TextStyle kantumruy({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._kantumruy(
       textStyle: textStyle,
@@ -62,7 +62,7 @@ class KhmerFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Kantumruy
-  static TextTheme kantumruyTextTheme([TextTheme textTheme]) {
+  static TextTheme kantumruyTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._kantumruyTextTheme(textTheme);
   }
 
@@ -72,25 +72,25 @@ class KhmerFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Kdam+Thmor
   static TextStyle kdamThmor({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._kdamThmor(
       textStyle: textStyle,
@@ -120,7 +120,7 @@ class KhmerFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Kdam+Thmor
-  static TextTheme kdamThmorTextTheme([TextTheme textTheme]) {
+  static TextTheme kdamThmorTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._kdamThmorTextTheme(textTheme);
   }
 
@@ -130,25 +130,25 @@ class KhmerFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Odor+Mean+Chey
   static TextStyle odorMeanChey({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._odorMeanChey(
       textStyle: textStyle,
@@ -178,7 +178,7 @@ class KhmerFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Odor+Mean+Chey
-  static TextTheme odorMeanCheyTextTheme([TextTheme textTheme]) {
+  static TextTheme odorMeanCheyTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._odorMeanCheyTextTheme(textTheme);
   }
 

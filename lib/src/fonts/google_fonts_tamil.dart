@@ -14,25 +14,25 @@ class TamilFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Arima+Madurai
   static TextStyle arimaMadurai({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._arimaMadurai(
       textStyle: textStyle,
@@ -62,7 +62,7 @@ class TamilFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Arima+Madurai
-  static TextTheme arimaMaduraiTextTheme([TextTheme textTheme]) {
+  static TextTheme arimaMaduraiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._arimaMaduraiTextTheme(textTheme);
   }
 
@@ -72,25 +72,25 @@ class TamilFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Thambi
   static TextStyle balooThambi({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._balooThambi(
       textStyle: textStyle,
@@ -120,7 +120,7 @@ class TamilFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Thambi
-  static TextTheme balooThambiTextTheme([TextTheme textTheme]) {
+  static TextTheme balooThambiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._balooThambiTextTheme(textTheme);
   }
 
@@ -130,25 +130,25 @@ class TamilFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Catamaran
   static TextStyle catamaran({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._catamaran(
       textStyle: textStyle,
@@ -178,7 +178,7 @@ class TamilFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Catamaran
-  static TextTheme catamaranTextTheme([TextTheme textTheme]) {
+  static TextTheme catamaranTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._catamaranTextTheme(textTheme);
   }
 
@@ -188,25 +188,25 @@ class TamilFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Coiny
   static TextStyle coiny({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._coiny(
       textStyle: textStyle,
@@ -236,7 +236,7 @@ class TamilFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Coiny
-  static TextTheme coinyTextTheme([TextTheme textTheme]) {
+  static TextTheme coinyTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._coinyTextTheme(textTheme);
   }
 
@@ -246,25 +246,25 @@ class TamilFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Hind+Madurai
   static TextStyle hindMadurai({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._hindMadurai(
       textStyle: textStyle,
@@ -294,7 +294,7 @@ class TamilFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Hind+Madurai
-  static TextTheme hindMaduraiTextTheme([TextTheme textTheme]) {
+  static TextTheme hindMaduraiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._hindMaduraiTextTheme(textTheme);
   }
 
@@ -304,25 +304,25 @@ class TamilFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Kavivanar
   static TextStyle kavivanar({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._kavivanar(
       textStyle: textStyle,
@@ -352,7 +352,7 @@ class TamilFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Kavivanar
-  static TextTheme kavivanarTextTheme([TextTheme textTheme]) {
+  static TextTheme kavivanarTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._kavivanarTextTheme(textTheme);
   }
 
@@ -362,25 +362,25 @@ class TamilFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Meera+Inimai
   static TextStyle meeraInimai({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._meeraInimai(
       textStyle: textStyle,
@@ -410,7 +410,7 @@ class TamilFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Meera+Inimai
-  static TextTheme meeraInimaiTextTheme([TextTheme textTheme]) {
+  static TextTheme meeraInimaiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._meeraInimaiTextTheme(textTheme);
   }
 
@@ -420,25 +420,25 @@ class TamilFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Mukta+Malar
   static TextStyle muktaMalar({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._muktaMalar(
       textStyle: textStyle,
@@ -468,7 +468,7 @@ class TamilFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Mukta+Malar
-  static TextTheme muktaMalarTextTheme([TextTheme textTheme]) {
+  static TextTheme muktaMalarTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._muktaMalarTextTheme(textTheme);
   }
 
@@ -478,25 +478,25 @@ class TamilFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Pavanam
   static TextStyle pavanam({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._pavanam(
       textStyle: textStyle,
@@ -526,7 +526,7 @@ class TamilFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Pavanam
-  static TextTheme pavanamTextTheme([TextTheme textTheme]) {
+  static TextTheme pavanamTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._pavanamTextTheme(textTheme);
   }
 

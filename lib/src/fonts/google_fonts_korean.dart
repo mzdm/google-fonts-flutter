@@ -14,25 +14,25 @@ class KoreanFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Black+And+White+Picture
   static TextStyle blackAndWhitePicture({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._blackAndWhitePicture(
       textStyle: textStyle,
@@ -62,7 +62,7 @@ class KoreanFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Black+And+White+Picture
-  static TextTheme blackAndWhitePictureTextTheme([TextTheme textTheme]) {
+  static TextTheme blackAndWhitePictureTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._blackAndWhitePictureTextTheme(textTheme);
   }
 
@@ -72,25 +72,25 @@ class KoreanFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Black+Han+Sans
   static TextStyle blackHanSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._blackHanSans(
       textStyle: textStyle,
@@ -120,7 +120,7 @@ class KoreanFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Black+Han+Sans
-  static TextTheme blackHanSansTextTheme([TextTheme textTheme]) {
+  static TextTheme blackHanSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._blackHanSansTextTheme(textTheme);
   }
 
@@ -130,25 +130,25 @@ class KoreanFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Cute+Font
   static TextStyle cuteFont({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._cuteFont(
       textStyle: textStyle,
@@ -178,7 +178,7 @@ class KoreanFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Cute+Font
-  static TextTheme cuteFontTextTheme([TextTheme textTheme]) {
+  static TextTheme cuteFontTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._cuteFontTextTheme(textTheme);
   }
 
@@ -188,25 +188,25 @@ class KoreanFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Do+Hyeon
   static TextStyle doHyeon({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._doHyeon(
       textStyle: textStyle,
@@ -236,7 +236,7 @@ class KoreanFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Do+Hyeon
-  static TextTheme doHyeonTextTheme([TextTheme textTheme]) {
+  static TextTheme doHyeonTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._doHyeonTextTheme(textTheme);
   }
 
@@ -246,25 +246,25 @@ class KoreanFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Dokdo
   static TextStyle dokdo({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._dokdo(
       textStyle: textStyle,
@@ -294,7 +294,7 @@ class KoreanFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Dokdo
-  static TextTheme dokdoTextTheme([TextTheme textTheme]) {
+  static TextTheme dokdoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._dokdoTextTheme(textTheme);
   }
 
@@ -304,25 +304,25 @@ class KoreanFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/East+Sea+Dokdo
   static TextStyle eastSeaDokdo({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._eastSeaDokdo(
       textStyle: textStyle,
@@ -352,7 +352,7 @@ class KoreanFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/East+Sea+Dokdo
-  static TextTheme eastSeaDokdoTextTheme([TextTheme textTheme]) {
+  static TextTheme eastSeaDokdoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._eastSeaDokdoTextTheme(textTheme);
   }
 
@@ -362,25 +362,25 @@ class KoreanFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Gaegu
   static TextStyle gaegu({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._gaegu(
       textStyle: textStyle,
@@ -410,7 +410,7 @@ class KoreanFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Gaegu
-  static TextTheme gaeguTextTheme([TextTheme textTheme]) {
+  static TextTheme gaeguTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._gaeguTextTheme(textTheme);
   }
 
@@ -420,25 +420,25 @@ class KoreanFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Gamja+Flower
   static TextStyle gamjaFlower({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._gamjaFlower(
       textStyle: textStyle,
@@ -468,7 +468,7 @@ class KoreanFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Gamja+Flower
-  static TextTheme gamjaFlowerTextTheme([TextTheme textTheme]) {
+  static TextTheme gamjaFlowerTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._gamjaFlowerTextTheme(textTheme);
   }
 
@@ -478,25 +478,25 @@ class KoreanFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Gothic+A1
   static TextStyle gothicA1({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._gothicA1(
       textStyle: textStyle,
@@ -526,7 +526,7 @@ class KoreanFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Gothic+A1
-  static TextTheme gothicA1TextTheme([TextTheme textTheme]) {
+  static TextTheme gothicA1TextTheme([TextTheme? textTheme]) {
     return GoogleFonts._gothicA1TextTheme(textTheme);
   }
 
@@ -536,25 +536,25 @@ class KoreanFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Gugi
   static TextStyle gugi({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._gugi(
       textStyle: textStyle,
@@ -584,7 +584,7 @@ class KoreanFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Gugi
-  static TextTheme gugiTextTheme([TextTheme textTheme]) {
+  static TextTheme gugiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._gugiTextTheme(textTheme);
   }
 
@@ -594,25 +594,25 @@ class KoreanFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Hi+Melody
   static TextStyle hiMelody({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._hiMelody(
       textStyle: textStyle,
@@ -642,7 +642,7 @@ class KoreanFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Hi+Melody
-  static TextTheme hiMelodyTextTheme([TextTheme textTheme]) {
+  static TextTheme hiMelodyTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._hiMelodyTextTheme(textTheme);
   }
 
@@ -652,25 +652,25 @@ class KoreanFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Jua
   static TextStyle jua({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._jua(
       textStyle: textStyle,
@@ -700,7 +700,7 @@ class KoreanFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Jua
-  static TextTheme juaTextTheme([TextTheme textTheme]) {
+  static TextTheme juaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._juaTextTheme(textTheme);
   }
 
@@ -710,25 +710,25 @@ class KoreanFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Kirang+Haerang
   static TextStyle kirangHaerang({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._kirangHaerang(
       textStyle: textStyle,
@@ -758,7 +758,7 @@ class KoreanFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Kirang+Haerang
-  static TextTheme kirangHaerangTextTheme([TextTheme textTheme]) {
+  static TextTheme kirangHaerangTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._kirangHaerangTextTheme(textTheme);
   }
 
@@ -768,25 +768,25 @@ class KoreanFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Nanum+Brush+Script
   static TextStyle nanumBrushScript({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._nanumBrushScript(
       textStyle: textStyle,
@@ -816,7 +816,7 @@ class KoreanFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Nanum+Brush+Script
-  static TextTheme nanumBrushScriptTextTheme([TextTheme textTheme]) {
+  static TextTheme nanumBrushScriptTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._nanumBrushScriptTextTheme(textTheme);
   }
 
@@ -826,25 +826,25 @@ class KoreanFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Nanum+Gothic
   static TextStyle nanumGothic({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._nanumGothic(
       textStyle: textStyle,
@@ -874,7 +874,7 @@ class KoreanFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Nanum+Gothic
-  static TextTheme nanumGothicTextTheme([TextTheme textTheme]) {
+  static TextTheme nanumGothicTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._nanumGothicTextTheme(textTheme);
   }
 
@@ -884,25 +884,25 @@ class KoreanFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Nanum+Gothic+Coding
   static TextStyle nanumGothicCoding({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._nanumGothicCoding(
       textStyle: textStyle,
@@ -932,7 +932,7 @@ class KoreanFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Nanum+Gothic+Coding
-  static TextTheme nanumGothicCodingTextTheme([TextTheme textTheme]) {
+  static TextTheme nanumGothicCodingTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._nanumGothicCodingTextTheme(textTheme);
   }
 
@@ -942,25 +942,25 @@ class KoreanFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Nanum+Myeongjo
   static TextStyle nanumMyeongjo({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._nanumMyeongjo(
       textStyle: textStyle,
@@ -990,7 +990,7 @@ class KoreanFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Nanum+Myeongjo
-  static TextTheme nanumMyeongjoTextTheme([TextTheme textTheme]) {
+  static TextTheme nanumMyeongjoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._nanumMyeongjoTextTheme(textTheme);
   }
 
@@ -1000,25 +1000,25 @@ class KoreanFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Nanum+Pen+Script
   static TextStyle nanumPenScript({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._nanumPenScript(
       textStyle: textStyle,
@@ -1048,7 +1048,7 @@ class KoreanFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Nanum+Pen+Script
-  static TextTheme nanumPenScriptTextTheme([TextTheme textTheme]) {
+  static TextTheme nanumPenScriptTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._nanumPenScriptTextTheme(textTheme);
   }
 
@@ -1058,25 +1058,25 @@ class KoreanFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Poor+Story
   static TextStyle poorStory({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._poorStory(
       textStyle: textStyle,
@@ -1106,7 +1106,7 @@ class KoreanFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Poor+Story
-  static TextTheme poorStoryTextTheme([TextTheme textTheme]) {
+  static TextTheme poorStoryTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._poorStoryTextTheme(textTheme);
   }
 
@@ -1116,25 +1116,25 @@ class KoreanFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Single+Day
   static TextStyle singleDay({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._singleDay(
       textStyle: textStyle,
@@ -1164,7 +1164,7 @@ class KoreanFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Single+Day
-  static TextTheme singleDayTextTheme([TextTheme textTheme]) {
+  static TextTheme singleDayTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._singleDayTextTheme(textTheme);
   }
 
@@ -1174,25 +1174,25 @@ class KoreanFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Song+Myung
   static TextStyle songMyung({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._songMyung(
       textStyle: textStyle,
@@ -1222,7 +1222,7 @@ class KoreanFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Song+Myung
-  static TextTheme songMyungTextTheme([TextTheme textTheme]) {
+  static TextTheme songMyungTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._songMyungTextTheme(textTheme);
   }
 
@@ -1232,25 +1232,25 @@ class KoreanFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Stylish
   static TextStyle stylish({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._stylish(
       textStyle: textStyle,
@@ -1280,7 +1280,7 @@ class KoreanFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Stylish
-  static TextTheme stylishTextTheme([TextTheme textTheme]) {
+  static TextTheme stylishTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._stylishTextTheme(textTheme);
   }
 
@@ -1290,25 +1290,25 @@ class KoreanFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Sunflower
   static TextStyle sunflower({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sunflower(
       textStyle: textStyle,
@@ -1338,7 +1338,7 @@ class KoreanFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Sunflower
-  static TextTheme sunflowerTextTheme([TextTheme textTheme]) {
+  static TextTheme sunflowerTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sunflowerTextTheme(textTheme);
   }
 
@@ -1348,25 +1348,25 @@ class KoreanFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Yeon+Sung
   static TextStyle yeonSung({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._yeonSung(
       textStyle: textStyle,
@@ -1396,7 +1396,7 @@ class KoreanFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Yeon+Sung
-  static TextTheme yeonSungTextTheme([TextTheme textTheme]) {
+  static TextTheme yeonSungTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._yeonSungTextTheme(textTheme);
   }
 

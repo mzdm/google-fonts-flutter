@@ -14,25 +14,25 @@ class GurmukhiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Paaji
   static TextStyle balooPaaji({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._balooPaaji(
       textStyle: textStyle,
@@ -62,7 +62,7 @@ class GurmukhiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Paaji
-  static TextTheme balooPaajiTextTheme([TextTheme textTheme]) {
+  static TextTheme balooPaajiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._balooPaajiTextTheme(textTheme);
   }
 
@@ -72,25 +72,25 @@ class GurmukhiFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Mukta+Mahee
   static TextStyle muktaMahee({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._muktaMahee(
       textStyle: textStyle,
@@ -120,7 +120,7 @@ class GurmukhiFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Mukta+Mahee
-  static TextTheme muktaMaheeTextTheme([TextTheme textTheme]) {
+  static TextTheme muktaMaheeTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._muktaMaheeTextTheme(textTheme);
   }
 

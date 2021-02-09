@@ -14,25 +14,25 @@ class ChineseSimplFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Liu+Jian+Mao+Cao
   static TextStyle liuJianMaoCao({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._liuJianMaoCao(
       textStyle: textStyle,
@@ -62,7 +62,7 @@ class ChineseSimplFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Liu+Jian+Mao+Cao
-  static TextTheme liuJianMaoCaoTextTheme([TextTheme textTheme]) {
+  static TextTheme liuJianMaoCaoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._liuJianMaoCaoTextTheme(textTheme);
   }
 
@@ -72,25 +72,25 @@ class ChineseSimplFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Long+Cang
   static TextStyle longCang({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._longCang(
       textStyle: textStyle,
@@ -120,7 +120,7 @@ class ChineseSimplFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Long+Cang
-  static TextTheme longCangTextTheme([TextTheme textTheme]) {
+  static TextTheme longCangTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._longCangTextTheme(textTheme);
   }
 
@@ -130,25 +130,25 @@ class ChineseSimplFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Ma+Shan+Zheng
   static TextStyle maShanZheng({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._maShanZheng(
       textStyle: textStyle,
@@ -178,7 +178,7 @@ class ChineseSimplFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Ma+Shan+Zheng
-  static TextTheme maShanZhengTextTheme([TextTheme textTheme]) {
+  static TextTheme maShanZhengTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._maShanZhengTextTheme(textTheme);
   }
 
@@ -188,25 +188,25 @@ class ChineseSimplFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/ZCOOL+KuaiLe
   static TextStyle zcoolKuaiLe({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._zcoolKuaiLe(
       textStyle: textStyle,
@@ -236,7 +236,7 @@ class ChineseSimplFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/ZCOOL+KuaiLe
-  static TextTheme zcoolKuaiLeTextTheme([TextTheme textTheme]) {
+  static TextTheme zcoolKuaiLeTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._zcoolKuaiLeTextTheme(textTheme);
   }
 
@@ -246,25 +246,25 @@ class ChineseSimplFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/ZCOOL+QingKe+HuangYou
   static TextStyle zcoolQingKeHuangYou({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._zcoolQingKeHuangYou(
       textStyle: textStyle,
@@ -294,7 +294,7 @@ class ChineseSimplFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/ZCOOL+QingKe+HuangYou
-  static TextTheme zcoolQingKeHuangYouTextTheme([TextTheme textTheme]) {
+  static TextTheme zcoolQingKeHuangYouTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._zcoolQingKeHuangYouTextTheme(textTheme);
   }
 
@@ -304,25 +304,25 @@ class ChineseSimplFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/ZCOOL+XiaoWei
   static TextStyle zcoolXiaoWei({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._zcoolXiaoWei(
       textStyle: textStyle,
@@ -352,7 +352,7 @@ class ChineseSimplFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/ZCOOL+XiaoWei
-  static TextTheme zcoolXiaoWeiTextTheme([TextTheme textTheme]) {
+  static TextTheme zcoolXiaoWeiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._zcoolXiaoWeiTextTheme(textTheme);
   }
 
@@ -362,25 +362,25 @@ class ChineseSimplFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Zhi+Mang+Xing
   static TextStyle zhiMangXing({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._zhiMangXing(
       textStyle: textStyle,
@@ -410,7 +410,7 @@ class ChineseSimplFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Zhi+Mang+Xing
-  static TextTheme zhiMangXingTextTheme([TextTheme textTheme]) {
+  static TextTheme zhiMangXingTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._zhiMangXingTextTheme(textTheme);
   }
 

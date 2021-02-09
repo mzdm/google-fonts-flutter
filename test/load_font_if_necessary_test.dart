@@ -1,3 +1,5 @@
+// @dart=2.9
+
 import 'dart:async';
 import 'dart:io';
 
@@ -79,7 +81,7 @@ void main() {
 
     await loadFontIfNecessary(fakeDescriptor);
 
-    verify(httpClient.get(anything)).called(1);
+    verify(httpClient.get(any)).called(1);
   });
 
   testWidgets('loadFontIfNecessary method throws if font cannot be loaded',
@@ -106,7 +108,8 @@ void main() {
       expect(printLog.length, 1);
       expect(
         printLog[0],
-        startsWith('google_language_fonts was unable to load font Foo-BlackItalic'),
+        startsWith(
+            'google_language_fonts was unable to load font Foo-BlackItalic'),
       );
     });
   });
@@ -141,7 +144,7 @@ void main() {
       );
     });
 
-    verifyNever(httpClient.get(anything));
+    verifyNever(httpClient.get(any));
   });
 
   testWidgets(
@@ -160,15 +163,15 @@ void main() {
 
     // 1st call.
     await loadFontIfNecessary(fakeDescriptor);
-    verify(httpClient.get(anything)).called(1);
+    verify(httpClient.get(any)).called(1);
 
     // 2nd call.
     await loadFontIfNecessary(fakeDescriptor);
-    verifyNever(httpClient.get(anything));
+    verifyNever(httpClient.get(any));
 
     // 3rd call.
     await loadFontIfNecessary(fakeDescriptor);
-    verifyNever(httpClient.get(anything));
+    verifyNever(httpClient.get(any));
   });
 
   testWidgets(
@@ -190,7 +193,7 @@ void main() {
       loadFontIfNecessary(fakeDescriptor),
       loadFontIfNecessary(fakeDescriptor)
     ]);
-    verify(httpClient.get(anything)).called(1);
+    verify(httpClient.get(any)).called(1);
   });
 
   testWidgets(

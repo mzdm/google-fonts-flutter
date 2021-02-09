@@ -14,25 +14,25 @@ class TeluguFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Tammudu
   static TextStyle balooTammudu({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._balooTammudu(
       textStyle: textStyle,
@@ -62,7 +62,7 @@ class TeluguFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Tammudu
-  static TextTheme balooTammuduTextTheme([TextTheme textTheme]) {
+  static TextTheme balooTammuduTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._balooTammuduTextTheme(textTheme);
   }
 
@@ -72,25 +72,25 @@ class TeluguFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Chathura
   static TextStyle chathura({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._chathura(
       textStyle: textStyle,
@@ -120,7 +120,7 @@ class TeluguFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Chathura
-  static TextTheme chathuraTextTheme([TextTheme textTheme]) {
+  static TextTheme chathuraTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._chathuraTextTheme(textTheme);
   }
 
@@ -130,25 +130,25 @@ class TeluguFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Dhurjati
   static TextStyle dhurjati({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._dhurjati(
       textStyle: textStyle,
@@ -178,7 +178,7 @@ class TeluguFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Dhurjati
-  static TextTheme dhurjatiTextTheme([TextTheme textTheme]) {
+  static TextTheme dhurjatiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._dhurjatiTextTheme(textTheme);
   }
 
@@ -188,25 +188,25 @@ class TeluguFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Gidugu
   static TextStyle gidugu({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._gidugu(
       textStyle: textStyle,
@@ -236,7 +236,7 @@ class TeluguFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Gidugu
-  static TextTheme giduguTextTheme([TextTheme textTheme]) {
+  static TextTheme giduguTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._giduguTextTheme(textTheme);
   }
 
@@ -246,25 +246,25 @@ class TeluguFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Gurajada
   static TextStyle gurajada({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._gurajada(
       textStyle: textStyle,
@@ -294,7 +294,7 @@ class TeluguFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Gurajada
-  static TextTheme gurajadaTextTheme([TextTheme textTheme]) {
+  static TextTheme gurajadaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._gurajadaTextTheme(textTheme);
   }
 
@@ -304,25 +304,25 @@ class TeluguFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Hind+Guntur
   static TextStyle hindGuntur({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._hindGuntur(
       textStyle: textStyle,
@@ -352,7 +352,7 @@ class TeluguFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Hind+Guntur
-  static TextTheme hindGunturTextTheme([TextTheme textTheme]) {
+  static TextTheme hindGunturTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._hindGunturTextTheme(textTheme);
   }
 
@@ -362,25 +362,25 @@ class TeluguFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Lakki+Reddy
   static TextStyle lakkiReddy({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._lakkiReddy(
       textStyle: textStyle,
@@ -410,7 +410,7 @@ class TeluguFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Lakki+Reddy
-  static TextTheme lakkiReddyTextTheme([TextTheme textTheme]) {
+  static TextTheme lakkiReddyTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._lakkiReddyTextTheme(textTheme);
   }
 
@@ -420,25 +420,25 @@ class TeluguFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Mallanna
   static TextStyle mallanna({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._mallanna(
       textStyle: textStyle,
@@ -468,7 +468,7 @@ class TeluguFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Mallanna
-  static TextTheme mallannaTextTheme([TextTheme textTheme]) {
+  static TextTheme mallannaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._mallannaTextTheme(textTheme);
   }
 
@@ -478,25 +478,25 @@ class TeluguFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Mandali
   static TextStyle mandali({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._mandali(
       textStyle: textStyle,
@@ -526,7 +526,7 @@ class TeluguFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Mandali
-  static TextTheme mandaliTextTheme([TextTheme textTheme]) {
+  static TextTheme mandaliTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._mandaliTextTheme(textTheme);
   }
 
@@ -536,25 +536,25 @@ class TeluguFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/NTR
   static TextStyle ntr({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ntr(
       textStyle: textStyle,
@@ -584,7 +584,7 @@ class TeluguFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/NTR
-  static TextTheme ntrTextTheme([TextTheme textTheme]) {
+  static TextTheme ntrTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ntrTextTheme(textTheme);
   }
 
@@ -594,25 +594,25 @@ class TeluguFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Peddana
   static TextStyle peddana({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._peddana(
       textStyle: textStyle,
@@ -642,7 +642,7 @@ class TeluguFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Peddana
-  static TextTheme peddanaTextTheme([TextTheme textTheme]) {
+  static TextTheme peddanaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._peddanaTextTheme(textTheme);
   }
 
@@ -652,25 +652,25 @@ class TeluguFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Ramabhadra
   static TextStyle ramabhadra({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ramabhadra(
       textStyle: textStyle,
@@ -700,7 +700,7 @@ class TeluguFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Ramabhadra
-  static TextTheme ramabhadraTextTheme([TextTheme textTheme]) {
+  static TextTheme ramabhadraTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ramabhadraTextTheme(textTheme);
   }
 
@@ -710,25 +710,25 @@ class TeluguFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Ramaraja
   static TextStyle ramaraja({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ramaraja(
       textStyle: textStyle,
@@ -758,7 +758,7 @@ class TeluguFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Ramaraja
-  static TextTheme ramarajaTextTheme([TextTheme textTheme]) {
+  static TextTheme ramarajaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ramarajaTextTheme(textTheme);
   }
 
@@ -768,25 +768,25 @@ class TeluguFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Ravi+Prakash
   static TextStyle raviPrakash({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._raviPrakash(
       textStyle: textStyle,
@@ -816,7 +816,7 @@ class TeluguFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Ravi+Prakash
-  static TextTheme raviPrakashTextTheme([TextTheme textTheme]) {
+  static TextTheme raviPrakashTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._raviPrakashTextTheme(textTheme);
   }
 
@@ -826,25 +826,25 @@ class TeluguFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Sree+Krushnadevaraya
   static TextStyle sreeKrushnadevaraya({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sreeKrushnadevaraya(
       textStyle: textStyle,
@@ -874,7 +874,7 @@ class TeluguFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Sree+Krushnadevaraya
-  static TextTheme sreeKrushnadevarayaTextTheme([TextTheme textTheme]) {
+  static TextTheme sreeKrushnadevarayaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sreeKrushnadevarayaTextTheme(textTheme);
   }
 
@@ -884,25 +884,25 @@ class TeluguFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Suranna
   static TextStyle suranna({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._suranna(
       textStyle: textStyle,
@@ -932,7 +932,7 @@ class TeluguFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Suranna
-  static TextTheme surannaTextTheme([TextTheme textTheme]) {
+  static TextTheme surannaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._surannaTextTheme(textTheme);
   }
 
@@ -942,25 +942,25 @@ class TeluguFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Suravaram
   static TextStyle suravaram({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._suravaram(
       textStyle: textStyle,
@@ -990,7 +990,7 @@ class TeluguFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Suravaram
-  static TextTheme suravaramTextTheme([TextTheme textTheme]) {
+  static TextTheme suravaramTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._suravaramTextTheme(textTheme);
   }
 
@@ -1000,25 +1000,25 @@ class TeluguFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Tenali+Ramakrishna
   static TextStyle tenaliRamakrishna({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._tenaliRamakrishna(
       textStyle: textStyle,
@@ -1048,7 +1048,7 @@ class TeluguFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Tenali+Ramakrishna
-  static TextTheme tenaliRamakrishnaTextTheme([TextTheme textTheme]) {
+  static TextTheme tenaliRamakrishnaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._tenaliRamakrishnaTextTheme(textTheme);
   }
 
@@ -1058,25 +1058,25 @@ class TeluguFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Timmana
   static TextStyle timmana({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._timmana(
       textStyle: textStyle,
@@ -1106,7 +1106,7 @@ class TeluguFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Timmana
-  static TextTheme timmanaTextTheme([TextTheme textTheme]) {
+  static TextTheme timmanaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._timmanaTextTheme(textTheme);
   }
 

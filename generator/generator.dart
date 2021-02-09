@@ -1,10 +1,10 @@
 // Copyright 2019 The Flutter team. All rights reserved.
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
-
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:collection/collection.dart';
 import 'package:console/console.dart';
 import 'package:crypto/crypto.dart';
 import 'package:http/http.dart' as http;
@@ -39,9 +39,9 @@ Future<void> main(List<String> args) async {
 
   final fontDir = await _readFontsProtoData(protoUrl);
 
-  // print('\nValidating font URLs and file contents...');
-  // await _verifyUrls(fontDir);
-  // print(_successMessage);
+  print('\nValidating font URLs and file contents...');
+  await _verifyUrls(fontDir);
+  print(_successMessage);
 
   print('\nRetrieving handled fonts from error_handled_fonts.json file...');
   errorHandledFonts.addAll(_retrieveLangFonts(_errorHandledLangFontsFilePath));
@@ -159,7 +159,7 @@ Future<String> _getProtoUrl({int initialVersion = 1}) async {
   var didReachLatestUrl = false;
   final httpClient = http.Client();
   while (!didReachLatestUrl) {
-    final response = await httpClient.get(url(directoryVersion));
+    final response = await httpClient.get(Uri.parse(url(directoryVersion)));
     if (response.statusCode == 200) {
       directoryVersion += 1;
     } else if (response.statusCode == 404) {
@@ -194,7 +194,7 @@ Future<void> _verifyUrls(pb.Directory fontDirectory) async {
 
 Future<void> _tryUrl(http.Client client, String url, pb.Font font) async {
   try {
-    final fileContents = await client.get(url);
+    final fileContents = await client.get(Uri.parse(url));
     final actualFileLength = fileContents.bodyBytes.length;
     final actualFileHash = sha256.convert(fileContents.bodyBytes).toString();
     if (font.file.fileSize != actualFileLength ||
@@ -217,7 +217,7 @@ String _hashToString(List<int> bytes) {
 }
 
 Future<pb.Directory> _readFontsProtoData(String protoUrl) async {
-  final fontsProtoFile = await http.get(protoUrl);
+  final fontsProtoFile = await http.get(Uri.parse(protoUrl));
   return pb.Directory.fromBuffer(fontsProtoFile.bodyBytes);
 }
 
@@ -245,7 +245,7 @@ Future<List<LanguageFonts>> _fetchLanguages(
 
     try {
       final response = await client.get(
-        url,
+        Uri.parse(url),
         headers: {
           'user-agent':
               'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
@@ -253,7 +253,7 @@ Future<List<LanguageFonts>> _fetchLanguages(
       );
 
       if (response.statusCode != 200) {
-        throw ('${response?.statusCode}: ${response?.reasonPhrase}');
+        throw ('${response.statusCode}: ${response.reasonPhrase}');
       }
 
       final responseContent = response.body;
@@ -262,7 +262,7 @@ Future<List<LanguageFonts>> _fetchLanguages(
       langSubsetsMap.values.forEach((langSubset) {
         // Check whether it is possible to recognize the language(s) of the font
         // (see more in _unrecognizedSubsetTest method in generator_helper.dart).
-        _unrecognizedLangSubsetTmpl().firstWhere(
+        _unrecognizedLangSubsetTmpl().firstWhereOrNull(
           (unrecognizedLangSubset) {
             if (responseContent.contains(unrecognizedLangSubset)) {
               // If it is an unrecognized font, then throw an exception,
@@ -272,7 +272,6 @@ Future<List<LanguageFonts>> _fetchLanguages(
             }
             return false;
           },
-          orElse: () => null,
         );
 
         final langName = _getLangNameByValue(langSubset);
@@ -293,7 +292,7 @@ Future<List<LanguageFonts>> _fetchLanguages(
 
       if (!isAlreadyErrorHandled) {
         final errorMsg = e is http.Response
-            ? e.statusCode.toString() + ': ' + e.reasonPhrase
+            ? '${e.statusCode.toString()}: ${e.reasonPhrase as String}'
             : e.toString();
 
         unrecognizedFontsList.add(UnrecognizedFont(
@@ -301,7 +300,7 @@ Future<List<LanguageFonts>> _fetchLanguages(
           errorPhrase: errorMsg,
         ));
         print(
-          'font: \'$fontName\' was not successfully fetched ($errorMsg) - see errors.txt',
+          'font: \'$fontName\' was not successfully fetched ($errorMsg) - see errors.json',
         );
       }
     }
@@ -329,10 +328,10 @@ Future<List<LanguageFonts>> _tryFetchUnrecognizedFontsLangs(
   }
 
   try {
-    final response = await client.get(_baseUrlAlternative);
+    final response = await client.get(Uri.parse(_baseUrlAlternative));
 
     if (response.statusCode != 200) {
-      throw ('${response?.statusCode}: ${response?.reasonPhrase}');
+      throw ('${response.statusCode}: ${response.reasonPhrase}');
     }
 
     final responseContent = response.body;
@@ -371,7 +370,7 @@ Future<List<LanguageFonts>> _tryFetchUnrecognizedFontsLangs(
     });
   } catch (e) {
     final errorMsg = e is http.Response
-        ? e.statusCode.toString() + ': ' + e.reasonPhrase
+        ? '${e.statusCode.toString()}: ${e.reasonPhrase as String}'
         : e.toString();
     print(errorMsg);
   }
@@ -388,7 +387,7 @@ Future<List<LanguageFonts>> _tryFetchUnrecognizedFontsLangs(
 String _generateDartCode(
   pb.Directory fontDir,
   List<LanguageFonts> languageFontsList, {
-  String currLangName,
+  String? currLangName,
 }) {
   // google_fonts.tmpl related
   final importNames = <Map<String, dynamic>>[];
@@ -405,7 +404,7 @@ String _generateDartCode(
     final langName = languageFonts.langName;
 
     importNames.add(<String, dynamic>{
-      'fileName': _dashReplacement(_langSubsetNameMapper[langName]),
+      'fileName': _dashReplacement(_langSubsetNameMapper[langName]!),
     });
 
     if (langName == currLangName) {

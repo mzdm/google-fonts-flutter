@@ -14,25 +14,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Alata
   static TextStyle alata({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._alata(
       textStyle: textStyle,
@@ -62,7 +62,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Alata
-  static TextTheme alataTextTheme([TextTheme textTheme]) {
+  static TextTheme alataTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._alataTextTheme(textTheme);
   }
 
@@ -72,25 +72,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Alatsi
   static TextStyle alatsi({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._alatsi(
       textStyle: textStyle,
@@ -120,7 +120,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Alatsi
-  static TextTheme alatsiTextTheme([TextTheme textTheme]) {
+  static TextTheme alatsiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._alatsiTextTheme(textTheme);
   }
 
@@ -130,25 +130,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Alegreya
   static TextStyle alegreya({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._alegreya(
       textStyle: textStyle,
@@ -178,7 +178,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Alegreya
-  static TextTheme alegreyaTextTheme([TextTheme textTheme]) {
+  static TextTheme alegreyaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._alegreyaTextTheme(textTheme);
   }
 
@@ -188,25 +188,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Alegreya+SC
   static TextStyle alegreyaSc({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._alegreyaSc(
       textStyle: textStyle,
@@ -236,7 +236,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Alegreya+SC
-  static TextTheme alegreyaScTextTheme([TextTheme textTheme]) {
+  static TextTheme alegreyaScTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._alegreyaScTextTheme(textTheme);
   }
 
@@ -246,25 +246,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Alegreya+Sans
   static TextStyle alegreyaSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._alegreyaSans(
       textStyle: textStyle,
@@ -294,7 +294,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Alegreya+Sans
-  static TextTheme alegreyaSansTextTheme([TextTheme textTheme]) {
+  static TextTheme alegreyaSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._alegreyaSansTextTheme(textTheme);
   }
 
@@ -304,25 +304,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Alegreya+Sans+SC
   static TextStyle alegreyaSansSc({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._alegreyaSansSc(
       textStyle: textStyle,
@@ -352,7 +352,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Alegreya+Sans+SC
-  static TextTheme alegreyaSansScTextTheme([TextTheme textTheme]) {
+  static TextTheme alegreyaSansScTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._alegreyaSansScTextTheme(textTheme);
   }
 
@@ -362,25 +362,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Alfa+Slab+One
   static TextStyle alfaSlabOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._alfaSlabOne(
       textStyle: textStyle,
@@ -410,7 +410,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Alfa+Slab+One
-  static TextTheme alfaSlabOneTextTheme([TextTheme textTheme]) {
+  static TextTheme alfaSlabOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._alfaSlabOneTextTheme(textTheme);
   }
 
@@ -420,25 +420,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Amatic+SC
   static TextStyle amaticSc({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._amaticSc(
       textStyle: textStyle,
@@ -468,7 +468,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Amatic+SC
-  static TextTheme amaticScTextTheme([TextTheme textTheme]) {
+  static TextTheme amaticScTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._amaticScTextTheme(textTheme);
   }
 
@@ -478,25 +478,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Andika
   static TextStyle andika({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._andika(
       textStyle: textStyle,
@@ -526,7 +526,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Andika
-  static TextTheme andikaTextTheme([TextTheme textTheme]) {
+  static TextTheme andikaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._andikaTextTheme(textTheme);
   }
 
@@ -536,25 +536,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Anton
   static TextStyle anton({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._anton(
       textStyle: textStyle,
@@ -584,7 +584,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Anton
-  static TextTheme antonTextTheme([TextTheme textTheme]) {
+  static TextTheme antonTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._antonTextTheme(textTheme);
   }
 
@@ -594,25 +594,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Archivo
   static TextStyle archivo({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._archivo(
       textStyle: textStyle,
@@ -642,7 +642,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Archivo
-  static TextTheme archivoTextTheme([TextTheme textTheme]) {
+  static TextTheme archivoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._archivoTextTheme(textTheme);
   }
 
@@ -652,25 +652,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Archivo+Narrow
   static TextStyle archivoNarrow({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._archivoNarrow(
       textStyle: textStyle,
@@ -700,7 +700,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Archivo+Narrow
-  static TextTheme archivoNarrowTextTheme([TextTheme textTheme]) {
+  static TextTheme archivoNarrowTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._archivoNarrowTextTheme(textTheme);
   }
 
@@ -710,25 +710,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Arima+Madurai
   static TextStyle arimaMadurai({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._arimaMadurai(
       textStyle: textStyle,
@@ -758,7 +758,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Arima+Madurai
-  static TextTheme arimaMaduraiTextTheme([TextTheme textTheme]) {
+  static TextTheme arimaMaduraiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._arimaMaduraiTextTheme(textTheme);
   }
 
@@ -768,25 +768,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Arimo
   static TextStyle arimo({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._arimo(
       textStyle: textStyle,
@@ -816,7 +816,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Arimo
-  static TextTheme arimoTextTheme([TextTheme textTheme]) {
+  static TextTheme arimoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._arimoTextTheme(textTheme);
   }
 
@@ -826,25 +826,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Arsenal
   static TextStyle arsenal({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._arsenal(
       textStyle: textStyle,
@@ -874,7 +874,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Arsenal
-  static TextTheme arsenalTextTheme([TextTheme textTheme]) {
+  static TextTheme arsenalTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._arsenalTextTheme(textTheme);
   }
 
@@ -884,25 +884,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Asap
   static TextStyle asap({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._asap(
       textStyle: textStyle,
@@ -932,7 +932,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Asap
-  static TextTheme asapTextTheme([TextTheme textTheme]) {
+  static TextTheme asapTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._asapTextTheme(textTheme);
   }
 
@@ -942,25 +942,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Athiti
   static TextStyle athiti({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._athiti(
       textStyle: textStyle,
@@ -990,7 +990,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Athiti
-  static TextTheme athitiTextTheme([TextTheme textTheme]) {
+  static TextTheme athitiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._athitiTextTheme(textTheme);
   }
 
@@ -1000,25 +1000,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Bahianita
   static TextStyle bahianita({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._bahianita(
       textStyle: textStyle,
@@ -1048,7 +1048,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Bahianita
-  static TextTheme bahianitaTextTheme([TextTheme textTheme]) {
+  static TextTheme bahianitaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._bahianitaTextTheme(textTheme);
   }
 
@@ -1058,25 +1058,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Bai+Jamjuree
   static TextStyle baiJamjuree({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._baiJamjuree(
       textStyle: textStyle,
@@ -1106,7 +1106,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Bai+Jamjuree
-  static TextTheme baiJamjureeTextTheme([TextTheme textTheme]) {
+  static TextTheme baiJamjureeTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._baiJamjureeTextTheme(textTheme);
   }
 
@@ -1116,25 +1116,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo
   static TextStyle baloo({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._baloo(
       textStyle: textStyle,
@@ -1164,7 +1164,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo
-  static TextTheme balooTextTheme([TextTheme textTheme]) {
+  static TextTheme balooTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._balooTextTheme(textTheme);
   }
 
@@ -1174,25 +1174,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Bhai
   static TextStyle balooBhai({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._balooBhai(
       textStyle: textStyle,
@@ -1222,7 +1222,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Bhai
-  static TextTheme balooBhaiTextTheme([TextTheme textTheme]) {
+  static TextTheme balooBhaiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._balooBhaiTextTheme(textTheme);
   }
 
@@ -1232,25 +1232,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Bhaijaan
   static TextStyle balooBhaijaan({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._balooBhaijaan(
       textStyle: textStyle,
@@ -1280,7 +1280,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Bhaijaan
-  static TextTheme balooBhaijaanTextTheme([TextTheme textTheme]) {
+  static TextTheme balooBhaijaanTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._balooBhaijaanTextTheme(textTheme);
   }
 
@@ -1290,25 +1290,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Bhaina
   static TextStyle balooBhaina({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._balooBhaina(
       textStyle: textStyle,
@@ -1338,7 +1338,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Bhaina
-  static TextTheme balooBhainaTextTheme([TextTheme textTheme]) {
+  static TextTheme balooBhainaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._balooBhainaTextTheme(textTheme);
   }
 
@@ -1348,25 +1348,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Chettan
   static TextStyle balooChettan({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._balooChettan(
       textStyle: textStyle,
@@ -1396,7 +1396,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Chettan
-  static TextTheme balooChettanTextTheme([TextTheme textTheme]) {
+  static TextTheme balooChettanTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._balooChettanTextTheme(textTheme);
   }
 
@@ -1406,25 +1406,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Da
   static TextStyle balooDa({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._balooDa(
       textStyle: textStyle,
@@ -1454,7 +1454,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Da
-  static TextTheme balooDaTextTheme([TextTheme textTheme]) {
+  static TextTheme balooDaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._balooDaTextTheme(textTheme);
   }
 
@@ -1464,25 +1464,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Paaji
   static TextStyle balooPaaji({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._balooPaaji(
       textStyle: textStyle,
@@ -1512,7 +1512,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Paaji
-  static TextTheme balooPaajiTextTheme([TextTheme textTheme]) {
+  static TextTheme balooPaajiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._balooPaajiTextTheme(textTheme);
   }
 
@@ -1522,25 +1522,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Tamma
   static TextStyle balooTamma({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._balooTamma(
       textStyle: textStyle,
@@ -1570,7 +1570,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Tamma
-  static TextTheme balooTammaTextTheme([TextTheme textTheme]) {
+  static TextTheme balooTammaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._balooTammaTextTheme(textTheme);
   }
 
@@ -1580,25 +1580,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Tammudu
   static TextStyle balooTammudu({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._balooTammudu(
       textStyle: textStyle,
@@ -1628,7 +1628,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Tammudu
-  static TextTheme balooTammuduTextTheme([TextTheme textTheme]) {
+  static TextTheme balooTammuduTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._balooTammuduTextTheme(textTheme);
   }
 
@@ -1638,25 +1638,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Thambi
   static TextStyle balooThambi({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._balooThambi(
       textStyle: textStyle,
@@ -1686,7 +1686,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Thambi
-  static TextTheme balooThambiTextTheme([TextTheme textTheme]) {
+  static TextTheme balooThambiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._balooThambiTextTheme(textTheme);
   }
 
@@ -1696,25 +1696,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Bangers
   static TextStyle bangers({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._bangers(
       textStyle: textStyle,
@@ -1744,7 +1744,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Bangers
-  static TextTheme bangersTextTheme([TextTheme textTheme]) {
+  static TextTheme bangersTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._bangersTextTheme(textTheme);
   }
 
@@ -1754,25 +1754,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Barlow
   static TextStyle barlow({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._barlow(
       textStyle: textStyle,
@@ -1802,7 +1802,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Barlow
-  static TextTheme barlowTextTheme([TextTheme textTheme]) {
+  static TextTheme barlowTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._barlowTextTheme(textTheme);
   }
 
@@ -1812,25 +1812,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Barlow+Condensed
   static TextStyle barlowCondensed({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._barlowCondensed(
       textStyle: textStyle,
@@ -1860,7 +1860,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Barlow+Condensed
-  static TextTheme barlowCondensedTextTheme([TextTheme textTheme]) {
+  static TextTheme barlowCondensedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._barlowCondensedTextTheme(textTheme);
   }
 
@@ -1870,25 +1870,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Barlow+Semi+Condensed
   static TextStyle barlowSemiCondensed({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._barlowSemiCondensed(
       textStyle: textStyle,
@@ -1918,7 +1918,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Barlow+Semi+Condensed
-  static TextTheme barlowSemiCondensedTextTheme([TextTheme textTheme]) {
+  static TextTheme barlowSemiCondensedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._barlowSemiCondensedTextTheme(textTheme);
   }
 
@@ -1928,25 +1928,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Barriecito
   static TextStyle barriecito({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._barriecito(
       textStyle: textStyle,
@@ -1976,7 +1976,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Barriecito
-  static TextTheme barriecitoTextTheme([TextTheme textTheme]) {
+  static TextTheme barriecitoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._barriecitoTextTheme(textTheme);
   }
 
@@ -1986,25 +1986,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Be+Vietnam
   static TextStyle beVietnam({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._beVietnam(
       textStyle: textStyle,
@@ -2034,7 +2034,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Be+Vietnam
-  static TextTheme beVietnamTextTheme([TextTheme textTheme]) {
+  static TextTheme beVietnamTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._beVietnamTextTheme(textTheme);
   }
 
@@ -2044,25 +2044,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Bellota
   static TextStyle bellota({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._bellota(
       textStyle: textStyle,
@@ -2092,7 +2092,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Bellota
-  static TextTheme bellotaTextTheme([TextTheme textTheme]) {
+  static TextTheme bellotaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._bellotaTextTheme(textTheme);
   }
 
@@ -2102,25 +2102,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Bellota+Text
   static TextStyle bellotaText({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._bellotaText(
       textStyle: textStyle,
@@ -2150,7 +2150,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Bellota+Text
-  static TextTheme bellotaTextTextTheme([TextTheme textTheme]) {
+  static TextTheme bellotaTextTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._bellotaTextTextTheme(textTheme);
   }
 
@@ -2160,25 +2160,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Bevan
   static TextStyle bevan({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._bevan(
       textStyle: textStyle,
@@ -2208,7 +2208,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Bevan
-  static TextTheme bevanTextTheme([TextTheme textTheme]) {
+  static TextTheme bevanTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._bevanTextTheme(textTheme);
   }
 
@@ -2218,25 +2218,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Big+Shoulders+Display
   static TextStyle bigShouldersDisplay({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._bigShouldersDisplay(
       textStyle: textStyle,
@@ -2266,7 +2266,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Big+Shoulders+Display
-  static TextTheme bigShouldersDisplayTextTheme([TextTheme textTheme]) {
+  static TextTheme bigShouldersDisplayTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._bigShouldersDisplayTextTheme(textTheme);
   }
 
@@ -2276,25 +2276,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Big+Shoulders+Text
   static TextStyle bigShouldersText({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._bigShouldersText(
       textStyle: textStyle,
@@ -2324,7 +2324,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Big+Shoulders+Text
-  static TextTheme bigShouldersTextTextTheme([TextTheme textTheme]) {
+  static TextTheme bigShouldersTextTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._bigShouldersTextTextTheme(textTheme);
   }
 
@@ -2334,25 +2334,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Bitter
   static TextStyle bitter({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._bitter(
       textStyle: textStyle,
@@ -2382,7 +2382,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Bitter
-  static TextTheme bitterTextTheme([TextTheme textTheme]) {
+  static TextTheme bitterTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._bitterTextTheme(textTheme);
   }
 
@@ -2392,25 +2392,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Bungee
   static TextStyle bungee({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._bungee(
       textStyle: textStyle,
@@ -2440,7 +2440,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Bungee
-  static TextTheme bungeeTextTheme([TextTheme textTheme]) {
+  static TextTheme bungeeTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._bungeeTextTheme(textTheme);
   }
 
@@ -2450,25 +2450,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Bungee+Hairline
   static TextStyle bungeeHairline({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._bungeeHairline(
       textStyle: textStyle,
@@ -2498,7 +2498,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Bungee+Hairline
-  static TextTheme bungeeHairlineTextTheme([TextTheme textTheme]) {
+  static TextTheme bungeeHairlineTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._bungeeHairlineTextTheme(textTheme);
   }
 
@@ -2508,25 +2508,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Bungee+Inline
   static TextStyle bungeeInline({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._bungeeInline(
       textStyle: textStyle,
@@ -2556,7 +2556,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Bungee+Inline
-  static TextTheme bungeeInlineTextTheme([TextTheme textTheme]) {
+  static TextTheme bungeeInlineTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._bungeeInlineTextTheme(textTheme);
   }
 
@@ -2566,25 +2566,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Bungee+Outline
   static TextStyle bungeeOutline({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._bungeeOutline(
       textStyle: textStyle,
@@ -2614,7 +2614,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Bungee+Outline
-  static TextTheme bungeeOutlineTextTheme([TextTheme textTheme]) {
+  static TextTheme bungeeOutlineTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._bungeeOutlineTextTheme(textTheme);
   }
 
@@ -2624,25 +2624,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Bungee+Shade
   static TextStyle bungeeShade({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._bungeeShade(
       textStyle: textStyle,
@@ -2672,7 +2672,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Bungee+Shade
-  static TextTheme bungeeShadeTextTheme([TextTheme textTheme]) {
+  static TextTheme bungeeShadeTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._bungeeShadeTextTheme(textTheme);
   }
 
@@ -2682,25 +2682,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Cabin
   static TextStyle cabin({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._cabin(
       textStyle: textStyle,
@@ -2730,7 +2730,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Cabin
-  static TextTheme cabinTextTheme([TextTheme textTheme]) {
+  static TextTheme cabinTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._cabinTextTheme(textTheme);
   }
 
@@ -2740,25 +2740,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Cabin+Condensed
   static TextStyle cabinCondensed({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._cabinCondensed(
       textStyle: textStyle,
@@ -2788,7 +2788,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Cabin+Condensed
-  static TextTheme cabinCondensedTextTheme([TextTheme textTheme]) {
+  static TextTheme cabinCondensedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._cabinCondensedTextTheme(textTheme);
   }
 
@@ -2798,25 +2798,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Calistoga
   static TextStyle calistoga({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._calistoga(
       textStyle: textStyle,
@@ -2846,7 +2846,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Calistoga
-  static TextTheme calistogaTextTheme([TextTheme textTheme]) {
+  static TextTheme calistogaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._calistogaTextTheme(textTheme);
   }
 
@@ -2856,25 +2856,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Chakra+Petch
   static TextStyle chakraPetch({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._chakraPetch(
       textStyle: textStyle,
@@ -2904,7 +2904,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Chakra+Petch
-  static TextTheme chakraPetchTextTheme([TextTheme textTheme]) {
+  static TextTheme chakraPetchTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._chakraPetchTextTheme(textTheme);
   }
 
@@ -2914,25 +2914,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Charm
   static TextStyle charm({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._charm(
       textStyle: textStyle,
@@ -2962,7 +2962,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Charm
-  static TextTheme charmTextTheme([TextTheme textTheme]) {
+  static TextTheme charmTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._charmTextTheme(textTheme);
   }
 
@@ -2972,25 +2972,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Charmonman
   static TextStyle charmonman({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._charmonman(
       textStyle: textStyle,
@@ -3020,7 +3020,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Charmonman
-  static TextTheme charmonmanTextTheme([TextTheme textTheme]) {
+  static TextTheme charmonmanTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._charmonmanTextTheme(textTheme);
   }
 
@@ -3030,25 +3030,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Chonburi
   static TextStyle chonburi({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._chonburi(
       textStyle: textStyle,
@@ -3078,7 +3078,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Chonburi
-  static TextTheme chonburiTextTheme([TextTheme textTheme]) {
+  static TextTheme chonburiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._chonburiTextTheme(textTheme);
   }
 
@@ -3088,25 +3088,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Coiny
   static TextStyle coiny({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._coiny(
       textStyle: textStyle,
@@ -3136,7 +3136,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Coiny
-  static TextTheme coinyTextTheme([TextTheme textTheme]) {
+  static TextTheme coinyTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._coinyTextTheme(textTheme);
   }
 
@@ -3146,25 +3146,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Comfortaa
   static TextStyle comfortaa({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._comfortaa(
       textStyle: textStyle,
@@ -3194,7 +3194,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Comfortaa
-  static TextTheme comfortaaTextTheme([TextTheme textTheme]) {
+  static TextTheme comfortaaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._comfortaaTextTheme(textTheme);
   }
 
@@ -3204,25 +3204,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Cormorant
   static TextStyle cormorant({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._cormorant(
       textStyle: textStyle,
@@ -3252,7 +3252,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Cormorant
-  static TextTheme cormorantTextTheme([TextTheme textTheme]) {
+  static TextTheme cormorantTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._cormorantTextTheme(textTheme);
   }
 
@@ -3262,25 +3262,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Cormorant+Garamond
   static TextStyle cormorantGaramond({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._cormorantGaramond(
       textStyle: textStyle,
@@ -3310,7 +3310,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Cormorant+Garamond
-  static TextTheme cormorantGaramondTextTheme([TextTheme textTheme]) {
+  static TextTheme cormorantGaramondTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._cormorantGaramondTextTheme(textTheme);
   }
 
@@ -3320,25 +3320,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Cormorant+Infant
   static TextStyle cormorantInfant({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._cormorantInfant(
       textStyle: textStyle,
@@ -3368,7 +3368,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Cormorant+Infant
-  static TextTheme cormorantInfantTextTheme([TextTheme textTheme]) {
+  static TextTheme cormorantInfantTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._cormorantInfantTextTheme(textTheme);
   }
 
@@ -3378,25 +3378,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Cormorant+SC
   static TextStyle cormorantSc({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._cormorantSc(
       textStyle: textStyle,
@@ -3426,7 +3426,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Cormorant+SC
-  static TextTheme cormorantScTextTheme([TextTheme textTheme]) {
+  static TextTheme cormorantScTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._cormorantScTextTheme(textTheme);
   }
 
@@ -3436,25 +3436,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Cormorant+Unicase
   static TextStyle cormorantUnicase({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._cormorantUnicase(
       textStyle: textStyle,
@@ -3484,7 +3484,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Cormorant+Unicase
-  static TextTheme cormorantUnicaseTextTheme([TextTheme textTheme]) {
+  static TextTheme cormorantUnicaseTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._cormorantUnicaseTextTheme(textTheme);
   }
 
@@ -3494,25 +3494,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Cormorant+Upright
   static TextStyle cormorantUpright({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._cormorantUpright(
       textStyle: textStyle,
@@ -3542,7 +3542,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Cormorant+Upright
-  static TextTheme cormorantUprightTextTheme([TextTheme textTheme]) {
+  static TextTheme cormorantUprightTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._cormorantUprightTextTheme(textTheme);
   }
 
@@ -3552,25 +3552,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Cousine
   static TextStyle cousine({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._cousine(
       textStyle: textStyle,
@@ -3600,7 +3600,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Cousine
-  static TextTheme cousineTextTheme([TextTheme textTheme]) {
+  static TextTheme cousineTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._cousineTextTheme(textTheme);
   }
 
@@ -3610,25 +3610,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Crimson+Pro
   static TextStyle crimsonPro({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._crimsonPro(
       textStyle: textStyle,
@@ -3658,7 +3658,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Crimson+Pro
-  static TextTheme crimsonProTextTheme([TextTheme textTheme]) {
+  static TextTheme crimsonProTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._crimsonProTextTheme(textTheme);
   }
 
@@ -3668,25 +3668,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Cuprum
   static TextStyle cuprum({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._cuprum(
       textStyle: textStyle,
@@ -3716,7 +3716,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Cuprum
-  static TextTheme cuprumTextTheme([TextTheme textTheme]) {
+  static TextTheme cuprumTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._cuprumTextTheme(textTheme);
   }
 
@@ -3726,25 +3726,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Dancing+Script
   static TextStyle dancingScript({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._dancingScript(
       textStyle: textStyle,
@@ -3774,7 +3774,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Dancing+Script
-  static TextTheme dancingScriptTextTheme([TextTheme textTheme]) {
+  static TextTheme dancingScriptTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._dancingScriptTextTheme(textTheme);
   }
 
@@ -3784,25 +3784,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Darker+Grotesque
   static TextStyle darkerGrotesque({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._darkerGrotesque(
       textStyle: textStyle,
@@ -3832,7 +3832,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Darker+Grotesque
-  static TextTheme darkerGrotesqueTextTheme([TextTheme textTheme]) {
+  static TextTheme darkerGrotesqueTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._darkerGrotesqueTextTheme(textTheme);
   }
 
@@ -3842,25 +3842,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/David+Libre
   static TextStyle davidLibre({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._davidLibre(
       textStyle: textStyle,
@@ -3890,7 +3890,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/David+Libre
-  static TextTheme davidLibreTextTheme([TextTheme textTheme]) {
+  static TextTheme davidLibreTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._davidLibreTextTheme(textTheme);
   }
 
@@ -3900,25 +3900,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Dosis
   static TextStyle dosis({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._dosis(
       textStyle: textStyle,
@@ -3948,7 +3948,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Dosis
-  static TextTheme dosisTextTheme([TextTheme textTheme]) {
+  static TextTheme dosisTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._dosisTextTheme(textTheme);
   }
 
@@ -3958,25 +3958,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/EB+Garamond
   static TextStyle ebGaramond({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ebGaramond(
       textStyle: textStyle,
@@ -4006,7 +4006,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/EB+Garamond
-  static TextTheme ebGaramondTextTheme([TextTheme textTheme]) {
+  static TextTheme ebGaramondTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ebGaramondTextTheme(textTheme);
   }
 
@@ -4016,25 +4016,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Encode+Sans
   static TextStyle encodeSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._encodeSans(
       textStyle: textStyle,
@@ -4064,7 +4064,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Encode+Sans
-  static TextTheme encodeSansTextTheme([TextTheme textTheme]) {
+  static TextTheme encodeSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._encodeSansTextTheme(textTheme);
   }
 
@@ -4074,25 +4074,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Encode+Sans+Condensed
   static TextStyle encodeSansCondensed({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._encodeSansCondensed(
       textStyle: textStyle,
@@ -4122,7 +4122,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Encode+Sans+Condensed
-  static TextTheme encodeSansCondensedTextTheme([TextTheme textTheme]) {
+  static TextTheme encodeSansCondensedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._encodeSansCondensedTextTheme(textTheme);
   }
 
@@ -4132,25 +4132,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Encode+Sans+Expanded
   static TextStyle encodeSansExpanded({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._encodeSansExpanded(
       textStyle: textStyle,
@@ -4180,7 +4180,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Encode+Sans+Expanded
-  static TextTheme encodeSansExpandedTextTheme([TextTheme textTheme]) {
+  static TextTheme encodeSansExpandedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._encodeSansExpandedTextTheme(textTheme);
   }
 
@@ -4190,25 +4190,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Encode+Sans+Semi+Condensed
   static TextStyle encodeSansSemiCondensed({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._encodeSansSemiCondensed(
       textStyle: textStyle,
@@ -4238,7 +4238,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Encode+Sans+Semi+Condensed
-  static TextTheme encodeSansSemiCondensedTextTheme([TextTheme textTheme]) {
+  static TextTheme encodeSansSemiCondensedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._encodeSansSemiCondensedTextTheme(textTheme);
   }
 
@@ -4248,25 +4248,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Encode+Sans+Semi+Expanded
   static TextStyle encodeSansSemiExpanded({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._encodeSansSemiExpanded(
       textStyle: textStyle,
@@ -4296,7 +4296,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Encode+Sans+Semi+Expanded
-  static TextTheme encodeSansSemiExpandedTextTheme([TextTheme textTheme]) {
+  static TextTheme encodeSansSemiExpandedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._encodeSansSemiExpandedTextTheme(textTheme);
   }
 
@@ -4306,25 +4306,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Exo
   static TextStyle exo({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._exo(
       textStyle: textStyle,
@@ -4354,7 +4354,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Exo
-  static TextTheme exoTextTheme([TextTheme textTheme]) {
+  static TextTheme exoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._exoTextTheme(textTheme);
   }
 
@@ -4364,25 +4364,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Exo+2
   static TextStyle exo2({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._exo2(
       textStyle: textStyle,
@@ -4412,7 +4412,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Exo+2
-  static TextTheme exo2TextTheme([TextTheme textTheme]) {
+  static TextTheme exo2TextTheme([TextTheme? textTheme]) {
     return GoogleFonts._exo2TextTheme(textTheme);
   }
 
@@ -4422,25 +4422,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Fahkwang
   static TextStyle fahkwang({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._fahkwang(
       textStyle: textStyle,
@@ -4470,7 +4470,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Fahkwang
-  static TextTheme fahkwangTextTheme([TextTheme textTheme]) {
+  static TextTheme fahkwangTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._fahkwangTextTheme(textTheme);
   }
 
@@ -4480,25 +4480,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Farsan
   static TextStyle farsan({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._farsan(
       textStyle: textStyle,
@@ -4528,7 +4528,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Farsan
-  static TextTheme farsanTextTheme([TextTheme textTheme]) {
+  static TextTheme farsanTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._farsanTextTheme(textTheme);
   }
 
@@ -4538,25 +4538,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Faustina
   static TextStyle faustina({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._faustina(
       textStyle: textStyle,
@@ -4586,7 +4586,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Faustina
-  static TextTheme faustinaTextTheme([TextTheme textTheme]) {
+  static TextTheme faustinaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._faustinaTextTheme(textTheme);
   }
 
@@ -4596,25 +4596,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Fira+Sans
   static TextStyle firaSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._firaSans(
       textStyle: textStyle,
@@ -4644,7 +4644,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Fira+Sans
-  static TextTheme firaSansTextTheme([TextTheme textTheme]) {
+  static TextTheme firaSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._firaSansTextTheme(textTheme);
   }
 
@@ -4654,25 +4654,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Fira+Sans+Condensed
   static TextStyle firaSansCondensed({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._firaSansCondensed(
       textStyle: textStyle,
@@ -4702,7 +4702,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Fira+Sans+Condensed
-  static TextTheme firaSansCondensedTextTheme([TextTheme textTheme]) {
+  static TextTheme firaSansCondensedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._firaSansCondensedTextTheme(textTheme);
   }
 
@@ -4712,25 +4712,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Fira+Sans+Extra+Condensed
   static TextStyle firaSansExtraCondensed({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._firaSansExtraCondensed(
       textStyle: textStyle,
@@ -4760,7 +4760,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Fira+Sans+Extra+Condensed
-  static TextTheme firaSansExtraCondensedTextTheme([TextTheme textTheme]) {
+  static TextTheme firaSansExtraCondensedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._firaSansExtraCondensedTextTheme(textTheme);
   }
 
@@ -4770,25 +4770,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Francois+One
   static TextStyle francoisOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._francoisOne(
       textStyle: textStyle,
@@ -4818,7 +4818,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Francois+One
-  static TextTheme francoisOneTextTheme([TextTheme textTheme]) {
+  static TextTheme francoisOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._francoisOneTextTheme(textTheme);
   }
 
@@ -4828,25 +4828,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Gelasio
   static TextStyle gelasio({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._gelasio(
       textStyle: textStyle,
@@ -4876,7 +4876,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Gelasio
-  static TextTheme gelasioTextTheme([TextTheme textTheme]) {
+  static TextTheme gelasioTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._gelasioTextTheme(textTheme);
   }
 
@@ -4886,25 +4886,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Gotu
   static TextStyle gotu({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._gotu(
       textStyle: textStyle,
@@ -4934,7 +4934,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Gotu
-  static TextTheme gotuTextTheme([TextTheme textTheme]) {
+  static TextTheme gotuTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._gotuTextTheme(textTheme);
   }
 
@@ -4944,25 +4944,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Grenze
   static TextStyle grenze({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._grenze(
       textStyle: textStyle,
@@ -4992,7 +4992,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Grenze
-  static TextTheme grenzeTextTheme([TextTheme textTheme]) {
+  static TextTheme grenzeTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._grenzeTextTheme(textTheme);
   }
 
@@ -5002,25 +5002,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Hepta+Slab
   static TextStyle heptaSlab({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._heptaSlab(
       textStyle: textStyle,
@@ -5050,7 +5050,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Hepta+Slab
-  static TextTheme heptaSlabTextTheme([TextTheme textTheme]) {
+  static TextTheme heptaSlabTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._heptaSlabTextTheme(textTheme);
   }
 
@@ -5060,25 +5060,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/IBM+Plex+Mono
   static TextStyle ibmPlexMono({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ibmPlexMono(
       textStyle: textStyle,
@@ -5108,7 +5108,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/IBM+Plex+Mono
-  static TextTheme ibmPlexMonoTextTheme([TextTheme textTheme]) {
+  static TextTheme ibmPlexMonoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ibmPlexMonoTextTheme(textTheme);
   }
 
@@ -5118,25 +5118,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/IBM+Plex+Sans
   static TextStyle ibmPlexSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ibmPlexSans(
       textStyle: textStyle,
@@ -5166,7 +5166,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/IBM+Plex+Sans
-  static TextTheme ibmPlexSansTextTheme([TextTheme textTheme]) {
+  static TextTheme ibmPlexSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ibmPlexSansTextTheme(textTheme);
   }
 
@@ -5176,25 +5176,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/IBM+Plex+Sans+Condensed
   static TextStyle ibmPlexSansCondensed({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ibmPlexSansCondensed(
       textStyle: textStyle,
@@ -5224,7 +5224,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/IBM+Plex+Sans+Condensed
-  static TextTheme ibmPlexSansCondensedTextTheme([TextTheme textTheme]) {
+  static TextTheme ibmPlexSansCondensedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ibmPlexSansCondensedTextTheme(textTheme);
   }
 
@@ -5234,25 +5234,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/IBM+Plex+Serif
   static TextStyle ibmPlexSerif({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ibmPlexSerif(
       textStyle: textStyle,
@@ -5282,7 +5282,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/IBM+Plex+Serif
-  static TextTheme ibmPlexSerifTextTheme([TextTheme textTheme]) {
+  static TextTheme ibmPlexSerifTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ibmPlexSerifTextTheme(textTheme);
   }
 
@@ -5292,25 +5292,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Inconsolata
   static TextStyle inconsolata({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._inconsolata(
       textStyle: textStyle,
@@ -5340,7 +5340,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Inconsolata
-  static TextTheme inconsolataTextTheme([TextTheme textTheme]) {
+  static TextTheme inconsolataTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._inconsolataTextTheme(textTheme);
   }
 
@@ -5350,25 +5350,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Inter
   static TextStyle inter({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._inter(
       textStyle: textStyle,
@@ -5398,7 +5398,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Inter
-  static TextTheme interTextTheme([TextTheme textTheme]) {
+  static TextTheme interTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._interTextTheme(textTheme);
   }
 
@@ -5408,25 +5408,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Itim
   static TextStyle itim({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._itim(
       textStyle: textStyle,
@@ -5456,7 +5456,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Itim
-  static TextTheme itimTextTheme([TextTheme textTheme]) {
+  static TextTheme itimTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._itimTextTheme(textTheme);
   }
 
@@ -5466,25 +5466,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Josefin+Sans
   static TextStyle josefinSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._josefinSans(
       textStyle: textStyle,
@@ -5514,7 +5514,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Josefin+Sans
-  static TextTheme josefinSansTextTheme([TextTheme textTheme]) {
+  static TextTheme josefinSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._josefinSansTextTheme(textTheme);
   }
 
@@ -5524,25 +5524,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Judson
   static TextStyle judson({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._judson(
       textStyle: textStyle,
@@ -5572,7 +5572,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Judson
-  static TextTheme judsonTextTheme([TextTheme textTheme]) {
+  static TextTheme judsonTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._judsonTextTheme(textTheme);
   }
 
@@ -5582,25 +5582,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Jura
   static TextStyle jura({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._jura(
       textStyle: textStyle,
@@ -5630,7 +5630,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Jura
-  static TextTheme juraTextTheme([TextTheme textTheme]) {
+  static TextTheme juraTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._juraTextTheme(textTheme);
   }
 
@@ -5640,25 +5640,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/K2D
   static TextStyle k2d({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._k2d(
       textStyle: textStyle,
@@ -5688,7 +5688,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/K2D
-  static TextTheme k2dTextTheme([TextTheme textTheme]) {
+  static TextTheme k2dTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._k2dTextTheme(textTheme);
   }
 
@@ -5698,25 +5698,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Kanit
   static TextStyle kanit({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._kanit(
       textStyle: textStyle,
@@ -5746,7 +5746,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Kanit
-  static TextTheme kanitTextTheme([TextTheme textTheme]) {
+  static TextTheme kanitTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._kanitTextTheme(textTheme);
   }
 
@@ -5756,25 +5756,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/KoHo
   static TextStyle koHo({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._koHo(
       textStyle: textStyle,
@@ -5804,7 +5804,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/KoHo
-  static TextTheme koHoTextTheme([TextTheme textTheme]) {
+  static TextTheme koHoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._koHoTextTheme(textTheme);
   }
 
@@ -5814,25 +5814,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Kodchasan
   static TextStyle kodchasan({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._kodchasan(
       textStyle: textStyle,
@@ -5862,7 +5862,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Kodchasan
-  static TextTheme kodchasanTextTheme([TextTheme textTheme]) {
+  static TextTheme kodchasanTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._kodchasanTextTheme(textTheme);
   }
 
@@ -5872,25 +5872,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Krub
   static TextStyle krub({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._krub(
       textStyle: textStyle,
@@ -5920,7 +5920,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Krub
-  static TextTheme krubTextTheme([TextTheme textTheme]) {
+  static TextTheme krubTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._krubTextTheme(textTheme);
   }
 
@@ -5930,25 +5930,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Lalezar
   static TextStyle lalezar({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._lalezar(
       textStyle: textStyle,
@@ -5978,7 +5978,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Lalezar
-  static TextTheme lalezarTextTheme([TextTheme textTheme]) {
+  static TextTheme lalezarTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._lalezarTextTheme(textTheme);
   }
 
@@ -5988,25 +5988,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Lemonada
   static TextStyle lemonada({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._lemonada(
       textStyle: textStyle,
@@ -6036,7 +6036,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Lemonada
-  static TextTheme lemonadaTextTheme([TextTheme textTheme]) {
+  static TextTheme lemonadaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._lemonadaTextTheme(textTheme);
   }
 
@@ -6046,25 +6046,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Lexend+Deca
   static TextStyle lexendDeca({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._lexendDeca(
       textStyle: textStyle,
@@ -6094,7 +6094,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Lexend+Deca
-  static TextTheme lexendDecaTextTheme([TextTheme textTheme]) {
+  static TextTheme lexendDecaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._lexendDecaTextTheme(textTheme);
   }
 
@@ -6104,25 +6104,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Lexend+Exa
   static TextStyle lexendExa({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._lexendExa(
       textStyle: textStyle,
@@ -6152,7 +6152,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Lexend+Exa
-  static TextTheme lexendExaTextTheme([TextTheme textTheme]) {
+  static TextTheme lexendExaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._lexendExaTextTheme(textTheme);
   }
 
@@ -6162,25 +6162,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Lexend+Giga
   static TextStyle lexendGiga({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._lexendGiga(
       textStyle: textStyle,
@@ -6210,7 +6210,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Lexend+Giga
-  static TextTheme lexendGigaTextTheme([TextTheme textTheme]) {
+  static TextTheme lexendGigaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._lexendGigaTextTheme(textTheme);
   }
 
@@ -6220,25 +6220,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Lexend+Mega
   static TextStyle lexendMega({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._lexendMega(
       textStyle: textStyle,
@@ -6268,7 +6268,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Lexend+Mega
-  static TextTheme lexendMegaTextTheme([TextTheme textTheme]) {
+  static TextTheme lexendMegaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._lexendMegaTextTheme(textTheme);
   }
 
@@ -6278,25 +6278,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Lexend+Peta
   static TextStyle lexendPeta({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._lexendPeta(
       textStyle: textStyle,
@@ -6326,7 +6326,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Lexend+Peta
-  static TextTheme lexendPetaTextTheme([TextTheme textTheme]) {
+  static TextTheme lexendPetaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._lexendPetaTextTheme(textTheme);
   }
 
@@ -6336,25 +6336,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Lexend+Tera
   static TextStyle lexendTera({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._lexendTera(
       textStyle: textStyle,
@@ -6384,7 +6384,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Lexend+Tera
-  static TextTheme lexendTeraTextTheme([TextTheme textTheme]) {
+  static TextTheme lexendTeraTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._lexendTeraTextTheme(textTheme);
   }
 
@@ -6394,25 +6394,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Lexend+Zetta
   static TextStyle lexendZetta({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._lexendZetta(
       textStyle: textStyle,
@@ -6442,7 +6442,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Lexend+Zetta
-  static TextTheme lexendZettaTextTheme([TextTheme textTheme]) {
+  static TextTheme lexendZettaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._lexendZettaTextTheme(textTheme);
   }
 
@@ -6452,25 +6452,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Libre+Franklin
   static TextStyle libreFranklin({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._libreFranklin(
       textStyle: textStyle,
@@ -6500,7 +6500,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Libre+Franklin
-  static TextTheme libreFranklinTextTheme([TextTheme textTheme]) {
+  static TextTheme libreFranklinTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._libreFranklinTextTheme(textTheme);
   }
 
@@ -6510,25 +6510,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Literata
   static TextStyle literata({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._literata(
       textStyle: textStyle,
@@ -6558,7 +6558,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Literata
-  static TextTheme literataTextTheme([TextTheme textTheme]) {
+  static TextTheme literataTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._literataTextTheme(textTheme);
   }
 
@@ -6568,25 +6568,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Livvic
   static TextStyle livvic({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._livvic(
       textStyle: textStyle,
@@ -6616,7 +6616,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Livvic
-  static TextTheme livvicTextTheme([TextTheme textTheme]) {
+  static TextTheme livvicTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._livvicTextTheme(textTheme);
   }
 
@@ -6626,25 +6626,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Lobster
   static TextStyle lobster({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._lobster(
       textStyle: textStyle,
@@ -6674,7 +6674,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Lobster
-  static TextTheme lobsterTextTheme([TextTheme textTheme]) {
+  static TextTheme lobsterTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._lobsterTextTheme(textTheme);
   }
 
@@ -6684,25 +6684,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Lora
   static TextStyle lora({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._lora(
       textStyle: textStyle,
@@ -6732,7 +6732,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Lora
-  static TextTheme loraTextTheme([TextTheme textTheme]) {
+  static TextTheme loraTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._loraTextTheme(textTheme);
   }
 
@@ -6742,25 +6742,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/M+PLUS+1p
   static TextStyle mPlus1p({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._mPlus1p(
       textStyle: textStyle,
@@ -6790,7 +6790,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/M+PLUS+1p
-  static TextTheme mPlus1pTextTheme([TextTheme textTheme]) {
+  static TextTheme mPlus1pTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._mPlus1pTextTheme(textTheme);
   }
 
@@ -6800,25 +6800,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/M+PLUS+Rounded+1c
   static TextStyle mPlusRounded1c({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._mPlusRounded1c(
       textStyle: textStyle,
@@ -6848,7 +6848,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/M+PLUS+Rounded+1c
-  static TextTheme mPlusRounded1cTextTheme([TextTheme textTheme]) {
+  static TextTheme mPlusRounded1cTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._mPlusRounded1cTextTheme(textTheme);
   }
 
@@ -6858,25 +6858,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Maitree
   static TextStyle maitree({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._maitree(
       textStyle: textStyle,
@@ -6906,7 +6906,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Maitree
-  static TextTheme maitreeTextTheme([TextTheme textTheme]) {
+  static TextTheme maitreeTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._maitreeTextTheme(textTheme);
   }
 
@@ -6916,25 +6916,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Major+Mono+Display
   static TextStyle majorMonoDisplay({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._majorMonoDisplay(
       textStyle: textStyle,
@@ -6964,7 +6964,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Major+Mono+Display
-  static TextTheme majorMonoDisplayTextTheme([TextTheme textTheme]) {
+  static TextTheme majorMonoDisplayTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._majorMonoDisplayTextTheme(textTheme);
   }
 
@@ -6974,25 +6974,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Mali
   static TextStyle mali({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._mali(
       textStyle: textStyle,
@@ -7022,7 +7022,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Mali
-  static TextTheme maliTextTheme([TextTheme textTheme]) {
+  static TextTheme maliTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._maliTextTheme(textTheme);
   }
 
@@ -7032,25 +7032,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Manuale
   static TextStyle manuale({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._manuale(
       textStyle: textStyle,
@@ -7080,7 +7080,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Manuale
-  static TextTheme manualeTextTheme([TextTheme textTheme]) {
+  static TextTheme manualeTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._manualeTextTheme(textTheme);
   }
 
@@ -7090,25 +7090,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Markazi+Text
   static TextStyle markaziText({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._markaziText(
       textStyle: textStyle,
@@ -7138,7 +7138,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Markazi+Text
-  static TextTheme markaziTextTextTheme([TextTheme textTheme]) {
+  static TextTheme markaziTextTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._markaziTextTextTheme(textTheme);
   }
 
@@ -7148,25 +7148,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Maven+Pro
   static TextStyle mavenPro({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._mavenPro(
       textStyle: textStyle,
@@ -7196,7 +7196,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Maven+Pro
-  static TextTheme mavenProTextTheme([TextTheme textTheme]) {
+  static TextTheme mavenProTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._mavenProTextTheme(textTheme);
   }
 
@@ -7206,25 +7206,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Merriweather
   static TextStyle merriweather({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._merriweather(
       textStyle: textStyle,
@@ -7254,7 +7254,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Merriweather
-  static TextTheme merriweatherTextTheme([TextTheme textTheme]) {
+  static TextTheme merriweatherTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._merriweatherTextTheme(textTheme);
   }
 
@@ -7264,25 +7264,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Merriweather+Sans
   static TextStyle merriweatherSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._merriweatherSans(
       textStyle: textStyle,
@@ -7312,7 +7312,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Merriweather+Sans
-  static TextTheme merriweatherSansTextTheme([TextTheme textTheme]) {
+  static TextTheme merriweatherSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._merriweatherSansTextTheme(textTheme);
   }
 
@@ -7322,25 +7322,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Metrophobic
   static TextStyle metrophobic({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._metrophobic(
       textStyle: textStyle,
@@ -7370,7 +7370,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Metrophobic
-  static TextTheme metrophobicTextTheme([TextTheme textTheme]) {
+  static TextTheme metrophobicTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._metrophobicTextTheme(textTheme);
   }
 
@@ -7380,25 +7380,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Mitr
   static TextStyle mitr({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._mitr(
       textStyle: textStyle,
@@ -7428,7 +7428,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Mitr
-  static TextTheme mitrTextTheme([TextTheme textTheme]) {
+  static TextTheme mitrTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._mitrTextTheme(textTheme);
   }
 
@@ -7438,25 +7438,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Montserrat
   static TextStyle montserrat({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._montserrat(
       textStyle: textStyle,
@@ -7486,7 +7486,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Montserrat
-  static TextTheme montserratTextTheme([TextTheme textTheme]) {
+  static TextTheme montserratTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._montserratTextTheme(textTheme);
   }
 
@@ -7496,25 +7496,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Montserrat+Alternates
   static TextStyle montserratAlternates({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._montserratAlternates(
       textStyle: textStyle,
@@ -7544,7 +7544,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Montserrat+Alternates
-  static TextTheme montserratAlternatesTextTheme([TextTheme textTheme]) {
+  static TextTheme montserratAlternatesTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._montserratAlternatesTextTheme(textTheme);
   }
 
@@ -7554,25 +7554,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Muli
   static TextStyle muli({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._muli(
       textStyle: textStyle,
@@ -7602,7 +7602,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Muli
-  static TextTheme muliTextTheme([TextTheme textTheme]) {
+  static TextTheme muliTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._muliTextTheme(textTheme);
   }
 
@@ -7612,25 +7612,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Niramit
   static TextStyle niramit({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._niramit(
       textStyle: textStyle,
@@ -7660,7 +7660,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Niramit
-  static TextTheme niramitTextTheme([TextTheme textTheme]) {
+  static TextTheme niramitTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._niramitTextTheme(textTheme);
   }
 
@@ -7670,25 +7670,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Noticia+Text
   static TextStyle noticiaText({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._noticiaText(
       textStyle: textStyle,
@@ -7718,7 +7718,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Noticia+Text
-  static TextTheme noticiaTextTextTheme([TextTheme textTheme]) {
+  static TextTheme noticiaTextTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._noticiaTextTextTheme(textTheme);
   }
 
@@ -7728,25 +7728,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Noto+Sans
   static TextStyle notoSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._notoSans(
       textStyle: textStyle,
@@ -7776,7 +7776,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Noto+Sans
-  static TextTheme notoSansTextTheme([TextTheme textTheme]) {
+  static TextTheme notoSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._notoSansTextTheme(textTheme);
   }
 
@@ -7786,25 +7786,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Noto+Serif
   static TextStyle notoSerif({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._notoSerif(
       textStyle: textStyle,
@@ -7834,7 +7834,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Noto+Serif
-  static TextTheme notoSerifTextTheme([TextTheme textTheme]) {
+  static TextTheme notoSerifTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._notoSerifTextTheme(textTheme);
   }
 
@@ -7844,25 +7844,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Nunito
   static TextStyle nunito({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._nunito(
       textStyle: textStyle,
@@ -7892,7 +7892,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Nunito
-  static TextTheme nunitoTextTheme([TextTheme textTheme]) {
+  static TextTheme nunitoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._nunitoTextTheme(textTheme);
   }
 
@@ -7902,25 +7902,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Nunito+Sans
   static TextStyle nunitoSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._nunitoSans(
       textStyle: textStyle,
@@ -7950,7 +7950,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Nunito+Sans
-  static TextTheme nunitoSansTextTheme([TextTheme textTheme]) {
+  static TextTheme nunitoSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._nunitoSansTextTheme(textTheme);
   }
 
@@ -7960,25 +7960,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Old+Standard+TT
   static TextStyle oldStandardTt({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._oldStandardTt(
       textStyle: textStyle,
@@ -8008,7 +8008,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Old+Standard+TT
-  static TextTheme oldStandardTtTextTheme([TextTheme textTheme]) {
+  static TextTheme oldStandardTtTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._oldStandardTtTextTheme(textTheme);
   }
 
@@ -8018,25 +8018,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Open+Sans
   static TextStyle openSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._openSans(
       textStyle: textStyle,
@@ -8066,7 +8066,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Open+Sans
-  static TextTheme openSansTextTheme([TextTheme textTheme]) {
+  static TextTheme openSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._openSansTextTheme(textTheme);
   }
 
@@ -8076,25 +8076,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Open+Sans+Condensed
   static TextStyle openSansCondensed({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._openSansCondensed(
       textStyle: textStyle,
@@ -8124,7 +8124,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Open+Sans+Condensed
-  static TextTheme openSansCondensedTextTheme([TextTheme textTheme]) {
+  static TextTheme openSansCondensedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._openSansCondensedTextTheme(textTheme);
   }
 
@@ -8134,25 +8134,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Oswald
   static TextStyle oswald({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._oswald(
       textStyle: textStyle,
@@ -8182,7 +8182,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Oswald
-  static TextTheme oswaldTextTheme([TextTheme textTheme]) {
+  static TextTheme oswaldTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._oswaldTextTheme(textTheme);
   }
 
@@ -8192,25 +8192,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Pacifico
   static TextStyle pacifico({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._pacifico(
       textStyle: textStyle,
@@ -8240,7 +8240,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Pacifico
-  static TextTheme pacificoTextTheme([TextTheme textTheme]) {
+  static TextTheme pacificoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._pacificoTextTheme(textTheme);
   }
 
@@ -8250,25 +8250,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Pangolin
   static TextStyle pangolin({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._pangolin(
       textStyle: textStyle,
@@ -8298,7 +8298,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Pangolin
-  static TextTheme pangolinTextTheme([TextTheme textTheme]) {
+  static TextTheme pangolinTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._pangolinTextTheme(textTheme);
   }
 
@@ -8308,25 +8308,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Patrick+Hand
   static TextStyle patrickHand({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._patrickHand(
       textStyle: textStyle,
@@ -8356,7 +8356,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Patrick+Hand
-  static TextTheme patrickHandTextTheme([TextTheme textTheme]) {
+  static TextTheme patrickHandTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._patrickHandTextTheme(textTheme);
   }
 
@@ -8366,25 +8366,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Patrick+Hand+SC
   static TextStyle patrickHandSc({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._patrickHandSc(
       textStyle: textStyle,
@@ -8414,7 +8414,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Patrick+Hand+SC
-  static TextTheme patrickHandScTextTheme([TextTheme textTheme]) {
+  static TextTheme patrickHandScTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._patrickHandScTextTheme(textTheme);
   }
 
@@ -8424,25 +8424,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Pattaya
   static TextStyle pattaya({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._pattaya(
       textStyle: textStyle,
@@ -8472,7 +8472,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Pattaya
-  static TextTheme pattayaTextTheme([TextTheme textTheme]) {
+  static TextTheme pattayaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._pattayaTextTheme(textTheme);
   }
 
@@ -8482,25 +8482,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Paytone+One
   static TextStyle paytoneOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._paytoneOne(
       textStyle: textStyle,
@@ -8530,7 +8530,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Paytone+One
-  static TextTheme paytoneOneTextTheme([TextTheme textTheme]) {
+  static TextTheme paytoneOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._paytoneOneTextTheme(textTheme);
   }
 
@@ -8540,25 +8540,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Petrona
   static TextStyle petrona({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._petrona(
       textStyle: textStyle,
@@ -8588,7 +8588,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Petrona
-  static TextTheme petronaTextTheme([TextTheme textTheme]) {
+  static TextTheme petronaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._petronaTextTheme(textTheme);
   }
 
@@ -8598,25 +8598,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Philosopher
   static TextStyle philosopher({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._philosopher(
       textStyle: textStyle,
@@ -8646,7 +8646,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Philosopher
-  static TextTheme philosopherTextTheme([TextTheme textTheme]) {
+  static TextTheme philosopherTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._philosopherTextTheme(textTheme);
   }
 
@@ -8656,25 +8656,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Play
   static TextStyle play({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._play(
       textStyle: textStyle,
@@ -8704,7 +8704,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Play
-  static TextTheme playTextTheme([TextTheme textTheme]) {
+  static TextTheme playTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._playTextTheme(textTheme);
   }
 
@@ -8714,25 +8714,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Playfair+Display
   static TextStyle playfairDisplay({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._playfairDisplay(
       textStyle: textStyle,
@@ -8762,7 +8762,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Playfair+Display
-  static TextTheme playfairDisplayTextTheme([TextTheme textTheme]) {
+  static TextTheme playfairDisplayTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._playfairDisplayTextTheme(textTheme);
   }
 
@@ -8772,25 +8772,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Playfair+Display+SC
   static TextStyle playfairDisplaySc({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._playfairDisplaySc(
       textStyle: textStyle,
@@ -8820,7 +8820,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Playfair+Display+SC
-  static TextTheme playfairDisplayScTextTheme([TextTheme textTheme]) {
+  static TextTheme playfairDisplayScTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._playfairDisplayScTextTheme(textTheme);
   }
 
@@ -8830,25 +8830,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Podkova
   static TextStyle podkova({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._podkova(
       textStyle: textStyle,
@@ -8878,7 +8878,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Podkova
-  static TextTheme podkovaTextTheme([TextTheme textTheme]) {
+  static TextTheme podkovaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._podkovaTextTheme(textTheme);
   }
 
@@ -8888,25 +8888,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Prata
   static TextStyle prata({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._prata(
       textStyle: textStyle,
@@ -8936,7 +8936,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Prata
-  static TextTheme prataTextTheme([TextTheme textTheme]) {
+  static TextTheme prataTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._prataTextTheme(textTheme);
   }
 
@@ -8946,25 +8946,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Pridi
   static TextStyle pridi({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._pridi(
       textStyle: textStyle,
@@ -8994,7 +8994,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Pridi
-  static TextTheme pridiTextTheme([TextTheme textTheme]) {
+  static TextTheme pridiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._pridiTextTheme(textTheme);
   }
 
@@ -9004,25 +9004,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Prompt
   static TextStyle prompt({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._prompt(
       textStyle: textStyle,
@@ -9052,7 +9052,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Prompt
-  static TextTheme promptTextTheme([TextTheme textTheme]) {
+  static TextTheme promptTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._promptTextTheme(textTheme);
   }
 
@@ -9062,25 +9062,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Questrial
   static TextStyle questrial({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._questrial(
       textStyle: textStyle,
@@ -9110,7 +9110,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Questrial
-  static TextTheme questrialTextTheme([TextTheme textTheme]) {
+  static TextTheme questrialTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._questrialTextTheme(textTheme);
   }
 
@@ -9120,25 +9120,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Quicksand
   static TextStyle quicksand({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._quicksand(
       textStyle: textStyle,
@@ -9168,7 +9168,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Quicksand
-  static TextTheme quicksandTextTheme([TextTheme textTheme]) {
+  static TextTheme quicksandTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._quicksandTextTheme(textTheme);
   }
 
@@ -9178,25 +9178,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Raleway
   static TextStyle raleway({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._raleway(
       textStyle: textStyle,
@@ -9226,7 +9226,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Raleway
-  static TextTheme ralewayTextTheme([TextTheme textTheme]) {
+  static TextTheme ralewayTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ralewayTextTheme(textTheme);
   }
 
@@ -9236,25 +9236,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Roboto
   static TextStyle roboto({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._roboto(
       textStyle: textStyle,
@@ -9284,7 +9284,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Roboto
-  static TextTheme robotoTextTheme([TextTheme textTheme]) {
+  static TextTheme robotoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._robotoTextTheme(textTheme);
   }
 
@@ -9294,25 +9294,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Roboto+Condensed
   static TextStyle robotoCondensed({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._robotoCondensed(
       textStyle: textStyle,
@@ -9342,7 +9342,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Roboto+Condensed
-  static TextTheme robotoCondensedTextTheme([TextTheme textTheme]) {
+  static TextTheme robotoCondensedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._robotoCondensedTextTheme(textTheme);
   }
 
@@ -9352,25 +9352,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Roboto+Mono
   static TextStyle robotoMono({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._robotoMono(
       textStyle: textStyle,
@@ -9400,7 +9400,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Roboto+Mono
-  static TextTheme robotoMonoTextTheme([TextTheme textTheme]) {
+  static TextTheme robotoMonoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._robotoMonoTextTheme(textTheme);
   }
 
@@ -9410,25 +9410,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Roboto+Slab
   static TextStyle robotoSlab({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._robotoSlab(
       textStyle: textStyle,
@@ -9458,7 +9458,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Roboto+Slab
-  static TextTheme robotoSlabTextTheme([TextTheme textTheme]) {
+  static TextTheme robotoSlabTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._robotoSlabTextTheme(textTheme);
   }
 
@@ -9468,25 +9468,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Rokkitt
   static TextStyle rokkitt({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._rokkitt(
       textStyle: textStyle,
@@ -9516,7 +9516,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Rokkitt
-  static TextTheme rokkittTextTheme([TextTheme textTheme]) {
+  static TextTheme rokkittTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._rokkittTextTheme(textTheme);
   }
 
@@ -9526,25 +9526,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Rosario
   static TextStyle rosario({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._rosario(
       textStyle: textStyle,
@@ -9574,7 +9574,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Rosario
-  static TextTheme rosarioTextTheme([TextTheme textTheme]) {
+  static TextTheme rosarioTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._rosarioTextTheme(textTheme);
   }
 
@@ -9584,25 +9584,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Ruda
   static TextStyle ruda({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ruda(
       textStyle: textStyle,
@@ -9632,7 +9632,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Ruda
-  static TextTheme rudaTextTheme([TextTheme textTheme]) {
+  static TextTheme rudaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._rudaTextTheme(textTheme);
   }
 
@@ -9642,25 +9642,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Saira
   static TextStyle saira({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._saira(
       textStyle: textStyle,
@@ -9690,7 +9690,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Saira
-  static TextTheme sairaTextTheme([TextTheme textTheme]) {
+  static TextTheme sairaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sairaTextTheme(textTheme);
   }
 
@@ -9700,25 +9700,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Saira+Condensed
   static TextStyle sairaCondensed({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sairaCondensed(
       textStyle: textStyle,
@@ -9748,7 +9748,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Saira+Condensed
-  static TextTheme sairaCondensedTextTheme([TextTheme textTheme]) {
+  static TextTheme sairaCondensedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sairaCondensedTextTheme(textTheme);
   }
 
@@ -9758,25 +9758,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Saira+Extra+Condensed
   static TextStyle sairaExtraCondensed({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sairaExtraCondensed(
       textStyle: textStyle,
@@ -9806,7 +9806,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Saira+Extra+Condensed
-  static TextTheme sairaExtraCondensedTextTheme([TextTheme textTheme]) {
+  static TextTheme sairaExtraCondensedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sairaExtraCondensedTextTheme(textTheme);
   }
 
@@ -9816,25 +9816,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Saira+Semi+Condensed
   static TextStyle sairaSemiCondensed({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sairaSemiCondensed(
       textStyle: textStyle,
@@ -9864,7 +9864,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Saira+Semi+Condensed
-  static TextTheme sairaSemiCondensedTextTheme([TextTheme textTheme]) {
+  static TextTheme sairaSemiCondensedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sairaSemiCondensedTextTheme(textTheme);
   }
 
@@ -9874,25 +9874,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Saira+Stencil+One
   static TextStyle sairaStencilOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sairaStencilOne(
       textStyle: textStyle,
@@ -9922,7 +9922,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Saira+Stencil+One
-  static TextTheme sairaStencilOneTextTheme([TextTheme textTheme]) {
+  static TextTheme sairaStencilOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sairaStencilOneTextTheme(textTheme);
   }
 
@@ -9932,25 +9932,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Sarabun
   static TextStyle sarabun({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sarabun(
       textStyle: textStyle,
@@ -9980,7 +9980,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Sarabun
-  static TextTheme sarabunTextTheme([TextTheme textTheme]) {
+  static TextTheme sarabunTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sarabunTextTheme(textTheme);
   }
 
@@ -9990,25 +9990,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Sawarabi+Gothic
   static TextStyle sawarabiGothic({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sawarabiGothic(
       textStyle: textStyle,
@@ -10038,7 +10038,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Sawarabi+Gothic
-  static TextTheme sawarabiGothicTextTheme([TextTheme textTheme]) {
+  static TextTheme sawarabiGothicTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sawarabiGothicTextTheme(textTheme);
   }
 
@@ -10048,25 +10048,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Sedgwick+Ave
   static TextStyle sedgwickAve({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sedgwickAve(
       textStyle: textStyle,
@@ -10096,7 +10096,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Sedgwick+Ave
-  static TextTheme sedgwickAveTextTheme([TextTheme textTheme]) {
+  static TextTheme sedgwickAveTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sedgwickAveTextTheme(textTheme);
   }
 
@@ -10106,25 +10106,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Sedgwick+Ave+Display
   static TextStyle sedgwickAveDisplay({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sedgwickAveDisplay(
       textStyle: textStyle,
@@ -10154,7 +10154,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Sedgwick+Ave+Display
-  static TextTheme sedgwickAveDisplayTextTheme([TextTheme textTheme]) {
+  static TextTheme sedgwickAveDisplayTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sedgwickAveDisplayTextTheme(textTheme);
   }
 
@@ -10164,25 +10164,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Sigmar+One
   static TextStyle sigmarOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sigmarOne(
       textStyle: textStyle,
@@ -10212,7 +10212,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Sigmar+One
-  static TextTheme sigmarOneTextTheme([TextTheme textTheme]) {
+  static TextTheme sigmarOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sigmarOneTextTheme(textTheme);
   }
 
@@ -10222,25 +10222,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Signika
   static TextStyle signika({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._signika(
       textStyle: textStyle,
@@ -10270,7 +10270,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Signika
-  static TextTheme signikaTextTheme([TextTheme textTheme]) {
+  static TextTheme signikaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._signikaTextTheme(textTheme);
   }
 
@@ -10280,25 +10280,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Source+Code+Pro
   static TextStyle sourceCodePro({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sourceCodePro(
       textStyle: textStyle,
@@ -10328,7 +10328,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Source+Code+Pro
-  static TextTheme sourceCodeProTextTheme([TextTheme textTheme]) {
+  static TextTheme sourceCodeProTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sourceCodeProTextTheme(textTheme);
   }
 
@@ -10338,25 +10338,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Source+Sans+Pro
   static TextStyle sourceSansPro({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sourceSansPro(
       textStyle: textStyle,
@@ -10386,7 +10386,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Source+Sans+Pro
-  static TextTheme sourceSansProTextTheme([TextTheme textTheme]) {
+  static TextTheme sourceSansProTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sourceSansProTextTheme(textTheme);
   }
 
@@ -10396,25 +10396,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Source+Serif+Pro
   static TextStyle sourceSerifPro({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sourceSerifPro(
       textStyle: textStyle,
@@ -10444,7 +10444,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Source+Serif+Pro
-  static TextTheme sourceSerifProTextTheme([TextTheme textTheme]) {
+  static TextTheme sourceSerifProTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sourceSerifProTextTheme(textTheme);
   }
 
@@ -10454,25 +10454,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Space+Mono
   static TextStyle spaceMono({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._spaceMono(
       textStyle: textStyle,
@@ -10502,7 +10502,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Space+Mono
-  static TextTheme spaceMonoTextTheme([TextTheme textTheme]) {
+  static TextTheme spaceMonoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._spaceMonoTextTheme(textTheme);
   }
 
@@ -10512,25 +10512,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Spectral
   static TextStyle spectral({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._spectral(
       textStyle: textStyle,
@@ -10560,7 +10560,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Spectral
-  static TextTheme spectralTextTheme([TextTheme textTheme]) {
+  static TextTheme spectralTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._spectralTextTheme(textTheme);
   }
 
@@ -10570,25 +10570,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Spectral+SC
   static TextStyle spectralSc({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._spectralSc(
       textStyle: textStyle,
@@ -10618,7 +10618,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Spectral+SC
-  static TextTheme spectralScTextTheme([TextTheme textTheme]) {
+  static TextTheme spectralScTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._spectralScTextTheme(textTheme);
   }
 
@@ -10628,25 +10628,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Sriracha
   static TextStyle sriracha({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sriracha(
       textStyle: textStyle,
@@ -10676,7 +10676,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Sriracha
-  static TextTheme srirachaTextTheme([TextTheme textTheme]) {
+  static TextTheme srirachaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._srirachaTextTheme(textTheme);
   }
 
@@ -10686,25 +10686,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Srisakdi
   static TextStyle srisakdi({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._srisakdi(
       textStyle: textStyle,
@@ -10734,7 +10734,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Srisakdi
-  static TextTheme srisakdiTextTheme([TextTheme textTheme]) {
+  static TextTheme srisakdiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._srisakdiTextTheme(textTheme);
   }
 
@@ -10744,25 +10744,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Taviraj
   static TextStyle taviraj({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._taviraj(
       textStyle: textStyle,
@@ -10792,7 +10792,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Taviraj
-  static TextTheme tavirajTextTheme([TextTheme textTheme]) {
+  static TextTheme tavirajTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._tavirajTextTheme(textTheme);
   }
 
@@ -10802,25 +10802,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Thasadith
   static TextStyle thasadith({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._thasadith(
       textStyle: textStyle,
@@ -10850,7 +10850,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Thasadith
-  static TextTheme thasadithTextTheme([TextTheme textTheme]) {
+  static TextTheme thasadithTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._thasadithTextTheme(textTheme);
   }
 
@@ -10860,25 +10860,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Tinos
   static TextStyle tinos({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._tinos(
       textStyle: textStyle,
@@ -10908,7 +10908,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Tinos
-  static TextTheme tinosTextTheme([TextTheme textTheme]) {
+  static TextTheme tinosTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._tinosTextTheme(textTheme);
   }
 
@@ -10918,25 +10918,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Trirong
   static TextStyle trirong({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._trirong(
       textStyle: textStyle,
@@ -10966,7 +10966,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Trirong
-  static TextTheme trirongTextTheme([TextTheme textTheme]) {
+  static TextTheme trirongTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._trirongTextTheme(textTheme);
   }
 
@@ -10976,25 +10976,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/VT323
   static TextStyle vt323({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._vt323(
       textStyle: textStyle,
@@ -11024,7 +11024,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/VT323
-  static TextTheme vt323TextTheme([TextTheme textTheme]) {
+  static TextTheme vt323TextTheme([TextTheme? textTheme]) {
     return GoogleFonts._vt323TextTheme(textTheme);
   }
 
@@ -11034,25 +11034,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Varela+Round
   static TextStyle varelaRound({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._varelaRound(
       textStyle: textStyle,
@@ -11082,7 +11082,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Varela+Round
-  static TextTheme varelaRoundTextTheme([TextTheme textTheme]) {
+  static TextTheme varelaRoundTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._varelaRoundTextTheme(textTheme);
   }
 
@@ -11092,25 +11092,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Viaoda+Libre
   static TextStyle viaodaLibre({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._viaodaLibre(
       textStyle: textStyle,
@@ -11140,7 +11140,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Viaoda+Libre
-  static TextTheme viaodaLibreTextTheme([TextTheme textTheme]) {
+  static TextTheme viaodaLibreTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._viaodaLibreTextTheme(textTheme);
   }
 
@@ -11150,25 +11150,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Vollkorn
   static TextStyle vollkorn({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._vollkorn(
       textStyle: textStyle,
@@ -11198,7 +11198,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Vollkorn
-  static TextTheme vollkornTextTheme([TextTheme textTheme]) {
+  static TextTheme vollkornTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._vollkornTextTheme(textTheme);
   }
 
@@ -11208,25 +11208,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Vollkorn+SC
   static TextStyle vollkornSc({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._vollkornSc(
       textStyle: textStyle,
@@ -11256,7 +11256,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Vollkorn+SC
-  static TextTheme vollkornScTextTheme([TextTheme textTheme]) {
+  static TextTheme vollkornScTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._vollkornScTextTheme(textTheme);
   }
 
@@ -11266,25 +11266,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Work+Sans
   static TextStyle workSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._workSans(
       textStyle: textStyle,
@@ -11314,7 +11314,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Work+Sans
-  static TextTheme workSansTextTheme([TextTheme textTheme]) {
+  static TextTheme workSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._workSansTextTheme(textTheme);
   }
 
@@ -11324,25 +11324,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Yanone+Kaffeesatz
   static TextStyle yanoneKaffeesatz({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._yanoneKaffeesatz(
       textStyle: textStyle,
@@ -11372,7 +11372,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Yanone+Kaffeesatz
-  static TextTheme yanoneKaffeesatzTextTheme([TextTheme textTheme]) {
+  static TextTheme yanoneKaffeesatzTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._yanoneKaffeesatzTextTheme(textTheme);
   }
 
@@ -11382,25 +11382,25 @@ class VietnameseFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Yeseva+One
   static TextStyle yesevaOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._yesevaOne(
       textStyle: textStyle,
@@ -11430,7 +11430,7 @@ class VietnameseFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Yeseva+One
-  static TextTheme yesevaOneTextTheme([TextTheme textTheme]) {
+  static TextTheme yesevaOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._yesevaOneTextTheme(textTheme);
   }
 

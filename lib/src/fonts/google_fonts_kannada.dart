@@ -14,25 +14,25 @@ class KannadaFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Tamma
   static TextStyle balooTamma({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._balooTamma(
       textStyle: textStyle,
@@ -62,7 +62,7 @@ class KannadaFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Tamma
-  static TextTheme balooTammaTextTheme([TextTheme textTheme]) {
+  static TextTheme balooTammaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._balooTammaTextTheme(textTheme);
   }
 

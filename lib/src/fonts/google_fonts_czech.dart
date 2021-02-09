@@ -14,25 +14,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Abhaya+Libre
   static TextStyle abhayaLibre({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._abhayaLibre(
       textStyle: textStyle,
@@ -62,7 +62,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Abhaya+Libre
-  static TextTheme abhayaLibreTextTheme([TextTheme textTheme]) {
+  static TextTheme abhayaLibreTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._abhayaLibreTextTheme(textTheme);
   }
 
@@ -72,25 +72,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Abril+Fatface
   static TextStyle abrilFatface({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._abrilFatface(
       textStyle: textStyle,
@@ -120,7 +120,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Abril+Fatface
-  static TextTheme abrilFatfaceTextTheme([TextTheme textTheme]) {
+  static TextTheme abrilFatfaceTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._abrilFatfaceTextTheme(textTheme);
   }
 
@@ -130,25 +130,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Akronim
   static TextStyle akronim({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._akronim(
       textStyle: textStyle,
@@ -178,7 +178,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Akronim
-  static TextTheme akronimTextTheme([TextTheme textTheme]) {
+  static TextTheme akronimTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._akronimTextTheme(textTheme);
   }
 
@@ -188,25 +188,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Alata
   static TextStyle alata({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._alata(
       textStyle: textStyle,
@@ -236,7 +236,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Alata
-  static TextTheme alataTextTheme([TextTheme textTheme]) {
+  static TextTheme alataTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._alataTextTheme(textTheme);
   }
 
@@ -246,25 +246,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Alatsi
   static TextStyle alatsi({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._alatsi(
       textStyle: textStyle,
@@ -294,7 +294,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Alatsi
-  static TextTheme alatsiTextTheme([TextTheme textTheme]) {
+  static TextTheme alatsiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._alatsiTextTheme(textTheme);
   }
 
@@ -304,25 +304,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Alegreya
   static TextStyle alegreya({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._alegreya(
       textStyle: textStyle,
@@ -352,7 +352,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Alegreya
-  static TextTheme alegreyaTextTheme([TextTheme textTheme]) {
+  static TextTheme alegreyaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._alegreyaTextTheme(textTheme);
   }
 
@@ -362,25 +362,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Alegreya+SC
   static TextStyle alegreyaSc({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._alegreyaSc(
       textStyle: textStyle,
@@ -410,7 +410,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Alegreya+SC
-  static TextTheme alegreyaScTextTheme([TextTheme textTheme]) {
+  static TextTheme alegreyaScTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._alegreyaScTextTheme(textTheme);
   }
 
@@ -420,25 +420,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Alegreya+Sans
   static TextStyle alegreyaSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._alegreyaSans(
       textStyle: textStyle,
@@ -468,7 +468,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Alegreya+Sans
-  static TextTheme alegreyaSansTextTheme([TextTheme textTheme]) {
+  static TextTheme alegreyaSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._alegreyaSansTextTheme(textTheme);
   }
 
@@ -478,25 +478,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Alegreya+Sans+SC
   static TextStyle alegreyaSansSc({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._alegreyaSansSc(
       textStyle: textStyle,
@@ -526,7 +526,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Alegreya+Sans+SC
-  static TextTheme alegreyaSansScTextTheme([TextTheme textTheme]) {
+  static TextTheme alegreyaSansScTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._alegreyaSansScTextTheme(textTheme);
   }
 
@@ -536,25 +536,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Aleo
   static TextStyle aleo({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._aleo(
       textStyle: textStyle,
@@ -584,7 +584,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Aleo
-  static TextTheme aleoTextTheme([TextTheme textTheme]) {
+  static TextTheme aleoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._aleoTextTheme(textTheme);
   }
 
@@ -594,25 +594,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Alfa+Slab+One
   static TextStyle alfaSlabOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._alfaSlabOne(
       textStyle: textStyle,
@@ -642,7 +642,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Alfa+Slab+One
-  static TextTheme alfaSlabOneTextTheme([TextTheme textTheme]) {
+  static TextTheme alfaSlabOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._alfaSlabOneTextTheme(textTheme);
   }
 
@@ -652,25 +652,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Almendra
   static TextStyle almendra({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._almendra(
       textStyle: textStyle,
@@ -700,7 +700,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Almendra
-  static TextTheme almendraTextTheme([TextTheme textTheme]) {
+  static TextTheme almendraTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._almendraTextTheme(textTheme);
   }
 
@@ -710,25 +710,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Amatic+SC
   static TextStyle amaticSc({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._amaticSc(
       textStyle: textStyle,
@@ -758,7 +758,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Amatic+SC
-  static TextTheme amaticScTextTheme([TextTheme textTheme]) {
+  static TextTheme amaticScTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._amaticScTextTheme(textTheme);
   }
 
@@ -768,25 +768,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Amatica+SC
   static TextStyle amaticaSc({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._amaticaSc(
       textStyle: textStyle,
@@ -816,7 +816,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Amatica+SC
-  static TextTheme amaticaScTextTheme([TextTheme textTheme]) {
+  static TextTheme amaticaScTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._amaticaScTextTheme(textTheme);
   }
 
@@ -826,25 +826,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Amiko
   static TextStyle amiko({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._amiko(
       textStyle: textStyle,
@@ -874,7 +874,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Amiko
-  static TextTheme amikoTextTheme([TextTheme textTheme]) {
+  static TextTheme amikoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._amikoTextTheme(textTheme);
   }
 
@@ -884,25 +884,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Amiri
   static TextStyle amiri({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._amiri(
       textStyle: textStyle,
@@ -932,7 +932,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Amiri
-  static TextTheme amiriTextTheme([TextTheme textTheme]) {
+  static TextTheme amiriTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._amiriTextTheme(textTheme);
   }
 
@@ -942,25 +942,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Amita
   static TextStyle amita({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._amita(
       textStyle: textStyle,
@@ -990,7 +990,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Amita
-  static TextTheme amitaTextTheme([TextTheme textTheme]) {
+  static TextTheme amitaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._amitaTextTheme(textTheme);
   }
 
@@ -1000,25 +1000,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Anaheim
   static TextStyle anaheim({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._anaheim(
       textStyle: textStyle,
@@ -1048,7 +1048,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Anaheim
-  static TextTheme anaheimTextTheme([TextTheme textTheme]) {
+  static TextTheme anaheimTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._anaheimTextTheme(textTheme);
   }
 
@@ -1058,25 +1058,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Andada
   static TextStyle andada({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._andada(
       textStyle: textStyle,
@@ -1106,7 +1106,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Andada
-  static TextTheme andadaTextTheme([TextTheme textTheme]) {
+  static TextTheme andadaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._andadaTextTheme(textTheme);
   }
 
@@ -1116,25 +1116,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Andika
   static TextStyle andika({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._andika(
       textStyle: textStyle,
@@ -1164,7 +1164,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Andika
-  static TextTheme andikaTextTheme([TextTheme textTheme]) {
+  static TextTheme andikaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._andikaTextTheme(textTheme);
   }
 
@@ -1174,25 +1174,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Anonymous+Pro
   static TextStyle anonymousPro({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._anonymousPro(
       textStyle: textStyle,
@@ -1222,7 +1222,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Anonymous+Pro
-  static TextTheme anonymousProTextTheme([TextTheme textTheme]) {
+  static TextTheme anonymousProTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._anonymousProTextTheme(textTheme);
   }
 
@@ -1232,25 +1232,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Anton
   static TextStyle anton({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._anton(
       textStyle: textStyle,
@@ -1280,7 +1280,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Anton
-  static TextTheme antonTextTheme([TextTheme textTheme]) {
+  static TextTheme antonTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._antonTextTheme(textTheme);
   }
 
@@ -1290,25 +1290,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Arbutus
   static TextStyle arbutus({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._arbutus(
       textStyle: textStyle,
@@ -1338,7 +1338,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Arbutus
-  static TextTheme arbutusTextTheme([TextTheme textTheme]) {
+  static TextTheme arbutusTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._arbutusTextTheme(textTheme);
   }
 
@@ -1348,25 +1348,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Arbutus+Slab
   static TextStyle arbutusSlab({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._arbutusSlab(
       textStyle: textStyle,
@@ -1396,7 +1396,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Arbutus+Slab
-  static TextTheme arbutusSlabTextTheme([TextTheme textTheme]) {
+  static TextTheme arbutusSlabTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._arbutusSlabTextTheme(textTheme);
   }
 
@@ -1406,25 +1406,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Archivo+Black
   static TextStyle archivoBlack({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._archivoBlack(
       textStyle: textStyle,
@@ -1454,7 +1454,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Archivo+Black
-  static TextTheme archivoBlackTextTheme([TextTheme textTheme]) {
+  static TextTheme archivoBlackTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._archivoBlackTextTheme(textTheme);
   }
 
@@ -1464,25 +1464,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Archivo+Narrow
   static TextStyle archivoNarrow({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._archivoNarrow(
       textStyle: textStyle,
@@ -1512,7 +1512,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Archivo+Narrow
-  static TextTheme archivoNarrowTextTheme([TextTheme textTheme]) {
+  static TextTheme archivoNarrowTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._archivoNarrowTextTheme(textTheme);
   }
 
@@ -1522,25 +1522,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Armata
   static TextStyle armata({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._armata(
       textStyle: textStyle,
@@ -1570,7 +1570,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Armata
-  static TextTheme armataTextTheme([TextTheme textTheme]) {
+  static TextTheme armataTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._armataTextTheme(textTheme);
   }
 
@@ -1580,25 +1580,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Arsenal
   static TextStyle arsenal({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._arsenal(
       textStyle: textStyle,
@@ -1628,7 +1628,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Arsenal
-  static TextTheme arsenalTextTheme([TextTheme textTheme]) {
+  static TextTheme arsenalTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._arsenalTextTheme(textTheme);
   }
 
@@ -1638,25 +1638,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Arya
   static TextStyle arya({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._arya(
       textStyle: textStyle,
@@ -1686,7 +1686,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Arya
-  static TextTheme aryaTextTheme([TextTheme textTheme]) {
+  static TextTheme aryaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._aryaTextTheme(textTheme);
   }
 
@@ -1696,25 +1696,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Asap
   static TextStyle asap({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._asap(
       textStyle: textStyle,
@@ -1744,7 +1744,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Asap
-  static TextTheme asapTextTheme([TextTheme textTheme]) {
+  static TextTheme asapTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._asapTextTheme(textTheme);
   }
 
@@ -1754,25 +1754,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Asar
   static TextStyle asar({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._asar(
       textStyle: textStyle,
@@ -1802,7 +1802,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Asar
-  static TextTheme asarTextTheme([TextTheme textTheme]) {
+  static TextTheme asarTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._asarTextTheme(textTheme);
   }
 
@@ -1812,25 +1812,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Assistant
   static TextStyle assistant({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._assistant(
       textStyle: textStyle,
@@ -1860,7 +1860,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Assistant
-  static TextTheme assistantTextTheme([TextTheme textTheme]) {
+  static TextTheme assistantTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._assistantTextTheme(textTheme);
   }
 
@@ -1870,25 +1870,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Athiti
   static TextStyle athiti({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._athiti(
       textStyle: textStyle,
@@ -1918,7 +1918,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Athiti
-  static TextTheme athitiTextTheme([TextTheme textTheme]) {
+  static TextTheme athitiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._athitiTextTheme(textTheme);
   }
 
@@ -1928,25 +1928,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Atma
   static TextStyle atma({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._atma(
       textStyle: textStyle,
@@ -1976,7 +1976,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Atma
-  static TextTheme atmaTextTheme([TextTheme textTheme]) {
+  static TextTheme atmaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._atmaTextTheme(textTheme);
   }
 
@@ -1986,25 +1986,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Audiowide
   static TextStyle audiowide({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._audiowide(
       textStyle: textStyle,
@@ -2034,7 +2034,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Audiowide
-  static TextTheme audiowideTextTheme([TextTheme textTheme]) {
+  static TextTheme audiowideTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._audiowideTextTheme(textTheme);
   }
 
@@ -2044,25 +2044,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Autour+One
   static TextStyle autourOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._autourOne(
       textStyle: textStyle,
@@ -2092,7 +2092,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Autour+One
-  static TextTheme autourOneTextTheme([TextTheme textTheme]) {
+  static TextTheme autourOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._autourOneTextTheme(textTheme);
   }
 
@@ -2102,25 +2102,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Average+Sans
   static TextStyle averageSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._averageSans(
       textStyle: textStyle,
@@ -2150,7 +2150,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Average+Sans
-  static TextTheme averageSansTextTheme([TextTheme textTheme]) {
+  static TextTheme averageSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._averageSansTextTheme(textTheme);
   }
 
@@ -2160,25 +2160,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Bahiana
   static TextStyle bahiana({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._bahiana(
       textStyle: textStyle,
@@ -2208,7 +2208,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Bahiana
-  static TextTheme bahianaTextTheme([TextTheme textTheme]) {
+  static TextTheme bahianaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._bahianaTextTheme(textTheme);
   }
 
@@ -2218,25 +2218,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Bahianita
   static TextStyle bahianita({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._bahianita(
       textStyle: textStyle,
@@ -2266,7 +2266,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Bahianita
-  static TextTheme bahianitaTextTheme([TextTheme textTheme]) {
+  static TextTheme bahianitaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._bahianitaTextTheme(textTheme);
   }
 
@@ -2276,25 +2276,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Bangers
   static TextStyle bangers({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._bangers(
       textStyle: textStyle,
@@ -2324,7 +2324,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Bangers
-  static TextTheme bangersTextTheme([TextTheme textTheme]) {
+  static TextTheme bangersTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._bangersTextTheme(textTheme);
   }
 
@@ -2334,25 +2334,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Barlow
   static TextStyle barlow({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._barlow(
       textStyle: textStyle,
@@ -2382,7 +2382,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Barlow
-  static TextTheme barlowTextTheme([TextTheme textTheme]) {
+  static TextTheme barlowTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._barlowTextTheme(textTheme);
   }
 
@@ -2392,25 +2392,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Barlow+Condensed
   static TextStyle barlowCondensed({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._barlowCondensed(
       textStyle: textStyle,
@@ -2440,7 +2440,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Barlow+Condensed
-  static TextTheme barlowCondensedTextTheme([TextTheme textTheme]) {
+  static TextTheme barlowCondensedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._barlowCondensedTextTheme(textTheme);
   }
 
@@ -2450,25 +2450,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Barlow+Semi+Condensed
   static TextStyle barlowSemiCondensed({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._barlowSemiCondensed(
       textStyle: textStyle,
@@ -2498,7 +2498,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Barlow+Semi+Condensed
-  static TextTheme barlowSemiCondensedTextTheme([TextTheme textTheme]) {
+  static TextTheme barlowSemiCondensedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._barlowSemiCondensedTextTheme(textTheme);
   }
 
@@ -2508,25 +2508,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Barriecito
   static TextStyle barriecito({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._barriecito(
       textStyle: textStyle,
@@ -2556,7 +2556,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Barriecito
-  static TextTheme barriecitoTextTheme([TextTheme textTheme]) {
+  static TextTheme barriecitoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._barriecitoTextTheme(textTheme);
   }
 
@@ -2566,25 +2566,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Basic
   static TextStyle basic({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._basic(
       textStyle: textStyle,
@@ -2614,7 +2614,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Basic
-  static TextTheme basicTextTheme([TextTheme textTheme]) {
+  static TextTheme basicTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._basicTextTheme(textTheme);
   }
 
@@ -2624,25 +2624,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Baskervville
   static TextStyle baskervville({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._baskervville(
       textStyle: textStyle,
@@ -2672,7 +2672,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Baskervville
-  static TextTheme baskervvilleTextTheme([TextTheme textTheme]) {
+  static TextTheme baskervvilleTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._baskervvilleTextTheme(textTheme);
   }
 
@@ -2682,25 +2682,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Be+Vietnam
   static TextStyle beVietnam({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._beVietnam(
       textStyle: textStyle,
@@ -2730,7 +2730,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Be+Vietnam
-  static TextTheme beVietnamTextTheme([TextTheme textTheme]) {
+  static TextTheme beVietnamTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._beVietnamTextTheme(textTheme);
   }
 
@@ -2740,25 +2740,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Bebas+Neue
   static TextStyle bebasNeue({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._bebasNeue(
       textStyle: textStyle,
@@ -2788,7 +2788,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Bebas+Neue
-  static TextTheme bebasNeueTextTheme([TextTheme textTheme]) {
+  static TextTheme bebasNeueTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._bebasNeueTextTheme(textTheme);
   }
 
@@ -2798,25 +2798,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Bellefair
   static TextStyle bellefair({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._bellefair(
       textStyle: textStyle,
@@ -2846,7 +2846,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Bellefair
-  static TextTheme bellefairTextTheme([TextTheme textTheme]) {
+  static TextTheme bellefairTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._bellefairTextTheme(textTheme);
   }
 
@@ -2856,25 +2856,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Bellota
   static TextStyle bellota({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._bellota(
       textStyle: textStyle,
@@ -2904,7 +2904,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Bellota
-  static TextTheme bellotaTextTheme([TextTheme textTheme]) {
+  static TextTheme bellotaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._bellotaTextTheme(textTheme);
   }
 
@@ -2914,25 +2914,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Berkshire+Swash
   static TextStyle berkshireSwash({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._berkshireSwash(
       textStyle: textStyle,
@@ -2962,7 +2962,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Berkshire+Swash
-  static TextTheme berkshireSwashTextTheme([TextTheme textTheme]) {
+  static TextTheme berkshireSwashTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._berkshireSwashTextTheme(textTheme);
   }
 
@@ -2972,25 +2972,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Big+Shoulders+Display
   static TextStyle bigShouldersDisplay({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._bigShouldersDisplay(
       textStyle: textStyle,
@@ -3020,7 +3020,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Big+Shoulders+Display
-  static TextTheme bigShouldersDisplayTextTheme([TextTheme textTheme]) {
+  static TextTheme bigShouldersDisplayTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._bigShouldersDisplayTextTheme(textTheme);
   }
 
@@ -3030,25 +3030,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Big+Shoulders+Text
   static TextStyle bigShouldersText({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._bigShouldersText(
       textStyle: textStyle,
@@ -3078,7 +3078,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Big+Shoulders+Text
-  static TextTheme bigShouldersTextTextTheme([TextTheme textTheme]) {
+  static TextTheme bigShouldersTextTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._bigShouldersTextTextTheme(textTheme);
   }
 
@@ -3088,25 +3088,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/BioRhyme
   static TextStyle bioRhyme({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._bioRhyme(
       textStyle: textStyle,
@@ -3136,7 +3136,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/BioRhyme
-  static TextTheme bioRhymeTextTheme([TextTheme textTheme]) {
+  static TextTheme bioRhymeTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._bioRhymeTextTheme(textTheme);
   }
 
@@ -3146,25 +3146,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/BioRhyme+Expanded
   static TextStyle bioRhymeExpanded({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._bioRhymeExpanded(
       textStyle: textStyle,
@@ -3194,7 +3194,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/BioRhyme+Expanded
-  static TextTheme bioRhymeExpandedTextTheme([TextTheme textTheme]) {
+  static TextTheme bioRhymeExpandedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._bioRhymeExpandedTextTheme(textTheme);
   }
 
@@ -3204,25 +3204,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Biryani
   static TextStyle biryani({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._biryani(
       textStyle: textStyle,
@@ -3252,7 +3252,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Biryani
-  static TextTheme biryaniTextTheme([TextTheme textTheme]) {
+  static TextTheme biryaniTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._biryaniTextTheme(textTheme);
   }
 
@@ -3262,25 +3262,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Black+Ops+One
   static TextStyle blackOpsOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._blackOpsOne(
       textStyle: textStyle,
@@ -3310,7 +3310,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Black+Ops+One
-  static TextTheme blackOpsOneTextTheme([TextTheme textTheme]) {
+  static TextTheme blackOpsOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._blackOpsOneTextTheme(textTheme);
   }
 
@@ -3320,25 +3320,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Blinker
   static TextStyle blinker({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._blinker(
       textStyle: textStyle,
@@ -3368,7 +3368,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Blinker
-  static TextTheme blinkerTextTheme([TextTheme textTheme]) {
+  static TextTheme blinkerTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._blinkerTextTheme(textTheme);
   }
 
@@ -3378,25 +3378,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Bowlby+One+SC
   static TextStyle bowlbyOneSc({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._bowlbyOneSc(
       textStyle: textStyle,
@@ -3426,7 +3426,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Bowlby+One+SC
-  static TextTheme bowlbyOneScTextTheme([TextTheme textTheme]) {
+  static TextTheme bowlbyOneScTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._bowlbyOneScTextTheme(textTheme);
   }
 
@@ -3436,25 +3436,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Buenard
   static TextStyle buenard({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._buenard(
       textStyle: textStyle,
@@ -3484,7 +3484,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Buenard
-  static TextTheme buenardTextTheme([TextTheme textTheme]) {
+  static TextTheme buenardTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._buenardTextTheme(textTheme);
   }
 
@@ -3494,25 +3494,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Bungee
   static TextStyle bungee({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._bungee(
       textStyle: textStyle,
@@ -3542,7 +3542,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Bungee
-  static TextTheme bungeeTextTheme([TextTheme textTheme]) {
+  static TextTheme bungeeTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._bungeeTextTheme(textTheme);
   }
 
@@ -3552,25 +3552,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Bungee+Hairline
   static TextStyle bungeeHairline({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._bungeeHairline(
       textStyle: textStyle,
@@ -3600,7 +3600,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Bungee+Hairline
-  static TextTheme bungeeHairlineTextTheme([TextTheme textTheme]) {
+  static TextTheme bungeeHairlineTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._bungeeHairlineTextTheme(textTheme);
   }
 
@@ -3610,25 +3610,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Bungee+Inline
   static TextStyle bungeeInline({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._bungeeInline(
       textStyle: textStyle,
@@ -3658,7 +3658,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Bungee+Inline
-  static TextTheme bungeeInlineTextTheme([TextTheme textTheme]) {
+  static TextTheme bungeeInlineTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._bungeeInlineTextTheme(textTheme);
   }
 
@@ -3668,25 +3668,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Bungee+Outline
   static TextStyle bungeeOutline({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._bungeeOutline(
       textStyle: textStyle,
@@ -3716,7 +3716,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Bungee+Outline
-  static TextTheme bungeeOutlineTextTheme([TextTheme textTheme]) {
+  static TextTheme bungeeOutlineTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._bungeeOutlineTextTheme(textTheme);
   }
 
@@ -3726,25 +3726,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Bungee+Shade
   static TextStyle bungeeShade({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._bungeeShade(
       textStyle: textStyle,
@@ -3774,7 +3774,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Bungee+Shade
-  static TextTheme bungeeShadeTextTheme([TextTheme textTheme]) {
+  static TextTheme bungeeShadeTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._bungeeShadeTextTheme(textTheme);
   }
 
@@ -3784,25 +3784,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Butcherman
   static TextStyle butcherman({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._butcherman(
       textStyle: textStyle,
@@ -3832,7 +3832,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Butcherman
-  static TextTheme butchermanTextTheme([TextTheme textTheme]) {
+  static TextTheme butchermanTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._butchermanTextTheme(textTheme);
   }
 
@@ -3842,25 +3842,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Cabin
   static TextStyle cabin({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._cabin(
       textStyle: textStyle,
@@ -3890,7 +3890,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Cabin
-  static TextTheme cabinTextTheme([TextTheme textTheme]) {
+  static TextTheme cabinTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._cabinTextTheme(textTheme);
   }
 
@@ -3900,25 +3900,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Cabin+Condensed
   static TextStyle cabinCondensed({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._cabinCondensed(
       textStyle: textStyle,
@@ -3948,7 +3948,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Cabin+Condensed
-  static TextTheme cabinCondensedTextTheme([TextTheme textTheme]) {
+  static TextTheme cabinCondensedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._cabinCondensedTextTheme(textTheme);
   }
 
@@ -3958,25 +3958,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Cairo
   static TextStyle cairo({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._cairo(
       textStyle: textStyle,
@@ -4006,7 +4006,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Cairo
-  static TextTheme cairoTextTheme([TextTheme textTheme]) {
+  static TextTheme cairoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._cairoTextTheme(textTheme);
   }
 
@@ -4016,25 +4016,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Caladea
   static TextStyle caladea({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._caladea(
       textStyle: textStyle,
@@ -4064,7 +4064,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Caladea
-  static TextTheme caladeaTextTheme([TextTheme textTheme]) {
+  static TextTheme caladeaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._caladeaTextTheme(textTheme);
   }
 
@@ -4074,25 +4074,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Calistoga
   static TextStyle calistoga({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._calistoga(
       textStyle: textStyle,
@@ -4122,7 +4122,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Calistoga
-  static TextTheme calistogaTextTheme([TextTheme textTheme]) {
+  static TextTheme calistogaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._calistogaTextTheme(textTheme);
   }
 
@@ -4132,25 +4132,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Cambay
   static TextStyle cambay({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._cambay(
       textStyle: textStyle,
@@ -4180,7 +4180,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Cambay
-  static TextTheme cambayTextTheme([TextTheme textTheme]) {
+  static TextTheme cambayTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._cambayTextTheme(textTheme);
   }
 
@@ -4190,25 +4190,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Cantata+One
   static TextStyle cantataOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._cantataOne(
       textStyle: textStyle,
@@ -4238,7 +4238,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Cantata+One
-  static TextTheme cantataOneTextTheme([TextTheme textTheme]) {
+  static TextTheme cantataOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._cantataOneTextTheme(textTheme);
   }
 
@@ -4248,25 +4248,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Cantora+One
   static TextStyle cantoraOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._cantoraOne(
       textStyle: textStyle,
@@ -4296,7 +4296,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Cantora+One
-  static TextTheme cantoraOneTextTheme([TextTheme textTheme]) {
+  static TextTheme cantoraOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._cantoraOneTextTheme(textTheme);
   }
 
@@ -4306,25 +4306,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Capriola
   static TextStyle capriola({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._capriola(
       textStyle: textStyle,
@@ -4354,7 +4354,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Capriola
-  static TextTheme capriolaTextTheme([TextTheme textTheme]) {
+  static TextTheme capriolaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._capriolaTextTheme(textTheme);
   }
 
@@ -4364,25 +4364,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Cardo
   static TextStyle cardo({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._cardo(
       textStyle: textStyle,
@@ -4412,7 +4412,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Cardo
-  static TextTheme cardoTextTheme([TextTheme textTheme]) {
+  static TextTheme cardoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._cardoTextTheme(textTheme);
   }
 
@@ -4422,25 +4422,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Catamaran
   static TextStyle catamaran({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._catamaran(
       textStyle: textStyle,
@@ -4470,7 +4470,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Catamaran
-  static TextTheme catamaranTextTheme([TextTheme textTheme]) {
+  static TextTheme catamaranTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._catamaranTextTheme(textTheme);
   }
 
@@ -4480,25 +4480,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Caveat
   static TextStyle caveat({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._caveat(
       textStyle: textStyle,
@@ -4528,7 +4528,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Caveat
-  static TextTheme caveatTextTheme([TextTheme textTheme]) {
+  static TextTheme caveatTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._caveatTextTheme(textTheme);
   }
 
@@ -4538,25 +4538,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Caveat+Brush
   static TextStyle caveatBrush({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._caveatBrush(
       textStyle: textStyle,
@@ -4586,7 +4586,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Caveat+Brush
-  static TextTheme caveatBrushTextTheme([TextTheme textTheme]) {
+  static TextTheme caveatBrushTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._caveatBrushTextTheme(textTheme);
   }
 
@@ -4596,25 +4596,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Chakra+Petch
   static TextStyle chakraPetch({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._chakraPetch(
       textStyle: textStyle,
@@ -4644,7 +4644,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Chakra+Petch
-  static TextTheme chakraPetchTextTheme([TextTheme textTheme]) {
+  static TextTheme chakraPetchTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._chakraPetchTextTheme(textTheme);
   }
 
@@ -4654,25 +4654,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Changa
   static TextStyle changa({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._changa(
       textStyle: textStyle,
@@ -4702,7 +4702,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Changa
-  static TextTheme changaTextTheme([TextTheme textTheme]) {
+  static TextTheme changaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._changaTextTheme(textTheme);
   }
 
@@ -4712,25 +4712,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Charm
   static TextStyle charm({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._charm(
       textStyle: textStyle,
@@ -4760,7 +4760,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Charm
-  static TextTheme charmTextTheme([TextTheme textTheme]) {
+  static TextTheme charmTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._charmTextTheme(textTheme);
   }
 
@@ -4770,25 +4770,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Charmonman
   static TextStyle charmonman({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._charmonman(
       textStyle: textStyle,
@@ -4818,7 +4818,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Charmonman
-  static TextTheme charmonmanTextTheme([TextTheme textTheme]) {
+  static TextTheme charmonmanTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._charmonmanTextTheme(textTheme);
   }
 
@@ -4828,25 +4828,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Cherry+Swash
   static TextStyle cherrySwash({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._cherrySwash(
       textStyle: textStyle,
@@ -4876,7 +4876,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Cherry+Swash
-  static TextTheme cherrySwashTextTheme([TextTheme textTheme]) {
+  static TextTheme cherrySwashTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._cherrySwashTextTheme(textTheme);
   }
 
@@ -4886,25 +4886,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Chivo
   static TextStyle chivo({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._chivo(
       textStyle: textStyle,
@@ -4934,7 +4934,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Chivo
-  static TextTheme chivoTextTheme([TextTheme textTheme]) {
+  static TextTheme chivoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._chivoTextTheme(textTheme);
   }
 
@@ -4944,25 +4944,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Chonburi
   static TextStyle chonburi({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._chonburi(
       textStyle: textStyle,
@@ -4992,7 +4992,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Chonburi
-  static TextTheme chonburiTextTheme([TextTheme textTheme]) {
+  static TextTheme chonburiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._chonburiTextTheme(textTheme);
   }
 
@@ -5002,25 +5002,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Cinzel
   static TextStyle cinzel({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._cinzel(
       textStyle: textStyle,
@@ -5050,7 +5050,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Cinzel
-  static TextTheme cinzelTextTheme([TextTheme textTheme]) {
+  static TextTheme cinzelTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._cinzelTextTheme(textTheme);
   }
 
@@ -5060,25 +5060,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Clicker+Script
   static TextStyle clickerScript({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._clickerScript(
       textStyle: textStyle,
@@ -5108,7 +5108,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Clicker+Script
-  static TextTheme clickerScriptTextTheme([TextTheme textTheme]) {
+  static TextTheme clickerScriptTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._clickerScriptTextTheme(textTheme);
   }
 
@@ -5118,25 +5118,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Coiny
   static TextStyle coiny({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._coiny(
       textStyle: textStyle,
@@ -5166,7 +5166,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Coiny
-  static TextTheme coinyTextTheme([TextTheme textTheme]) {
+  static TextTheme coinyTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._coinyTextTheme(textTheme);
   }
 
@@ -5176,25 +5176,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Combo
   static TextStyle combo({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._combo(
       textStyle: textStyle,
@@ -5224,7 +5224,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Combo
-  static TextTheme comboTextTheme([TextTheme textTheme]) {
+  static TextTheme comboTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._comboTextTheme(textTheme);
   }
 
@@ -5234,25 +5234,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Comfortaa
   static TextStyle comfortaa({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._comfortaa(
       textStyle: textStyle,
@@ -5282,7 +5282,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Comfortaa
-  static TextTheme comfortaaTextTheme([TextTheme textTheme]) {
+  static TextTheme comfortaaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._comfortaaTextTheme(textTheme);
   }
 
@@ -5292,25 +5292,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Cormorant+Infant
   static TextStyle cormorantInfant({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._cormorantInfant(
       textStyle: textStyle,
@@ -5340,7 +5340,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Cormorant+Infant
-  static TextTheme cormorantInfantTextTheme([TextTheme textTheme]) {
+  static TextTheme cormorantInfantTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._cormorantInfantTextTheme(textTheme);
   }
 
@@ -5350,25 +5350,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Cormorant+SC
   static TextStyle cormorantSc({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._cormorantSc(
       textStyle: textStyle,
@@ -5398,7 +5398,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Cormorant+SC
-  static TextTheme cormorantScTextTheme([TextTheme textTheme]) {
+  static TextTheme cormorantScTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._cormorantScTextTheme(textTheme);
   }
 
@@ -5408,25 +5408,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Cormorant+Unicase
   static TextStyle cormorantUnicase({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._cormorantUnicase(
       textStyle: textStyle,
@@ -5456,7 +5456,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Cormorant+Unicase
-  static TextTheme cormorantUnicaseTextTheme([TextTheme textTheme]) {
+  static TextTheme cormorantUnicaseTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._cormorantUnicaseTextTheme(textTheme);
   }
 
@@ -5466,25 +5466,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Cormorant+Upright
   static TextStyle cormorantUpright({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._cormorantUpright(
       textStyle: textStyle,
@@ -5514,7 +5514,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Cormorant+Upright
-  static TextTheme cormorantUprightTextTheme([TextTheme textTheme]) {
+  static TextTheme cormorantUprightTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._cormorantUprightTextTheme(textTheme);
   }
 
@@ -5524,25 +5524,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Courgette
   static TextStyle courgette({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._courgette(
       textStyle: textStyle,
@@ -5572,7 +5572,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Courgette
-  static TextTheme courgetteTextTheme([TextTheme textTheme]) {
+  static TextTheme courgetteTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._courgetteTextTheme(textTheme);
   }
 
@@ -5582,25 +5582,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Courier+Prime
   static TextStyle courierPrime({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._courierPrime(
       textStyle: textStyle,
@@ -5630,7 +5630,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Courier+Prime
-  static TextTheme courierPrimeTextTheme([TextTheme textTheme]) {
+  static TextTheme courierPrimeTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._courierPrimeTextTheme(textTheme);
   }
 
@@ -5640,25 +5640,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Cousine
   static TextStyle cousine({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._cousine(
       textStyle: textStyle,
@@ -5688,7 +5688,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Cousine
-  static TextTheme cousineTextTheme([TextTheme textTheme]) {
+  static TextTheme cousineTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._cousineTextTheme(textTheme);
   }
 
@@ -5698,25 +5698,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Crete+Round
   static TextStyle creteRound({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._creteRound(
       textStyle: textStyle,
@@ -5746,7 +5746,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Crete+Round
-  static TextTheme creteRoundTextTheme([TextTheme textTheme]) {
+  static TextTheme creteRoundTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._creteRoundTextTheme(textTheme);
   }
 
@@ -5756,25 +5756,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Crimson+Pro
   static TextStyle crimsonPro({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._crimsonPro(
       textStyle: textStyle,
@@ -5804,7 +5804,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Crimson+Pro
-  static TextTheme crimsonProTextTheme([TextTheme textTheme]) {
+  static TextTheme crimsonProTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._crimsonProTextTheme(textTheme);
   }
 
@@ -5814,25 +5814,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Croissant+One
   static TextStyle croissantOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._croissantOne(
       textStyle: textStyle,
@@ -5862,7 +5862,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Croissant+One
-  static TextTheme croissantOneTextTheme([TextTheme textTheme]) {
+  static TextTheme croissantOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._croissantOneTextTheme(textTheme);
   }
 
@@ -5872,25 +5872,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Cutive
   static TextStyle cutive({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._cutive(
       textStyle: textStyle,
@@ -5920,7 +5920,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Cutive
-  static TextTheme cutiveTextTheme([TextTheme textTheme]) {
+  static TextTheme cutiveTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._cutiveTextTheme(textTheme);
   }
 
@@ -5930,25 +5930,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Cutive+Mono
   static TextStyle cutiveMono({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._cutiveMono(
       textStyle: textStyle,
@@ -5978,7 +5978,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Cutive+Mono
-  static TextTheme cutiveMonoTextTheme([TextTheme textTheme]) {
+  static TextTheme cutiveMonoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._cutiveMonoTextTheme(textTheme);
   }
 
@@ -5988,25 +5988,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/DM+Serif+Display
   static TextStyle dmSerifDisplay({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._dmSerifDisplay(
       textStyle: textStyle,
@@ -6036,7 +6036,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/DM+Serif+Display
-  static TextTheme dmSerifDisplayTextTheme([TextTheme textTheme]) {
+  static TextTheme dmSerifDisplayTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._dmSerifDisplayTextTheme(textTheme);
   }
 
@@ -6046,25 +6046,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/DM+Serif+Text
   static TextStyle dmSerifText({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._dmSerifText(
       textStyle: textStyle,
@@ -6094,7 +6094,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/DM+Serif+Text
-  static TextTheme dmSerifTextTextTheme([TextTheme textTheme]) {
+  static TextTheme dmSerifTextTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._dmSerifTextTextTheme(textTheme);
   }
 
@@ -6104,25 +6104,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Dancing+Script
   static TextStyle dancingScript({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._dancingScript(
       textStyle: textStyle,
@@ -6152,7 +6152,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Dancing+Script
-  static TextTheme dancingScriptTextTheme([TextTheme textTheme]) {
+  static TextTheme dancingScriptTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._dancingScriptTextTheme(textTheme);
   }
 
@@ -6162,25 +6162,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/David+Libre
   static TextStyle davidLibre({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._davidLibre(
       textStyle: textStyle,
@@ -6210,7 +6210,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/David+Libre
-  static TextTheme davidLibreTextTheme([TextTheme textTheme]) {
+  static TextTheme davidLibreTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._davidLibreTextTheme(textTheme);
   }
 
@@ -6220,25 +6220,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Dekko
   static TextStyle dekko({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._dekko(
       textStyle: textStyle,
@@ -6268,7 +6268,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Dekko
-  static TextTheme dekkoTextTheme([TextTheme textTheme]) {
+  static TextTheme dekkoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._dekkoTextTheme(textTheme);
   }
 
@@ -6278,25 +6278,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Devonshire
   static TextStyle devonshire({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._devonshire(
       textStyle: textStyle,
@@ -6326,7 +6326,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Devonshire
-  static TextTheme devonshireTextTheme([TextTheme textTheme]) {
+  static TextTheme devonshireTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._devonshireTextTheme(textTheme);
   }
 
@@ -6336,25 +6336,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Didact+Gothic
   static TextStyle didactGothic({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._didactGothic(
       textStyle: textStyle,
@@ -6384,7 +6384,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Didact+Gothic
-  static TextTheme didactGothicTextTheme([TextTheme textTheme]) {
+  static TextTheme didactGothicTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._didactGothicTextTheme(textTheme);
   }
 
@@ -6394,25 +6394,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Domine
   static TextStyle domine({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._domine(
       textStyle: textStyle,
@@ -6442,7 +6442,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Domine
-  static TextTheme domineTextTheme([TextTheme textTheme]) {
+  static TextTheme domineTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._domineTextTheme(textTheme);
   }
 
@@ -6452,25 +6452,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Donegal+One
   static TextStyle donegalOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._donegalOne(
       textStyle: textStyle,
@@ -6500,7 +6500,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Donegal+One
-  static TextTheme donegalOneTextTheme([TextTheme textTheme]) {
+  static TextTheme donegalOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._donegalOneTextTheme(textTheme);
   }
 
@@ -6510,25 +6510,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Dosis
   static TextStyle dosis({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._dosis(
       textStyle: textStyle,
@@ -6558,7 +6558,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Dosis
-  static TextTheme dosisTextTheme([TextTheme textTheme]) {
+  static TextTheme dosisTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._dosisTextTheme(textTheme);
   }
 
@@ -6568,25 +6568,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Duru+Sans
   static TextStyle duruSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._duruSans(
       textStyle: textStyle,
@@ -6616,7 +6616,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Duru+Sans
-  static TextTheme duruSansTextTheme([TextTheme textTheme]) {
+  static TextTheme duruSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._duruSansTextTheme(textTheme);
   }
 
@@ -6626,25 +6626,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Dynalight
   static TextStyle dynalight({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._dynalight(
       textStyle: textStyle,
@@ -6674,7 +6674,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Dynalight
-  static TextTheme dynalightTextTheme([TextTheme textTheme]) {
+  static TextTheme dynalightTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._dynalightTextTheme(textTheme);
   }
 
@@ -6684,25 +6684,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/EB+Garamond
   static TextStyle ebGaramond({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ebGaramond(
       textStyle: textStyle,
@@ -6732,7 +6732,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/EB+Garamond
-  static TextTheme ebGaramondTextTheme([TextTheme textTheme]) {
+  static TextTheme ebGaramondTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ebGaramondTextTheme(textTheme);
   }
 
@@ -6742,25 +6742,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Eagle+Lake
   static TextStyle eagleLake({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._eagleLake(
       textStyle: textStyle,
@@ -6790,7 +6790,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Eagle+Lake
-  static TextTheme eagleLakeTextTheme([TextTheme textTheme]) {
+  static TextTheme eagleLakeTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._eagleLakeTextTheme(textTheme);
   }
 
@@ -6800,25 +6800,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Eater
   static TextStyle eater({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._eater(
       textStyle: textStyle,
@@ -6848,7 +6848,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Eater
-  static TextTheme eaterTextTheme([TextTheme textTheme]) {
+  static TextTheme eaterTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._eaterTextTheme(textTheme);
   }
 
@@ -6858,25 +6858,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Eczar
   static TextStyle eczar({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._eczar(
       textStyle: textStyle,
@@ -6906,7 +6906,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Eczar
-  static TextTheme eczarTextTheme([TextTheme textTheme]) {
+  static TextTheme eczarTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._eczarTextTheme(textTheme);
   }
 
@@ -6916,25 +6916,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Emblema+One
   static TextStyle emblemaOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._emblemaOne(
       textStyle: textStyle,
@@ -6964,7 +6964,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Emblema+One
-  static TextTheme emblemaOneTextTheme([TextTheme textTheme]) {
+  static TextTheme emblemaOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._emblemaOneTextTheme(textTheme);
   }
 
@@ -6974,25 +6974,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Encode+Sans
   static TextStyle encodeSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._encodeSans(
       textStyle: textStyle,
@@ -7022,7 +7022,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Encode+Sans
-  static TextTheme encodeSansTextTheme([TextTheme textTheme]) {
+  static TextTheme encodeSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._encodeSansTextTheme(textTheme);
   }
 
@@ -7032,25 +7032,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Encode+Sans+Condensed
   static TextStyle encodeSansCondensed({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._encodeSansCondensed(
       textStyle: textStyle,
@@ -7080,7 +7080,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Encode+Sans+Condensed
-  static TextTheme encodeSansCondensedTextTheme([TextTheme textTheme]) {
+  static TextTheme encodeSansCondensedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._encodeSansCondensedTextTheme(textTheme);
   }
 
@@ -7090,25 +7090,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Encode+Sans+Expanded
   static TextStyle encodeSansExpanded({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._encodeSansExpanded(
       textStyle: textStyle,
@@ -7138,7 +7138,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Encode+Sans+Expanded
-  static TextTheme encodeSansExpandedTextTheme([TextTheme textTheme]) {
+  static TextTheme encodeSansExpandedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._encodeSansExpandedTextTheme(textTheme);
   }
 
@@ -7148,25 +7148,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Encode+Sans+Semi+Condensed
   static TextStyle encodeSansSemiCondensed({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._encodeSansSemiCondensed(
       textStyle: textStyle,
@@ -7196,7 +7196,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Encode+Sans+Semi+Condensed
-  static TextTheme encodeSansSemiCondensedTextTheme([TextTheme textTheme]) {
+  static TextTheme encodeSansSemiCondensedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._encodeSansSemiCondensedTextTheme(textTheme);
   }
 
@@ -7206,25 +7206,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Encode+Sans+Semi+Expanded
   static TextStyle encodeSansSemiExpanded({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._encodeSansSemiExpanded(
       textStyle: textStyle,
@@ -7254,7 +7254,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Encode+Sans+Semi+Expanded
-  static TextTheme encodeSansSemiExpandedTextTheme([TextTheme textTheme]) {
+  static TextTheme encodeSansSemiExpandedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._encodeSansSemiExpandedTextTheme(textTheme);
   }
 
@@ -7264,25 +7264,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Englebert
   static TextStyle englebert({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._englebert(
       textStyle: textStyle,
@@ -7312,7 +7312,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Englebert
-  static TextTheme englebertTextTheme([TextTheme textTheme]) {
+  static TextTheme englebertTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._englebertTextTheme(textTheme);
   }
 
@@ -7322,25 +7322,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Enriqueta
   static TextStyle enriqueta({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._enriqueta(
       textStyle: textStyle,
@@ -7370,7 +7370,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Enriqueta
-  static TextTheme enriquetaTextTheme([TextTheme textTheme]) {
+  static TextTheme enriquetaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._enriquetaTextTheme(textTheme);
   }
 
@@ -7380,25 +7380,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Exo
   static TextStyle exo({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._exo(
       textStyle: textStyle,
@@ -7428,7 +7428,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Exo
-  static TextTheme exoTextTheme([TextTheme textTheme]) {
+  static TextTheme exoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._exoTextTheme(textTheme);
   }
 
@@ -7438,25 +7438,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Exo+2
   static TextStyle exo2({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._exo2(
       textStyle: textStyle,
@@ -7486,7 +7486,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Exo+2
-  static TextTheme exo2TextTheme([TextTheme textTheme]) {
+  static TextTheme exo2TextTheme([TextTheme? textTheme]) {
     return GoogleFonts._exo2TextTheme(textTheme);
   }
 
@@ -7496,25 +7496,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Fahkwang
   static TextStyle fahkwang({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._fahkwang(
       textStyle: textStyle,
@@ -7544,7 +7544,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Fahkwang
-  static TextTheme fahkwangTextTheme([TextTheme textTheme]) {
+  static TextTheme fahkwangTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._fahkwangTextTheme(textTheme);
   }
 
@@ -7554,25 +7554,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Farro
   static TextStyle farro({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._farro(
       textStyle: textStyle,
@@ -7602,7 +7602,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Farro
-  static TextTheme farroTextTheme([TextTheme textTheme]) {
+  static TextTheme farroTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._farroTextTheme(textTheme);
   }
 
@@ -7612,25 +7612,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Farsan
   static TextStyle farsan({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._farsan(
       textStyle: textStyle,
@@ -7660,7 +7660,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Farsan
-  static TextTheme farsanTextTheme([TextTheme textTheme]) {
+  static TextTheme farsanTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._farsanTextTheme(textTheme);
   }
 
@@ -7670,25 +7670,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Faustina
   static TextStyle faustina({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._faustina(
       textStyle: textStyle,
@@ -7718,7 +7718,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Faustina
-  static TextTheme faustinaTextTheme([TextTheme textTheme]) {
+  static TextTheme faustinaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._faustinaTextTheme(textTheme);
   }
 
@@ -7728,25 +7728,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Fira+Code
   static TextStyle firaCode({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._firaCode(
       textStyle: textStyle,
@@ -7776,7 +7776,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Fira+Code
-  static TextTheme firaCodeTextTheme([TextTheme textTheme]) {
+  static TextTheme firaCodeTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._firaCodeTextTheme(textTheme);
   }
 
@@ -7786,25 +7786,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Fira+Mono
   static TextStyle firaMono({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._firaMono(
       textStyle: textStyle,
@@ -7834,7 +7834,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Fira+Mono
-  static TextTheme firaMonoTextTheme([TextTheme textTheme]) {
+  static TextTheme firaMonoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._firaMonoTextTheme(textTheme);
   }
 
@@ -7844,25 +7844,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Fira+Sans
   static TextStyle firaSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._firaSans(
       textStyle: textStyle,
@@ -7892,7 +7892,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Fira+Sans
-  static TextTheme firaSansTextTheme([TextTheme textTheme]) {
+  static TextTheme firaSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._firaSansTextTheme(textTheme);
   }
 
@@ -7902,25 +7902,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Fira+Sans+Condensed
   static TextStyle firaSansCondensed({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._firaSansCondensed(
       textStyle: textStyle,
@@ -7950,7 +7950,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Fira+Sans+Condensed
-  static TextTheme firaSansCondensedTextTheme([TextTheme textTheme]) {
+  static TextTheme firaSansCondensedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._firaSansCondensedTextTheme(textTheme);
   }
 
@@ -7960,25 +7960,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Fira+Sans+Extra+Condensed
   static TextStyle firaSansExtraCondensed({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._firaSansExtraCondensed(
       textStyle: textStyle,
@@ -8008,7 +8008,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Fira+Sans+Extra+Condensed
-  static TextTheme firaSansExtraCondensedTextTheme([TextTheme textTheme]) {
+  static TextTheme firaSansExtraCondensedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._firaSansExtraCondensedTextTheme(textTheme);
   }
 
@@ -8018,25 +8018,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Fondamento
   static TextStyle fondamento({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._fondamento(
       textStyle: textStyle,
@@ -8066,7 +8066,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Fondamento
-  static TextTheme fondamentoTextTheme([TextTheme textTheme]) {
+  static TextTheme fondamentoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._fondamentoTextTheme(textTheme);
   }
 
@@ -8076,25 +8076,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Forum
   static TextStyle forum({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._forum(
       textStyle: textStyle,
@@ -8124,7 +8124,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Forum
-  static TextTheme forumTextTheme([TextTheme textTheme]) {
+  static TextTheme forumTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._forumTextTheme(textTheme);
   }
 
@@ -8134,25 +8134,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Francois+One
   static TextStyle francoisOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._francoisOne(
       textStyle: textStyle,
@@ -8182,7 +8182,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Francois+One
-  static TextTheme francoisOneTextTheme([TextTheme textTheme]) {
+  static TextTheme francoisOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._francoisOneTextTheme(textTheme);
   }
 
@@ -8192,25 +8192,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Fruktur
   static TextStyle fruktur({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._fruktur(
       textStyle: textStyle,
@@ -8240,7 +8240,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Fruktur
-  static TextTheme frukturTextTheme([TextTheme textTheme]) {
+  static TextTheme frukturTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._frukturTextTheme(textTheme);
   }
 
@@ -8250,25 +8250,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Galindo
   static TextStyle galindo({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._galindo(
       textStyle: textStyle,
@@ -8298,7 +8298,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Galindo
-  static TextTheme galindoTextTheme([TextTheme textTheme]) {
+  static TextTheme galindoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._galindoTextTheme(textTheme);
   }
 
@@ -8308,25 +8308,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Gelasio
   static TextStyle gelasio({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._gelasio(
       textStyle: textStyle,
@@ -8356,7 +8356,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Gelasio
-  static TextTheme gelasioTextTheme([TextTheme textTheme]) {
+  static TextTheme gelasioTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._gelasioTextTheme(textTheme);
   }
 
@@ -8366,25 +8366,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Gentium+Basic
   static TextStyle gentiumBasic({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._gentiumBasic(
       textStyle: textStyle,
@@ -8414,7 +8414,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Gentium+Basic
-  static TextTheme gentiumBasicTextTheme([TextTheme textTheme]) {
+  static TextTheme gentiumBasicTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._gentiumBasicTextTheme(textTheme);
   }
 
@@ -8424,25 +8424,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Gentium+Book+Basic
   static TextStyle gentiumBookBasic({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._gentiumBookBasic(
       textStyle: textStyle,
@@ -8472,7 +8472,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Gentium+Book+Basic
-  static TextTheme gentiumBookBasicTextTheme([TextTheme textTheme]) {
+  static TextTheme gentiumBookBasicTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._gentiumBookBasicTextTheme(textTheme);
   }
 
@@ -8482,25 +8482,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Girassol
   static TextStyle girassol({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._girassol(
       textStyle: textStyle,
@@ -8530,7 +8530,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Girassol
-  static TextTheme girassolTextTheme([TextTheme textTheme]) {
+  static TextTheme girassolTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._girassolTextTheme(textTheme);
   }
 
@@ -8540,25 +8540,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Glegoo
   static TextStyle glegoo({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._glegoo(
       textStyle: textStyle,
@@ -8588,7 +8588,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Glegoo
-  static TextTheme glegooTextTheme([TextTheme textTheme]) {
+  static TextTheme glegooTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._glegooTextTheme(textTheme);
   }
 
@@ -8598,25 +8598,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Gotu
   static TextStyle gotu({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._gotu(
       textStyle: textStyle,
@@ -8646,7 +8646,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Gotu
-  static TextTheme gotuTextTheme([TextTheme textTheme]) {
+  static TextTheme gotuTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._gotuTextTheme(textTheme);
   }
 
@@ -8656,25 +8656,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Grand+Hotel
   static TextStyle grandHotel({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._grandHotel(
       textStyle: textStyle,
@@ -8704,7 +8704,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Grand+Hotel
-  static TextTheme grandHotelTextTheme([TextTheme textTheme]) {
+  static TextTheme grandHotelTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._grandHotelTextTheme(textTheme);
   }
 
@@ -8714,25 +8714,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Great+Vibes
   static TextStyle greatVibes({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._greatVibes(
       textStyle: textStyle,
@@ -8762,7 +8762,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Great+Vibes
-  static TextTheme greatVibesTextTheme([TextTheme textTheme]) {
+  static TextTheme greatVibesTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._greatVibesTextTheme(textTheme);
   }
 
@@ -8772,25 +8772,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Grenze
   static TextStyle grenze({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._grenze(
       textStyle: textStyle,
@@ -8820,7 +8820,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Grenze
-  static TextTheme grenzeTextTheme([TextTheme textTheme]) {
+  static TextTheme grenzeTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._grenzeTextTheme(textTheme);
   }
 
@@ -8830,25 +8830,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Habibi
   static TextStyle habibi({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._habibi(
       textStyle: textStyle,
@@ -8878,7 +8878,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Habibi
-  static TextTheme habibiTextTheme([TextTheme textTheme]) {
+  static TextTheme habibiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._habibiTextTheme(textTheme);
   }
 
@@ -8888,25 +8888,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Hammersmith+One
   static TextStyle hammersmithOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._hammersmithOne(
       textStyle: textStyle,
@@ -8936,7 +8936,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Hammersmith+One
-  static TextTheme hammersmithOneTextTheme([TextTheme textTheme]) {
+  static TextTheme hammersmithOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._hammersmithOneTextTheme(textTheme);
   }
 
@@ -8946,25 +8946,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Hanalei
   static TextStyle hanalei({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._hanalei(
       textStyle: textStyle,
@@ -8994,7 +8994,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Hanalei
-  static TextTheme hanaleiTextTheme([TextTheme textTheme]) {
+  static TextTheme hanaleiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._hanaleiTextTheme(textTheme);
   }
 
@@ -9004,25 +9004,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Hanalei+Fill
   static TextStyle hanaleiFill({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._hanaleiFill(
       textStyle: textStyle,
@@ -9052,7 +9052,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Hanalei+Fill
-  static TextTheme hanaleiFillTextTheme([TextTheme textTheme]) {
+  static TextTheme hanaleiFillTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._hanaleiFillTextTheme(textTheme);
   }
 
@@ -9062,25 +9062,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Headland+One
   static TextStyle headlandOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._headlandOne(
       textStyle: textStyle,
@@ -9110,7 +9110,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Headland+One
-  static TextTheme headlandOneTextTheme([TextTheme textTheme]) {
+  static TextTheme headlandOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._headlandOneTextTheme(textTheme);
   }
 
@@ -9120,25 +9120,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Hepta+Slab
   static TextStyle heptaSlab({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._heptaSlab(
       textStyle: textStyle,
@@ -9168,7 +9168,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Hepta+Slab
-  static TextTheme heptaSlabTextTheme([TextTheme textTheme]) {
+  static TextTheme heptaSlabTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._heptaSlabTextTheme(textTheme);
   }
 
@@ -9178,25 +9178,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Hind
   static TextStyle hind({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._hind(
       textStyle: textStyle,
@@ -9226,7 +9226,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Hind
-  static TextTheme hindTextTheme([TextTheme textTheme]) {
+  static TextTheme hindTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._hindTextTheme(textTheme);
   }
 
@@ -9236,25 +9236,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Hind+Guntur
   static TextStyle hindGuntur({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._hindGuntur(
       textStyle: textStyle,
@@ -9284,7 +9284,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Hind+Guntur
-  static TextTheme hindGunturTextTheme([TextTheme textTheme]) {
+  static TextTheme hindGunturTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._hindGunturTextTheme(textTheme);
   }
 
@@ -9294,25 +9294,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Hind+Madurai
   static TextStyle hindMadurai({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._hindMadurai(
       textStyle: textStyle,
@@ -9342,7 +9342,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Hind+Madurai
-  static TextTheme hindMaduraiTextTheme([TextTheme textTheme]) {
+  static TextTheme hindMaduraiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._hindMaduraiTextTheme(textTheme);
   }
 
@@ -9352,25 +9352,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Hind+Siliguri
   static TextStyle hindSiliguri({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._hindSiliguri(
       textStyle: textStyle,
@@ -9400,7 +9400,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Hind+Siliguri
-  static TextTheme hindSiliguriTextTheme([TextTheme textTheme]) {
+  static TextTheme hindSiliguriTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._hindSiliguriTextTheme(textTheme);
   }
 
@@ -9410,25 +9410,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Hind+Vadodara
   static TextStyle hindVadodara({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._hindVadodara(
       textStyle: textStyle,
@@ -9458,7 +9458,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Hind+Vadodara
-  static TextTheme hindVadodaraTextTheme([TextTheme textTheme]) {
+  static TextTheme hindVadodaraTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._hindVadodaraTextTheme(textTheme);
   }
 
@@ -9468,25 +9468,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/IBM+Plex+Mono
   static TextStyle ibmPlexMono({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ibmPlexMono(
       textStyle: textStyle,
@@ -9516,7 +9516,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/IBM+Plex+Mono
-  static TextTheme ibmPlexMonoTextTheme([TextTheme textTheme]) {
+  static TextTheme ibmPlexMonoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ibmPlexMonoTextTheme(textTheme);
   }
 
@@ -9526,25 +9526,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/IBM+Plex+Sans
   static TextStyle ibmPlexSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ibmPlexSans(
       textStyle: textStyle,
@@ -9574,7 +9574,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/IBM+Plex+Sans
-  static TextTheme ibmPlexSansTextTheme([TextTheme textTheme]) {
+  static TextTheme ibmPlexSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ibmPlexSansTextTheme(textTheme);
   }
 
@@ -9584,25 +9584,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/IBM+Plex+Sans+Condensed
   static TextStyle ibmPlexSansCondensed({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ibmPlexSansCondensed(
       textStyle: textStyle,
@@ -9632,7 +9632,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/IBM+Plex+Sans+Condensed
-  static TextTheme ibmPlexSansCondensedTextTheme([TextTheme textTheme]) {
+  static TextTheme ibmPlexSansCondensedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ibmPlexSansCondensedTextTheme(textTheme);
   }
 
@@ -9642,25 +9642,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/IBM+Plex+Serif
   static TextStyle ibmPlexSerif({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ibmPlexSerif(
       textStyle: textStyle,
@@ -9690,7 +9690,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/IBM+Plex+Serif
-  static TextTheme ibmPlexSerifTextTheme([TextTheme textTheme]) {
+  static TextTheme ibmPlexSerifTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ibmPlexSerifTextTheme(textTheme);
   }
 
@@ -9700,25 +9700,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Ibarra+Real+Nova
   static TextStyle ibarraRealNova({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ibarraRealNova(
       textStyle: textStyle,
@@ -9748,7 +9748,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Ibarra+Real+Nova
-  static TextTheme ibarraRealNovaTextTheme([TextTheme textTheme]) {
+  static TextTheme ibarraRealNovaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ibarraRealNovaTextTheme(textTheme);
   }
 
@@ -9758,25 +9758,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Inconsolata
   static TextStyle inconsolata({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._inconsolata(
       textStyle: textStyle,
@@ -9806,7 +9806,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Inconsolata
-  static TextTheme inconsolataTextTheme([TextTheme textTheme]) {
+  static TextTheme inconsolataTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._inconsolataTextTheme(textTheme);
   }
 
@@ -9816,25 +9816,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Inder
   static TextStyle inder({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._inder(
       textStyle: textStyle,
@@ -9864,7 +9864,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Inder
-  static TextTheme inderTextTheme([TextTheme textTheme]) {
+  static TextTheme inderTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._inderTextTheme(textTheme);
   }
 
@@ -9874,25 +9874,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Inika
   static TextStyle inika({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._inika(
       textStyle: textStyle,
@@ -9922,7 +9922,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Inika
-  static TextTheme inikaTextTheme([TextTheme textTheme]) {
+  static TextTheme inikaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._inikaTextTheme(textTheme);
   }
 
@@ -9932,25 +9932,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Inknut+Antiqua
   static TextStyle inknutAntiqua({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._inknutAntiqua(
       textStyle: textStyle,
@@ -9980,7 +9980,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Inknut+Antiqua
-  static TextTheme inknutAntiquaTextTheme([TextTheme textTheme]) {
+  static TextTheme inknutAntiquaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._inknutAntiquaTextTheme(textTheme);
   }
 
@@ -9990,25 +9990,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Inria+Sans
   static TextStyle inriaSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._inriaSans(
       textStyle: textStyle,
@@ -10038,7 +10038,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Inria+Sans
-  static TextTheme inriaSansTextTheme([TextTheme textTheme]) {
+  static TextTheme inriaSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._inriaSansTextTheme(textTheme);
   }
 
@@ -10048,25 +10048,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Inria+Serif
   static TextStyle inriaSerif({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._inriaSerif(
       textStyle: textStyle,
@@ -10096,7 +10096,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Inria+Serif
-  static TextTheme inriaSerifTextTheme([TextTheme textTheme]) {
+  static TextTheme inriaSerifTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._inriaSerifTextTheme(textTheme);
   }
 
@@ -10106,25 +10106,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Inter
   static TextStyle inter({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._inter(
       textStyle: textStyle,
@@ -10154,7 +10154,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Inter
-  static TextTheme interTextTheme([TextTheme textTheme]) {
+  static TextTheme interTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._interTextTheme(textTheme);
   }
 
@@ -10164,25 +10164,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Istok+Web
   static TextStyle istokWeb({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._istokWeb(
       textStyle: textStyle,
@@ -10212,7 +10212,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Istok+Web
-  static TextTheme istokWebTextTheme([TextTheme textTheme]) {
+  static TextTheme istokWebTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._istokWebTextTheme(textTheme);
   }
 
@@ -10222,25 +10222,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Italianno
   static TextStyle italianno({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._italianno(
       textStyle: textStyle,
@@ -10270,7 +10270,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Italianno
-  static TextTheme italiannoTextTheme([TextTheme textTheme]) {
+  static TextTheme italiannoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._italiannoTextTheme(textTheme);
   }
 
@@ -10280,25 +10280,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Jaldi
   static TextStyle jaldi({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._jaldi(
       textStyle: textStyle,
@@ -10328,7 +10328,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Jaldi
-  static TextTheme jaldiTextTheme([TextTheme textTheme]) {
+  static TextTheme jaldiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._jaldiTextTheme(textTheme);
   }
 
@@ -10338,25 +10338,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Jim+Nightshade
   static TextStyle jimNightshade({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._jimNightshade(
       textStyle: textStyle,
@@ -10386,7 +10386,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Jim+Nightshade
-  static TextTheme jimNightshadeTextTheme([TextTheme textTheme]) {
+  static TextTheme jimNightshadeTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._jimNightshadeTextTheme(textTheme);
   }
 
@@ -10396,25 +10396,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Jockey+One
   static TextStyle jockeyOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._jockeyOne(
       textStyle: textStyle,
@@ -10444,7 +10444,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Jockey+One
-  static TextTheme jockeyOneTextTheme([TextTheme textTheme]) {
+  static TextTheme jockeyOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._jockeyOneTextTheme(textTheme);
   }
 
@@ -10454,25 +10454,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Jomhuria
   static TextStyle jomhuria({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._jomhuria(
       textStyle: textStyle,
@@ -10502,7 +10502,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Jomhuria
-  static TextTheme jomhuriaTextTheme([TextTheme textTheme]) {
+  static TextTheme jomhuriaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._jomhuriaTextTheme(textTheme);
   }
 
@@ -10512,25 +10512,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Josefin+Sans
   static TextStyle josefinSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._josefinSans(
       textStyle: textStyle,
@@ -10560,7 +10560,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Josefin+Sans
-  static TextTheme josefinSansTextTheme([TextTheme textTheme]) {
+  static TextTheme josefinSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._josefinSansTextTheme(textTheme);
   }
 
@@ -10570,25 +10570,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Joti+One
   static TextStyle jotiOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._jotiOne(
       textStyle: textStyle,
@@ -10618,7 +10618,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Joti+One
-  static TextTheme jotiOneTextTheme([TextTheme textTheme]) {
+  static TextTheme jotiOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._jotiOneTextTheme(textTheme);
   }
 
@@ -10628,25 +10628,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Judson
   static TextStyle judson({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._judson(
       textStyle: textStyle,
@@ -10676,7 +10676,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Judson
-  static TextTheme judsonTextTheme([TextTheme textTheme]) {
+  static TextTheme judsonTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._judsonTextTheme(textTheme);
   }
 
@@ -10686,25 +10686,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Jura
   static TextStyle jura({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._jura(
       textStyle: textStyle,
@@ -10734,7 +10734,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Jura
-  static TextTheme juraTextTheme([TextTheme textTheme]) {
+  static TextTheme juraTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._juraTextTheme(textTheme);
   }
 
@@ -10744,25 +10744,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Just+Me+Again+Down+Here
   static TextStyle justMeAgainDownHere({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._justMeAgainDownHere(
       textStyle: textStyle,
@@ -10792,7 +10792,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Just+Me+Again+Down+Here
-  static TextTheme justMeAgainDownHereTextTheme([TextTheme textTheme]) {
+  static TextTheme justMeAgainDownHereTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._justMeAgainDownHereTextTheme(textTheme);
   }
 
@@ -10802,25 +10802,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Kanit
   static TextStyle kanit({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._kanit(
       textStyle: textStyle,
@@ -10850,7 +10850,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Kanit
-  static TextTheme kanitTextTheme([TextTheme textTheme]) {
+  static TextTheme kanitTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._kanitTextTheme(textTheme);
   }
 
@@ -10860,25 +10860,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Karma
   static TextStyle karma({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._karma(
       textStyle: textStyle,
@@ -10908,7 +10908,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Karma
-  static TextTheme karmaTextTheme([TextTheme textTheme]) {
+  static TextTheme karmaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._karmaTextTheme(textTheme);
   }
 
@@ -10918,25 +10918,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Katibeh
   static TextStyle katibeh({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._katibeh(
       textStyle: textStyle,
@@ -10966,7 +10966,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Katibeh
-  static TextTheme katibehTextTheme([TextTheme textTheme]) {
+  static TextTheme katibehTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._katibehTextTheme(textTheme);
   }
 
@@ -10976,25 +10976,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Kaushan+Script
   static TextStyle kaushanScript({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._kaushanScript(
       textStyle: textStyle,
@@ -11024,7 +11024,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Kaushan+Script
-  static TextTheme kaushanScriptTextTheme([TextTheme textTheme]) {
+  static TextTheme kaushanScriptTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._kaushanScriptTextTheme(textTheme);
   }
 
@@ -11034,25 +11034,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Kavivanar
   static TextStyle kavivanar({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._kavivanar(
       textStyle: textStyle,
@@ -11082,7 +11082,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Kavivanar
-  static TextTheme kavivanarTextTheme([TextTheme textTheme]) {
+  static TextTheme kavivanarTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._kavivanarTextTheme(textTheme);
   }
 
@@ -11092,25 +11092,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Kavoon
   static TextStyle kavoon({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._kavoon(
       textStyle: textStyle,
@@ -11140,7 +11140,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Kavoon
-  static TextTheme kavoonTextTheme([TextTheme textTheme]) {
+  static TextTheme kavoonTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._kavoonTextTheme(textTheme);
   }
 
@@ -11150,25 +11150,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Kelly+Slab
   static TextStyle kellySlab({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._kellySlab(
       textStyle: textStyle,
@@ -11198,7 +11198,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Kelly+Slab
-  static TextTheme kellySlabTextTheme([TextTheme textTheme]) {
+  static TextTheme kellySlabTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._kellySlabTextTheme(textTheme);
   }
 
@@ -11208,25 +11208,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Khand
   static TextStyle khand({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._khand(
       textStyle: textStyle,
@@ -11256,7 +11256,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Khand
-  static TextTheme khandTextTheme([TextTheme textTheme]) {
+  static TextTheme khandTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._khandTextTheme(textTheme);
   }
 
@@ -11266,25 +11266,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/KoHo
   static TextStyle koHo({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._koHo(
       textStyle: textStyle,
@@ -11314,7 +11314,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/KoHo
-  static TextTheme koHoTextTheme([TextTheme textTheme]) {
+  static TextTheme koHoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._koHoTextTheme(textTheme);
   }
 
@@ -11324,25 +11324,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Kodchasan
   static TextStyle kodchasan({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._kodchasan(
       textStyle: textStyle,
@@ -11372,7 +11372,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Kodchasan
-  static TextTheme kodchasanTextTheme([TextTheme textTheme]) {
+  static TextTheme kodchasanTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._kodchasanTextTheme(textTheme);
   }
 
@@ -11382,25 +11382,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Krona+One
   static TextStyle kronaOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._kronaOne(
       textStyle: textStyle,
@@ -11430,7 +11430,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Krona+One
-  static TextTheme kronaOneTextTheme([TextTheme textTheme]) {
+  static TextTheme kronaOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._kronaOneTextTheme(textTheme);
   }
 
@@ -11440,25 +11440,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Krub
   static TextStyle krub({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._krub(
       textStyle: textStyle,
@@ -11488,7 +11488,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Krub
-  static TextTheme krubTextTheme([TextTheme textTheme]) {
+  static TextTheme krubTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._krubTextTheme(textTheme);
   }
 
@@ -11498,25 +11498,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Kulim+Park
   static TextStyle kulimPark({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._kulimPark(
       textStyle: textStyle,
@@ -11546,7 +11546,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Kulim+Park
-  static TextTheme kulimParkTextTheme([TextTheme textTheme]) {
+  static TextTheme kulimParkTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._kulimParkTextTheme(textTheme);
   }
 
@@ -11556,25 +11556,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Kumar+One
   static TextStyle kumarOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._kumarOne(
       textStyle: textStyle,
@@ -11604,7 +11604,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Kumar+One
-  static TextTheme kumarOneTextTheme([TextTheme textTheme]) {
+  static TextTheme kumarOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._kumarOneTextTheme(textTheme);
   }
 
@@ -11614,25 +11614,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Kumar+One+Outline
   static TextStyle kumarOneOutline({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._kumarOneOutline(
       textStyle: textStyle,
@@ -11662,7 +11662,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Kumar+One+Outline
-  static TextTheme kumarOneOutlineTextTheme([TextTheme textTheme]) {
+  static TextTheme kumarOneOutlineTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._kumarOneOutlineTextTheme(textTheme);
   }
 
@@ -11672,25 +11672,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Lalezar
   static TextStyle lalezar({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._lalezar(
       textStyle: textStyle,
@@ -11720,7 +11720,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Lalezar
-  static TextTheme lalezarTextTheme([TextTheme textTheme]) {
+  static TextTheme lalezarTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._lalezarTextTheme(textTheme);
   }
 
@@ -11730,25 +11730,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Lato
   static TextStyle lato({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._lato(
       textStyle: textStyle,
@@ -11778,7 +11778,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Lato
-  static TextTheme latoTextTheme([TextTheme textTheme]) {
+  static TextTheme latoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._latoTextTheme(textTheme);
   }
 
@@ -11788,25 +11788,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Lekton
   static TextStyle lekton({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._lekton(
       textStyle: textStyle,
@@ -11836,7 +11836,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Lekton
-  static TextTheme lektonTextTheme([TextTheme textTheme]) {
+  static TextTheme lektonTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._lektonTextTheme(textTheme);
   }
 
@@ -11846,25 +11846,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Lemonada
   static TextStyle lemonada({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._lemonada(
       textStyle: textStyle,
@@ -11894,7 +11894,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Lemonada
-  static TextTheme lemonadaTextTheme([TextTheme textTheme]) {
+  static TextTheme lemonadaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._lemonadaTextTheme(textTheme);
   }
 
@@ -11904,25 +11904,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Lexend+Exa
   static TextStyle lexendExa({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._lexendExa(
       textStyle: textStyle,
@@ -11952,7 +11952,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Lexend+Exa
-  static TextTheme lexendExaTextTheme([TextTheme textTheme]) {
+  static TextTheme lexendExaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._lexendExaTextTheme(textTheme);
   }
 
@@ -11962,25 +11962,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Lexend+Giga
   static TextStyle lexendGiga({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._lexendGiga(
       textStyle: textStyle,
@@ -12010,7 +12010,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Lexend+Giga
-  static TextTheme lexendGigaTextTheme([TextTheme textTheme]) {
+  static TextTheme lexendGigaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._lexendGigaTextTheme(textTheme);
   }
 
@@ -12020,25 +12020,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Lexend+Mega
   static TextStyle lexendMega({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._lexendMega(
       textStyle: textStyle,
@@ -12068,7 +12068,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Lexend+Mega
-  static TextTheme lexendMegaTextTheme([TextTheme textTheme]) {
+  static TextTheme lexendMegaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._lexendMegaTextTheme(textTheme);
   }
 
@@ -12078,25 +12078,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Lexend+Peta
   static TextStyle lexendPeta({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._lexendPeta(
       textStyle: textStyle,
@@ -12126,7 +12126,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Lexend+Peta
-  static TextTheme lexendPetaTextTheme([TextTheme textTheme]) {
+  static TextTheme lexendPetaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._lexendPetaTextTheme(textTheme);
   }
 
@@ -12136,25 +12136,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Lexend+Tera
   static TextStyle lexendTera({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._lexendTera(
       textStyle: textStyle,
@@ -12184,7 +12184,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Lexend+Tera
-  static TextTheme lexendTeraTextTheme([TextTheme textTheme]) {
+  static TextTheme lexendTeraTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._lexendTeraTextTheme(textTheme);
   }
 
@@ -12194,25 +12194,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Lexend+Zetta
   static TextStyle lexendZetta({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._lexendZetta(
       textStyle: textStyle,
@@ -12242,7 +12242,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Lexend+Zetta
-  static TextTheme lexendZettaTextTheme([TextTheme textTheme]) {
+  static TextTheme lexendZettaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._lexendZettaTextTheme(textTheme);
   }
 
@@ -12252,25 +12252,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Libre+Baskerville
   static TextStyle libreBaskerville({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._libreBaskerville(
       textStyle: textStyle,
@@ -12300,7 +12300,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Libre+Baskerville
-  static TextTheme libreBaskervilleTextTheme([TextTheme textTheme]) {
+  static TextTheme libreBaskervilleTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._libreBaskervilleTextTheme(textTheme);
   }
 
@@ -12310,25 +12310,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Libre+Caslon+Display
   static TextStyle libreCaslonDisplay({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._libreCaslonDisplay(
       textStyle: textStyle,
@@ -12358,7 +12358,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Libre+Caslon+Display
-  static TextTheme libreCaslonDisplayTextTheme([TextTheme textTheme]) {
+  static TextTheme libreCaslonDisplayTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._libreCaslonDisplayTextTheme(textTheme);
   }
 
@@ -12368,25 +12368,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Libre+Caslon+Text
   static TextStyle libreCaslonText({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._libreCaslonText(
       textStyle: textStyle,
@@ -12416,7 +12416,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Libre+Caslon+Text
-  static TextTheme libreCaslonTextTextTheme([TextTheme textTheme]) {
+  static TextTheme libreCaslonTextTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._libreCaslonTextTextTheme(textTheme);
   }
 
@@ -12426,25 +12426,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Libre+Franklin
   static TextStyle libreFranklin({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._libreFranklin(
       textStyle: textStyle,
@@ -12474,7 +12474,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Libre+Franklin
-  static TextTheme libreFranklinTextTheme([TextTheme textTheme]) {
+  static TextTheme libreFranklinTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._libreFranklinTextTheme(textTheme);
   }
 
@@ -12484,25 +12484,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Limelight
   static TextStyle limelight({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._limelight(
       textStyle: textStyle,
@@ -12532,7 +12532,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Limelight
-  static TextTheme limelightTextTheme([TextTheme textTheme]) {
+  static TextTheme limelightTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._limelightTextTheme(textTheme);
   }
 
@@ -12542,25 +12542,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Literata
   static TextStyle literata({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._literata(
       textStyle: textStyle,
@@ -12590,7 +12590,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Literata
-  static TextTheme literataTextTheme([TextTheme textTheme]) {
+  static TextTheme literataTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._literataTextTheme(textTheme);
   }
 
@@ -12600,25 +12600,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Livvic
   static TextStyle livvic({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._livvic(
       textStyle: textStyle,
@@ -12648,7 +12648,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Livvic
-  static TextTheme livvicTextTheme([TextTheme textTheme]) {
+  static TextTheme livvicTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._livvicTextTheme(textTheme);
   }
 
@@ -12658,25 +12658,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Lora
   static TextStyle lora({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._lora(
       textStyle: textStyle,
@@ -12706,7 +12706,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Lora
-  static TextTheme loraTextTheme([TextTheme textTheme]) {
+  static TextTheme loraTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._loraTextTheme(textTheme);
   }
 
@@ -12716,25 +12716,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Magra
   static TextStyle magra({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._magra(
       textStyle: textStyle,
@@ -12764,7 +12764,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Magra
-  static TextTheme magraTextTheme([TextTheme textTheme]) {
+  static TextTheme magraTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._magraTextTheme(textTheme);
   }
 
@@ -12774,25 +12774,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Major+Mono+Display
   static TextStyle majorMonoDisplay({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._majorMonoDisplay(
       textStyle: textStyle,
@@ -12822,7 +12822,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Major+Mono+Display
-  static TextTheme majorMonoDisplayTextTheme([TextTheme textTheme]) {
+  static TextTheme majorMonoDisplayTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._majorMonoDisplayTextTheme(textTheme);
   }
 
@@ -12832,25 +12832,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Mali
   static TextStyle mali({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._mali(
       textStyle: textStyle,
@@ -12880,7 +12880,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Mali
-  static TextTheme maliTextTheme([TextTheme textTheme]) {
+  static TextTheme maliTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._maliTextTheme(textTheme);
   }
 
@@ -12890,25 +12890,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Manrope
   static TextStyle manrope({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._manrope(
       textStyle: textStyle,
@@ -12938,7 +12938,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Manrope
-  static TextTheme manropeTextTheme([TextTheme textTheme]) {
+  static TextTheme manropeTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._manropeTextTheme(textTheme);
   }
 
@@ -12948,25 +12948,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Marcellus
   static TextStyle marcellus({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._marcellus(
       textStyle: textStyle,
@@ -12996,7 +12996,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Marcellus
-  static TextTheme marcellusTextTheme([TextTheme textTheme]) {
+  static TextTheme marcellusTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._marcellusTextTheme(textTheme);
   }
 
@@ -13006,25 +13006,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Marcellus+SC
   static TextStyle marcellusSc({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._marcellusSc(
       textStyle: textStyle,
@@ -13054,7 +13054,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Marcellus+SC
-  static TextTheme marcellusScTextTheme([TextTheme textTheme]) {
+  static TextTheme marcellusScTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._marcellusScTextTheme(textTheme);
   }
 
@@ -13064,25 +13064,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Markazi+Text
   static TextStyle markaziText({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._markaziText(
       textStyle: textStyle,
@@ -13112,7 +13112,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Markazi+Text
-  static TextTheme markaziTextTextTheme([TextTheme textTheme]) {
+  static TextTheme markaziTextTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._markaziTextTextTheme(textTheme);
   }
 
@@ -13122,25 +13122,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Martel
   static TextStyle martel({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._martel(
       textStyle: textStyle,
@@ -13170,7 +13170,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Martel
-  static TextTheme martelTextTheme([TextTheme textTheme]) {
+  static TextTheme martelTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._martelTextTheme(textTheme);
   }
 
@@ -13180,25 +13180,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Martel+Sans
   static TextStyle martelSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._martelSans(
       textStyle: textStyle,
@@ -13228,7 +13228,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Martel+Sans
-  static TextTheme martelSansTextTheme([TextTheme textTheme]) {
+  static TextTheme martelSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._martelSansTextTheme(textTheme);
   }
 
@@ -13238,25 +13238,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Maven+Pro
   static TextStyle mavenPro({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._mavenPro(
       textStyle: textStyle,
@@ -13286,7 +13286,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Maven+Pro
-  static TextTheme mavenProTextTheme([TextTheme textTheme]) {
+  static TextTheme mavenProTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._mavenProTextTheme(textTheme);
   }
 
@@ -13296,25 +13296,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/McLaren
   static TextStyle mcLaren({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._mcLaren(
       textStyle: textStyle,
@@ -13344,7 +13344,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/McLaren
-  static TextTheme mcLarenTextTheme([TextTheme textTheme]) {
+  static TextTheme mcLarenTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._mcLarenTextTheme(textTheme);
   }
 
@@ -13354,25 +13354,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/MedievalSharp
   static TextStyle medievalSharp({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._medievalSharp(
       textStyle: textStyle,
@@ -13402,7 +13402,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/MedievalSharp
-  static TextTheme medievalSharpTextTheme([TextTheme textTheme]) {
+  static TextTheme medievalSharpTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._medievalSharpTextTheme(textTheme);
   }
 
@@ -13412,25 +13412,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Merriweather
   static TextStyle merriweather({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._merriweather(
       textStyle: textStyle,
@@ -13460,7 +13460,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Merriweather
-  static TextTheme merriweatherTextTheme([TextTheme textTheme]) {
+  static TextTheme merriweatherTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._merriweatherTextTheme(textTheme);
   }
 
@@ -13470,25 +13470,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Merriweather+Sans
   static TextStyle merriweatherSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._merriweatherSans(
       textStyle: textStyle,
@@ -13518,7 +13518,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Merriweather+Sans
-  static TextTheme merriweatherSansTextTheme([TextTheme textTheme]) {
+  static TextTheme merriweatherSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._merriweatherSansTextTheme(textTheme);
   }
 
@@ -13528,25 +13528,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Metamorphous
   static TextStyle metamorphous({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._metamorphous(
       textStyle: textStyle,
@@ -13576,7 +13576,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Metamorphous
-  static TextTheme metamorphousTextTheme([TextTheme textTheme]) {
+  static TextTheme metamorphousTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._metamorphousTextTheme(textTheme);
   }
 
@@ -13586,25 +13586,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Metrophobic
   static TextStyle metrophobic({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._metrophobic(
       textStyle: textStyle,
@@ -13634,7 +13634,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Metrophobic
-  static TextTheme metrophobicTextTheme([TextTheme textTheme]) {
+  static TextTheme metrophobicTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._metrophobicTextTheme(textTheme);
   }
 
@@ -13644,25 +13644,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Milonga
   static TextStyle milonga({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._milonga(
       textStyle: textStyle,
@@ -13692,7 +13692,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Milonga
-  static TextTheme milongaTextTheme([TextTheme textTheme]) {
+  static TextTheme milongaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._milongaTextTheme(textTheme);
   }
 
@@ -13702,25 +13702,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Mina
   static TextStyle mina({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._mina(
       textStyle: textStyle,
@@ -13750,7 +13750,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Mina
-  static TextTheme minaTextTheme([TextTheme textTheme]) {
+  static TextTheme minaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._minaTextTheme(textTheme);
   }
 
@@ -13760,25 +13760,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Miriam+Libre
   static TextStyle miriamLibre({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._miriamLibre(
       textStyle: textStyle,
@@ -13808,7 +13808,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Miriam+Libre
-  static TextTheme miriamLibreTextTheme([TextTheme textTheme]) {
+  static TextTheme miriamLibreTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._miriamLibreTextTheme(textTheme);
   }
 
@@ -13818,25 +13818,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Mirza
   static TextStyle mirza({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._mirza(
       textStyle: textStyle,
@@ -13866,7 +13866,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Mirza
-  static TextTheme mirzaTextTheme([TextTheme textTheme]) {
+  static TextTheme mirzaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._mirzaTextTheme(textTheme);
   }
 
@@ -13876,25 +13876,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Mitr
   static TextStyle mitr({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._mitr(
       textStyle: textStyle,
@@ -13924,7 +13924,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Mitr
-  static TextTheme mitrTextTheme([TextTheme textTheme]) {
+  static TextTheme mitrTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._mitrTextTheme(textTheme);
   }
 
@@ -13934,25 +13934,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Modern+Antiqua
   static TextStyle modernAntiqua({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._modernAntiqua(
       textStyle: textStyle,
@@ -13982,7 +13982,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Modern+Antiqua
-  static TextTheme modernAntiquaTextTheme([TextTheme textTheme]) {
+  static TextTheme modernAntiquaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._modernAntiquaTextTheme(textTheme);
   }
 
@@ -13992,25 +13992,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Mogra
   static TextStyle mogra({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._mogra(
       textStyle: textStyle,
@@ -14040,7 +14040,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Mogra
-  static TextTheme mograTextTheme([TextTheme textTheme]) {
+  static TextTheme mograTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._mograTextTheme(textTheme);
   }
 
@@ -14050,25 +14050,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Molengo
   static TextStyle molengo({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._molengo(
       textStyle: textStyle,
@@ -14098,7 +14098,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Molengo
-  static TextTheme molengoTextTheme([TextTheme textTheme]) {
+  static TextTheme molengoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._molengoTextTheme(textTheme);
   }
 
@@ -14108,25 +14108,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Monda
   static TextStyle monda({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._monda(
       textStyle: textStyle,
@@ -14156,7 +14156,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Monda
-  static TextTheme mondaTextTheme([TextTheme textTheme]) {
+  static TextTheme mondaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._mondaTextTheme(textTheme);
   }
 
@@ -14166,25 +14166,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Montserrat
   static TextStyle montserrat({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._montserrat(
       textStyle: textStyle,
@@ -14214,7 +14214,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Montserrat
-  static TextTheme montserratTextTheme([TextTheme textTheme]) {
+  static TextTheme montserratTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._montserratTextTheme(textTheme);
   }
 
@@ -14224,25 +14224,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Montserrat+Alternates
   static TextStyle montserratAlternates({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._montserratAlternates(
       textStyle: textStyle,
@@ -14272,7 +14272,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Montserrat+Alternates
-  static TextTheme montserratAlternatesTextTheme([TextTheme textTheme]) {
+  static TextTheme montserratAlternatesTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._montserratAlternatesTextTheme(textTheme);
   }
 
@@ -14282,25 +14282,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Mouse+Memoirs
   static TextStyle mouseMemoirs({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._mouseMemoirs(
       textStyle: textStyle,
@@ -14330,7 +14330,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Mouse+Memoirs
-  static TextTheme mouseMemoirsTextTheme([TextTheme textTheme]) {
+  static TextTheme mouseMemoirsTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._mouseMemoirsTextTheme(textTheme);
   }
 
@@ -14340,25 +14340,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Mukta
   static TextStyle mukta({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._mukta(
       textStyle: textStyle,
@@ -14388,7 +14388,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Mukta
-  static TextTheme muktaTextTheme([TextTheme textTheme]) {
+  static TextTheme muktaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._muktaTextTheme(textTheme);
   }
 
@@ -14398,25 +14398,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Mukta+Mahee
   static TextStyle muktaMahee({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._muktaMahee(
       textStyle: textStyle,
@@ -14446,7 +14446,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Mukta+Mahee
-  static TextTheme muktaMaheeTextTheme([TextTheme textTheme]) {
+  static TextTheme muktaMaheeTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._muktaMaheeTextTheme(textTheme);
   }
 
@@ -14456,25 +14456,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Mukta+Malar
   static TextStyle muktaMalar({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._muktaMalar(
       textStyle: textStyle,
@@ -14504,7 +14504,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Mukta+Malar
-  static TextTheme muktaMalarTextTheme([TextTheme textTheme]) {
+  static TextTheme muktaMalarTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._muktaMalarTextTheme(textTheme);
   }
 
@@ -14514,25 +14514,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Mukta+Vaani
   static TextStyle muktaVaani({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._muktaVaani(
       textStyle: textStyle,
@@ -14562,7 +14562,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Mukta+Vaani
-  static TextTheme muktaVaaniTextTheme([TextTheme textTheme]) {
+  static TextTheme muktaVaaniTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._muktaVaaniTextTheme(textTheme);
   }
 
@@ -14572,25 +14572,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Muli
   static TextStyle muli({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._muli(
       textStyle: textStyle,
@@ -14620,7 +14620,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Muli
-  static TextTheme muliTextTheme([TextTheme textTheme]) {
+  static TextTheme muliTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._muliTextTheme(textTheme);
   }
 
@@ -14630,25 +14630,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/New+Rocker
   static TextStyle newRocker({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._newRocker(
       textStyle: textStyle,
@@ -14678,7 +14678,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/New+Rocker
-  static TextTheme newRockerTextTheme([TextTheme textTheme]) {
+  static TextTheme newRockerTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._newRockerTextTheme(textTheme);
   }
 
@@ -14688,25 +14688,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/News+Cycle
   static TextStyle newsCycle({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._newsCycle(
       textStyle: textStyle,
@@ -14736,7 +14736,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/News+Cycle
-  static TextTheme newsCycleTextTheme([TextTheme textTheme]) {
+  static TextTheme newsCycleTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._newsCycleTextTheme(textTheme);
   }
 
@@ -14746,25 +14746,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Nosifer
   static TextStyle nosifer({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._nosifer(
       textStyle: textStyle,
@@ -14794,7 +14794,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Nosifer
-  static TextTheme nosiferTextTheme([TextTheme textTheme]) {
+  static TextTheme nosiferTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._nosiferTextTheme(textTheme);
   }
 
@@ -14804,25 +14804,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Noticia+Text
   static TextStyle noticiaText({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._noticiaText(
       textStyle: textStyle,
@@ -14852,7 +14852,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Noticia+Text
-  static TextTheme noticiaTextTextTheme([TextTheme textTheme]) {
+  static TextTheme noticiaTextTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._noticiaTextTextTheme(textTheme);
   }
 
@@ -14862,25 +14862,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Noto+Sans
   static TextStyle notoSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._notoSans(
       textStyle: textStyle,
@@ -14910,7 +14910,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Noto+Sans
-  static TextTheme notoSansTextTheme([TextTheme textTheme]) {
+  static TextTheme notoSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._notoSansTextTheme(textTheme);
   }
 
@@ -14920,25 +14920,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Noto+Serif
   static TextStyle notoSerif({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._notoSerif(
       textStyle: textStyle,
@@ -14968,7 +14968,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Noto+Serif
-  static TextTheme notoSerifTextTheme([TextTheme textTheme]) {
+  static TextTheme notoSerifTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._notoSerifTextTheme(textTheme);
   }
 
@@ -14978,25 +14978,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Nunito
   static TextStyle nunito({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._nunito(
       textStyle: textStyle,
@@ -15026,7 +15026,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Nunito
-  static TextTheme nunitoTextTheme([TextTheme textTheme]) {
+  static TextTheme nunitoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._nunitoTextTheme(textTheme);
   }
 
@@ -15036,25 +15036,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Nunito+Sans
   static TextStyle nunitoSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._nunitoSans(
       textStyle: textStyle,
@@ -15084,7 +15084,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Nunito+Sans
-  static TextTheme nunitoSansTextTheme([TextTheme textTheme]) {
+  static TextTheme nunitoSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._nunitoSansTextTheme(textTheme);
   }
 
@@ -15094,25 +15094,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Old+Standard+TT
   static TextStyle oldStandardTt({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._oldStandardTt(
       textStyle: textStyle,
@@ -15142,7 +15142,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Old+Standard+TT
-  static TextTheme oldStandardTtTextTheme([TextTheme textTheme]) {
+  static TextTheme oldStandardTtTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._oldStandardTtTextTheme(textTheme);
   }
 
@@ -15152,25 +15152,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Oldenburg
   static TextStyle oldenburg({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._oldenburg(
       textStyle: textStyle,
@@ -15200,7 +15200,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Oldenburg
-  static TextTheme oldenburgTextTheme([TextTheme textTheme]) {
+  static TextTheme oldenburgTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._oldenburgTextTheme(textTheme);
   }
 
@@ -15210,25 +15210,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Open+Sans
   static TextStyle openSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._openSans(
       textStyle: textStyle,
@@ -15258,7 +15258,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Open+Sans
-  static TextTheme openSansTextTheme([TextTheme textTheme]) {
+  static TextTheme openSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._openSansTextTheme(textTheme);
   }
 
@@ -15268,25 +15268,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Oranienbaum
   static TextStyle oranienbaum({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._oranienbaum(
       textStyle: textStyle,
@@ -15316,7 +15316,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Oranienbaum
-  static TextTheme oranienbaumTextTheme([TextTheme textTheme]) {
+  static TextTheme oranienbaumTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._oranienbaumTextTheme(textTheme);
   }
 
@@ -15326,25 +15326,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Oregano
   static TextStyle oregano({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._oregano(
       textStyle: textStyle,
@@ -15374,7 +15374,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Oregano
-  static TextTheme oreganoTextTheme([TextTheme textTheme]) {
+  static TextTheme oreganoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._oreganoTextTheme(textTheme);
   }
 
@@ -15384,25 +15384,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Oswald
   static TextStyle oswald({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._oswald(
       textStyle: textStyle,
@@ -15432,7 +15432,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Oswald
-  static TextTheme oswaldTextTheme([TextTheme textTheme]) {
+  static TextTheme oswaldTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._oswaldTextTheme(textTheme);
   }
 
@@ -15442,25 +15442,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Overpass
   static TextStyle overpass({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._overpass(
       textStyle: textStyle,
@@ -15490,7 +15490,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Overpass
-  static TextTheme overpassTextTheme([TextTheme textTheme]) {
+  static TextTheme overpassTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._overpassTextTheme(textTheme);
   }
 
@@ -15500,25 +15500,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Overpass+Mono
   static TextStyle overpassMono({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._overpassMono(
       textStyle: textStyle,
@@ -15548,7 +15548,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Overpass+Mono
-  static TextTheme overpassMonoTextTheme([TextTheme textTheme]) {
+  static TextTheme overpassMonoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._overpassMonoTextTheme(textTheme);
   }
 
@@ -15558,25 +15558,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Oxanium
   static TextStyle oxanium({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._oxanium(
       textStyle: textStyle,
@@ -15606,7 +15606,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Oxanium
-  static TextTheme oxaniumTextTheme([TextTheme textTheme]) {
+  static TextTheme oxaniumTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._oxaniumTextTheme(textTheme);
   }
 
@@ -15616,25 +15616,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Oxygen
   static TextStyle oxygen({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._oxygen(
       textStyle: textStyle,
@@ -15664,7 +15664,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Oxygen
-  static TextTheme oxygenTextTheme([TextTheme textTheme]) {
+  static TextTheme oxygenTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._oxygenTextTheme(textTheme);
   }
 
@@ -15674,25 +15674,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Oxygen+Mono
   static TextStyle oxygenMono({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._oxygenMono(
       textStyle: textStyle,
@@ -15722,7 +15722,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Oxygen+Mono
-  static TextTheme oxygenMonoTextTheme([TextTheme textTheme]) {
+  static TextTheme oxygenMonoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._oxygenMonoTextTheme(textTheme);
   }
 
@@ -15732,25 +15732,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/PT+Mono
   static TextStyle ptMono({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ptMono(
       textStyle: textStyle,
@@ -15780,7 +15780,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/PT+Mono
-  static TextTheme ptMonoTextTheme([TextTheme textTheme]) {
+  static TextTheme ptMonoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ptMonoTextTheme(textTheme);
   }
 
@@ -15790,25 +15790,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/PT+Sans
   static TextStyle ptSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ptSans(
       textStyle: textStyle,
@@ -15838,7 +15838,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/PT+Sans
-  static TextTheme ptSansTextTheme([TextTheme textTheme]) {
+  static TextTheme ptSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ptSansTextTheme(textTheme);
   }
 
@@ -15848,25 +15848,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/PT+Sans+Caption
   static TextStyle ptSansCaption({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ptSansCaption(
       textStyle: textStyle,
@@ -15896,7 +15896,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/PT+Sans+Caption
-  static TextTheme ptSansCaptionTextTheme([TextTheme textTheme]) {
+  static TextTheme ptSansCaptionTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ptSansCaptionTextTheme(textTheme);
   }
 
@@ -15906,25 +15906,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/PT+Sans+Narrow
   static TextStyle ptSansNarrow({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ptSansNarrow(
       textStyle: textStyle,
@@ -15954,7 +15954,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/PT+Sans+Narrow
-  static TextTheme ptSansNarrowTextTheme([TextTheme textTheme]) {
+  static TextTheme ptSansNarrowTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ptSansNarrowTextTheme(textTheme);
   }
 
@@ -15964,25 +15964,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/PT+Serif
   static TextStyle ptSerif({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ptSerif(
       textStyle: textStyle,
@@ -16012,7 +16012,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/PT+Serif
-  static TextTheme ptSerifTextTheme([TextTheme textTheme]) {
+  static TextTheme ptSerifTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ptSerifTextTheme(textTheme);
   }
 
@@ -16022,25 +16022,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/PT+Serif+Caption
   static TextStyle ptSerifCaption({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ptSerifCaption(
       textStyle: textStyle,
@@ -16070,7 +16070,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/PT+Serif+Caption
-  static TextTheme ptSerifCaptionTextTheme([TextTheme textTheme]) {
+  static TextTheme ptSerifCaptionTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ptSerifCaptionTextTheme(textTheme);
   }
 
@@ -16080,25 +16080,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Pacifico
   static TextStyle pacifico({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._pacifico(
       textStyle: textStyle,
@@ -16128,7 +16128,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Pacifico
-  static TextTheme pacificoTextTheme([TextTheme textTheme]) {
+  static TextTheme pacificoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._pacificoTextTheme(textTheme);
   }
 
@@ -16138,25 +16138,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Palanquin
   static TextStyle palanquin({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._palanquin(
       textStyle: textStyle,
@@ -16186,7 +16186,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Palanquin
-  static TextTheme palanquinTextTheme([TextTheme textTheme]) {
+  static TextTheme palanquinTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._palanquinTextTheme(textTheme);
   }
 
@@ -16196,25 +16196,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Palanquin+Dark
   static TextStyle palanquinDark({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._palanquinDark(
       textStyle: textStyle,
@@ -16244,7 +16244,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Palanquin+Dark
-  static TextTheme palanquinDarkTextTheme([TextTheme textTheme]) {
+  static TextTheme palanquinDarkTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._palanquinDarkTextTheme(textTheme);
   }
 
@@ -16254,25 +16254,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Parisienne
   static TextStyle parisienne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._parisienne(
       textStyle: textStyle,
@@ -16302,7 +16302,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Parisienne
-  static TextTheme parisienneTextTheme([TextTheme textTheme]) {
+  static TextTheme parisienneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._parisienneTextTheme(textTheme);
   }
 
@@ -16312,25 +16312,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Patrick+Hand
   static TextStyle patrickHand({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._patrickHand(
       textStyle: textStyle,
@@ -16360,7 +16360,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Patrick+Hand
-  static TextTheme patrickHandTextTheme([TextTheme textTheme]) {
+  static TextTheme patrickHandTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._patrickHandTextTheme(textTheme);
   }
 
@@ -16370,25 +16370,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Patrick+Hand+SC
   static TextStyle patrickHandSc({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._patrickHandSc(
       textStyle: textStyle,
@@ -16418,7 +16418,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Patrick+Hand+SC
-  static TextTheme patrickHandScTextTheme([TextTheme textTheme]) {
+  static TextTheme patrickHandScTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._patrickHandScTextTheme(textTheme);
   }
 
@@ -16428,25 +16428,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Pattaya
   static TextStyle pattaya({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._pattaya(
       textStyle: textStyle,
@@ -16476,7 +16476,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Pattaya
-  static TextTheme pattayaTextTheme([TextTheme textTheme]) {
+  static TextTheme pattayaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._pattayaTextTheme(textTheme);
   }
 
@@ -16486,25 +16486,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Pavanam
   static TextStyle pavanam({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._pavanam(
       textStyle: textStyle,
@@ -16534,7 +16534,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Pavanam
-  static TextTheme pavanamTextTheme([TextTheme textTheme]) {
+  static TextTheme pavanamTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._pavanamTextTheme(textTheme);
   }
 
@@ -16544,25 +16544,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Paytone+One
   static TextStyle paytoneOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._paytoneOne(
       textStyle: textStyle,
@@ -16592,7 +16592,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Paytone+One
-  static TextTheme paytoneOneTextTheme([TextTheme textTheme]) {
+  static TextTheme paytoneOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._paytoneOneTextTheme(textTheme);
   }
 
@@ -16602,25 +16602,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Peralta
   static TextStyle peralta({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._peralta(
       textStyle: textStyle,
@@ -16650,7 +16650,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Peralta
-  static TextTheme peraltaTextTheme([TextTheme textTheme]) {
+  static TextTheme peraltaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._peraltaTextTheme(textTheme);
   }
 
@@ -16660,25 +16660,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Petit+Formal+Script
   static TextStyle petitFormalScript({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._petitFormalScript(
       textStyle: textStyle,
@@ -16708,7 +16708,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Petit+Formal+Script
-  static TextTheme petitFormalScriptTextTheme([TextTheme textTheme]) {
+  static TextTheme petitFormalScriptTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._petitFormalScriptTextTheme(textTheme);
   }
 
@@ -16718,25 +16718,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Plaster
   static TextStyle plaster({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._plaster(
       textStyle: textStyle,
@@ -16766,7 +16766,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Plaster
-  static TextTheme plasterTextTheme([TextTheme textTheme]) {
+  static TextTheme plasterTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._plasterTextTheme(textTheme);
   }
 
@@ -16776,25 +16776,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Play
   static TextStyle play({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._play(
       textStyle: textStyle,
@@ -16824,7 +16824,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Play
-  static TextTheme playTextTheme([TextTheme textTheme]) {
+  static TextTheme playTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._playTextTheme(textTheme);
   }
 
@@ -16834,25 +16834,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Playfair+Display
   static TextStyle playfairDisplay({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._playfairDisplay(
       textStyle: textStyle,
@@ -16882,7 +16882,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Playfair+Display
-  static TextTheme playfairDisplayTextTheme([TextTheme textTheme]) {
+  static TextTheme playfairDisplayTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._playfairDisplayTextTheme(textTheme);
   }
 
@@ -16892,25 +16892,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Playfair+Display+SC
   static TextStyle playfairDisplaySc({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._playfairDisplaySc(
       textStyle: textStyle,
@@ -16940,7 +16940,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Playfair+Display+SC
-  static TextTheme playfairDisplayScTextTheme([TextTheme textTheme]) {
+  static TextTheme playfairDisplayScTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._playfairDisplayScTextTheme(textTheme);
   }
 
@@ -16950,25 +16950,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Podkova
   static TextStyle podkova({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._podkova(
       textStyle: textStyle,
@@ -16998,7 +16998,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Podkova
-  static TextTheme podkovaTextTheme([TextTheme textTheme]) {
+  static TextTheme podkovaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._podkovaTextTheme(textTheme);
   }
 
@@ -17008,25 +17008,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Pontano+Sans
   static TextStyle pontanoSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._pontanoSans(
       textStyle: textStyle,
@@ -17056,7 +17056,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Pontano+Sans
-  static TextTheme pontanoSansTextTheme([TextTheme textTheme]) {
+  static TextTheme pontanoSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._pontanoSansTextTheme(textTheme);
   }
 
@@ -17066,25 +17066,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Poppins
   static TextStyle poppins({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._poppins(
       textStyle: textStyle,
@@ -17114,7 +17114,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Poppins
-  static TextTheme poppinsTextTheme([TextTheme textTheme]) {
+  static TextTheme poppinsTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._poppinsTextTheme(textTheme);
   }
 
@@ -17124,25 +17124,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Pragati+Narrow
   static TextStyle pragatiNarrow({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._pragatiNarrow(
       textStyle: textStyle,
@@ -17172,7 +17172,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Pragati+Narrow
-  static TextTheme pragatiNarrowTextTheme([TextTheme textTheme]) {
+  static TextTheme pragatiNarrowTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._pragatiNarrowTextTheme(textTheme);
   }
 
@@ -17182,25 +17182,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Press+Start+2P
   static TextStyle pressStart2p({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._pressStart2p(
       textStyle: textStyle,
@@ -17230,7 +17230,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Press+Start+2P
-  static TextTheme pressStart2pTextTheme([TextTheme textTheme]) {
+  static TextTheme pressStart2pTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._pressStart2pTextTheme(textTheme);
   }
 
@@ -17240,25 +17240,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Prompt
   static TextStyle prompt({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._prompt(
       textStyle: textStyle,
@@ -17288,7 +17288,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Prompt
-  static TextTheme promptTextTheme([TextTheme textTheme]) {
+  static TextTheme promptTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._promptTextTheme(textTheme);
   }
 
@@ -17298,25 +17298,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Prosto+One
   static TextStyle prostoOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._prostoOne(
       textStyle: textStyle,
@@ -17346,7 +17346,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Prosto+One
-  static TextTheme prostoOneTextTheme([TextTheme textTheme]) {
+  static TextTheme prostoOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._prostoOneTextTheme(textTheme);
   }
 
@@ -17356,25 +17356,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Proza+Libre
   static TextStyle prozaLibre({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._prozaLibre(
       textStyle: textStyle,
@@ -17404,7 +17404,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Proza+Libre
-  static TextTheme prozaLibreTextTheme([TextTheme textTheme]) {
+  static TextTheme prozaLibreTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._prozaLibreTextTheme(textTheme);
   }
 
@@ -17414,25 +17414,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Public+Sans
   static TextStyle publicSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._publicSans(
       textStyle: textStyle,
@@ -17462,7 +17462,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Public+Sans
-  static TextTheme publicSansTextTheme([TextTheme textTheme]) {
+  static TextTheme publicSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._publicSansTextTheme(textTheme);
   }
 
@@ -17472,25 +17472,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Purple+Purse
   static TextStyle purplePurse({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._purplePurse(
       textStyle: textStyle,
@@ -17520,7 +17520,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Purple+Purse
-  static TextTheme purplePurseTextTheme([TextTheme textTheme]) {
+  static TextTheme purplePurseTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._purplePurseTextTheme(textTheme);
   }
 
@@ -17530,25 +17530,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Quando
   static TextStyle quando({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._quando(
       textStyle: textStyle,
@@ -17578,7 +17578,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Quando
-  static TextTheme quandoTextTheme([TextTheme textTheme]) {
+  static TextTheme quandoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._quandoTextTheme(textTheme);
   }
 
@@ -17588,25 +17588,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Questrial
   static TextStyle questrial({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._questrial(
       textStyle: textStyle,
@@ -17636,7 +17636,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Questrial
-  static TextTheme questrialTextTheme([TextTheme textTheme]) {
+  static TextTheme questrialTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._questrialTextTheme(textTheme);
   }
 
@@ -17646,25 +17646,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Quicksand
   static TextStyle quicksand({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._quicksand(
       textStyle: textStyle,
@@ -17694,7 +17694,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Quicksand
-  static TextTheme quicksandTextTheme([TextTheme textTheme]) {
+  static TextTheme quicksandTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._quicksandTextTheme(textTheme);
   }
 
@@ -17704,25 +17704,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Quintessential
   static TextStyle quintessential({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._quintessential(
       textStyle: textStyle,
@@ -17752,7 +17752,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Quintessential
-  static TextTheme quintessentialTextTheme([TextTheme textTheme]) {
+  static TextTheme quintessentialTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._quintessentialTextTheme(textTheme);
   }
 
@@ -17762,25 +17762,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Racing+Sans+One
   static TextStyle racingSansOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._racingSansOne(
       textStyle: textStyle,
@@ -17810,7 +17810,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Racing+Sans+One
-  static TextTheme racingSansOneTextTheme([TextTheme textTheme]) {
+  static TextTheme racingSansOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._racingSansOneTextTheme(textTheme);
   }
 
@@ -17820,25 +17820,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Radley
   static TextStyle radley({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._radley(
       textStyle: textStyle,
@@ -17868,7 +17868,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Radley
-  static TextTheme radleyTextTheme([TextTheme textTheme]) {
+  static TextTheme radleyTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._radleyTextTheme(textTheme);
   }
 
@@ -17878,25 +17878,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Rajdhani
   static TextStyle rajdhani({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._rajdhani(
       textStyle: textStyle,
@@ -17926,7 +17926,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Rajdhani
-  static TextTheme rajdhaniTextTheme([TextTheme textTheme]) {
+  static TextTheme rajdhaniTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._rajdhaniTextTheme(textTheme);
   }
 
@@ -17936,25 +17936,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Rakkas
   static TextStyle rakkas({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._rakkas(
       textStyle: textStyle,
@@ -17984,7 +17984,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Rakkas
-  static TextTheme rakkasTextTheme([TextTheme textTheme]) {
+  static TextTheme rakkasTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._rakkasTextTheme(textTheme);
   }
 
@@ -17994,25 +17994,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Raleway
   static TextStyle raleway({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._raleway(
       textStyle: textStyle,
@@ -18042,7 +18042,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Raleway
-  static TextTheme ralewayTextTheme([TextTheme textTheme]) {
+  static TextTheme ralewayTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ralewayTextTheme(textTheme);
   }
 
@@ -18052,25 +18052,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Raleway+Dots
   static TextStyle ralewayDots({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ralewayDots(
       textStyle: textStyle,
@@ -18100,7 +18100,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Raleway+Dots
-  static TextTheme ralewayDotsTextTheme([TextTheme textTheme]) {
+  static TextTheme ralewayDotsTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ralewayDotsTextTheme(textTheme);
   }
 
@@ -18110,25 +18110,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Rammetto+One
   static TextStyle rammettoOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._rammettoOne(
       textStyle: textStyle,
@@ -18158,7 +18158,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Rammetto+One
-  static TextTheme rammettoOneTextTheme([TextTheme textTheme]) {
+  static TextTheme rammettoOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._rammettoOneTextTheme(textTheme);
   }
 
@@ -18168,25 +18168,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Rasa
   static TextStyle rasa({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._rasa(
       textStyle: textStyle,
@@ -18216,7 +18216,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Rasa
-  static TextTheme rasaTextTheme([TextTheme textTheme]) {
+  static TextTheme rasaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._rasaTextTheme(textTheme);
   }
 
@@ -18226,25 +18226,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Red+Hat+Display
   static TextStyle redHatDisplay({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._redHatDisplay(
       textStyle: textStyle,
@@ -18274,7 +18274,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Red+Hat+Display
-  static TextTheme redHatDisplayTextTheme([TextTheme textTheme]) {
+  static TextTheme redHatDisplayTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._redHatDisplayTextTheme(textTheme);
   }
 
@@ -18284,25 +18284,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Red+Hat+Text
   static TextStyle redHatText({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._redHatText(
       textStyle: textStyle,
@@ -18332,7 +18332,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Red+Hat+Text
-  static TextTheme redHatTextTextTheme([TextTheme textTheme]) {
+  static TextTheme redHatTextTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._redHatTextTextTheme(textTheme);
   }
 
@@ -18342,25 +18342,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Rhodium+Libre
   static TextStyle rhodiumLibre({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._rhodiumLibre(
       textStyle: textStyle,
@@ -18390,7 +18390,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Rhodium+Libre
-  static TextTheme rhodiumLibreTextTheme([TextTheme textTheme]) {
+  static TextTheme rhodiumLibreTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._rhodiumLibreTextTheme(textTheme);
   }
 
@@ -18400,25 +18400,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Ribeye
   static TextStyle ribeye({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ribeye(
       textStyle: textStyle,
@@ -18448,7 +18448,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Ribeye
-  static TextTheme ribeyeTextTheme([TextTheme textTheme]) {
+  static TextTheme ribeyeTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ribeyeTextTheme(textTheme);
   }
 
@@ -18458,25 +18458,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Ribeye+Marrow
   static TextStyle ribeyeMarrow({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ribeyeMarrow(
       textStyle: textStyle,
@@ -18506,7 +18506,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Ribeye+Marrow
-  static TextTheme ribeyeMarrowTextTheme([TextTheme textTheme]) {
+  static TextTheme ribeyeMarrowTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ribeyeMarrowTextTheme(textTheme);
   }
 
@@ -18516,25 +18516,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Risque
   static TextStyle risque({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._risque(
       textStyle: textStyle,
@@ -18564,7 +18564,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Risque
-  static TextTheme risqueTextTheme([TextTheme textTheme]) {
+  static TextTheme risqueTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._risqueTextTheme(textTheme);
   }
 
@@ -18574,25 +18574,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Roboto
   static TextStyle roboto({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._roboto(
       textStyle: textStyle,
@@ -18622,7 +18622,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Roboto
-  static TextTheme robotoTextTheme([TextTheme textTheme]) {
+  static TextTheme robotoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._robotoTextTheme(textTheme);
   }
 
@@ -18632,25 +18632,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Roboto+Condensed
   static TextStyle robotoCondensed({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._robotoCondensed(
       textStyle: textStyle,
@@ -18680,7 +18680,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Roboto+Condensed
-  static TextTheme robotoCondensedTextTheme([TextTheme textTheme]) {
+  static TextTheme robotoCondensedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._robotoCondensedTextTheme(textTheme);
   }
 
@@ -18690,25 +18690,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Roboto+Mono
   static TextStyle robotoMono({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._robotoMono(
       textStyle: textStyle,
@@ -18738,7 +18738,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Roboto+Mono
-  static TextTheme robotoMonoTextTheme([TextTheme textTheme]) {
+  static TextTheme robotoMonoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._robotoMonoTextTheme(textTheme);
   }
 
@@ -18748,25 +18748,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Roboto+Slab
   static TextStyle robotoSlab({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._robotoSlab(
       textStyle: textStyle,
@@ -18796,7 +18796,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Roboto+Slab
-  static TextTheme robotoSlabTextTheme([TextTheme textTheme]) {
+  static TextTheme robotoSlabTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._robotoSlabTextTheme(textTheme);
   }
 
@@ -18806,25 +18806,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Rokkitt
   static TextStyle rokkitt({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._rokkitt(
       textStyle: textStyle,
@@ -18854,7 +18854,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Rokkitt
-  static TextTheme rokkittTextTheme([TextTheme textTheme]) {
+  static TextTheme rokkittTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._rokkittTextTheme(textTheme);
   }
 
@@ -18864,25 +18864,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Romanesco
   static TextStyle romanesco({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._romanesco(
       textStyle: textStyle,
@@ -18912,7 +18912,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Romanesco
-  static TextTheme romanescoTextTheme([TextTheme textTheme]) {
+  static TextTheme romanescoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._romanescoTextTheme(textTheme);
   }
 
@@ -18922,25 +18922,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Ropa+Sans
   static TextStyle ropaSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ropaSans(
       textStyle: textStyle,
@@ -18970,7 +18970,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Ropa+Sans
-  static TextTheme ropaSansTextTheme([TextTheme textTheme]) {
+  static TextTheme ropaSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ropaSansTextTheme(textTheme);
   }
 
@@ -18980,25 +18980,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Rosarivo
   static TextStyle rosarivo({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._rosarivo(
       textStyle: textStyle,
@@ -19028,7 +19028,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Rosarivo
-  static TextTheme rosarivoTextTheme([TextTheme textTheme]) {
+  static TextTheme rosarivoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._rosarivoTextTheme(textTheme);
   }
 
@@ -19038,25 +19038,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Rozha+One
   static TextStyle rozhaOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._rozhaOne(
       textStyle: textStyle,
@@ -19086,7 +19086,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Rozha+One
-  static TextTheme rozhaOneTextTheme([TextTheme textTheme]) {
+  static TextTheme rozhaOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._rozhaOneTextTheme(textTheme);
   }
 
@@ -19096,25 +19096,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Rubik
   static TextStyle rubik({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._rubik(
       textStyle: textStyle,
@@ -19144,7 +19144,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Rubik
-  static TextTheme rubikTextTheme([TextTheme textTheme]) {
+  static TextTheme rubikTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._rubikTextTheme(textTheme);
   }
 
@@ -19154,25 +19154,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Rubik+Mono+One
   static TextStyle rubikMonoOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._rubikMonoOne(
       textStyle: textStyle,
@@ -19202,7 +19202,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Rubik+Mono+One
-  static TextTheme rubikMonoOneTextTheme([TextTheme textTheme]) {
+  static TextTheme rubikMonoOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._rubikMonoOneTextTheme(textTheme);
   }
 
@@ -19212,25 +19212,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Rum+Raisin
   static TextStyle rumRaisin({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._rumRaisin(
       textStyle: textStyle,
@@ -19260,7 +19260,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Rum+Raisin
-  static TextTheme rumRaisinTextTheme([TextTheme textTheme]) {
+  static TextTheme rumRaisinTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._rumRaisinTextTheme(textTheme);
   }
 
@@ -19270,25 +19270,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Russo+One
   static TextStyle russoOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._russoOne(
       textStyle: textStyle,
@@ -19318,7 +19318,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Russo+One
-  static TextTheme russoOneTextTheme([TextTheme textTheme]) {
+  static TextTheme russoOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._russoOneTextTheme(textTheme);
   }
 
@@ -19328,25 +19328,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Sacramento
   static TextStyle sacramento({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sacramento(
       textStyle: textStyle,
@@ -19376,7 +19376,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Sacramento
-  static TextTheme sacramentoTextTheme([TextTheme textTheme]) {
+  static TextTheme sacramentoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sacramentoTextTheme(textTheme);
   }
 
@@ -19386,25 +19386,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Saira
   static TextStyle saira({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._saira(
       textStyle: textStyle,
@@ -19434,7 +19434,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Saira
-  static TextTheme sairaTextTheme([TextTheme textTheme]) {
+  static TextTheme sairaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sairaTextTheme(textTheme);
   }
 
@@ -19444,25 +19444,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Saira+Condensed
   static TextStyle sairaCondensed({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sairaCondensed(
       textStyle: textStyle,
@@ -19492,7 +19492,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Saira+Condensed
-  static TextTheme sairaCondensedTextTheme([TextTheme textTheme]) {
+  static TextTheme sairaCondensedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sairaCondensedTextTheme(textTheme);
   }
 
@@ -19502,25 +19502,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Saira+Extra+Condensed
   static TextStyle sairaExtraCondensed({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sairaExtraCondensed(
       textStyle: textStyle,
@@ -19550,7 +19550,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Saira+Extra+Condensed
-  static TextTheme sairaExtraCondensedTextTheme([TextTheme textTheme]) {
+  static TextTheme sairaExtraCondensedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sairaExtraCondensedTextTheme(textTheme);
   }
 
@@ -19560,25 +19560,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Saira+Semi+Condensed
   static TextStyle sairaSemiCondensed({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sairaSemiCondensed(
       textStyle: textStyle,
@@ -19608,7 +19608,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Saira+Semi+Condensed
-  static TextTheme sairaSemiCondensedTextTheme([TextTheme textTheme]) {
+  static TextTheme sairaSemiCondensedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sairaSemiCondensedTextTheme(textTheme);
   }
 
@@ -19618,25 +19618,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Saira+Stencil+One
   static TextStyle sairaStencilOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sairaStencilOne(
       textStyle: textStyle,
@@ -19666,7 +19666,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Saira+Stencil+One
-  static TextTheme sairaStencilOneTextTheme([TextTheme textTheme]) {
+  static TextTheme sairaStencilOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sairaStencilOneTextTheme(textTheme);
   }
 
@@ -19676,25 +19676,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Sanchez
   static TextStyle sanchez({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sanchez(
       textStyle: textStyle,
@@ -19724,7 +19724,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Sanchez
-  static TextTheme sanchezTextTheme([TextTheme textTheme]) {
+  static TextTheme sanchezTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sanchezTextTheme(textTheme);
   }
 
@@ -19734,25 +19734,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Sancreek
   static TextStyle sancreek({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sancreek(
       textStyle: textStyle,
@@ -19782,7 +19782,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Sancreek
-  static TextTheme sancreekTextTheme([TextTheme textTheme]) {
+  static TextTheme sancreekTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sancreekTextTheme(textTheme);
   }
 
@@ -19792,25 +19792,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Sansita
   static TextStyle sansita({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sansita(
       textStyle: textStyle,
@@ -19840,7 +19840,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Sansita
-  static TextTheme sansitaTextTheme([TextTheme textTheme]) {
+  static TextTheme sansitaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sansitaTextTheme(textTheme);
   }
 
@@ -19850,25 +19850,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Sarabun
   static TextStyle sarabun({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sarabun(
       textStyle: textStyle,
@@ -19898,7 +19898,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Sarabun
-  static TextTheme sarabunTextTheme([TextTheme textTheme]) {
+  static TextTheme sarabunTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sarabunTextTheme(textTheme);
   }
 
@@ -19908,25 +19908,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Sarala
   static TextStyle sarala({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sarala(
       textStyle: textStyle,
@@ -19956,7 +19956,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Sarala
-  static TextTheme saralaTextTheme([TextTheme textTheme]) {
+  static TextTheme saralaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._saralaTextTheme(textTheme);
   }
 
@@ -19966,25 +19966,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Sarina
   static TextStyle sarina({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sarina(
       textStyle: textStyle,
@@ -20014,7 +20014,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Sarina
-  static TextTheme sarinaTextTheme([TextTheme textTheme]) {
+  static TextTheme sarinaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sarinaTextTheme(textTheme);
   }
 
@@ -20024,25 +20024,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Sarpanch
   static TextStyle sarpanch({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sarpanch(
       textStyle: textStyle,
@@ -20072,7 +20072,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Sarpanch
-  static TextTheme sarpanchTextTheme([TextTheme textTheme]) {
+  static TextTheme sarpanchTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sarpanchTextTheme(textTheme);
   }
 
@@ -20082,25 +20082,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Scada
   static TextStyle scada({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._scada(
       textStyle: textStyle,
@@ -20130,7 +20130,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Scada
-  static TextTheme scadaTextTheme([TextTheme textTheme]) {
+  static TextTheme scadaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._scadaTextTheme(textTheme);
   }
 
@@ -20140,25 +20140,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Scope+One
   static TextStyle scopeOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._scopeOne(
       textStyle: textStyle,
@@ -20188,7 +20188,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Scope+One
-  static TextTheme scopeOneTextTheme([TextTheme textTheme]) {
+  static TextTheme scopeOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._scopeOneTextTheme(textTheme);
   }
 
@@ -20198,25 +20198,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Secular+One
   static TextStyle secularOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._secularOne(
       textStyle: textStyle,
@@ -20246,7 +20246,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Secular+One
-  static TextTheme secularOneTextTheme([TextTheme textTheme]) {
+  static TextTheme secularOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._secularOneTextTheme(textTheme);
   }
 
@@ -20256,25 +20256,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Seymour+One
   static TextStyle seymourOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._seymourOne(
       textStyle: textStyle,
@@ -20304,7 +20304,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Seymour+One
-  static TextTheme seymourOneTextTheme([TextTheme textTheme]) {
+  static TextTheme seymourOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._seymourOneTextTheme(textTheme);
   }
 
@@ -20314,25 +20314,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Shojumaru
   static TextStyle shojumaru({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._shojumaru(
       textStyle: textStyle,
@@ -20362,7 +20362,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Shojumaru
-  static TextTheme shojumaruTextTheme([TextTheme textTheme]) {
+  static TextTheme shojumaruTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._shojumaruTextTheme(textTheme);
   }
 
@@ -20372,25 +20372,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Shrikhand
   static TextStyle shrikhand({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._shrikhand(
       textStyle: textStyle,
@@ -20420,7 +20420,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Shrikhand
-  static TextTheme shrikhandTextTheme([TextTheme textTheme]) {
+  static TextTheme shrikhandTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._shrikhandTextTheme(textTheme);
   }
 
@@ -20430,25 +20430,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Sigmar+One
   static TextStyle sigmarOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sigmarOne(
       textStyle: textStyle,
@@ -20478,7 +20478,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Sigmar+One
-  static TextTheme sigmarOneTextTheme([TextTheme textTheme]) {
+  static TextTheme sigmarOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sigmarOneTextTheme(textTheme);
   }
 
@@ -20488,25 +20488,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Signika
   static TextStyle signika({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._signika(
       textStyle: textStyle,
@@ -20536,7 +20536,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Signika
-  static TextTheme signikaTextTheme([TextTheme textTheme]) {
+  static TextTheme signikaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._signikaTextTheme(textTheme);
   }
 
@@ -20546,25 +20546,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Signika+Negative
   static TextStyle signikaNegative({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._signikaNegative(
       textStyle: textStyle,
@@ -20594,7 +20594,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Signika+Negative
-  static TextTheme signikaNegativeTextTheme([TextTheme textTheme]) {
+  static TextTheme signikaNegativeTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._signikaNegativeTextTheme(textTheme);
   }
 
@@ -20604,25 +20604,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Slabo+13px
   static TextStyle slabo13px({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._slabo13px(
       textStyle: textStyle,
@@ -20652,7 +20652,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Slabo+13px
-  static TextTheme slabo13pxTextTheme([TextTheme textTheme]) {
+  static TextTheme slabo13pxTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._slabo13pxTextTheme(textTheme);
   }
 
@@ -20662,25 +20662,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Slabo+27px
   static TextStyle slabo27px({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._slabo27px(
       textStyle: textStyle,
@@ -20710,7 +20710,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Slabo+27px
-  static TextTheme slabo27pxTextTheme([TextTheme textTheme]) {
+  static TextTheme slabo27pxTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._slabo27pxTextTheme(textTheme);
   }
 
@@ -20720,25 +20720,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Sonsie+One
   static TextStyle sonsieOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sonsieOne(
       textStyle: textStyle,
@@ -20768,7 +20768,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Sonsie+One
-  static TextTheme sonsieOneTextTheme([TextTheme textTheme]) {
+  static TextTheme sonsieOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sonsieOneTextTheme(textTheme);
   }
 
@@ -20778,25 +20778,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Sorts+Mill+Goudy
   static TextStyle sortsMillGoudy({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sortsMillGoudy(
       textStyle: textStyle,
@@ -20826,7 +20826,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Sorts+Mill+Goudy
-  static TextTheme sortsMillGoudyTextTheme([TextTheme textTheme]) {
+  static TextTheme sortsMillGoudyTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sortsMillGoudyTextTheme(textTheme);
   }
 
@@ -20836,25 +20836,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Source+Code+Pro
   static TextStyle sourceCodePro({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sourceCodePro(
       textStyle: textStyle,
@@ -20884,7 +20884,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Source+Code+Pro
-  static TextTheme sourceCodeProTextTheme([TextTheme textTheme]) {
+  static TextTheme sourceCodeProTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sourceCodeProTextTheme(textTheme);
   }
 
@@ -20894,25 +20894,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Source+Sans+Pro
   static TextStyle sourceSansPro({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sourceSansPro(
       textStyle: textStyle,
@@ -20942,7 +20942,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Source+Sans+Pro
-  static TextTheme sourceSansProTextTheme([TextTheme textTheme]) {
+  static TextTheme sourceSansProTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sourceSansProTextTheme(textTheme);
   }
 
@@ -20952,25 +20952,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Source+Serif+Pro
   static TextStyle sourceSerifPro({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sourceSerifPro(
       textStyle: textStyle,
@@ -21000,7 +21000,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Source+Serif+Pro
-  static TextTheme sourceSerifProTextTheme([TextTheme textTheme]) {
+  static TextTheme sourceSerifProTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sourceSerifProTextTheme(textTheme);
   }
 
@@ -21010,25 +21010,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Space+Mono
   static TextStyle spaceMono({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._spaceMono(
       textStyle: textStyle,
@@ -21058,7 +21058,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Space+Mono
-  static TextTheme spaceMonoTextTheme([TextTheme textTheme]) {
+  static TextTheme spaceMonoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._spaceMonoTextTheme(textTheme);
   }
 
@@ -21068,25 +21068,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Spartan
   static TextStyle spartan({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._spartan(
       textStyle: textStyle,
@@ -21116,7 +21116,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Spartan
-  static TextTheme spartanTextTheme([TextTheme textTheme]) {
+  static TextTheme spartanTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._spartanTextTheme(textTheme);
   }
 
@@ -21126,25 +21126,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Spectral
   static TextStyle spectral({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._spectral(
       textStyle: textStyle,
@@ -21174,7 +21174,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Spectral
-  static TextTheme spectralTextTheme([TextTheme textTheme]) {
+  static TextTheme spectralTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._spectralTextTheme(textTheme);
   }
 
@@ -21184,25 +21184,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Spectral+SC
   static TextStyle spectralSc({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._spectralSc(
       textStyle: textStyle,
@@ -21232,7 +21232,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Spectral+SC
-  static TextTheme spectralScTextTheme([TextTheme textTheme]) {
+  static TextTheme spectralScTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._spectralScTextTheme(textTheme);
   }
 
@@ -21242,25 +21242,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Srisakdi
   static TextStyle srisakdi({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._srisakdi(
       textStyle: textStyle,
@@ -21290,7 +21290,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Srisakdi
-  static TextTheme srisakdiTextTheme([TextTheme textTheme]) {
+  static TextTheme srisakdiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._srisakdiTextTheme(textTheme);
   }
 
@@ -21300,25 +21300,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Staatliches
   static TextStyle staatliches({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._staatliches(
       textStyle: textStyle,
@@ -21348,7 +21348,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Staatliches
-  static TextTheme staatlichesTextTheme([TextTheme textTheme]) {
+  static TextTheme staatlichesTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._staatlichesTextTheme(textTheme);
   }
 
@@ -21358,25 +21358,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Stalemate
   static TextStyle stalemate({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._stalemate(
       textStyle: textStyle,
@@ -21406,7 +21406,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Stalemate
-  static TextTheme stalemateTextTheme([TextTheme textTheme]) {
+  static TextTheme stalemateTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._stalemateTextTheme(textTheme);
   }
 
@@ -21416,25 +21416,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Stint+Ultra+Condensed
   static TextStyle stintUltraCondensed({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._stintUltraCondensed(
       textStyle: textStyle,
@@ -21464,7 +21464,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Stint+Ultra+Condensed
-  static TextTheme stintUltraCondensedTextTheme([TextTheme textTheme]) {
+  static TextTheme stintUltraCondensedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._stintUltraCondensedTextTheme(textTheme);
   }
 
@@ -21474,25 +21474,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Stint+Ultra+Expanded
   static TextStyle stintUltraExpanded({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._stintUltraExpanded(
       textStyle: textStyle,
@@ -21522,7 +21522,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Stint+Ultra+Expanded
-  static TextTheme stintUltraExpandedTextTheme([TextTheme textTheme]) {
+  static TextTheme stintUltraExpandedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._stintUltraExpandedTextTheme(textTheme);
   }
 
@@ -21532,25 +21532,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Stoke
   static TextStyle stoke({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._stoke(
       textStyle: textStyle,
@@ -21580,7 +21580,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Stoke
-  static TextTheme stokeTextTheme([TextTheme textTheme]) {
+  static TextTheme stokeTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._stokeTextTheme(textTheme);
   }
 
@@ -21590,25 +21590,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Suez+One
   static TextStyle suezOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._suezOne(
       textStyle: textStyle,
@@ -21638,7 +21638,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Suez+One
-  static TextTheme suezOneTextTheme([TextTheme textTheme]) {
+  static TextTheme suezOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._suezOneTextTheme(textTheme);
   }
 
@@ -21648,25 +21648,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Sumana
   static TextStyle sumana({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._sumana(
       textStyle: textStyle,
@@ -21696,7 +21696,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Sumana
-  static TextTheme sumanaTextTheme([TextTheme textTheme]) {
+  static TextTheme sumanaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._sumanaTextTheme(textTheme);
   }
 
@@ -21706,25 +21706,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Taviraj
   static TextStyle taviraj({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._taviraj(
       textStyle: textStyle,
@@ -21754,7 +21754,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Taviraj
-  static TextTheme tavirajTextTheme([TextTheme textTheme]) {
+  static TextTheme tavirajTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._tavirajTextTheme(textTheme);
   }
 
@@ -21764,25 +21764,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Teko
   static TextStyle teko({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._teko(
       textStyle: textStyle,
@@ -21812,7 +21812,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Teko
-  static TextTheme tekoTextTheme([TextTheme textTheme]) {
+  static TextTheme tekoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._tekoTextTheme(textTheme);
   }
 
@@ -21822,25 +21822,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Tenor+Sans
   static TextStyle tenorSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._tenorSans(
       textStyle: textStyle,
@@ -21870,7 +21870,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Tenor+Sans
-  static TextTheme tenorSansTextTheme([TextTheme textTheme]) {
+  static TextTheme tenorSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._tenorSansTextTheme(textTheme);
   }
 
@@ -21880,25 +21880,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Thasadith
   static TextStyle thasadith({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._thasadith(
       textStyle: textStyle,
@@ -21928,7 +21928,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Thasadith
-  static TextTheme thasadithTextTheme([TextTheme textTheme]) {
+  static TextTheme thasadithTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._thasadithTextTheme(textTheme);
   }
 
@@ -21938,25 +21938,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Tillana
   static TextStyle tillana({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._tillana(
       textStyle: textStyle,
@@ -21986,7 +21986,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Tillana
-  static TextTheme tillanaTextTheme([TextTheme textTheme]) {
+  static TextTheme tillanaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._tillanaTextTheme(textTheme);
   }
 
@@ -21996,25 +21996,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Tinos
   static TextStyle tinos({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._tinos(
       textStyle: textStyle,
@@ -22044,7 +22044,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Tinos
-  static TextTheme tinosTextTheme([TextTheme textTheme]) {
+  static TextTheme tinosTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._tinosTextTheme(textTheme);
   }
 
@@ -22054,25 +22054,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Titillium+Web
   static TextStyle titilliumWeb({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._titilliumWeb(
       textStyle: textStyle,
@@ -22102,7 +22102,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Titillium+Web
-  static TextTheme titilliumWebTextTheme([TextTheme textTheme]) {
+  static TextTheme titilliumWebTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._titilliumWebTextTheme(textTheme);
   }
 
@@ -22112,25 +22112,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Tomorrow
   static TextStyle tomorrow({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._tomorrow(
       textStyle: textStyle,
@@ -22160,7 +22160,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Tomorrow
-  static TextTheme tomorrowTextTheme([TextTheme textTheme]) {
+  static TextTheme tomorrowTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._tomorrowTextTheme(textTheme);
   }
 
@@ -22170,25 +22170,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Trirong
   static TextStyle trirong({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._trirong(
       textStyle: textStyle,
@@ -22218,7 +22218,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Trirong
-  static TextTheme trirongTextTheme([TextTheme textTheme]) {
+  static TextTheme trirongTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._trirongTextTheme(textTheme);
   }
 
@@ -22228,25 +22228,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Trocchi
   static TextStyle trocchi({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._trocchi(
       textStyle: textStyle,
@@ -22276,7 +22276,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Trocchi
-  static TextTheme trocchiTextTheme([TextTheme textTheme]) {
+  static TextTheme trocchiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._trocchiTextTheme(textTheme);
   }
 
@@ -22286,25 +22286,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Trykker
   static TextStyle trykker({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._trykker(
       textStyle: textStyle,
@@ -22334,7 +22334,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Trykker
-  static TextTheme trykkerTextTheme([TextTheme textTheme]) {
+  static TextTheme trykkerTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._trykkerTextTheme(textTheme);
   }
 
@@ -22344,25 +22344,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Turret+Road
   static TextStyle turretRoad({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._turretRoad(
       textStyle: textStyle,
@@ -22392,7 +22392,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Turret+Road
-  static TextTheme turretRoadTextTheme([TextTheme textTheme]) {
+  static TextTheme turretRoadTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._turretRoadTextTheme(textTheme);
   }
 
@@ -22402,25 +22402,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Ubuntu
   static TextStyle ubuntu({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ubuntu(
       textStyle: textStyle,
@@ -22450,7 +22450,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Ubuntu
-  static TextTheme ubuntuTextTheme([TextTheme textTheme]) {
+  static TextTheme ubuntuTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ubuntuTextTheme(textTheme);
   }
 
@@ -22460,25 +22460,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Ubuntu+Condensed
   static TextStyle ubuntuCondensed({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ubuntuCondensed(
       textStyle: textStyle,
@@ -22508,7 +22508,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Ubuntu+Condensed
-  static TextTheme ubuntuCondensedTextTheme([TextTheme textTheme]) {
+  static TextTheme ubuntuCondensedTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ubuntuCondensedTextTheme(textTheme);
   }
 
@@ -22518,25 +22518,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Ubuntu+Mono
   static TextStyle ubuntuMono({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._ubuntuMono(
       textStyle: textStyle,
@@ -22566,7 +22566,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Ubuntu+Mono
-  static TextTheme ubuntuMonoTextTheme([TextTheme textTheme]) {
+  static TextTheme ubuntuMonoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._ubuntuMonoTextTheme(textTheme);
   }
 
@@ -22576,25 +22576,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Unica+One
   static TextStyle unicaOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._unicaOne(
       textStyle: textStyle,
@@ -22624,7 +22624,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Unica+One
-  static TextTheme unicaOneTextTheme([TextTheme textTheme]) {
+  static TextTheme unicaOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._unicaOneTextTheme(textTheme);
   }
 
@@ -22634,25 +22634,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Unna
   static TextStyle unna({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._unna(
       textStyle: textStyle,
@@ -22682,7 +22682,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Unna
-  static TextTheme unnaTextTheme([TextTheme textTheme]) {
+  static TextTheme unnaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._unnaTextTheme(textTheme);
   }
 
@@ -22692,25 +22692,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/VT323
   static TextStyle vt323({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._vt323(
       textStyle: textStyle,
@@ -22740,7 +22740,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/VT323
-  static TextTheme vt323TextTheme([TextTheme textTheme]) {
+  static TextTheme vt323TextTheme([TextTheme? textTheme]) {
     return GoogleFonts._vt323TextTheme(textTheme);
   }
 
@@ -22750,25 +22750,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Varela
   static TextStyle varela({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._varela(
       textStyle: textStyle,
@@ -22798,7 +22798,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Varela
-  static TextTheme varelaTextTheme([TextTheme textTheme]) {
+  static TextTheme varelaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._varelaTextTheme(textTheme);
   }
 
@@ -22808,25 +22808,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Varela+Round
   static TextStyle varelaRound({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._varelaRound(
       textStyle: textStyle,
@@ -22856,7 +22856,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Varela+Round
-  static TextTheme varelaRoundTextTheme([TextTheme textTheme]) {
+  static TextTheme varelaRoundTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._varelaRoundTextTheme(textTheme);
   }
 
@@ -22866,25 +22866,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Vesper+Libre
   static TextStyle vesperLibre({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._vesperLibre(
       textStyle: textStyle,
@@ -22914,7 +22914,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Vesper+Libre
-  static TextTheme vesperLibreTextTheme([TextTheme textTheme]) {
+  static TextTheme vesperLibreTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._vesperLibreTextTheme(textTheme);
   }
 
@@ -22924,25 +22924,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Viaoda+Libre
   static TextStyle viaodaLibre({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._viaodaLibre(
       textStyle: textStyle,
@@ -22972,7 +22972,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Viaoda+Libre
-  static TextTheme viaodaLibreTextTheme([TextTheme textTheme]) {
+  static TextTheme viaodaLibreTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._viaodaLibreTextTheme(textTheme);
   }
 
@@ -22982,25 +22982,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Viga
   static TextStyle viga({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._viga(
       textStyle: textStyle,
@@ -23030,7 +23030,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Viga
-  static TextTheme vigaTextTheme([TextTheme textTheme]) {
+  static TextTheme vigaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._vigaTextTheme(textTheme);
   }
 
@@ -23040,25 +23040,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Vollkorn
   static TextStyle vollkorn({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._vollkorn(
       textStyle: textStyle,
@@ -23088,7 +23088,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Vollkorn
-  static TextTheme vollkornTextTheme([TextTheme textTheme]) {
+  static TextTheme vollkornTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._vollkornTextTheme(textTheme);
   }
 
@@ -23098,25 +23098,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Vollkorn+SC
   static TextStyle vollkornSc({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._vollkornSc(
       textStyle: textStyle,
@@ -23146,7 +23146,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Vollkorn+SC
-  static TextTheme vollkornScTextTheme([TextTheme textTheme]) {
+  static TextTheme vollkornScTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._vollkornScTextTheme(textTheme);
   }
 
@@ -23156,25 +23156,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Wellfleet
   static TextStyle wellfleet({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._wellfleet(
       textStyle: textStyle,
@@ -23204,7 +23204,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Wellfleet
-  static TextTheme wellfleetTextTheme([TextTheme textTheme]) {
+  static TextTheme wellfleetTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._wellfleetTextTheme(textTheme);
   }
 
@@ -23214,25 +23214,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Work+Sans
   static TextStyle workSans({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._workSans(
       textStyle: textStyle,
@@ -23262,7 +23262,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Work+Sans
-  static TextTheme workSansTextTheme([TextTheme textTheme]) {
+  static TextTheme workSansTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._workSansTextTheme(textTheme);
   }
 
@@ -23272,25 +23272,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Yanone+Kaffeesatz
   static TextStyle yanoneKaffeesatz({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._yanoneKaffeesatz(
       textStyle: textStyle,
@@ -23320,7 +23320,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Yanone+Kaffeesatz
-  static TextTheme yanoneKaffeesatzTextTheme([TextTheme textTheme]) {
+  static TextTheme yanoneKaffeesatzTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._yanoneKaffeesatzTextTheme(textTheme);
   }
 
@@ -23330,25 +23330,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Yeseva+One
   static TextStyle yesevaOne({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._yesevaOne(
       textStyle: textStyle,
@@ -23378,7 +23378,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Yeseva+One
-  static TextTheme yesevaOneTextTheme([TextTheme textTheme]) {
+  static TextTheme yesevaOneTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._yesevaOneTextTheme(textTheme);
   }
 
@@ -23388,25 +23388,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Yrsa
   static TextStyle yrsa({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._yrsa(
       textStyle: textStyle,
@@ -23436,7 +23436,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Yrsa
-  static TextTheme yrsaTextTheme([TextTheme textTheme]) {
+  static TextTheme yrsaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._yrsaTextTheme(textTheme);
   }
 
@@ -23446,25 +23446,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Zilla+Slab
   static TextStyle zillaSlab({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._zillaSlab(
       textStyle: textStyle,
@@ -23494,7 +23494,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Zilla+Slab
-  static TextTheme zillaSlabTextTheme([TextTheme textTheme]) {
+  static TextTheme zillaSlabTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._zillaSlabTextTheme(textTheme);
   }
 
@@ -23504,25 +23504,25 @@ class CzechFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Zilla+Slab+Highlight
   static TextStyle zillaSlabHighlight({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._zillaSlabHighlight(
       textStyle: textStyle,
@@ -23552,7 +23552,7 @@ class CzechFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Zilla+Slab+Highlight
-  static TextTheme zillaSlabHighlightTextTheme([TextTheme textTheme]) {
+  static TextTheme zillaSlabHighlightTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._zillaSlabHighlightTextTheme(textTheme);
   }
 

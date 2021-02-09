@@ -16,25 +16,25 @@ class {{langClassName}}Fonts {
   /// See:
   ///  * {{docsUrl}}
   static TextStyle {{methodName}}({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._{{methodName}}(
       textStyle: textStyle,
@@ -64,7 +64,7 @@ class {{langClassName}}Fonts {
   ///
   /// See:
   ///  * {{docsUrl}}
-  static TextTheme {{methodName}}TextTheme([TextTheme textTheme]) {
+  static TextTheme {{methodName}}TextTheme([TextTheme? textTheme]) {
     return GoogleFonts._{{methodName}}TextTheme(textTheme);
   }
 

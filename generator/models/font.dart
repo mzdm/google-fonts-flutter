@@ -1,5 +1,4 @@
 import 'package:equatable/equatable.dart';
-import 'package:meta/meta.dart';
 
 /// Used for fetching from [google-webfonts-helper](https://google-webfonts-helper.herokuapp.com/).
 class Font extends Equatable {
@@ -7,8 +6,8 @@ class Font extends Equatable {
   final List<String> langSubsets;
 
   const Font({
-    @required this.family,
-    @required this.langSubsets,
+    required this.family,
+    required this.langSubsets,
   });
 
   factory Font.fromJson(Map<String, dynamic> json) => Font(
@@ -29,10 +28,10 @@ class Font extends Equatable {
 /// error phrases of unrecognized fonts while fetching from official Google Fonts API.
 class UnrecognizedFont {
   final String fontName;
-  final String errorPhrase;
+  final String? errorPhrase;
 
   const UnrecognizedFont({
-    @required this.fontName,
+    required this.fontName,
     this.errorPhrase,
   });
 

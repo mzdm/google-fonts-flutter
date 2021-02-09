@@ -14,25 +14,25 @@ class ArabicFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Almarai
   static TextStyle almarai({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._almarai(
       textStyle: textStyle,
@@ -62,7 +62,7 @@ class ArabicFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Almarai
-  static TextTheme almaraiTextTheme([TextTheme textTheme]) {
+  static TextTheme almaraiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._almaraiTextTheme(textTheme);
   }
 
@@ -72,25 +72,25 @@ class ArabicFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Amiri
   static TextStyle amiri({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._amiri(
       textStyle: textStyle,
@@ -120,7 +120,7 @@ class ArabicFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Amiri
-  static TextTheme amiriTextTheme([TextTheme textTheme]) {
+  static TextTheme amiriTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._amiriTextTheme(textTheme);
   }
 
@@ -130,25 +130,25 @@ class ArabicFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Aref+Ruqaa
   static TextStyle arefRuqaa({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._arefRuqaa(
       textStyle: textStyle,
@@ -178,7 +178,7 @@ class ArabicFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Aref+Ruqaa
-  static TextTheme arefRuqaaTextTheme([TextTheme textTheme]) {
+  static TextTheme arefRuqaaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._arefRuqaaTextTheme(textTheme);
   }
 
@@ -188,25 +188,25 @@ class ArabicFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Bhaijaan
   static TextStyle balooBhaijaan({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._balooBhaijaan(
       textStyle: textStyle,
@@ -236,7 +236,7 @@ class ArabicFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Bhaijaan
-  static TextTheme balooBhaijaanTextTheme([TextTheme textTheme]) {
+  static TextTheme balooBhaijaanTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._balooBhaijaanTextTheme(textTheme);
   }
 
@@ -246,25 +246,25 @@ class ArabicFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Cairo
   static TextStyle cairo({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._cairo(
       textStyle: textStyle,
@@ -294,7 +294,7 @@ class ArabicFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Cairo
-  static TextTheme cairoTextTheme([TextTheme textTheme]) {
+  static TextTheme cairoTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._cairoTextTheme(textTheme);
   }
 
@@ -304,25 +304,25 @@ class ArabicFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Changa
   static TextStyle changa({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._changa(
       textStyle: textStyle,
@@ -352,7 +352,7 @@ class ArabicFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Changa
-  static TextTheme changaTextTheme([TextTheme textTheme]) {
+  static TextTheme changaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._changaTextTheme(textTheme);
   }
 
@@ -362,25 +362,25 @@ class ArabicFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/El+Messiri
   static TextStyle elMessiri({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._elMessiri(
       textStyle: textStyle,
@@ -410,7 +410,7 @@ class ArabicFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/El+Messiri
-  static TextTheme elMessiriTextTheme([TextTheme textTheme]) {
+  static TextTheme elMessiriTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._elMessiriTextTheme(textTheme);
   }
 
@@ -420,25 +420,25 @@ class ArabicFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Harmattan
   static TextStyle harmattan({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._harmattan(
       textStyle: textStyle,
@@ -468,7 +468,7 @@ class ArabicFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Harmattan
-  static TextTheme harmattanTextTheme([TextTheme textTheme]) {
+  static TextTheme harmattanTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._harmattanTextTheme(textTheme);
   }
 
@@ -478,25 +478,25 @@ class ArabicFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Jomhuria
   static TextStyle jomhuria({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._jomhuria(
       textStyle: textStyle,
@@ -526,7 +526,7 @@ class ArabicFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Jomhuria
-  static TextTheme jomhuriaTextTheme([TextTheme textTheme]) {
+  static TextTheme jomhuriaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._jomhuriaTextTheme(textTheme);
   }
 
@@ -536,25 +536,25 @@ class ArabicFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Katibeh
   static TextStyle katibeh({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._katibeh(
       textStyle: textStyle,
@@ -584,7 +584,7 @@ class ArabicFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Katibeh
-  static TextTheme katibehTextTheme([TextTheme textTheme]) {
+  static TextTheme katibehTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._katibehTextTheme(textTheme);
   }
 
@@ -594,25 +594,25 @@ class ArabicFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Lalezar
   static TextStyle lalezar({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._lalezar(
       textStyle: textStyle,
@@ -642,7 +642,7 @@ class ArabicFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Lalezar
-  static TextTheme lalezarTextTheme([TextTheme textTheme]) {
+  static TextTheme lalezarTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._lalezarTextTheme(textTheme);
   }
 
@@ -652,25 +652,25 @@ class ArabicFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Lateef
   static TextStyle lateef({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._lateef(
       textStyle: textStyle,
@@ -700,7 +700,7 @@ class ArabicFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Lateef
-  static TextTheme lateefTextTheme([TextTheme textTheme]) {
+  static TextTheme lateefTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._lateefTextTheme(textTheme);
   }
 
@@ -710,25 +710,25 @@ class ArabicFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Lemonada
   static TextStyle lemonada({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._lemonada(
       textStyle: textStyle,
@@ -758,7 +758,7 @@ class ArabicFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Lemonada
-  static TextTheme lemonadaTextTheme([TextTheme textTheme]) {
+  static TextTheme lemonadaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._lemonadaTextTheme(textTheme);
   }
 
@@ -768,25 +768,25 @@ class ArabicFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Mada
   static TextStyle mada({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._mada(
       textStyle: textStyle,
@@ -816,7 +816,7 @@ class ArabicFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Mada
-  static TextTheme madaTextTheme([TextTheme textTheme]) {
+  static TextTheme madaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._madaTextTheme(textTheme);
   }
 
@@ -826,25 +826,25 @@ class ArabicFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Markazi+Text
   static TextStyle markaziText({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._markaziText(
       textStyle: textStyle,
@@ -874,7 +874,7 @@ class ArabicFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Markazi+Text
-  static TextTheme markaziTextTextTheme([TextTheme textTheme]) {
+  static TextTheme markaziTextTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._markaziTextTextTheme(textTheme);
   }
 
@@ -884,25 +884,25 @@ class ArabicFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Mirza
   static TextStyle mirza({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._mirza(
       textStyle: textStyle,
@@ -932,7 +932,7 @@ class ArabicFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Mirza
-  static TextTheme mirzaTextTheme([TextTheme textTheme]) {
+  static TextTheme mirzaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._mirzaTextTheme(textTheme);
   }
 
@@ -942,25 +942,25 @@ class ArabicFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Rakkas
   static TextStyle rakkas({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._rakkas(
       textStyle: textStyle,
@@ -990,7 +990,7 @@ class ArabicFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Rakkas
-  static TextTheme rakkasTextTheme([TextTheme textTheme]) {
+  static TextTheme rakkasTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._rakkasTextTheme(textTheme);
   }
 
@@ -1000,25 +1000,25 @@ class ArabicFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Reem+Kufi
   static TextStyle reemKufi({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._reemKufi(
       textStyle: textStyle,
@@ -1048,7 +1048,7 @@ class ArabicFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Reem+Kufi
-  static TextTheme reemKufiTextTheme([TextTheme textTheme]) {
+  static TextTheme reemKufiTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._reemKufiTextTheme(textTheme);
   }
 
@@ -1058,25 +1058,25 @@ class ArabicFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Scheherazade
   static TextStyle scheherazade({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._scheherazade(
       textStyle: textStyle,
@@ -1106,7 +1106,7 @@ class ArabicFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Scheherazade
-  static TextTheme scheherazadeTextTheme([TextTheme textTheme]) {
+  static TextTheme scheherazadeTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._scheherazadeTextTheme(textTheme);
   }
 
@@ -1116,25 +1116,25 @@ class ArabicFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Tajawal
   static TextStyle tajawal({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._tajawal(
       textStyle: textStyle,
@@ -1164,7 +1164,7 @@ class ArabicFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Tajawal
-  static TextTheme tajawalTextTheme([TextTheme textTheme]) {
+  static TextTheme tajawalTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._tajawalTextTheme(textTheme);
   }
 
@@ -1174,25 +1174,25 @@ class ArabicFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Vibes
   static TextStyle vibes({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._vibes(
       textStyle: textStyle,
@@ -1222,7 +1222,7 @@ class ArabicFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Vibes
-  static TextTheme vibesTextTheme([TextTheme textTheme]) {
+  static TextTheme vibesTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._vibesTextTheme(textTheme);
   }
 

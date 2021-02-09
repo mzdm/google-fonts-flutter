@@ -1,3 +1,5 @@
+// @dart=2.9
+
 import 'package:flutter_test/flutter_test.dart';
 
 // Copyright 2020 The Flutter team. All rights reserved.
@@ -149,7 +151,7 @@ void main() {
   testWidgets('backgroundColor is honored when passed in as a top-level param',
       (tester) async {
     final outputTextStyle =
-    LatinFonts.rancho(backgroundColor: const Color(0xFACEFEED));
+        LatinFonts.rancho(backgroundColor: const Color(0xFACEFEED));
 
     expect(outputTextStyle.backgroundColor, equals(const Color(0xFACEFEED)));
   });

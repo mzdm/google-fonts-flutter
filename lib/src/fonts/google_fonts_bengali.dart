@@ -14,25 +14,25 @@ class BengaliFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Atma
   static TextStyle atma({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._atma(
       textStyle: textStyle,
@@ -62,7 +62,7 @@ class BengaliFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Atma
-  static TextTheme atmaTextTheme([TextTheme textTheme]) {
+  static TextTheme atmaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._atmaTextTheme(textTheme);
   }
 
@@ -72,25 +72,25 @@ class BengaliFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Da
   static TextStyle balooDa({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._balooDa(
       textStyle: textStyle,
@@ -120,7 +120,7 @@ class BengaliFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Baloo+Da
-  static TextTheme balooDaTextTheme([TextTheme textTheme]) {
+  static TextTheme balooDaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._balooDaTextTheme(textTheme);
   }
 
@@ -130,25 +130,25 @@ class BengaliFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Galada
   static TextStyle galada({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._galada(
       textStyle: textStyle,
@@ -178,7 +178,7 @@ class BengaliFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Galada
-  static TextTheme galadaTextTheme([TextTheme textTheme]) {
+  static TextTheme galadaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._galadaTextTheme(textTheme);
   }
 
@@ -188,25 +188,25 @@ class BengaliFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Hind+Siliguri
   static TextStyle hindSiliguri({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._hindSiliguri(
       textStyle: textStyle,
@@ -236,7 +236,7 @@ class BengaliFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Hind+Siliguri
-  static TextTheme hindSiliguriTextTheme([TextTheme textTheme]) {
+  static TextTheme hindSiliguriTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._hindSiliguriTextTheme(textTheme);
   }
 
@@ -246,25 +246,25 @@ class BengaliFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Mina
   static TextStyle mina({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._mina(
       textStyle: textStyle,
@@ -294,7 +294,7 @@ class BengaliFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Mina
-  static TextTheme minaTextTheme([TextTheme textTheme]) {
+  static TextTheme minaTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._minaTextTheme(textTheme);
   }
 

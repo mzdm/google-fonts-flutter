@@ -14,25 +14,25 @@ class TibetanFonts {
   /// See:
   ///  * https://fonts.google.com/specimen/Jomolhari
   static TextStyle jomolhari({
-    TextStyle textStyle,
-    Color color,
-    Color backgroundColor,
-    double fontSize,
-    FontWeight fontWeight,
-    FontStyle fontStyle,
-    double letterSpacing,
-    double wordSpacing,
-    TextBaseline textBaseline,
-    double height,
-    Locale locale,
-    Paint foreground,
-    Paint background,
-    List<ui.Shadow> shadows,
-    List<ui.FontFeature> fontFeatures,
-    TextDecoration decoration,
-    Color decorationColor,
-    TextDecorationStyle decorationStyle,
-    double decorationThickness,
+    TextStyle? textStyle,
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+    Locale? locale,
+    Paint? foreground,
+    Paint? background,
+    List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures,
+    TextDecoration? decoration,
+    Color? decorationColor,
+    TextDecorationStyle? decorationStyle,
+    double? decorationThickness,
   }) {
     return GoogleFonts._jomolhari(
       textStyle: textStyle,
@@ -62,7 +62,7 @@ class TibetanFonts {
   ///
   /// See:
   ///  * https://fonts.google.com/specimen/Jomolhari
-  static TextTheme jomolhariTextTheme([TextTheme textTheme]) {
+  static TextTheme jomolhariTextTheme([TextTheme? textTheme]) {
     return GoogleFonts._jomolhariTextTheme(textTheme);
   }
 
