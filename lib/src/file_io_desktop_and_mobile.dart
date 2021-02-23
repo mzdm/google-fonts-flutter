@@ -24,9 +24,9 @@ Future<ByteData?> loadFontFromDeviceFileSystem(String name) async {
   return null;
 }
 
-Future<String?> get _localPath async {
+Future<String> get _localPath async {
   final directory = await path_provider.getApplicationSupportDirectory();
-  return directory == null ? null : directory.path;
+  return directory.path;
 }
 
 Future<File> _localFile(String name) async {

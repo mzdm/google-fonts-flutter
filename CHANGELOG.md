@@ -1,3 +1,7 @@
+## [2.0.0-nullsafety.1] - 2021-02-24
+
+- Fixed a case which prevented loading a font on the web
+
 ## [2.0.0-nullsafety.0] - 2021-02-09
 
 - Migrated library, generator and app example to null safety.

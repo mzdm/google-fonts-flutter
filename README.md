@@ -1,3 +1,5 @@
+[![pub package](https://img.shields.io/pub/v/google_language_fonts.svg)](https://pub.dev/packages/google_language_fonts)
+
 # google_language_fonts
 
 A simple way to use supported fonts for your languages, without worry about unrecognized characters.
