@@ -1,27 +1,27 @@
 name: google_language_fonts
-description: A package to include languages with fonts from fonts.google.com in your Flutter app.
-version: 2.0.0-nullsafety.1
+description: Easily include Google Fonts which are compatible with your languages.
+version: 2.0.0
 repository: https://github.com/mzdm/google-language-fonts-flutter
 
 environment:
-  sdk: ">=2.12.0-0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
   flutter:
     sdk: flutter
   http: ^0.13.0
-  path_provider: ^2.0.0
+  path_provider: ^2.0.1
   crypto: ^3.0.0
   meta: ^1.3.0
-  equatable: ^2.0.0-nullsafety.3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  pedantic: ^1.10.0
+  pedantic: ^1.11.0
   mockito: ^5.0.0
-  mustache: ^1.1.1
+  mustache_template: ^2.0.0
   protobuf: ^2.0.0
+  build_runner: ^1.11.5
   protoc_plugin: ^20.0.0
-  console: ^3.1.0
+  console: ^4.0.0

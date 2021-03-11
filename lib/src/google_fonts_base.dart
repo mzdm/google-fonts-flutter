@@ -143,14 +143,14 @@ Future<void> loadFontIfNecessary(GoogleFontsDescriptor descriptor) async {
       byteData = rootBundle.load(assetPath);
     }
     if (await byteData != null) {
-      return _loadFontByteData(familyWithVariantString, byteData);
+      return loadFontByteData(familyWithVariantString, byteData);
     }
 
     // Check if this font can be loaded from the device file system.
     byteData = file_io.loadFontFromDeviceFileSystem(familyWithVariantString);
 
     if (await byteData != null) {
-      return _loadFontByteData(familyWithVariantString, byteData);
+      return loadFontByteData(familyWithVariantString, byteData);
     }
 
     // Attempt to load this font via http, unless disallowed.
@@ -160,13 +160,13 @@ Future<void> loadFontIfNecessary(GoogleFontsDescriptor descriptor) async {
         descriptor.file,
       );
       if (await byteData != null) {
-        return _loadFontByteData(familyWithVariantString, byteData);
+        return loadFontByteData(familyWithVariantString, byteData);
       }
     } else {
       throw Exception(
-        "GoogleFonts.config.allowRuntimeFetching is false but font $fontName was not "
-        "found in the application assets. Ensure $fontName.otf exists in a "
-        "folder that is included in your pubspec's assets.",
+        'GoogleFonts.config.allowRuntimeFetching is false but font $fontName was not '
+        'found in the application assets. Ensure $fontName.otf exists in a '
+        'folder that is included in your pubspec\'s assets.',
       );
     }
   } catch (e) {
@@ -178,19 +178,18 @@ Future<void> loadFontIfNecessary(GoogleFontsDescriptor descriptor) async {
 }
 
 /// Loads a font with [FontLoader], given its name and byte-representation.
-Future<void> _loadFontByteData(
+@visibleForTesting
+Future<void> loadFontByteData(
   String familyWithVariantString,
   Future<ByteData?>? byteData,
 ) async {
-  final anyFontDataFound = byteData != null && await byteData != null;
-  if (anyFontDataFound) {
-    final fontLoader = FontLoader(familyWithVariantString);
+  if (byteData == null) return;
+  final fontData = await byteData;
+  if (fontData == null) return;
 
-    final bData = Future<ByteData>.value(await byteData!);
-    fontLoader.addFont(bData);
-
-    await fontLoader.load();
-  }
+  final fontLoader = FontLoader(familyWithVariantString);
+  fontLoader.addFont(Future.value(fontData));
+  await fontLoader.load();
 }
 
 /// Returns [GoogleFontsVariant] from [variantsToCompare] that most closely
@@ -260,7 +259,7 @@ int _computeMatch(GoogleFontsVariant a, GoogleFontsVariant b) {
   if (a == b) {
     return 0;
   }
-  int score = (a.fontWeight.index - b.fontWeight.index).abs();
+  var score = (a.fontWeight.index - b.fontWeight.index).abs();
   if (a.fontStyle != b.fontStyle) {
     score += 2;
   }
@@ -278,7 +277,7 @@ String? _findFamilyWithVariantAssetPath(
   final apiFilenamePrefix = familyWithVariant.toApiFilenamePrefix();
 
   for (final assetList in manifestJson.values) {
-    for (final String asset in assetList) {
+    for (final asset in assetList) {
       for (final matchingSuffix in ['.ttf', '.otf'].where(asset.endsWith)) {
         final assetWithoutExtension =
             asset.substring(0, asset.length - matchingSuffix.length);

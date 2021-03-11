@@ -45,7 +45,7 @@ List<LanguageFonts> _retrieveCzechFonts() {
   final languageFonts =
       LanguageFonts(langName: langKey, fontNames: czechFontNamesList);
 
-  return <LanguageFonts>[]..add(languageFonts);
+  return <LanguageFonts>[languageFonts];
 }
 
 /// Retrieves a list of [LanguageFonts] from error_handled_fonts.json & fonts.json files.

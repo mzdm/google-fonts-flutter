@@ -1,7 +1,5 @@
-import 'package:equatable/equatable.dart';
-
 /// Used for fetching from [google-webfonts-helper](https://google-webfonts-helper.herokuapp.com/).
-class Font extends Equatable {
+class Font {
   final String family;
   final List<String> langSubsets;
 
@@ -21,7 +19,15 @@ class Font extends Equatable {
       };
 
   @override
-  List<Object> get props => [family, langSubsets];
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      other is Font &&
+          runtimeType == other.runtimeType &&
+          family == other.family &&
+          langSubsets == other.langSubsets;
+
+  @override
+  int get hashCode => family.hashCode ^ langSubsets.hashCode;
 }
 
 /// This model class is used in errors.json file and contains font names and

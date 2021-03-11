@@ -1,8 +1,5 @@
-// @dart=2.9
-
 import 'dart:convert';
 import 'dart:io';
-import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -12,10 +9,11 @@ import 'package:google_language_fonts/src/google_fonts_base.dart';
 import 'package:google_language_fonts/src/google_fonts_descriptor.dart';
 import 'package:google_language_fonts/src/google_fonts_family_with_variant.dart';
 import 'package:google_language_fonts/src/google_fonts_variant.dart';
-import 'package:mockito/mockito.dart';
 import 'package:http/http.dart' as http;
+import 'package:mockito/annotations.dart';
+import 'package:mockito/mockito.dart';
 
-class MockHttpClient extends Mock implements http.Client {}
+import 'load_font_if_necessary_with_local_fonts_test.mocks.dart';
 
 const _fakeResponse = 'fake response body - success';
 // The number of bytes in _fakeResponse.
@@ -34,18 +32,20 @@ final _fakeResponseFile = GoogleFontsFile(
 // written in this file.
 //
 // NOTE: Test in this file can only run on macOS for now!
+@GenerateMocks([http.Client])
 void main() {
+  late MockClient httpClient;
   setUp(() async {
-    httpClient = MockHttpClient();
+    httpClient = MockClient();
     GoogleFonts.config.allowRuntimeFetching = true;
     when(httpClient.get(any)).thenAnswer((_) async {
       return http.Response(_fakeResponse, 200);
     });
 
     // Add Foo-BlackItalic to mock asset bundle.
-    ServicesBinding.instance.defaultBinaryMessenger
+    ServicesBinding.instance!.defaultBinaryMessenger
         .setMockMessageHandler('flutter/assets', (dynamic message) {
-      final Uint8List encoded =
+      final encoded =
           utf8.encoder.convert('{"google_fonts/Foo-BlackItalic.ttf":'
               '["google_fonts/Foo-BlackItalic.ttf"]}');
       return Future.value(encoded.buffer.asByteData());

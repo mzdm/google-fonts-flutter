@@ -2,7 +2,7 @@
 
 # google_language_fonts
 
-A simple way to use supported fonts for your languages, without worry about unrecognized characters.
+A simple way to use compatible fonts with your languages, without worrying about unrecognized characters.
 
 <p align="center">
 <img style="zoom: 0.8" src="https://raw.githubusercontent.com/mzdm/google-language-fonts-flutter/master/readme_images/comparation.png" />

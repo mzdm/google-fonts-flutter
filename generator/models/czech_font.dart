@@ -1,5 +1,3 @@
-import 'package:equatable/equatable.dart';
-
 /// How likely a font supports Czech characters.
 ///
 /// HIGHEST means that it most certainly supports.
@@ -15,7 +13,7 @@ extension EnumExt on Confidence {
 /// This model class is used for reading content from czech_fonts.json.
 ///
 /// Source of this file is: https://github.com/mzdm/czech_fonts
-class CzechFont extends Equatable {
+class CzechFont {
   final String fontName;
   final Confidence confidence;
 
@@ -48,5 +46,13 @@ class CzechFont extends Equatable {
       'CzechFont{fontName: $fontName, confidence: $confidence}';
 
   @override
-  List<Object> get props => [fontName, confidence];
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      other is CzechFont &&
+          runtimeType == other.runtimeType &&
+          fontName == other.fontName &&
+          confidence == other.confidence;
+
+  @override
+  int get hashCode => fontName.hashCode ^ confidence.hashCode;
 }

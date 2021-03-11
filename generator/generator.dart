@@ -8,7 +8,7 @@ import 'package:collection/collection.dart';
 import 'package:console/console.dart';
 import 'package:crypto/crypto.dart';
 import 'package:http/http.dart' as http;
-import 'package:mustache/mustache.dart';
+import 'package:mustache_template/mustache_template.dart';
 
 import 'fonts.pb.dart' as pb;
 import 'models/czech_font.dart';

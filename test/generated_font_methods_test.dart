@@ -1,5 +1,3 @@
-// @dart=2.9
-
 import 'package:flutter_test/flutter_test.dart';
 
 // Copyright 2020 The Flutter team. All rights reserved.
@@ -10,14 +8,9 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:google_language_fonts/google_language_fonts.dart';
-import 'package:google_language_fonts/src/asset_manifest.dart';
 import 'package:google_language_fonts/src/google_fonts_base.dart';
-import 'package:mockito/mockito.dart';
-import 'package:http/http.dart' as http;
 
-class MockHttpClient extends Mock implements http.Client {}
-
-class MockAssetManifest extends Mock implements AssetManifest {}
+import 'load_font_if_necessary_test.mocks.dart';
 
 void main() {
   setUpAll(() {
@@ -633,19 +626,19 @@ void main() {
     final textTheme = LatinFonts.oswaldTextTheme();
     final expectedFamilyWithVariant = 'Oswald_regular';
 
-    expect(textTheme.headline1.fontFamily, equals(expectedFamilyWithVariant));
-    expect(textTheme.headline2.fontFamily, equals(expectedFamilyWithVariant));
-    expect(textTheme.headline3.fontFamily, equals(expectedFamilyWithVariant));
-    expect(textTheme.headline4.fontFamily, equals(expectedFamilyWithVariant));
-    expect(textTheme.headline5.fontFamily, equals(expectedFamilyWithVariant));
-    expect(textTheme.headline6.fontFamily, equals(expectedFamilyWithVariant));
-    expect(textTheme.subtitle1.fontFamily, equals(expectedFamilyWithVariant));
-    expect(textTheme.subtitle2.fontFamily, equals(expectedFamilyWithVariant));
-    expect(textTheme.bodyText1.fontFamily, equals(expectedFamilyWithVariant));
-    expect(textTheme.bodyText2.fontFamily, equals(expectedFamilyWithVariant));
-    expect(textTheme.caption.fontFamily, equals(expectedFamilyWithVariant));
-    expect(textTheme.button.fontFamily, equals(expectedFamilyWithVariant));
-    expect(textTheme.overline.fontFamily, equals(expectedFamilyWithVariant));
+    expect(textTheme.headline1!.fontFamily, equals(expectedFamilyWithVariant));
+    expect(textTheme.headline2!.fontFamily, equals(expectedFamilyWithVariant));
+    expect(textTheme.headline3!.fontFamily, equals(expectedFamilyWithVariant));
+    expect(textTheme.headline4!.fontFamily, equals(expectedFamilyWithVariant));
+    expect(textTheme.headline5!.fontFamily, equals(expectedFamilyWithVariant));
+    expect(textTheme.headline6!.fontFamily, equals(expectedFamilyWithVariant));
+    expect(textTheme.subtitle1!.fontFamily, equals(expectedFamilyWithVariant));
+    expect(textTheme.subtitle2!.fontFamily, equals(expectedFamilyWithVariant));
+    expect(textTheme.bodyText1!.fontFamily, equals(expectedFamilyWithVariant));
+    expect(textTheme.bodyText2!.fontFamily, equals(expectedFamilyWithVariant));
+    expect(textTheme.caption!.fontFamily, equals(expectedFamilyWithVariant));
+    expect(textTheme.button!.fontFamily, equals(expectedFamilyWithVariant));
+    expect(textTheme.overline!.fontFamily, equals(expectedFamilyWithVariant));
   });
 
   testWidgets('TextTheme method works with a base textTheme', (tester) async {
@@ -660,13 +653,13 @@ void main() {
     final expectedFamilyWithVariant = 'Oswald_regular';
 
     // Default is preserved.
-    expect(textTheme.headline4.fontFamily, equals(expectedFamilyWithVariant));
+    expect(textTheme.headline4!.fontFamily, equals(expectedFamilyWithVariant));
     // Different font family gets overridden by oswald.
-    expect(textTheme.bodyText2.fontFamily, equals(expectedFamilyWithVariant));
+    expect(textTheme.bodyText2!.fontFamily, equals(expectedFamilyWithVariant));
     // Weight is preserved.
-    expect(textTheme.headline3.fontWeight, equals(FontWeight.w700));
+    expect(textTheme.headline3!.fontWeight, equals(FontWeight.w700));
     // Style is preserved.
-    expect(textTheme.subtitle2.fontStyle, equals(FontStyle.italic));
+    expect(textTheme.subtitle2!.fontStyle, equals(FontStyle.italic));
   });
 
   //////////////////
@@ -698,7 +691,7 @@ void main() {
 
     for (var fontFamily in allFonts) {
       final dynamicFont = GoogleFonts.getTextTheme(fontFamily);
-      expect(dynamicFont.bodyText1.fontFamily, isNotNull);
+      expect(dynamicFont.bodyText1!.fontFamily, isNotNull);
     }
 
     expect(allFonts, isNotEmpty);
