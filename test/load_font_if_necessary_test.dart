@@ -42,7 +42,7 @@ void overridePrint(Future<Null> Function() testFn) => () {
 @GenerateMocks(
   [],
   customMocks: [
-    MockSpec<http.Client>(),
+    MockSpec<http.Client>(returnNullOnMissingStub: true),
     MockSpec<AssetManifest>(returnNullOnMissingStub: true),
   ],
 )
