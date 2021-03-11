@@ -1,4 +1,4 @@
-//@dart=2.9
+// @dart=2.9
 
 import 'dart:convert';
 import 'dart:io';
@@ -11,11 +11,10 @@ import 'package:google_language_fonts/src/google_fonts_base.dart';
 import 'package:google_language_fonts/src/google_fonts_descriptor.dart';
 import 'package:google_language_fonts/src/google_fonts_family_with_variant.dart';
 import 'package:google_language_fonts/src/google_fonts_variant.dart';
-import 'package:http/http.dart' as http;
-import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
+import 'package:http/http.dart' as http;
 
-import 'load_font_if_necessary_with_local_fonts_test.mocks.dart';
+class MockHttpClient extends Mock implements http.Client {}
 
 const _fakeResponse = 'fake response body - success';
 // The number of bytes in _fakeResponse.
@@ -34,11 +33,9 @@ final _fakeResponseFile = GoogleFontsFile(
 // written in this file.
 //
 // NOTE: Test in this file can only run on macOS for now!
-@GenerateMocks([http.Client])
 void main() {
-  MockClient httpClient;
   setUp(() async {
-    httpClient = MockClient();
+    httpClient = MockHttpClient();
     GoogleFonts.config.allowRuntimeFetching = true;
     when(httpClient.get(any)).thenAnswer((_) async {
       return http.Response(_fakeResponse, 200);
