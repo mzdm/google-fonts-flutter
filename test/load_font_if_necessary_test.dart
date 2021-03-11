@@ -53,6 +53,7 @@ void main() {
   setUp(() async {
     // httpClient = MockClient();
     assetManifest = MockAssetManifest();
+    registerFallbackValue<Uri>(Uri());
     GoogleFonts.config.allowRuntimeFetching = true;
     when(() => httpMock.get(any())).thenAnswer((_) async {
       return http.Response(_fakeResponse, 200);
