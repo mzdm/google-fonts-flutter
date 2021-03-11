@@ -1,4 +1,4 @@
-[![pub package](https://img.shields.io/pub/v/google_language_fonts.svg)](https://pub.dev/packages/google_language_fonts)
+[![pub package](https://img.shields.io/pub/v/google_language_fonts.svg)](https://pub.dev/packages/google_language_fonts) ![build](https://github.com/mzdm/google-language-fonts-flutter/actions/workflows/main.yml/badge.svg)
 
 # google_language_fonts
 
