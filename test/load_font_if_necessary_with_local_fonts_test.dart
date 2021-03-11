@@ -1,3 +1,5 @@
+//@dart=2.9
+
 import 'dart:convert';
 import 'dart:io';
 
@@ -34,7 +36,7 @@ final _fakeResponseFile = GoogleFontsFile(
 // NOTE: Test in this file can only run on macOS for now!
 @GenerateMocks([http.Client])
 void main() {
-  late MockClient httpClient;
+  MockClient httpClient;
   setUp(() async {
     httpClient = MockClient();
     GoogleFonts.config.allowRuntimeFetching = true;
@@ -43,7 +45,7 @@ void main() {
     });
 
     // Add Foo-BlackItalic to mock asset bundle.
-    ServicesBinding.instance!.defaultBinaryMessenger
+    ServicesBinding.instance.defaultBinaryMessenger
         .setMockMessageHandler('flutter/assets', (dynamic message) {
       final encoded =
           utf8.encoder.convert('{"google_fonts/Foo-BlackItalic.ttf":'
