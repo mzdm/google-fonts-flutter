@@ -12,7 +12,7 @@ import 'package:google_language_fonts/src/google_fonts_family_with_variant.dart'
 import 'package:google_language_fonts/src/google_fonts_variant.dart';
 import 'package:http/http.dart' as http;
 import 'package:mockito/annotations.dart';
-import 'package:mockito/mockito.dart';
+import 'package:mocktail/mocktail.dart';
 import 'package:path_provider/path_provider.dart';
 
 import 'load_font_if_necessary_test.mocks.dart';
@@ -27,6 +27,8 @@ final _fakeResponseFile = GoogleFontsFile(
   _fakeResponseHash,
   _fakeResponseLengthInBytes,
 );
+
+class MockHttpClient extends Mock implements http.Client {}
 
 var printLog = <String>[];
 
@@ -47,11 +49,12 @@ void overridePrint(Future<Null> Function() testFn) => () {
   ],
 )
 void main() {
-  final mockHttpClient = MockClient();
+  final httpMock = MockHttpClient();
   setUp(() async {
+    // httpClient = MockClient();
     assetManifest = MockAssetManifest();
     GoogleFonts.config.allowRuntimeFetching = true;
-    when(mockHttpClient.get(any)).thenAnswer((_) async {
+    when(() => httpMock.get(any())).thenAnswer((_) async {
       return http.Response(_fakeResponse, 200);
     });
 
@@ -85,13 +88,13 @@ void main() {
 
     await loadFontIfNecessary(fakeDescriptor);
 
-    verify(mockHttpClient.get(any)).called(1);
+    verify(() => httpMock.get(any())).called(1);
   });
 
   testWidgets('loadFontIfNecessary method throws if font cannot be loaded',
       (tester) async {
     // Mock a bad response.
-    when(mockHttpClient.get(any)).thenAnswer((_) async {
+    when(() => httpMock.get(any())).thenAnswer((_) async {
       return http.Response('fake response body - failure', 300);
     });
 
@@ -148,7 +151,7 @@ void main() {
       );
     });
 
-    verifyNever(mockHttpClient.get(any));
+    verifyNever(() => httpMock.get(any()));
   });
 
   testWidgets(
@@ -167,15 +170,15 @@ void main() {
 
     // 1st call.
     await loadFontIfNecessary(fakeDescriptor);
-    verify(mockHttpClient.get(any)).called(1);
+    verify(() => httpMock.get(any())).called(1);
 
     // 2nd call.
     await loadFontIfNecessary(fakeDescriptor);
-    verifyNever(mockHttpClient.get(any));
+    verifyNever(() => httpMock.get(any()));
 
     // 3rd call.
     await loadFontIfNecessary(fakeDescriptor);
-    verifyNever(mockHttpClient.get(any));
+    verifyNever(() => httpMock.get(any()));
   });
 
   testWidgets(
@@ -197,7 +200,7 @@ void main() {
       loadFontIfNecessary(fakeDescriptor),
       loadFontIfNecessary(fakeDescriptor)
     ]);
-    verify(mockHttpClient.get(any)).called(1);
+    verify(() => httpMock.get(any())).called(1);
   });
 
   testWidgets(
@@ -215,16 +218,16 @@ void main() {
     );
 
     // Have the first call throw an error.
-    when(mockHttpClient.get(any)).thenThrow('error');
+    when(() => httpMock.get(any())).thenThrow('error');
     await loadFontIfNecessary(fakeDescriptor);
-    verify(mockHttpClient.get(any)).called(1);
+    verify(() => httpMock.get(any())).called(1);
 
     // The second call will retry the http fetch.
-    when(mockHttpClient.get(any)).thenAnswer((_) async {
+    when(() => httpMock.get(any())).thenAnswer((_) async {
       return http.Response(_fakeResponse, 200);
     });
     await loadFontIfNecessary(fakeDescriptor);
-    verify(mockHttpClient.get(any)).called(1);
+    verify(() => httpMock.get(any())).called(1);
   });
 
   testWidgets('loadFontIfNecessary method writes font file', (tester) async {
@@ -254,7 +257,7 @@ void main() {
   testWidgets(
       'loadFontIfNecessary does not save anything to disk if the file does not '
       'match the expected hash', (tester) async {
-    when(mockHttpClient.get(any)).thenAnswer((_) async {
+    when(() => httpMock.get(any())).thenAnswer((_) async {
       return http.Response('malicious intercepted response', 200);
     });
     final fakeDescriptor = GoogleFontsDescriptor(
